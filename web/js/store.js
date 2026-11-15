@@ -112,7 +112,7 @@ export function logout() { lsDel(K.session); }
 function validateAttempt(a) {
   if (!a || typeof a !== 'object') return 'attempt rỗng';
   if (!/^[A-Za-z0-9_-]{1,40}$/.test(String(a.question_id || ''))) return 'question_id';
-  if (!['B1', 'B2', 'B3', 'B4'].includes(a.lesson)) return 'lesson';
+  if (!/^B([1-9]|1[0-9]|2[0-3])$/.test(String(a.lesson || ''))) return 'lesson'; // B1–B23 (số bài SGK KNTT)
   if (typeof a.is_correct !== 'boolean') return 'is_correct';
   const mode = a.mode || 'practice';
   if (!MODES.includes(mode)) return 'mode';

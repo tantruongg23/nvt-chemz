@@ -100,9 +100,9 @@ Mỗi chương là một "story nội dung" (US-C1…US-C7 trong BACKLOG) đi qu
 
 | Chương | ① Khung | ② Chốt lỗi | ③ Bài + thuật ngữ | ④ Câu hỏi (đã soạn/chỉ tiêu) | ⑥ Đã duyệt | ⑦ Đọc thử | Trạng thái |
 |---|---|---|---|---|---|---|---|
-| C1 | ✅ | ⬜ | 🟨 bản nháp | 40/60 | 0/60 | ⬜ | 🟨 |
-| C2 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/50 | 0 | ⬜ | ⬜ |
-| C3 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/50 | 0 | ⬜ | ⬜ |
+| C1 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 61/60 | 0/61 (chuyên gia AI đã rà 61/61) | ⬜ | 🟦 chờ GV duyệt |
+| C2 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 50/50 | 0/50 (chuyên gia AI đã rà 50/50) | ⬜ | 🟦 chờ GV duyệt |
+| C3 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 50/50 | 0/50 (chuyên gia AI đã rà 50/50) | ⬜ | 🟦 chờ GV duyệt |
 | C4 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/35 | 0 | ⬜ | ⬜ |
 | C5 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/30 | 0 | ⬜ | ⬜ |
 | C6 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/30 | 0 | ⬜ | ⬜ |

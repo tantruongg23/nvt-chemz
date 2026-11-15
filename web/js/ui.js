@@ -120,7 +120,7 @@ export function mountShell(pageKey) {
   footer.className = 'site-footer';
   footer.innerHTML = `<div class="container">
       <span>© 2026 NVT Smart Chemistry · Dự án KHKT – THPT Nguyễn Văn Thoại</span>
-      <span>Hóa học 10 · Chương 1 (KNTT) · Không thu thập họ tên học sinh · <a href="teacher.html">Dành cho giáo viên</a></span>
+      <span>Hóa học 10 (KNTT) · Không thu thập họ tên học sinh · <a href="teacher.html">Dành cho giáo viên</a></span>
     </div>`;
   document.body.append(footer);
 
@@ -308,7 +308,7 @@ document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && openPop)
 export function lessonTile(lesson, idx, prog, nQ) {
   const p = prog && prog.attempts ? prog.correct / prog.attempts : 0;
   return `<a class="etile etile--lesson" data-lesson="${esc(lesson.id)}" href="lesson.html?id=${encodeURIComponent(lesson.id)}">
-    <div class="etile__top"><span>${idx + 1}</span><span>${nQ ? `${nQ} câu` : ''}</span></div>
+    <div class="etile__top"><span>${lesson.number || idx + 1}</span><span>${nQ ? `${nQ} câu` : ''}</span></div>
     <div class="etile__sym">${esc(lesson.id)}</div>
     <div class="etile__name">${esc(lesson.title)}</div>
     <div class="etile__sub" lang="en">${esc(lesson.title_en || '')}</div>

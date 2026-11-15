@@ -1,6 +1,7 @@
 [
   {
     "id": "Q-B1-001",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "mcq",
     "level": "NB",
@@ -39,6 +40,7 @@
   },
   {
     "id": "Q-B1-002",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "mcq",
     "level": "NB",
@@ -56,7 +58,7 @@
       },
       {
         "key": "B",
-        "text": "phân bố đều giữa hạt nhân và lớp vỏ.",
+        "text": "cả hạt nhân và lớp vỏ, mỗi phần chiếm khoảng một nửa.",
         "misconception": "M2"
       },
       {
@@ -76,6 +78,7 @@
   },
   {
     "id": "Q-B1-003",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "mcq",
     "level": "NB",
@@ -112,6 +115,7 @@
   },
   {
     "id": "Q-B1-004",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "mcq",
     "level": "NB",
@@ -150,6 +154,7 @@
   },
   {
     "id": "Q-B1-005",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "mcq",
     "level": "TH",
@@ -187,6 +192,7 @@
   },
   {
     "id": "Q-B1-006",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "mcq",
     "level": "TH",
@@ -206,7 +212,7 @@
       {
         "key": "B",
         "text": "11 proton và 12 electron.",
-        "misconception": null
+        "misconception": "M9"
       },
       {
         "key": "C",
@@ -220,11 +226,12 @@
       }
     ],
     "answer": "C",
-    "explanation": "Bước 1: Nguyên tử Na có Z = 11 → 11 proton, 11 electron.\nBước 2: Khi tạo ion, hạt nhân không đổi → vẫn 11 proton.\nBước 3: Na nhường 1 electron → còn 11 − 1 = 10 electron. Điện tích: (+11) + (−10) = +1.\nĐáp án: C.",
+    "explanation": "Bước 1: Nguyên tử Na có Z = 11 → 11 proton, 11 electron.\nBước 2: Khi tạo ion, hạt nhân không đổi → vẫn 11 proton.\nBước 3: Na nhường 1 electron → còn 11 − 1 = 10 electron. Điện tích: (+11) + (−10) = +1.\nLưu ý: A, D cho rằng số proton thay đổi; B nhầm chiều (cation tạo thành khi nhường electron nên số electron giảm, không tăng).\nĐáp án: C.",
     "reviewed": false
   },
   {
     "id": "Q-B1-007",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "mcq",
     "level": "VD",
@@ -263,6 +270,7 @@
   },
   {
     "id": "Q-B1-008",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "short",
     "level": "TH",
@@ -294,6 +302,7 @@
   },
   {
     "id": "Q-B1-009",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "true_false",
     "level": "TH",
@@ -335,6 +344,7 @@
   },
   {
     "id": "Q-B1-010",
+    "chapter": "C1",
     "lesson": "B1",
     "type": "true_false",
     "level": "NB",
@@ -376,7 +386,156 @@
     "reviewed": false
   },
   {
+    "id": "Q-B1-011",
+    "chapter": "C1",
+    "lesson": "B1",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Phát biểu nào sau đây về hạt neutron là đúng?",
+    "terms": [
+      "T-004",
+      "T-006",
+      "T-007"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Neutron mang điện tích +1 và có khối lượng xấp xỉ 1 amu.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Neutron mang điện tích −1 và có khối lượng xấp xỉ 0,00055 amu.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Neutron không mang điện và có khối lượng xấp xỉ 0,00055 amu.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Neutron không mang điện và có khối lượng xấp xỉ 1 amu.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Neutron là hạt không mang điện, nằm trong hạt nhân.\nBước 2: Khối lượng neutron xấp xỉ khối lượng proton, khoảng 1 amu.\nLưu ý: A mô tả proton; B mô tả electron; C gán khối lượng của electron cho neutron.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B1-012",
+    "chapter": "C1",
+    "lesson": "B1",
+    "type": "short",
+    "level": "TH",
+    "stem": "Nguyên tử sulfur (Z = 16) nhận 2 electron tạo thành ion S²⁻. Ion S²⁻ có bao nhiêu electron?",
+    "terms": [
+      "T-011",
+      "T-009",
+      "T-005"
+    ],
+    "answer": "18",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "16",
+        "misconception": "M9"
+      },
+      {
+        "value": "14",
+        "misconception": "M9"
+      }
+    ],
+    "explanation": "Bước 1: Nguyên tử S trung hòa có 16 proton và 16 electron.\nBước 2: Anion Xⁿ⁻ có số electron = Z + n = 16 + 2 = 18. Số proton vẫn là 16.\nLưu ý: 16 là số electron của nguyên tử trung hòa (quên rằng ion đã nhận thêm electron); 14 là trừ thay vì cộng.\nĐáp án: 18.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B1-013",
+    "chapter": "C1",
+    "lesson": "B1",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Nguyên tử X có 13 proton và 14 neutron. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-003",
+      "T-004",
+      "T-005",
+      "T-013",
+      "T-010"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Nguyên tử X có 13 electron.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Số khối của X là 27.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Khối lượng nguyên tử X xấp xỉ 40 amu vì mỗi electron cũng nặng khoảng 1 amu.",
+        "answer": false,
+        "misconception": "M2"
+      },
+      {
+        "key": "d",
+        "text": "Khi X nhường 3 electron tạo thành ion X³⁺ thì ion này có 10 proton.",
+        "answer": false,
+        "misconception": "M9"
+      }
+    ],
+    "explanation": "a) Đúng: nguyên tử trung hòa có số electron = số proton = 13.\nb) Đúng: A = Z + N = 13 + 14 = 27 (X là aluminium).\nc) Sai: electron chỉ nặng khoảng 0,00055 amu; khối lượng nguyên tử ≈ 27 amu.\nd) Sai: khi tạo ion chỉ số electron thay đổi; X³⁺ vẫn có 13 proton và có 10 electron.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B1-014",
+    "chapter": "C1",
+    "lesson": "B1",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Nguyên tử Y có tổng số hạt proton, neutron và electron là 52, trong đó số hạt không mang điện nhiều hơn số hạt mang điện dương là 1. Số khối của Y là",
+    "terms": [
+      "T-003",
+      "T-004",
+      "T-005",
+      "T-013"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "17",
+        "misconception": "M3"
+      },
+      {
+        "key": "B",
+        "text": "18",
+        "misconception": "M3"
+      },
+      {
+        "key": "C",
+        "text": "35",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "52",
+        "misconception": "M2"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Gọi số proton = số electron = Z, số neutron = N. Hạt mang điện dương là proton.\nBước 2: Lập hệ: 2Z + N = 52 và N − Z = 1.\nBước 3: Thay N = Z + 1: 3Z + 1 = 52 → Z = 17; N = 18.\nBước 4: A = Z + N = 35 (Y là chlorine).\nLưu ý: 17 là số proton, 18 là số neutron; 52 là tổng số hạt (đã tính cả electron – số khối không tính electron).\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
     "id": "Q-B2-001",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "mcq",
     "level": "NB",
@@ -414,6 +573,7 @@
   },
   {
     "id": "Q-B2-002",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "mcq",
     "level": "NB",
@@ -431,7 +591,7 @@
       },
       {
         "key": "B",
-        "text": "nguyên tử khối trung bình của chlorine là 17.",
+        "text": "nguyên tử khối trung bình của chlorine là 35.",
         "misconception": "M1"
       },
       {
@@ -446,11 +606,12 @@
       }
     ],
     "answer": "D",
-    "explanation": "Bước 1: Số ghi ở góc trên bên trái là số khối A = 35; số ghi ở góc dưới bên trái là số hiệu nguyên tử Z = 17.\nBước 2: Nguyên tử có 17 proton, 17 electron và N = 35 − 17 = 18 neutron (không phải 35).\nĐáp án: D.",
+    "explanation": "Bước 1: Số ghi ở góc trên bên trái là số khối A = 35; số ghi ở góc dưới bên trái là số hiệu nguyên tử Z = 17.\nBước 2: Nguyên tử có 17 proton, 17 electron và N = 35 − 17 = 18 neutron (không phải 35).\nLưu ý: 35 là số khối của riêng đồng vị ³⁵Cl; nguyên tử khối trung bình của chlorine (35,5) không đọc được từ kí hiệu của một nguyên tử (B sai).\nĐáp án: D.",
     "reviewed": false
   },
   {
     "id": "Q-B2-003",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "mcq",
     "level": "TH",
@@ -469,12 +630,12 @@
       },
       {
         "key": "B",
-        "text": "Các đồng vị của một nguyên tố có khác số proton nhưng cùng số neutron.",
+        "text": "Các đồng vị của một nguyên tố khác số proton nhưng cùng số neutron.",
         "misconception": "M4"
       },
       {
         "key": "C",
-        "text": "Các đồng vị của một nguyên tố có khác số proton nhưng cùng số khối.",
+        "text": "Các đồng vị của một nguyên tố khác số proton nhưng cùng số khối.",
         "misconception": "M4"
       },
       {
@@ -489,6 +650,7 @@
   },
   {
     "id": "Q-B2-004",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "mcq",
     "level": "TH",
@@ -526,6 +688,7 @@
   },
   {
     "id": "Q-B2-005",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "mcq",
     "level": "TH",
@@ -564,9 +727,10 @@
   },
   {
     "id": "Q-B2-006",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "mcq",
-    "level": "VD",
+    "level": "TH",
     "stem": "Trong tự nhiên, boron có hai đồng vị: ¹⁰B chiếm 20% và ¹¹B chiếm 80% số nguyên tử. Nguyên tử khối trung bình của boron là",
     "terms": [
       "T-018",
@@ -601,10 +765,11 @@
   },
   {
     "id": "Q-B2-007",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "mcq",
     "level": "VD",
-    "stem": "Copper có hai đồng vị ⁶³Cu và ⁶⁵Cu; nguyên tử khối trung bình của copper là 63,54. Phần trăm số nguyên tử của đồng vị ⁶⁵Cu là",
+    "stem": "Copper có hai đồng vị (số liệu dùng cho bài tập) ⁶³Cu và ⁶⁵Cu; nguyên tử khối trung bình của copper là 63,54. Phần trăm số nguyên tử của đồng vị ⁶⁵Cu là",
     "terms": [
       "T-018",
       "T-016",
@@ -638,6 +803,7 @@
   },
   {
     "id": "Q-B2-008",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "true_false",
     "level": "TH",
@@ -679,6 +845,7 @@
   },
   {
     "id": "Q-B2-009",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "true_false",
     "level": "TH",
@@ -720,6 +887,7 @@
   },
   {
     "id": "Q-B2-010",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "true_false",
     "level": "VD",
@@ -761,10 +929,11 @@
   },
   {
     "id": "Q-B2-011",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "short",
     "level": "TH",
-    "stem": "Chlorine có hai đồng vị: ³⁵Cl chiếm 75% và ³⁷Cl chiếm 25% số nguyên tử. Tính nguyên tử khối trung bình của chlorine.",
+    "stem": "Chlorine có hai đồng vị: ³⁵Cl chiếm 75% và ³⁷Cl chiếm 25% số nguyên tử. Tính nguyên tử khối trung bình của chlorine (làm tròn đến hàng phần mười).",
     "terms": [
       "T-018",
       "T-016",
@@ -788,10 +957,11 @@
   },
   {
     "id": "Q-B2-012",
+    "chapter": "C1",
     "lesson": "B2",
     "type": "short",
-    "level": "VD",
-    "stem": "Copper có hai đồng vị: ⁶³Cu chiếm 73% và ⁶⁵Cu chiếm 27% số nguyên tử. Tính nguyên tử khối trung bình của copper (làm tròn đến hai chữ số thập phân).",
+    "level": "TH",
+    "stem": "Copper có hai đồng vị (số liệu dùng cho bài tập): ⁶³Cu chiếm 73% và ⁶⁵Cu chiếm 27% số nguyên tử. Tính nguyên tử khối trung bình của copper (làm tròn đến hai chữ số thập phân).",
     "terms": [
       "T-018",
       "T-016",
@@ -814,7 +984,181 @@
     "reviewed": false
   },
   {
+    "id": "Q-B2-013",
+    "chapter": "C1",
+    "lesson": "B2",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Số khối của hạt nhân nguyên tử bằng",
+    "terms": [
+      "T-013",
+      "T-003",
+      "T-004"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "tổng số proton và số electron.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "tổng số proton và số neutron.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "nguyên tử khối trung bình của nguyên tố.",
+        "misconception": "M1"
+      },
+      {
+        "key": "D",
+        "text": "số proton trong hạt nhân.",
+        "misconception": "M3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Số khối A = Z + N, là tổng số proton và số neutron trong hạt nhân.\nLưu ý: C nhầm số khối (số nguyên) với nguyên tử khối trung bình; D là số hiệu nguyên tử Z.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B2-014",
+    "chapter": "C1",
+    "lesson": "B2",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Hydrogen có ba đồng vị ¹₁H, ²₁H và ³₁H. Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-016",
+      "T-003",
+      "T-004"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ba đồng vị có số neutron lần lượt là 1, 2, 3.",
+        "misconception": "M3"
+      },
+      {
+        "key": "B",
+        "text": "Ba đồng vị có số proton lần lượt là 1, 2, 3.",
+        "misconception": "M4"
+      },
+      {
+        "key": "C",
+        "text": "Ba đồng vị đều có 1 proton; số neutron lần lượt là 0, 1, 2.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Ba đồng vị có cùng số khối nhưng khác số neutron.",
+        "misconception": "M4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Cả ba đều có Z = 1 nên đều có 1 proton (cùng nguyên tố).\nBước 2: N = A − Z: 1 − 1 = 0; 2 − 1 = 1; 3 − 1 = 2.\nLưu ý: A lấy số khối làm số neutron; B, D sai vì đồng vị cùng số proton và khác số khối.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B2-015",
+    "chapter": "C1",
+    "lesson": "B2",
+    "type": "short",
+    "level": "VD",
+    "stem": "Nguyên tố X có hai đồng vị: ⁷⁹X chiếm 50,7% số nguyên tử, còn lại là ⁸¹X. Coi nguyên tử khối của mỗi đồng vị bằng số khối. Tính nguyên tử khối trung bình của X (làm tròn đến hàng phần trăm).",
+    "terms": [
+      "T-018",
+      "T-016",
+      "T-019"
+    ],
+    "answer": "79.99",
+    "tolerance": 0.005,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "80",
+        "misconception": "M5"
+      },
+      {
+        "value": "80.01",
+        "misconception": "M5"
+      }
+    ],
+    "explanation": "Bước 1: Phần trăm ⁸¹X = 100 − 50,7 = 49,3%.\nBước 2: A̅ = (79 × 50,7 + 81 × 49,3) / 100 = (4005,3 + 3993,3) / 100 = 79,986 ≈ 79,99.\nLưu ý: 80 là trung bình cộng (79 + 81)/2; 80,01 là kết quả khi ghép nhầm 50,7% cho ⁸¹X.\nĐáp án: 79,99.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B2-016",
+    "chapter": "C1",
+    "lesson": "B2",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Chlorine có hai đồng vị ³⁵Cl (75%) và ³⁷Cl (25%); coi hydrogen chỉ có đồng vị ¹H. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-016",
+      "T-019",
+      "T-003"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Có hai loại phân tử HCl khác nhau về khối lượng.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Phân tử H³⁷Cl có khối lượng phân tử xấp xỉ 38 amu.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Hai đồng vị ³⁵Cl và ³⁷Cl có khối lượng khác nhau vì khác số proton.",
+        "answer": false,
+        "misconception": "M4"
+      },
+      {
+        "key": "d",
+        "text": "Trong 100 nguyên tử chlorine có khoảng 25 nguyên tử ³⁵Cl.",
+        "answer": false,
+        "misconception": "M5"
+      }
+    ],
+    "explanation": "a) Đúng: H³⁵Cl và H³⁷Cl.\nb) Đúng: 1 + 37 = 38 amu.\nc) Sai: hai đồng vị cùng 17 proton, khác số neutron (18 và 20).\nd) Sai: ³⁵Cl chiếm 75% nên có khoảng 75 nguyên tử ³⁵Cl; 25 là số nguyên tử ³⁷Cl (ghép nhầm phần trăm).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B2-017",
+    "chapter": "C1",
+    "lesson": "B2",
+    "type": "short",
+    "level": "VD",
+    "stem": "Phổ khối lượng của silicon cho ba tín hiệu với cường độ tương đối như sau: m/z = 28 (cường độ 100); m/z = 29 (cường độ 5,1); m/z = 30 (cường độ 3,4). Cường độ tương đối tỉ lệ với số nguyên tử của mỗi đồng vị; coi nguyên tử khối của mỗi đồng vị bằng giá trị m/z. Tính nguyên tử khối trung bình của silicon (làm tròn đến hàng phần trăm).",
+    "terms": [
+      "T-018",
+      "T-016",
+      "T-019"
+    ],
+    "answer": "28.11",
+    "tolerance": 0.01,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "29",
+        "misconception": "M5"
+      },
+      {
+        "value": "30.5",
+        "misconception": "M5"
+      }
+    ],
+    "explanation": "Bước 1: Tổng cường độ = 100 + 5,1 + 3,4 = 108,5.\nBước 2: A̅ = (28 × 100 + 29 × 5,1 + 30 × 3,4) / 108,5 = (2800 + 147,9 + 102) / 108,5 = 3049,9 / 108,5 ≈ 28,1097.\nBước 3: Làm tròn: A̅ ≈ 28,11. Kiểm tra: kết quả gần 28 vì ²⁸Si chiếm phần lớn (100/108,5 ≈ 92,2%).\nLưu ý: 29 là trung bình cộng (28 + 29 + 30) / 3; 30,5 là do chia cho 100 thay vì tổng cường độ 108,5 (cường độ tương đối không phải phần trăm).\nĐáp án: 28,11.",
+    "reviewed": false
+  },
+  {
     "id": "Q-B3-001",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "mcq",
     "level": "NB",
@@ -852,6 +1196,7 @@
   },
   {
     "id": "Q-B3-002",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "mcq",
     "level": "NB",
@@ -888,6 +1233,7 @@
   },
   {
     "id": "Q-B3-003",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "mcq",
     "level": "NB",
@@ -924,6 +1270,7 @@
   },
   {
     "id": "Q-B3-004",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "mcq",
     "level": "TH",
@@ -960,6 +1307,7 @@
   },
   {
     "id": "Q-B3-005",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "mcq",
     "level": "TH",
@@ -996,6 +1344,7 @@
   },
   {
     "id": "Q-B3-006",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "mcq",
     "level": "TH",
@@ -1033,43 +1382,46 @@
   },
   {
     "id": "Q-B3-007",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "mcq",
     "level": "VD",
-    "stem": "Cấu hình electron của nguyên tử iron (Z = 26) ở trạng thái cơ bản là",
+    "stem": "Nguyên tử X có tổng số hạt proton, neutron và electron là 60, trong đó số hạt mang điện gấp đôi số hạt không mang điện. Cấu hình electron của X ở trạng thái cơ bản là",
     "terms": [
       "T-026",
       "T-025",
-      "T-024"
+      "T-024",
+      "T-012"
     ],
     "options": [
       {
         "key": "A",
-        "text": "1s²2s²2p⁶3s²3p⁶3d⁶4s²",
-        "misconception": null
+        "text": "1s²2s²2p⁶3s²3p⁶3d²",
+        "misconception": "M7"
       },
       {
         "key": "B",
-        "text": "1s²2s²2p⁶3s²3p⁶3d⁸",
-        "misconception": "M7"
+        "text": "1s²2s²2p⁶3s²3p⁸",
+        "misconception": "M8"
       },
       {
         "key": "C",
-        "text": "1s²2s²2p⁶3s²3p⁶4s²4p⁶",
-        "misconception": "M7"
+        "text": "1s²2s²2p⁶3s²3p⁶4s²",
+        "misconception": null
       },
       {
         "key": "D",
-        "text": "1s²2s²2p⁸3s²3p⁶3d⁴4s²",
-        "misconception": "M8"
+        "text": "1s²2s²2p⁶3s²3p⁶4s¹4p¹",
+        "misconception": null
       }
     ],
-    "answer": "A",
-    "explanation": "Bước 1: Fe có 26 electron.\nBước 2: Điền theo mức năng lượng: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² (20 e), còn 6 e điền vào 3d → 3d⁶.\nBước 3: Viết lại theo thứ tự lớp: 1s²2s²2p⁶3s²3p⁶3d⁶4s² (2, 8, 14, 2).\nLưu ý: B bỏ qua 4s (điền 3d trước 4s); C bỏ qua 3d (điền 4p trước 3d); D có 2p⁸ vượt quá 6 electron.\nĐáp án: A.",
+    "answer": "C",
+    "explanation": "Bước 1: Gọi số proton = số electron = Z, số neutron = N. Lập hệ: 2Z + N = 60 và 2Z = 2N (tức Z = N).\nBước 2: 3Z = 60 → Z = 20 (calcium), nguyên tử có 20 electron.\nBước 3: Điền theo mức năng lượng: 1s² 2s² 2p⁶ 3s² 3p⁶ (18 e), 2 electron còn lại vào 4s (4s thấp hơn 3d) → 1s²2s²2p⁶3s²3p⁶4s².\nLưu ý: A điền 3d trước 4s; B có 3p⁸ vượt quá 6 electron của phân lớp p; D chưa điền đầy 4s đã chuyển sang 4p, không phải trạng thái cơ bản.\nĐáp án: C.",
     "reviewed": false
   },
   {
     "id": "Q-B3-008",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "mcq",
     "level": "TH",
@@ -1109,6 +1461,7 @@
   },
   {
     "id": "Q-B3-009",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "true_false",
     "level": "TH",
@@ -1136,7 +1489,7 @@
         "key": "c",
         "text": "Ở trạng thái cơ bản, nguyên tử S có 4 electron độc thân.",
         "answer": false,
-        "misconception": null
+        "misconception": "M7"
       },
       {
         "key": "d",
@@ -1150,6 +1503,7 @@
   },
   {
     "id": "Q-B3-010",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "true_false",
     "level": "TH",
@@ -1191,29 +1545,32 @@
   },
   {
     "id": "Q-B3-011",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "short",
     "level": "VD",
-    "stem": "Nguyên tử iron (Z = 26) ở trạng thái cơ bản có bao nhiêu electron độc thân?",
+    "stem": "Nguyên tử X có tổng số electron ở các phân lớp p là 9. Ở trạng thái cơ bản, nguyên tử X có bao nhiêu electron độc thân?",
     "terms": [
       "T-028",
       "T-026",
+      "T-024",
       "T-029"
     ],
-    "answer": "4",
+    "answer": "3",
     "tolerance": 0,
     "unit": "",
     "misconception_hints": [
       {
-        "value": "2",
+        "value": "1",
         "misconception": "M7"
       }
     ],
-    "explanation": "Bước 1: Cấu hình Fe: 1s²2s²2p⁶3s²3p⁶3d⁶4s²; các phân lớp khác đều bão hòa, chỉ xét 3d⁶.\nBước 2: Phân lớp 3d có 5 ô orbital. Theo quy tắc Hund, điền 5 electron đầu mỗi ô một mũi tên, electron thứ 6 ghép đôi vào ô đầu: ↑↓ ↑ ↑ ↑ ↑.\nBước 3: Có 4 electron độc thân.\nLưu ý: nếu điền 3d trước 4s (3d⁸: ↑↓ ↑↓ ↑↓ ↑ ↑) sẽ ra 2 – sai.\nĐáp án: 4.",
+    "explanation": "Bước 1: Các phân lớp p được điền lần lượt 2p rồi 3p; 9 electron p = 2p⁶ + 3p³.\nBước 2: Cấu hình của X: 1s²2s²2p⁶3s²3p³ → Z = 15 (phosphorus).\nBước 3: Phân lớp 3p có 3 ô orbital; theo quy tắc Hund, 3 electron điền vào 3 ô riêng, cùng chiều: ↑ ↑ ↑ → 3 electron độc thân (các phân lớp khác đều bão hòa).\nLưu ý: nếu ghép đôi trước (↑↓ ↑ _) sẽ ra 1 – sai quy tắc Hund.\nĐáp án: 3.",
     "reviewed": false
   },
   {
     "id": "Q-B3-012",
+    "chapter": "C1",
     "lesson": "B3",
     "type": "short",
     "level": "TH",
@@ -1236,7 +1593,175 @@
     "reviewed": false
   },
   {
+    "id": "Q-B3-013",
+    "chapter": "C1",
+    "lesson": "B3",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Theo mô hình nguyên tử hiện đại, phát biểu nào sau đây về chuyển động của electron là đúng?",
+    "terms": [
+      "T-008",
+      "T-021",
+      "T-005"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Electron chuyển động trên những quỹ đạo tròn xác định quanh hạt nhân.",
+        "misconception": "M6"
+      },
+      {
+        "key": "B",
+        "text": "Electron đứng yên tại những vị trí cố định ở lớp vỏ.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Electron chuyển động trên quỹ đạo hình elip như các hành tinh quanh Mặt Trời.",
+        "misconception": "M6"
+      },
+      {
+        "key": "D",
+        "text": "Electron chuyển động rất nhanh quanh hạt nhân, không theo quỹ đạo xác định, tạo thành đám mây electron.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Mô hình Rutherford – Bohr coi electron chuyển động trên quỹ đạo tròn xác định; mô hình hiện đại đã thay thế cách hình dung này.\nBước 2: Theo mô hình hiện đại, electron chuyển động rất nhanh, không theo quỹ đạo xác định; vùng có xác suất gặp electron lớn là orbital.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B3-014",
+    "chapter": "C1",
+    "lesson": "B3",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tử calcium (Z = 20) ở trạng thái cơ bản có số lớp electron và số electron lớp ngoài cùng lần lượt là",
+    "terms": [
+      "T-023",
+      "T-026",
+      "T-025"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "3 và 10.",
+        "misconception": "M7"
+      },
+      {
+        "key": "B",
+        "text": "4 và 2.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "3 và 2.",
+        "misconception": "M7"
+      },
+      {
+        "key": "D",
+        "text": "4 và 8.",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Điền theo mức năng lượng: 1s²2s²2p⁶3s²3p⁶4s² (4s được điền trước 3d).\nBước 2: Có 4 lớp electron; lớp ngoài cùng (n = 4) có 2 electron.\nLưu ý: nếu điền 3d trước 4s sẽ viết sai 1s²2s²2p⁶3s²3p⁶3d², tưởng chỉ có 3 lớp (A, C).\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B3-015",
+    "chapter": "C1",
+    "lesson": "B3",
+    "type": "short",
+    "level": "TH",
+    "stem": "Lớp N (n = 4) chứa tối đa bao nhiêu electron?",
+    "terms": [
+      "T-023",
+      "T-024"
+    ],
+    "answer": "32",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "8",
+        "misconception": "M8"
+      },
+      {
+        "value": "18",
+        "misconception": "M8"
+      },
+      {
+        "value": "16",
+        "misconception": "M8"
+      }
+    ],
+    "explanation": "Bước 1: Lớp thứ n chứa tối đa 2n² electron (n ≤ 4).\nBước 2: n = 4 → 2 × 4² = 32 electron (4s² 4p⁶ 4d¹⁰ 4f¹⁴).\nLưu ý: 8 là quan niệm \"lớp nào cũng tối đa 8 electron\"; 18 là số electron tối đa của lớp M (n = 3); 16 là số orbital n² của lớp N (nhầm số orbital với số electron).\nĐáp án: 32.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B3-016",
+    "chapter": "C1",
+    "lesson": "B3",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Mỗi phát biểu sau về orbital nguyên tử đúng hay sai?",
+    "terms": [
+      "T-021",
+      "T-022",
+      "T-024"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Orbital là vùng không gian quanh hạt nhân mà xác suất tìm thấy electron lớn nhất.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Orbital 2p là một đường tròn lớn hơn đường tròn 1s mà electron chạy theo.",
+        "answer": false,
+        "misconception": "M6"
+      },
+      {
+        "key": "c",
+        "text": "Mỗi orbital chứa tối đa 2 electron có chiều tự quay ngược nhau.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Phân lớp 3d có 5 orbital nên chứa tối đa 5 electron.",
+        "answer": false,
+        "misconception": "M8"
+      }
+    ],
+    "explanation": "a) Đúng: đó là khái niệm orbital nguyên tử.\nb) Sai: orbital không phải đường đi; orbital p có dạng hình số tám nổi.\nc) Đúng: nguyên lí Pauli.\nd) Sai: 5 orbital × 2 electron = tối đa 10 electron.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B3-017",
+    "chapter": "C1",
+    "lesson": "B3",
+    "type": "short",
+    "level": "VD",
+    "stem": "Xét các nguyên tố có Z từ 1 đến 20. Có bao nhiêu nguyên tố mà nguyên tử ở trạng thái cơ bản có electron cuối cùng điền vào phân lớp 3p và phân lớp 3p chỉ có đúng 1 electron độc thân?",
+    "terms": [
+      "T-028",
+      "T-024",
+      "T-026"
+    ],
+    "answer": "2",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [],
+    "explanation": "Bước 1: Electron cuối cùng điền vào 3p → cấu hình kết thúc bằng 3p¹ đến 3p⁶ (Z = 13 đến 18).\nBước 2: Theo quy tắc Hund, số electron độc thân ở 3p: 3p¹ → 1; 3p² → 2; 3p³ → 3; 3p⁴ → 2; 3p⁵ → 1; 3p⁶ → 0.\nBước 3: Có 1 electron độc thân: 3p¹ (aluminium, Z = 13) và 3p⁵ (chlorine, Z = 17).\nĐáp án: 2.",
+    "reviewed": false
+  },
+  {
     "id": "Q-B4-001",
+    "chapter": "C1",
     "lesson": "B4",
     "type": "mcq",
     "level": "VD",
@@ -1275,6 +1800,7 @@
   },
   {
     "id": "Q-B4-002",
+    "chapter": "C1",
     "lesson": "B4",
     "type": "mcq",
     "level": "TH",
@@ -1313,9 +1839,10 @@
   },
   {
     "id": "Q-B4-003",
+    "chapter": "C1",
     "lesson": "B4",
     "type": "mcq",
-    "level": "VD",
+    "level": "TH",
     "stem": "Lithium có hai đồng vị: ⁶Li chiếm 7,5% và ⁷Li chiếm 92,5% số nguyên tử. Nguyên tử khối trung bình của lithium là",
     "terms": [
       "T-018",
@@ -1351,6 +1878,7 @@
   },
   {
     "id": "Q-B4-004",
+    "chapter": "C1",
     "lesson": "B4",
     "type": "mcq",
     "level": "VD",
@@ -1374,7 +1902,7 @@
       {
         "key": "C",
         "text": "oxygen (Z = 8).",
-        "misconception": null
+        "misconception": "M9"
       },
       {
         "key": "D",
@@ -1388,6 +1916,7 @@
   },
   {
     "id": "Q-B4-005",
+    "chapter": "C1",
     "lesson": "B4",
     "type": "true_false",
     "level": "VD",
@@ -1429,6 +1958,7 @@
   },
   {
     "id": "Q-B4-006",
+    "chapter": "C1",
     "lesson": "B4",
     "type": "short",
     "level": "VD",
@@ -1452,6 +1982,271 @@
       }
     ],
     "explanation": "Bước 1: Gọi phần trăm ³⁷Cl là x → ³⁵Cl là (100 − x).\nBước 2: 35,5 = [37x + 35(100 − x)] / 100 → 3550 = 3500 + 2x → x = 25.\nBước 3: ³⁷Cl chiếm 25% (³⁵Cl chiếm 75%). Kiểm tra: 35,5 gần 35 hơn nên ³⁷Cl phải chiếm ít hơn 50%.\nĐáp án: 25.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B4-007",
+    "chapter": "C1",
+    "lesson": "B4",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Kí hiệu phân lớp nào sau đây không tồn tại?",
+    "terms": [
+      "T-024",
+      "T-023"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "3d",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "4f",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "2d",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "2p",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Lớp thứ n có n phân lớp: lớp 2 chỉ có 2s, 2p; lớp 3 có 3s, 3p, 3d; lớp 4 có 4s, 4p, 4d, 4f.\nBước 2: Lớp 2 không có phân lớp d.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B4-008",
+    "chapter": "C1",
+    "lesson": "B4",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Nguyên tử trung hòa về điện vì",
+    "terms": [
+      "T-001",
+      "T-003",
+      "T-005"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "số proton bằng số neutron.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "số neutron bằng số electron.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "khối lượng proton bằng khối lượng electron.",
+        "misconception": "M2"
+      },
+      {
+        "key": "D",
+        "text": "số proton bằng số electron.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Proton mang điện +1, electron mang điện −1, neutron không mang điện.\nBước 2: Nguyên tử trung hòa khi tổng điện tích bằng 0, tức số proton = số electron.\nLưu ý: khối lượng electron nhỏ hơn proton khoảng 1836 lần (C sai).\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B4-009",
+    "chapter": "C1",
+    "lesson": "B4",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Mỗi phát biểu sau về nguyên tử đúng hay sai?",
+    "terms": [
+      "T-016",
+      "T-013",
+      "T-021",
+      "T-023"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Các đồng vị của cùng một nguyên tố có cùng số proton.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Số khối của một nguyên tử có thể là số thập phân, ví dụ 35,5.",
+        "answer": false,
+        "misconception": "M1"
+      },
+      {
+        "key": "c",
+        "text": "Electron trong nguyên tử chuyển động trên các quỹ đạo tròn xác định.",
+        "answer": false,
+        "misconception": "M6"
+      },
+      {
+        "key": "d",
+        "text": "Lớp L (n = 2) chứa tối đa 8 electron.",
+        "answer": true,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Đúng: đồng vị cùng Z, khác N.\nb) Sai: số khối là tổng số hạt nên luôn là số nguyên; 35,5 là nguyên tử khối trung bình.\nc) Sai: electron không chuyển động theo quỹ đạo xác định; orbital là vùng không gian.\nd) Đúng: 2n² = 2 × 2² = 8.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B4-010",
+    "chapter": "C1",
+    "lesson": "B4",
+    "type": "short",
+    "level": "VD",
+    "stem": "Ion X²⁺ có tổng số hạt proton, neutron và electron là 34, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là 10. Tính số khối của X.",
+    "terms": [
+      "T-010",
+      "T-013",
+      "T-003",
+      "T-004"
+    ],
+    "answer": "24",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "23",
+        "misconception": "M9"
+      },
+      {
+        "value": "12",
+        "misconception": "M3"
+      }
+    ],
+    "explanation": "Bước 1: X có Z proton, N neutron; ion X²⁺ có (Z − 2) electron.\nBước 2: Tổng số hạt: Z + N + (Z − 2) = 34 → 2Z + N = 36. Hạt mang điện: Z + (Z − 2) = 2Z − 2; 2Z − 2 − N = 10 → 2Z − N = 12.\nBước 3: Cộng hai phương trình: 4Z = 48 → Z = 12; N = 12.\nBước 4: A = Z + N = 24 (X là magnesium).\nLưu ý: nếu coi ion có số electron bằng số proton sẽ ra Z = 11, A = 23 (sai); 12 là số proton, không phải số khối.\nĐáp án: 24.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B4-011",
+    "chapter": "C1",
+    "lesson": "B4",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho cấu hình electron của các nguyên tử: X: 1s²2s²2p⁶3s¹; Y: 1s²2s²2p⁶3s²3p⁵; Z: 1s²; T: 1s²2s²2p⁶3s²3p⁶. Các nguyên tố khí hiếm là",
+    "terms": [
+      "T-030",
+      "T-026",
+      "T-032"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chỉ có T.",
+        "misconception": "M10"
+      },
+      {
+        "key": "B",
+        "text": "Y và T.",
+        "misconception": "M10"
+      },
+      {
+        "key": "C",
+        "text": "X và Z.",
+        "misconception": "M10"
+      },
+      {
+        "key": "D",
+        "text": "Z và T.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Nguyên tử có 8 electron lớp ngoài cùng là khí hiếm: T (lớp 3 có 3s²3p⁶).\nBước 2: Z (1s², helium) chỉ có 1 lớp với 2 electron đã bão hòa → cũng là khí hiếm (ngoại lệ).\nBước 3: X có 1 electron ngoài cùng → kim loại; Y có 7 electron ngoài cùng → phi kim.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B4-012",
+    "chapter": "C1",
+    "lesson": "B4",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Nguyên tử X có 3 lớp electron và lớp ngoài cùng có 6 electron. Số hiệu nguyên tử và tính chất của X là",
+    "terms": [
+      "T-023",
+      "T-012",
+      "T-032",
+      "T-031"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Z = 6, phi kim.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Z = 16, phi kim.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Z = 16, kim loại.",
+        "misconception": "M10"
+      },
+      {
+        "key": "D",
+        "text": "Z = 14, phi kim.",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: 3 lớp electron, các lớp trong bão hòa: lớp K có 2, lớp L có 8 electron; lớp M (ngoài cùng) có 6 electron.\nBước 2: Z = 2 + 8 + 6 = 16 (sulfur): 1s²2s²2p⁶3s²3p⁴.\nBước 3: 6 electron lớp ngoài cùng → thường là phi kim.\nLưu ý: A chỉ tính 6 electron; C kết luận sai tính chất.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B4-013",
+    "chapter": "C1",
+    "lesson": "B4",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho nguyên tử X (Z = 17) và Y (Z = 19). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-026",
+      "T-010",
+      "T-011",
+      "T-032"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "X có 7 electron ở lớp ngoài cùng nên X là phi kim.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Cấu hình electron của Y là 1s²2s²2p⁶3s²3p⁶3d¹.",
+        "answer": false,
+        "misconception": "M7"
+      },
+      {
+        "key": "c",
+        "text": "Ion Y⁺ có 19 proton và 18 electron.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Ion X⁻ có 18 proton.",
+        "answer": false,
+        "misconception": "M9"
+      }
+    ],
+    "explanation": "a) Đúng: X: 1s²2s²2p⁶3s²3p⁵, lớp ngoài cùng có 2 + 5 = 7 electron → phi kim (chlorine).\nb) Sai: 4s được điền trước 3d; Y: 1s²2s²2p⁶3s²3p⁶4s¹.\nc) Đúng: Y⁺ vẫn có 19 proton, số electron = 19 − 1 = 18.\nd) Sai: X⁻ vẫn có 17 proton; chỉ số electron tăng lên 18.",
     "reviewed": false
   }
 ]

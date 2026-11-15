@@ -11,3 +11,7 @@ node_modules/
 Thumbs.db
 ~$*.docx
 *.log
+
+# Tài liệu kín – KHÔNG đưa lên repo công khai (đề pre/post-test)
+docs/research/DE_KIEM_TRA*
+.playwright-mcp/

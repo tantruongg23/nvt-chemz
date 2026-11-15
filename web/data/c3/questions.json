@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "Q-B10-001",
+    "chapter": "C3",
+    "lesson": "B10",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Theo quy tắc octet, khi hình thành liên kết hóa học, nguyên tử các nguyên tố nhóm A có xu hướng đạt cấu hình electron bền vững của",
+    "terms": [
+      "T-202",
+      "T-201"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "nguyên tử hydrogen, với 1 electron lớp ngoài cùng.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "nguyên tố kim loại kiềm cùng chu kì.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "khí hiếm, với 8 electron ở lớp ngoài cùng (hoặc 2 electron với lớp K).",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "nguyên tử có 18 electron ở lớp ngoài cùng.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Khí hiếm có lớp ngoài cùng ns²np⁶ (8 e), riêng helium 1s² (2 e) – cấu hình rất bền.\nBước 2: Quy tắc octet: nguyên tử nhóm A nhường, nhận hoặc góp chung electron để đạt cấu hình đó.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B10-002",
+    "chapter": "C3",
+    "lesson": "B10",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Khi hình thành liên kết hóa học, nguyên tử nào sau đây có xu hướng nhường electron để đạt cấu hình electron bền vững của khí hiếm?",
+    "terms": [
+      "T-202"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Na (Z = 11).",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Cl (Z = 17).",
+        "misconception": "M19"
+      },
+      {
+        "key": "C",
+        "text": "O (Z = 8).",
+        "misconception": "M19"
+      },
+      {
+        "key": "D",
+        "text": "F (Z = 9).",
+        "misconception": "M19"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Na: 2, 8, 1 – có 1 e lớp ngoài cùng → nhường 1 e tạo Na⁺ (giống Ne).\nBước 2: Cl (7 e), O (6 e), F (7 e) là phi kim, có xu hướng nhận electron (hoặc góp chung), không nhường hết electron lớp ngoài cùng.\nĐáp án: A.\nLưu ý: chọn Cl, O, F là sai chiều nhường – nhận (M19).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B10-003",
+    "chapter": "C3",
+    "lesson": "B10",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Để đạt cấu hình electron bền vững theo quy tắc octet, nguyên tử magnesium (Z = 12) có xu hướng",
+    "terms": [
+      "T-202"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "nhận thêm 6 electron.",
+        "misconception": "M19"
+      },
+      {
+        "key": "B",
+        "text": "nhường 1 electron tạo ion Mg⁺.",
+        "misconception": "M20"
+      },
+      {
+        "key": "C",
+        "text": "nhận thêm 2 electron.",
+        "misconception": "M19"
+      },
+      {
+        "key": "D",
+        "text": "nhường 2 electron tạo ion Mg²⁺.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Mg: 1s²2s²2p⁶3s² (2, 8, 2) – có 2 e lớp ngoài cùng.\nBước 2: Nhường 2 e (ít hơn nhiều so với nhận 6 e): Mg → Mg²⁺ + 2e; Mg²⁺: 1s²2s²2p⁶ giống neon.\nĐáp án: D.\nLưu ý: nhận 6 e hay 2 e là sai chiều (M19); Mg⁺ còn 1 e ở 3s, chưa đạt cấu hình khí hiếm (M20).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B10-004",
+    "chapter": "C3",
+    "lesson": "B10",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Khi biểu diễn electron hóa trị bằng dấu chấm quanh kí hiệu nguyên tố (kí hiệu Lewis), nguyên tử chlorine (Z = 17) có bao nhiêu dấu chấm?",
+    "terms": [
+      "T-202"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "1",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "7",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "8",
+        "misconception": "M23"
+      },
+      {
+        "key": "D",
+        "text": "17",
+        "misconception": "M23"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Cl: 1s²2s²2p⁶3s²3p⁵ → lớp ngoài cùng có 2 + 5 = 7 electron (electron hóa trị).\nBước 2: Kí hiệu Lewis biểu diễn đúng số electron hóa trị → 7 dấu chấm.\nĐáp án: B.\nLưu ý: 17 là tổng số electron (tính cả lớp trong); 8 là số electron sau khi đạt octet, không phải của nguyên tử Cl (M23).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B10-005",
+    "chapter": "C3",
+    "lesson": "B10",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Ion X²⁺ có cấu hình electron 1s²2s²2p⁶. Phát biểu nào sau đây đúng về nguyên tử X?",
+    "terms": [
+      "T-202"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "X có Z = 12; khi tạo liên kết, X có xu hướng nhường 2 electron.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "X có Z = 10; X là khí hiếm.",
+        "misconception": "M20"
+      },
+      {
+        "key": "C",
+        "text": "X có Z = 8; khi tạo liên kết, X có xu hướng nhận 2 electron.",
+        "misconception": "M19"
+      },
+      {
+        "key": "D",
+        "text": "X có Z = 12; khi tạo liên kết, X có xu hướng nhận 6 electron.",
+        "misconception": "M19"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Ion X²⁺ có 10 electron; X²⁺ tạo thành do X nhường 2 e nên nguyên tử X có 10 + 2 = 12 electron → Z = 12 (magnesium).\nBước 2: X: 1s²2s²2p⁶3s² có 2 e lớp ngoài cùng → nhường 2 e.\nĐáp án: A.\nLưu ý: Z = 10 là coi số e của ion bằng Z (M20); Z = 8 là nhầm cation với anion (O²⁻ mới nhận 2 e) – sai chiều nhường nhận (M19); nhận 6 e là sai chiều (M19).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B10-006",
+    "chapter": "C3",
+    "lesson": "B10",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Vận dụng quy tắc octet cho các nguyên tử Ne (Z = 10), Na (Z = 11) và Cl (Z = 17). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-202",
+      "T-201",
+      "T-203"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Nguyên tử neon có 8 electron lớp ngoài cùng nên rất bền, hầu như không tạo liên kết hóa học.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Khi tạo liên kết, nguyên tử Na nhận thêm 7 electron để có 8 electron lớp ngoài cùng.",
+        "answer": false,
+        "misconception": "M19"
+      },
+      {
+        "key": "c",
+        "text": "Trong phân tử Cl₂, mỗi nguyên tử Cl góp chung 1 electron để đạt 8 electron lớp ngoài cùng.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Khi tạo liên kết với Na, nguyên tử Cl nhường 7 electron để có lớp ngoài cùng 8 electron.",
+        "answer": false,
+        "misconception": "M19"
+      }
+    ],
+    "explanation": "a) Đúng: Ne có cấu hình 2, 8 – cấu hình khí hiếm bền.\nb) Sai: Na (2, 8, 1) nhường 1 e tạo Na⁺ (2, 8); nhận 7 e là sai chiều (M19).\nc) Đúng: hai Cl góp chung 1 cặp electron, mỗi Cl có 6 e riêng + 2 e chung = 8 e.\nd) Sai: Cl (2, 8, 7) nhận 1 e từ Na tạo Cl⁻ (2, 8, 8); nhường 7 e là sai chiều (M19).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B10-007",
+    "chapter": "C3",
+    "lesson": "B10",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho các nguyên tử: F (Z = 9), O (Z = 8), Na (Z = 11), Mg (Z = 12). Mỗi phát biểu sau về các ion tạo thành theo quy tắc octet đúng hay sai?",
+    "terms": [
+      "T-202"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Ion Na⁺ và ion F⁻ đều có cấu hình electron giống khí hiếm neon.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Nguyên tử Mg tạo ion Mg⁺ để đạt cấu hình khí hiếm.",
+        "answer": false,
+        "misconception": "M20"
+      },
+      {
+        "key": "c",
+        "text": "Nguyên tử O nhận 2 electron tạo ion O²⁻ có tổng cộng 10 electron.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Ion F⁻ có cấu hình electron 1s²2s²2p⁵.",
+        "answer": false,
+        "misconception": "M20"
+      }
+    ],
+    "explanation": "a) Đúng: Na⁺ (11 − 1 = 10 e) và F⁻ (9 + 1 = 10 e) đều có cấu hình 1s²2s²2p⁶ của Ne.\nb) Sai: Mg (2, 8, 2) nhường 2 e tạo Mg²⁺; Mg⁺ còn 1 e ở lớp 3, chưa bền (M20).\nc) Đúng: O (8 e) + 2 e → O²⁻ có 10 e: 1s²2s²2p⁶.\nd) Sai: 1s²2s²2p⁵ là cấu hình của nguyên tử F; F⁻ có thêm 1 e: 1s²2s²2p⁶ (M20).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B10-008",
+    "chapter": "C3",
+    "lesson": "B10",
+    "type": "short",
+    "level": "TH",
+    "stem": "Theo quy tắc octet, nguyên tử nitrogen (Z = 7) có xu hướng tạo ion bền có cấu hình electron của khí hiếm. Ion đó có tổng cộng bao nhiêu electron?",
+    "terms": [
+      "T-202"
+    ],
+    "answer": "10",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "4",
+        "misconception": "M19"
+      },
+      {
+        "value": "8",
+        "misconception": "M20"
+      },
+      {
+        "value": "2",
+        "misconception": "M19"
+      }
+    ],
+    "explanation": "Bước 1: N: 1s²2s²2p³ có 5 electron lớp ngoài cùng → nhận thêm 3 electron.\nBước 2: N + 3e → N³⁻; số electron = 7 + 3 = 10 (1s²2s²2p⁶, giống neon).\nĐáp án: 10.\nLưu ý: 4 là kết quả khi cho N nhường 3 e, 2 là khi cho N nhường hết 5 e lớp ngoài cùng (sai chiều – M19); 8 là nhầm \"8 electron lớp ngoài cùng\" thành tổng số electron của ion (M20).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-001",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Liên kết ion là liên kết được hình thành bởi",
+    "terms": [
+      "T-204"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "một hay nhiều cặp electron dùng chung giữa hai nguyên tử.",
+        "misconception": "M21"
+      },
+      {
+        "key": "B",
+        "text": "lực hút tĩnh điện giữa các ion mang điện tích trái dấu.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "sự góp chung electron giữa nguyên tử kim loại và nguyên tử phi kim.",
+        "misconception": "M21"
+      },
+      {
+        "key": "D",
+        "text": "lực hút giữa hạt nhân của nguyên tử này với electron của chính nó.",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Trong liên kết ion, electron chuyển hẳn từ nguyên tử kim loại sang nguyên tử phi kim, tạo cation và anion.\nBước 2: Cation và anion hút nhau bằng lực hút tĩnh điện.\nĐáp án: B.\nLưu ý: \"cặp electron dùng chung\" là đặc điểm của liên kết cộng hóa trị (M21).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-002",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Ion nào sau đây là ion đa nguyên tử mang điện tích dương?",
+    "terms": [
+      "T-206"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Na⁺",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "SO₄²⁻",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Cl⁻",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "NH₄⁺",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Ion đa nguyên tử gồm nhiều nguyên tử: SO₄²⁻, NH₄⁺. Na⁺, Cl⁻ là ion đơn nguyên tử.\nBước 2: Trong hai ion đa nguyên tử, chỉ NH₄⁺ mang điện tích dương (cation).\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-003",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Ở điều kiện thường, các hợp chất ion như NaCl, MgO thường",
+    "terms": [
+      "T-205",
+      "T-208"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "là chất rắn, có nhiệt độ nóng chảy cao.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "là chất khí, có nhiệt độ sôi thấp.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "dẫn điện tốt ở trạng thái rắn.",
+        "misconception": "M21"
+      },
+      {
+        "key": "D",
+        "text": "gồm các phân tử riêng lẻ hút nhau yếu.",
+        "misconception": "M21"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Hợp chất ion tồn tại dạng tinh thể ion; lực hút tĩnh điện giữa các ion rất mạnh.\nBước 2: Vì vậy chúng là chất rắn, có nhiệt độ nóng chảy cao (NaCl: 801 °C).\nĐáp án: A.\nLưu ý: ở thể rắn các ion bị giữ cố định nên không dẫn điện; tinh thể ion không gồm phân tử riêng lẻ (M21).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-004",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cấu hình electron của ion Mg²⁺ (Z của Mg là 12) là",
+    "terms": [
+      "T-202"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "1s²2s²2p⁶3s²",
+        "misconception": "M20"
+      },
+      {
+        "key": "B",
+        "text": "1s²2s²2p⁶3s²3p²",
+        "misconception": "M19"
+      },
+      {
+        "key": "C",
+        "text": "1s²2s²2p⁶",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "1s²2s²2p⁶3s¹",
+        "misconception": "M20"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Mg: 1s²2s²2p⁶3s².\nBước 2: Mg → Mg²⁺ + 2e: bớt 2 electron ở phân lớp ngoài cùng 3s → 1s²2s²2p⁶ (10 e, giống Ne).\nĐáp án: C.\nLưu ý: A giữ nguyên cấu hình nguyên tử, D là Mg⁺ (M20); B là thêm 2 e – ứng với Mg nhận electron (sai chiều, M19).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-005",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Quá trình nào sau đây mô tả đúng sự hình thành liên kết trong sodium chloride (NaCl)?",
+    "terms": [
+      "T-204",
+      "T-205"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Na + 1e → Na⁻; Cl → Cl⁺ + 1e; Na⁻ + Cl⁺ → NaCl.",
+        "misconception": "M19"
+      },
+      {
+        "key": "B",
+        "text": "Na → Na⁺ + 1e; Cl + 1e → Cl⁻; Na⁺ + Cl⁻ → NaCl.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Nguyên tử Na và nguyên tử Cl mỗi nguyên tử góp 1 electron tạo một cặp electron dùng chung.",
+        "misconception": "M21"
+      },
+      {
+        "key": "D",
+        "text": "Na → Na⁺ + 1e; Cl + 2e → Cl²⁻; Na⁺ + Cl²⁻ → NaCl.",
+        "misconception": "M20"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Na (2, 8, 1) nhường 1 e → Na⁺; Cl (2, 8, 7) nhận 1 e → Cl⁻.\nBước 2: Na⁺ và Cl⁻ hút nhau bằng lực hút tĩnh điện tạo liên kết ion.\nĐáp án: B.\nLưu ý: A sai chiều nhường – nhận (M19); C là mô tả liên kết cộng hóa trị (M21); D sai điện tích ion Cl⁻ (M20).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-006",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Nguyên tố X có Z = 20, nguyên tố Y có Z = 9. Hợp chất tạo bởi X và Y có công thức và loại liên kết là",
+    "terms": [
+      "T-204",
+      "T-205"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "XY, liên kết ion.",
+        "misconception": "M20"
+      },
+      {
+        "key": "B",
+        "text": "X₂Y, liên kết ion.",
+        "misconception": "M20"
+      },
+      {
+        "key": "C",
+        "text": "XY₂, liên kết cộng hóa trị (X và Y dùng chung electron).",
+        "misconception": "M21"
+      },
+      {
+        "key": "D",
+        "text": "XY₂, liên kết ion.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: X: 1s²2s²2p⁶3s²3p⁶4s² (calcium) → nhường 2 e: X²⁺.\nBước 2: Y: 1s²2s²2p⁵ (fluorine) → nhận 1 e: Y⁻.\nBước 3: Trung hòa điện: 1 X²⁺ cần 2 Y⁻ → XY₂ (CaF₂); X là kim loại điển hình, Y là phi kim điển hình → liên kết ion.\nĐáp án: D.\nLưu ý: XY hay X₂Y ứng với điện tích ion sai (X⁺ hoặc Y²⁻ – M20); \"dùng chung electron\" là nhầm sang liên kết cộng hóa trị (M21).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-007",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Sodium chloride (muối ăn) là hợp chất ion điển hình. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-207",
+      "T-205",
+      "T-208"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Trong tinh thể NaCl, mỗi ion Na⁺ được bao quanh bởi 6 ion Cl⁻ gần nhất.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Tinh thể NaCl gồm các phân tử NaCl riêng biệt, mỗi phân tử có một cặp electron dùng chung.",
+        "answer": false,
+        "misconception": "M21"
+      },
+      {
+        "key": "c",
+        "text": "NaCl nóng chảy hoặc dung dịch NaCl dẫn được điện.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Tinh thể NaCl ở thể rắn dẫn điện tốt vì có chứa các ion.",
+        "answer": false,
+        "misconception": "M21"
+      }
+    ],
+    "explanation": "a) Đúng: tinh thể NaCl lập phương, mỗi ion được bao quanh bởi 6 ion trái dấu.\nb) Sai: tinh thể ion gồm các ion Na⁺, Cl⁻ sắp xếp luân phiên; không có phân tử riêng biệt, không có cặp electron dùng chung (M21).\nc) Đúng: khi nóng chảy hoặc tan trong nước, các ion di chuyển tự do nên dẫn điện.\nd) Sai: ở thể rắn, các ion bị giữ cố định trong mạng tinh thể nên không dẫn điện (M21).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-008",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Xét sự hình thành liên kết trong magnesium oxide (MgO), biết Mg (Z = 12), O (Z = 8). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-204",
+      "T-205"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Nguyên tử Mg nhường 2 electron tạo thành ion Mg²⁺.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Nguyên tử O nhường 2 electron cho nguyên tử Mg.",
+        "answer": false,
+        "misconception": "M19"
+      },
+      {
+        "key": "c",
+        "text": "Ion Mg²⁺ và ion O²⁻ đều có cấu hình electron giống khí hiếm neon.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Trong MgO, nguyên tử Mg và nguyên tử O góp chung hai cặp electron.",
+        "answer": false,
+        "misconception": "M21"
+      }
+    ],
+    "explanation": "a) Đúng: Mg (2, 8, 2) → Mg²⁺ + 2e.\nb) Sai: O (2, 6) là phi kim, nhận 2 e từ Mg: O + 2e → O²⁻ (M19).\nc) Đúng: Mg²⁺ (12 − 2 = 10 e) và O²⁻ (8 + 2 = 10 e) đều là 1s²2s²2p⁶.\nd) Sai: MgO là hợp chất ion, các ion hút nhau bằng lực tĩnh điện, không có cặp electron dùng chung (M21).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-009",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "short",
+    "level": "TH",
+    "stem": "Nguyên tử aluminium (Z = 13) tạo thành ion Al³⁺. Lớp electron ngoài cùng của ion Al³⁺ có bao nhiêu electron?",
+    "terms": [
+      "T-202"
+    ],
+    "answer": "8",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "0",
+        "misconception": "M20"
+      },
+      {
+        "value": "6",
+        "misconception": "M19"
+      },
+      {
+        "value": "3",
+        "misconception": "M20"
+      }
+    ],
+    "explanation": "Bước 1: Al: 1s²2s²2p⁶3s²3p¹ (2, 8, 3).\nBước 2: Al → Al³⁺ + 3e: mất 3 electron lớp thứ 3 → Al³⁺: 1s²2s²2p⁶ (2, 8).\nBước 3: Lớp ngoài cùng của ion bây giờ là lớp 2, có 8 electron.\nĐáp án: 8.\nLưu ý: 0 là coi lớp 3 (đã trống) vẫn là lớp ngoài cùng; 3 là lấy số electron lớp ngoài cùng của nguyên tử Al thay cho ion (M20); 6 là kết quả khi cho Al nhận 3 e thành 3s²3p⁴ (sai chiều – M19).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B11-010",
+    "chapter": "C3",
+    "lesson": "B11",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho các ion: Na⁺, Mg²⁺, Cl⁻, O²⁻, F⁻, K⁺, S²⁻, Al³⁺ (Z: Na = 11, Mg = 12, Cl = 17, O = 8, F = 9, K = 19, S = 16, Al = 13). Có bao nhiêu ion có cấu hình electron giống khí hiếm neon (1s²2s²2p⁶)?",
+    "terms": [
+      "T-202"
+    ],
+    "answer": "5",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "8",
+        "misconception": "M20"
+      }
+    ],
+    "explanation": "Bước 1: Tính số electron mỗi ion (cation: Z − n; anion: Z + m): Na⁺ 10; Mg²⁺ 10; Cl⁻ 18; O²⁻ 10; F⁻ 10; K⁺ 18; S²⁻ 18; Al³⁺ 10.\nBước 2: Ion có 10 electron (giống Ne): Na⁺, Mg²⁺, O²⁻, F⁻, Al³⁺ → 5 ion. Cl⁻, K⁺, S²⁻ có 18 electron (giống Ar).\nĐáp án: 5.\nLưu ý: 8 là cho rằng mọi ion \"đạt octet\" đều có cấu hình neon, không tính số electron của ion (M20).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-001",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Liên kết cộng hóa trị là liên kết được hình thành giữa hai nguyên tử bằng",
+    "terms": [
+      "T-209",
+      "T-210"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "một hay nhiều cặp electron dùng chung.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "lực hút tĩnh điện giữa các ion mang điện tích trái dấu.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "sự chuyển hẳn electron từ nguyên tử này sang nguyên tử kia.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "lực hút yếu giữa các phân tử.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Theo định nghĩa, liên kết cộng hóa trị được tạo bởi cặp electron dùng chung giữa hai nguyên tử.\nBước 2: B, C mô tả liên kết ion; D mô tả tương tác giữa các phân tử (van der Waals).\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-002",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Một liên kết ba (ví dụ trong phân tử N≡N) gồm",
+    "terms": [
+      "T-213",
+      "T-219",
+      "T-220"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "3 liên kết σ.",
+        "misconception": "M24"
+      },
+      {
+        "key": "B",
+        "text": "3 liên kết π.",
+        "misconception": "M24"
+      },
+      {
+        "key": "C",
+        "text": "1 liên kết σ và 2 liên kết π.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "2 liên kết σ và 1 liên kết π.",
+        "misconception": "M24"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Mỗi liên kết giữa hai nguyên tử chỉ có đúng 1 liên kết σ (xen phủ trục).\nBước 2: Hai cặp electron còn lại tạo 2 liên kết π (xen phủ bên).\nĐáp án: C.\nLưu ý: A, B, D đều là đếm sai thành phần σ/π (M24).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-003",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Liên kết σ được hình thành do",
+    "terms": [
+      "T-219",
+      "T-220"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "sự xen phủ bên của hai orbital p song song.",
+        "misconception": "M24"
+      },
+      {
+        "key": "B",
+        "text": "sự xen phủ trục của hai orbital, vùng xen phủ nằm trên đường nối hai hạt nhân.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "lực hút tĩnh điện giữa hai ion trái dấu.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "sự chuyển electron từ orbital s sang orbital p.",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Liên kết σ: xen phủ trục (s–s, s–p, p–p), vùng xen phủ nằm trên trục nối hai hạt nhân.\nBước 2: Xen phủ bên của hai orbital p tạo liên kết π.\nĐáp án: B.\nLưu ý: nhầm cách tạo liên kết σ với liên kết π (M24).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-004",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho độ âm điện: H 2,20; N 3,04; Cl 3,16; K 0,82. Dựa vào hiệu độ âm điện, phân tử nào sau đây có liên kết cộng hóa trị không phân cực?",
+    "terms": [
+      "T-218",
+      "T-216"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "HCl",
+        "misconception": "M22"
+      },
+      {
+        "key": "B",
+        "text": "NH₃",
+        "misconception": "M22"
+      },
+      {
+        "key": "C",
+        "text": "KCl",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "N₂",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Tính Δχ: HCl: 3,16 − 2,20 = 0,96 (phân cực); NH₃ (N–H): 3,04 − 2,20 = 0,84 (phân cực); KCl: 3,16 − 0,82 = 2,34 (ion); N₂: 0.\nBước 2: Chỉ N₂ có 0 ≤ Δχ < 0,4.\nĐáp án: D.\nLưu ý: cho rằng \"hai phi kim liên kết với nhau thì không phân cực\" mà không tính Δχ (HCl, NH₃) là lỗi M22.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-005",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho độ âm điện: Al 1,61; Cl 3,16. Theo quy ước dựa vào hiệu độ âm điện, liên kết Al–Cl trong phân tử AlCl₃ là",
+    "terms": [
+      "T-216",
+      "T-217"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "liên kết cộng hóa trị phân cực.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "liên kết ion, vì Al là kim loại và Cl là phi kim.",
+        "misconception": "M22"
+      },
+      {
+        "key": "C",
+        "text": "liên kết cộng hóa trị không phân cực.",
+        "misconception": "M22"
+      },
+      {
+        "key": "D",
+        "text": "liên kết ion, vì Δχ = 4,77 lớn hơn 1,7.",
+        "misconception": "M22"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Δχ = |3,16 − 1,61| = 1,55.\nBước 2: 0,4 ≤ 1,55 < 1,7 → liên kết cộng hóa trị phân cực.\nĐáp án: A.\nLưu ý: B chỉ dựa vào \"kim loại – phi kim\" (M22); D lấy tổng độ âm điện (3,16 + 1,61) thay cho hiệu (M22); C áp sai ngưỡng.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-006",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Mô tả nào sau đây đúng với công thức Lewis của phân tử ammonia (NH₃)?",
+    "terms": [
+      "T-214",
+      "T-215"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "N ở giữa, liên kết đơn với 3 nguyên tử H; N không còn electron nào khác.",
+        "misconception": "M23"
+      },
+      {
+        "key": "B",
+        "text": "N ở giữa, liên kết đơn với 3 nguyên tử H; N còn 2 cặp electron không liên kết.",
+        "misconception": "M23"
+      },
+      {
+        "key": "C",
+        "text": "N ở giữa, liên kết đơn với 3 nguyên tử H; N còn 1 cặp electron không liên kết.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "N liên kết đôi với 1 nguyên tử H và liên kết đơn với 2 nguyên tử H; N không còn cặp electron không liên kết.",
+        "misconception": "M23"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Tổng electron hóa trị: 5 (N) + 3 × 1 (H) = 8 e.\nBước 2: 3 liên kết đơn N–H dùng 6 e; còn 2 e = 1 cặp không liên kết trên N.\nBước 3: Kiểm tra: N có 6 + 2 = 8 e; mỗi H có 2 e.\nĐáp án: C.\nLưu ý: A bỏ sót cặp electron không liên kết; B thừa electron (10 e); D cho H có 4 e – vi phạm (H chỉ tạo 1 liên kết) (M23).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-007",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho độ âm điện: H 2,20; C 2,55; N 3,04; O 3,44; Na 0,93; Mg 1,31; Al 1,61; Cl 3,16. Dãy chất nào sau đây gồm các chất mà trong phân tử chỉ chứa liên kết cộng hóa trị phân cực?",
+    "terms": [
+      "T-217",
+      "T-216",
+      "T-218"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "HCl, NaCl, H₂O",
+        "misconception": "M22"
+      },
+      {
+        "key": "B",
+        "text": "HCl, H₂O, NH₃",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Cl₂, HCl, CH₄",
+        "misconception": "M22"
+      },
+      {
+        "key": "D",
+        "text": "H₂O, AlCl₃, MgO",
+        "misconception": "M22"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Tính Δχ: H–Cl 0,96; O–H 1,24; N–H 0,84 → đều trong khoảng 0,4 ≤ Δχ < 1,7 → B đúng.\nBước 2: Kiểm tra các dãy khác: NaCl (2,23) là liên kết ion; Cl₂ (0) và C–H trong CH₄ (0,35) là không phân cực; MgO (3,44 − 1,31 = 2,13) là ion (dù AlCl₃ 1,55 là phân cực).\nĐáp án: B.\nLưu ý: chọn A là áp sai ngưỡng, xếp NaCl (Δχ = 2,23 ≥ 1,7) vào liên kết cộng hóa trị phân cực (M22); chọn C là cho rằng mọi liên kết giữa hai phi kim đều phân cực; chọn D là xếp MgO cùng loại với AlCl₃ vì đều \"kim loại – phi kim\" mà không tính Δχ (M22).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-008",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Phân tử hydrogen cyanide có công thức cấu tạo H–C≡N. Số liên kết σ, số liên kết π và số cặp electron không liên kết trong phân tử lần lượt là",
+    "terms": [
+      "T-219",
+      "T-220",
+      "T-215",
+      "T-214"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "1, 3 và 1.",
+        "misconception": "M24"
+      },
+      {
+        "key": "B",
+        "text": "4, 0 và 1.",
+        "misconception": "M24"
+      },
+      {
+        "key": "C",
+        "text": "2, 2 và 0.",
+        "misconception": "M23"
+      },
+      {
+        "key": "D",
+        "text": "2, 2 và 1.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Liên kết σ: H–C (1) + 1σ trong C≡N = 2σ. Liên kết π: 2 (trong liên kết ba).\nBước 2: Tổng electron hóa trị: 1 + 4 + 5 = 10 e. Đã dùng 4 cặp chung (8 e) → còn 2 e = 1 cặp không liên kết (trên N).\nBước 3: Kiểm tra octet: C có 2 + 6 = 8 e; N có 6 + 2 = 8 e.\nĐáp án: D.\nLưu ý: A coi liên kết ba gồm 3π; B coi mọi cặp chung đều là σ (M24); C bỏ sót cặp electron không liên kết trên N (M23).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-009",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Xét các phân tử Cl₂, O₂ và HCl (độ âm điện: H 2,20; Cl 3,16). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-211",
+      "T-212",
+      "T-214",
+      "T-217"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Phân tử Cl₂ có 1 liên kết đơn, mỗi nguyên tử Cl còn 3 cặp electron không liên kết.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Liên kết đôi trong phân tử O₂ gồm 2 liên kết σ.",
+        "answer": false,
+        "misconception": "M24"
+      },
+      {
+        "key": "c",
+        "text": "Liên kết trong HCl là liên kết cộng hóa trị phân cực, cặp electron dùng chung lệch về phía nguyên tử Cl.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Trong công thức Lewis của HCl, nguyên tử Cl chỉ có cặp electron dùng chung với H, không có cặp electron không liên kết.",
+        "answer": false,
+        "misconception": "M23"
+      }
+    ],
+    "explanation": "a) Đúng: Cl₂ có 14 e hóa trị: 1 cặp chung + 6 cặp riêng (3 cặp mỗi Cl).\nb) Sai: liên kết đôi O=O gồm 1σ + 1π (M24).\nc) Đúng: Δχ = 0,96 (0,4 ≤ Δχ < 1,7); Cl có độ âm điện lớn hơn nên cặp e lệch về Cl.\nd) Sai: HCl có 8 e hóa trị: 1 cặp chung + 3 cặp không liên kết trên Cl (M23).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-010",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho độ âm điện (Pauling): H 2,20; N 3,04; Mg 1,31; Al 1,61; Cl 3,16. Dựa vào quy ước về hiệu độ âm điện, mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-216",
+      "T-217",
+      "T-218",
+      "T-204"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Liên kết trong MgCl₂ là liên kết ion vì Δχ = 1,85.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Liên kết N–Cl trong phân tử NCl₃ được xếp là liên kết cộng hóa trị không phân cực, dù N và Cl là hai phi kim khác nhau.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "AlCl₃ tạo bởi kim loại và phi kim nên liên kết Al–Cl chắc chắn là liên kết ion.",
+        "answer": false,
+        "misconception": "M22"
+      },
+      {
+        "key": "d",
+        "text": "Liên kết N–H trong NH₃ là liên kết ion vì hiệu độ âm điện lớn hơn 0,4.",
+        "answer": false,
+        "misconception": "M22"
+      }
+    ],
+    "explanation": "a) Đúng: Δχ = 3,16 − 1,31 = 1,85 ≥ 1,7 → ion.\nb) Đúng: Δχ = 3,16 − 3,04 = 0,12 < 0,4 → cộng hóa trị không phân cực; hai phi kim khác nhau chưa chắc tạo liên kết phân cực, phải tính Δχ.\nc) Sai: Δχ = 3,16 − 1,61 = 1,55 < 1,7 → cộng hóa trị phân cực; không phân loại chỉ dựa vào kim loại – phi kim (M22).\nd) Sai: Δχ = 3,04 − 2,20 = 0,84; 0,4 ≤ 0,84 < 1,7 → cộng hóa trị phân cực; ngưỡng của liên kết ion là 1,7 (M22).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-011",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Mỗi phát biểu sau về liên kết σ, liên kết π và năng lượng liên kết đúng hay sai?",
+    "terms": [
+      "T-219",
+      "T-220",
+      "T-221",
+      "T-212"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Mọi liên kết đơn đều là liên kết σ.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Liên kết π bền hơn liên kết σ vì được tạo thành sau.",
+        "answer": false,
+        "misconception": "M24"
+      },
+      {
+        "key": "c",
+        "text": "Năng lượng liên kết càng lớn thì liên kết càng bền.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Phân tử ethylene (H₂C=CH₂) có 4 liên kết σ và 2 liên kết π.",
+        "answer": false,
+        "misconception": "M24"
+      }
+    ],
+    "explanation": "a) Đúng: liên kết đơn tạo bởi 1 cặp e, xen phủ trục → σ.\nb) Sai: liên kết π (xen phủ bên, vùng xen phủ nhỏ) kém bền hơn liên kết σ (M24).\nc) Đúng: cần nhiều năng lượng hơn để phá vỡ liên kết có Eb lớn.\nd) Sai: 4 liên kết C–H (4σ) + liên kết đôi C=C (1σ + 1π) → 5σ và 1π (M24).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-012",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "short",
+    "level": "TH",
+    "stem": "Cho độ âm điện của Al là 1,61 và của Cl là 3,16. Tính hiệu độ âm điện Δχ của liên kết Al–Cl (làm tròn đến hai chữ số thập phân).",
+    "terms": [
+      "T-216"
+    ],
+    "answer": "1.55",
+    "tolerance": 0.01,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "4.77",
+        "misconception": "M22"
+      }
+    ],
+    "explanation": "Bước 1: Δχ = |χ(Cl) − χ(Al)| = 3,16 − 1,61.\nBước 2: Δχ = 1,55 (0,4 ≤ 1,55 < 1,7 → liên kết cộng hóa trị phân cực).\nĐáp án: 1,55.\nLưu ý: 4,77 là lấy tổng hai độ âm điện thay cho hiệu (M22).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-013",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "short",
+    "level": "VD",
+    "stem": "Viết công thức Lewis của phân tử carbon dioxide (CO₂, mỗi nguyên tử đều đạt octet). Trong phân tử có tổng cộng bao nhiêu cặp electron không liên kết?",
+    "terms": [
+      "T-214",
+      "T-215",
+      "T-212"
+    ],
+    "answer": "4",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "0",
+        "misconception": "M23"
+      },
+      {
+        "value": "2",
+        "misconception": "M23"
+      },
+      {
+        "value": "6",
+        "misconception": "M23"
+      }
+    ],
+    "explanation": "Bước 1: Tổng electron hóa trị: 4 + 2 × 6 = 16 e = 8 cặp.\nBước 2: Để C và O đều đạt octet: O=C=O, dùng 4 cặp electron chung.\nBước 3: Số cặp không liên kết = 8 − 4 = 4 (2 cặp trên mỗi O; C không có).\nĐáp án: 4.\nLưu ý: 0 là bỏ sót toàn bộ cặp electron không liên kết; 2 là chỉ đếm cho một O; 6 là giữ khung liên kết đơn O–C–O (C không đủ octet) (M23).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B12-014",
+    "chapter": "C3",
+    "lesson": "B12",
+    "type": "short",
+    "level": "VD",
+    "stem": "Phân tử ethylene có công thức cấu tạo H₂C=CH₂ (mỗi C liên kết với 2 H và liên kết đôi với C còn lại). Phân tử ethylene có bao nhiêu liên kết σ?",
+    "terms": [
+      "T-219",
+      "T-212",
+      "T-211"
+    ],
+    "answer": "5",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "6",
+        "misconception": "M24"
+      },
+      {
+        "value": "4",
+        "misconception": "M24"
+      }
+    ],
+    "explanation": "Bước 1: 4 liên kết đơn C–H → 4σ.\nBước 2: Liên kết đôi C=C → 1σ + 1π.\nBước 3: Tổng: 4 + 1 = 5 liên kết σ (và 1 liên kết π).\nĐáp án: 5.\nLưu ý: 6 là coi liên kết đôi gồm 2σ; 4 là quên liên kết σ trong liên kết đôi (coi liên kết đôi toàn là π) (M24).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-001",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Liên kết hydrogen là",
+    "terms": [
+      "T-222",
+      "T-209"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "liên kết cộng hóa trị giữa nguyên tử H và nguyên tử O trong cùng một phân tử nước.",
+        "misconception": "M25"
+      },
+      {
+        "key": "B",
+        "text": "lực hút giữa nguyên tử H của phân tử này với nguyên tử C của phân tử khác.",
+        "misconception": "M25"
+      },
+      {
+        "key": "C",
+        "text": "tương tác giữa nguyên tử H (đã liên kết với nguyên tử có độ âm điện lớn như F, O, N) với một nguyên tử F, O hoặc N khác còn cặp electron không liên kết.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "liên kết ion giữa ion H⁺ và ion O²⁻.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Nguyên tử H gắn với F, O hoặc N mang điện tích dương một phần (δ+).\nBước 2: H(δ+) bị hút bởi nguyên tử F, O, N (δ−) khác còn cặp electron không liên kết → liên kết hydrogen.\nĐáp án: C.\nLưu ý: liên kết O–H trong phân tử là liên kết cộng hóa trị, không phải liên kết hydrogen; C có độ âm điện nhỏ, không tạo liên kết hydrogen (M25).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-002",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Tương tác van der Waals là",
+    "terms": [
+      "T-223",
+      "T-225"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "lực hút tĩnh điện giữa các lưỡng cực (tạm thời hoặc vĩnh cửu) của các nguyên tử, phân tử.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "lực hút tĩnh điện giữa các ion mang điện tích trái dấu trong tinh thể.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "liên kết tạo bởi cặp electron dùng chung giữa hai phân tử.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "liên kết chỉ có giữa các phân tử chứa nguyên tử H gắn với F, O, N.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Do electron chuyển động, phân tử có thể tạo lưỡng cực tạm thời, gây lưỡng cực cảm ứng ở phân tử bên cạnh; phân tử phân cực có lưỡng cực vĩnh cửu.\nBước 2: Lực hút giữa các lưỡng cực đó là tương tác van der Waals.\nĐáp án: A.\nLưu ý: B là liên kết ion; D là điều kiện của liên kết hydrogen.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-003",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Giữa các phân tử của chất nào sau đây có liên kết hydrogen?",
+    "terms": [
+      "T-222"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "CH₄",
+        "misconception": "M25"
+      },
+      {
+        "key": "B",
+        "text": "NH₃",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "HCl",
+        "misconception": "M25"
+      },
+      {
+        "key": "D",
+        "text": "N₂",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Điều kiện: H gắn trực tiếp với F, O hoặc N; có nguyên tử F, O, N còn cặp electron không liên kết.\nBước 2: NH₃: H gắn với N, N còn 1 cặp electron không liên kết → có liên kết hydrogen N–H…N.\nĐáp án: B.\nLưu ý: CH₄ (H gắn C) và HCl (theo SGK, Cl không thuộc nhóm F, O, N) không tạo liên kết hydrogen – không phải cứ có H là có liên kết hydrogen (M25). N₂ không có H.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-004",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nước (H₂O, M = 18) sôi ở 100 °C, còn hydrogen sulfide (H₂S, M = 34) sôi ở khoảng −60 °C. Giải thích nào sau đây đúng?",
+    "terms": [
+      "T-222",
+      "T-224"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "H₂S có khối lượng phân tử lớn hơn nên đáng lẽ sôi cao hơn; số liệu trên là bất thường không giải thích được.",
+        "misconception": "M26"
+      },
+      {
+        "key": "B",
+        "text": "Liên kết cộng hóa trị O–H bền hơn S–H nên khi sôi cần phá vỡ liên kết O–H tốn nhiều năng lượng hơn.",
+        "misconception": "M25"
+      },
+      {
+        "key": "C",
+        "text": "Hai chất có nhiệt độ sôi khác nhau vì O và S thuộc hai chu kì khác nhau.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Giữa các phân tử H₂O có liên kết hydrogen, còn giữa các phân tử H₂S thì không.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: H₂O có H gắn với O → giữa các phân tử có liên kết hydrogen; H₂S không có.\nBước 2: Muốn nước sôi phải cung cấp thêm năng lượng để phá vỡ liên kết hydrogen → nhiệt độ sôi cao bất thường.\nĐáp án: D.\nLưu ý: A chỉ so sánh theo khối lượng phân tử (M26); B nhầm: khi sôi chỉ phá vỡ tương tác giữa các phân tử, liên kết O–H trong phân tử vẫn giữ nguyên (M25).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-005",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Ethanol (C₂H₅OH) tan vô hạn trong nước chủ yếu là do",
+    "terms": [
+      "T-222"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "ethanol nhẹ hơn nước.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "liên kết O–H trong phân tử ethanol bị phá vỡ khi hòa tan, giải phóng nguyên tử H vào nước.",
+        "misconception": "M25"
+      },
+      {
+        "key": "C",
+        "text": "ethanol tạo được liên kết hydrogen với các phân tử nước.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "ethanol và nước đều là hợp chất ion.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Ethanol có nhóm O–H (H gắn với O; O còn cặp electron không liên kết).\nBước 2: Phân tử ethanol tạo liên kết hydrogen với phân tử nước (O–H…O) → tan tốt, tan vô hạn.\nĐáp án: C.\nLưu ý: khi hòa tan, liên kết cộng hóa trị O–H không bị phá vỡ; liên kết hydrogen là tương tác giữa các phân tử (M25).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-006",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho ba chất: HF (M = 20), HCl (M = 36,5), HBr (M = 81). Dãy sắp xếp theo chiều tăng dần nhiệt độ sôi là",
+    "terms": [
+      "T-224",
+      "T-222",
+      "T-223"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "HF < HCl < HBr",
+        "misconception": "M26"
+      },
+      {
+        "key": "B",
+        "text": "HCl < HBr < HF",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "HBr < HCl < HF",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "HCl < HF < HBr",
+        "misconception": "M26"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Chỉ HF có H gắn trực tiếp với F (F còn cặp electron không liên kết) → giữa các phân tử HF có liên kết hydrogen → nhiệt độ sôi cao nhất.\nBước 2: HCl và HBr không tạo liên kết hydrogen (theo SGK), chỉ có tương tác van der Waals; HBr có khối lượng và kích thước phân tử lớn hơn → sôi cao hơn HCl.\nBước 3: HCl (khoảng −85 °C) < HBr (khoảng −67 °C) < HF (khoảng 20 °C).\nĐáp án: B.\nLưu ý: A sắp xếp chỉ theo khối lượng phân tử, bỏ qua liên kết hydrogen (M26); D có xét liên kết hydrogen của HF nhưng vẫn để khối lượng phân tử quyết định cao hơn (M26); C đảo ngược quy luật van der Waals.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-007",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Mỗi phát biểu sau về nước (H₂O) đúng hay sai?",
+    "terms": [
+      "T-222",
+      "T-224",
+      "T-209"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Giữa các phân tử nước có liên kết hydrogen.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Khi nước sôi, các liên kết O–H trong phân tử nước bị phá vỡ.",
+        "answer": false,
+        "misconception": "M25"
+      },
+      {
+        "key": "c",
+        "text": "Nước đá có khối lượng riêng nhỏ hơn nước lỏng do cấu trúc rỗng tạo bởi liên kết hydrogen.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Liên kết hydrogen giữa các phân tử nước bền hơn liên kết cộng hóa trị O–H trong phân tử.",
+        "answer": false,
+        "misconception": "M25"
+      }
+    ],
+    "explanation": "a) Đúng: H gắn với O, O còn 2 cặp electron không liên kết → O–H…O.\nb) Sai: khi sôi chỉ liên kết hydrogen (tương tác giữa các phân tử) bị phá vỡ; phân tử H₂O vẫn nguyên vẹn (M25).\nc) Đúng: trong nước đá, mỗi phân tử liên kết hydrogen với 4 phân tử khác tạo mạng tứ diện rỗng → nước đá nổi trên nước.\nd) Sai: liên kết hydrogen yếu hơn nhiều so với liên kết cộng hóa trị O–H (M25).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-008",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho nhiệt độ sôi: NH₃ (M = 17) khoảng −33 °C; PH₃ (M = 34) khoảng −88 °C. Các đơn chất halogen F₂, Cl₂, Br₂, I₂ có khối lượng phân tử tăng dần. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-224",
+      "T-222",
+      "T-223"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "PH₃ có nhiệt độ sôi cao hơn NH₃ vì PH₃ có khối lượng phân tử lớn hơn.",
+        "answer": false,
+        "misconception": "M26"
+      },
+      {
+        "key": "b",
+        "text": "NH₃ có nhiệt độ sôi cao hơn PH₃ vì giữa các phân tử NH₃ có liên kết hydrogen.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Từ F₂ đến I₂, nhiệt độ sôi tăng dần do tương tác van der Waals tăng theo khối lượng và kích thước phân tử.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Với mọi chất, chỉ cần so sánh khối lượng phân tử là xác định đúng chất nào có nhiệt độ sôi cao hơn.",
+        "answer": false,
+        "misconception": "M26"
+      }
+    ],
+    "explanation": "a) Sai: số liệu cho thấy NH₃ (−33 °C) sôi cao hơn PH₃ (−88 °C); so sánh chỉ theo khối lượng là bỏ qua liên kết hydrogen (M26).\nb) Đúng: H gắn với N, N còn cặp electron không liên kết → liên kết hydrogen N–H…N.\nc) Đúng: các halogen chỉ có tương tác van der Waals; M tăng → tương tác mạnh hơn → nhiệt độ sôi tăng (F₂, Cl₂ khí; Br₂ lỏng; I₂ rắn).\nd) Sai: quy luật theo khối lượng chỉ áp dụng khi các chất cùng chỉ có tương tác van der Waals; phải xét liên kết hydrogen trước (M26).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-009",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "short",
+    "level": "TH",
+    "stem": "Trong nước đá, mỗi phân tử H₂O liên kết hydrogen với tối đa bao nhiêu phân tử H₂O khác ở xung quanh?",
+    "terms": [
+      "T-222",
+      "T-215"
+    ],
+    "answer": "4",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "2",
+        "misconception": "M25"
+      }
+    ],
+    "explanation": "Bước 1: Mỗi phân tử H₂O có 2 nguyên tử H (gắn với O) → tạo 2 liên kết hydrogen với O của 2 phân tử khác.\nBước 2: Nguyên tử O có 2 cặp electron không liên kết → nhận thêm 2 liên kết hydrogen từ H của 2 phân tử khác.\nBước 3: Tổng: 2 + 2 = 4 (cấu trúc tứ diện).\nĐáp án: 4.\nLưu ý: 2 là nhầm liên kết hydrogen với 2 liên kết cộng hóa trị O–H trong phân tử (M25).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B13-010",
+    "chapter": "C3",
+    "lesson": "B13",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho các chất: H₂O, NH₃, CH₄, HF, HCl, C₂H₅OH (ethanol), H₂S. Có bao nhiêu chất mà giữa các phân tử của nó có liên kết hydrogen?",
+    "terms": [
+      "T-222"
+    ],
+    "answer": "4",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "7",
+        "misconception": "M25"
+      },
+      {
+        "value": "6",
+        "misconception": "M25"
+      }
+    ],
+    "explanation": "Bước 1: Điều kiện: H gắn trực tiếp với F, O hoặc N.\nBước 2: H₂O (O–H), NH₃ (N–H), HF (F–H), C₂H₅OH (có nhóm O–H) → có liên kết hydrogen.\nBước 3: CH₄ (C–H), HCl, H₂S (theo SGK, Cl, S không thuộc nhóm F, O, N) → không có.\nĐáp án: 4.\nLưu ý: 7 hoặc 6 là cho rằng mọi chất chứa H (hoặc mọi chất có H gắn với phi kim có độ âm điện khá lớn) đều tạo liên kết hydrogen (M25).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B14-001",
+    "chapter": "C3",
+    "lesson": "B14",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Chất nào sau đây có liên kết ion?",
+    "terms": [
+      "T-204",
+      "T-205"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "HCl",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "CH₄",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "N₂",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "KCl",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: KCl tạo bởi kim loại điển hình K và phi kim điển hình Cl; Δχ = 3,16 − 0,82 = 2,34 ≥ 1,7 → liên kết ion.\nBước 2: HCl (phân cực), CH₄ và N₂ (không phân cực) là liên kết cộng hóa trị.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B14-002",
+    "chapter": "C3",
+    "lesson": "B14",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phân tử acetylene có công thức cấu tạo H–C≡C–H. Số liên kết σ và số liên kết π trong phân tử lần lượt là",
+    "terms": [
+      "T-219",
+      "T-220",
+      "T-213"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "3 và 2.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "5 và 0.",
+        "misconception": "M24"
+      },
+      {
+        "key": "C",
+        "text": "2 và 3.",
+        "misconception": "M24"
+      },
+      {
+        "key": "D",
+        "text": "4 và 1.",
+        "misconception": "M24"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: 2 liên kết đơn C–H → 2σ.\nBước 2: Liên kết ba C≡C → 1σ + 2π.\nBước 3: Tổng: 3σ và 2π.\nĐáp án: A.\nLưu ý: B coi liên kết ba gồm 3σ; C coi liên kết ba gồm 3π; D coi liên kết ba gồm 2σ + 1π (M24).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B14-003",
+    "chapter": "C3",
+    "lesson": "B14",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tố X có Z = 8, nguyên tố Y có Z = 19. Khi X kết hợp với Y, phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-204",
+      "T-205",
+      "T-202"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "X nhường 2 electron tạo X²⁺, Y nhận 1 electron tạo Y⁻; hợp chất là XY₂.",
+        "misconception": "M19"
+      },
+      {
+        "key": "B",
+        "text": "X nhận 1 electron tạo X⁻, Y nhường 1 electron tạo Y⁺; hợp chất là YX.",
+        "misconception": "M20"
+      },
+      {
+        "key": "C",
+        "text": "X nhận 2 electron tạo X²⁻, Y nhường 1 electron tạo Y⁺; hợp chất là Y₂X, có liên kết ion.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "X và Y góp chung electron tạo hợp chất Y₂X có liên kết cộng hóa trị.",
+        "misconception": "M21"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: X: 1s²2s²2p⁴ (oxygen, 6 e lớp ngoài cùng) → nhận 2 e: X²⁻.\nBước 2: Y: 1s²2s²2p⁶3s²3p⁶4s¹ (potassium) → nhường 1 e: Y⁺.\nBước 3: Trung hòa điện: 2 Y⁺ + 1 X²⁻ → Y₂X (K₂O), liên kết ion.\nĐáp án: C.\nLưu ý: A sai chiều nhường – nhận (M19); B sai điện tích ion của oxygen (M20); D nhầm liên kết ion với sự góp chung electron (M21).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B14-004",
+    "chapter": "C3",
+    "lesson": "B14",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Mô tả nào sau đây đúng với công thức Lewis của phân tử nitrogen (N₂)?",
+    "terms": [
+      "T-214",
+      "T-215",
+      "T-213"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "N≡N; không nguyên tử N nào còn cặp electron không liên kết.",
+        "misconception": "M23"
+      },
+      {
+        "key": "B",
+        "text": "N≡N; mỗi nguyên tử N còn 1 cặp electron không liên kết.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "N=N; mỗi nguyên tử N còn 2 cặp electron không liên kết.",
+        "misconception": "M23"
+      },
+      {
+        "key": "D",
+        "text": "N≡N; mỗi nguyên tử N còn 2 cặp electron không liên kết.",
+        "misconception": "M23"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Tổng electron hóa trị: 2 × 5 = 10 e.\nBước 2: Để mỗi N đạt octet cần liên kết ba (6 e chung); còn 4 e = 2 cặp, mỗi N 1 cặp.\nBước 3: Kiểm tra: mỗi N có 6 + 2 = 8 e; tổng 6 + 4 = 10 e.\nĐáp án: B.\nLưu ý: A thiếu electron (chỉ 6 e); C dùng 12 e; D dùng 14 e – sai tổng số electron hóa trị (M23).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B14-005",
+    "chapter": "C3",
+    "lesson": "B14",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho các nguyên tố X (Z = 11), Y (Z = 17), R (Z = 1) với độ âm điện lần lượt 0,93; 3,16; 2,20. Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-216",
+      "T-204",
+      "T-217",
+      "T-218"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "XY có liên kết ion; RY có liên kết cộng hóa trị phân cực; Y₂ có liên kết cộng hóa trị không phân cực.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "XY và RY đều có liên kết ion vì Δχ đều lớn hơn 0,4.",
+        "misconception": "M22"
+      },
+      {
+        "key": "C",
+        "text": "RY có liên kết cộng hóa trị không phân cực vì R và Y đều là phi kim.",
+        "misconception": "M22"
+      },
+      {
+        "key": "D",
+        "text": "XY có liên kết cộng hóa trị phân cực vì Δχ nhỏ hơn 4,09.",
+        "misconception": "M22"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: X là Na, Y là Cl, R là H.\nBước 2: XY (NaCl): Δχ = 3,16 − 0,93 = 2,23 ≥ 1,7 → ion.\nBước 3: RY (HCl): Δχ = 3,16 − 2,20 = 0,96 → cộng hóa trị phân cực. Y₂ (Cl₂): Δχ = 0 → không phân cực.\nĐáp án: A.\nLưu ý: B áp sai ngưỡng (ion khi Δχ ≥ 1,7); C phân loại theo \"hai phi kim\" không tính Δχ; D lấy tổng độ âm điện (0,93 + 3,16 = 4,09) làm mốc (M22).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B14-006",
+    "chapter": "C3",
+    "lesson": "B14",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Mỗi phát biểu sau về liên kết hóa học đúng hay sai?",
+    "terms": [
+      "T-204",
+      "T-209",
+      "T-219",
+      "T-220"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Trong liên kết ion, electron chuyển hẳn từ nguyên tử kim loại sang nguyên tử phi kim tạo các ion trái dấu.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Liên kết ion trong NaCl được tạo bởi một cặp electron dùng chung giữa Na và Cl.",
+        "answer": false,
+        "misconception": "M21"
+      },
+      {
+        "key": "c",
+        "text": "Mỗi liên kết đôi gồm 1 liên kết σ và 1 liên kết π.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Một liên kết ba gồm 3 liên kết σ nên rất bền.",
+        "answer": false,
+        "misconception": "M24"
+      }
+    ],
+    "explanation": "a) Đúng: đó là bản chất sự hình thành ion trong liên kết ion.\nb) Sai: Na nhường 1 e cho Cl; Na⁺ và Cl⁻ hút nhau bằng lực tĩnh điện, không có cặp electron dùng chung (M21).\nc) Đúng: đôi = 1σ + 1π.\nd) Sai: liên kết ba gồm 1σ + 2π (M24); liên kết ba bền (ví dụ N≡N) nhưng không phải vì có 3σ.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B14-007",
+    "chapter": "C3",
+    "lesson": "B14",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Xét hai chất: nước (H₂O, M = 18) và carbon dioxide (CO₂, M = 44). Ở áp suất thường, nước sôi ở 100 °C còn CO₂ ở thể khí ở nhiệt độ thường. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-214",
+      "T-219",
+      "T-222",
+      "T-224"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Trong công thức Lewis của H₂O, nguyên tử O có 2 cặp electron không liên kết.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Phân tử H₂O có 2 liên kết σ và không có liên kết π.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Nhiệt độ sôi của CO₂ phải cao hơn của H₂O vì CO₂ có khối lượng phân tử lớn hơn.",
+        "answer": false,
+        "misconception": "M26"
+      },
+      {
+        "key": "d",
+        "text": "Liên kết hydrogen giữa các phân tử nước chính là liên kết O–H trong mỗi phân tử nước.",
+        "answer": false,
+        "misconception": "M25"
+      }
+    ],
+    "explanation": "a) Đúng: H₂O có 8 e hóa trị: 2 cặp chung O–H + 2 cặp không liên kết trên O.\nb) Đúng: 2 liên kết đơn O–H → 2σ, 0π.\nc) Sai: giữa các phân tử H₂O có liên kết hydrogen nên nước sôi cao hơn nhiều; CO₂ không có liên kết hydrogen. So sánh chỉ theo khối lượng là sai (M26).\nd) Sai: O–H trong phân tử là liên kết cộng hóa trị; liên kết hydrogen là tương tác giữa H của phân tử này với O của phân tử khác (M25).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B14-008",
+    "chapter": "C3",
+    "lesson": "B14",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho độ âm điện: H 2,20; C 2,55; O 3,44; F 3,98; Na 0,93; Mg 1,31; Al 1,61; Cl 3,16; K 0,82; Ca 1,00; Br 2,96. Trong các chất: NaCl, MgO, HCl, AlCl₃, CaF₂, CO₂, KBr, H₂O, có bao nhiêu chất chứa liên kết ion (theo quy ước Δχ ≥ 1,7)?",
+    "terms": [
+      "T-216",
+      "T-204"
+    ],
+    "answer": "4",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "5",
+        "misconception": "M22"
+      },
+      {
+        "value": "6",
+        "misconception": "M22"
+      }
+    ],
+    "explanation": "Bước 1: Tính Δχ: NaCl 2,23; MgO 2,13; HCl 0,96; AlCl₃ 1,55; CaF₂ 2,98; CO₂ 0,89; KBr 2,14; H₂O 1,24.\nBước 2: Δχ ≥ 1,7: NaCl, MgO, CaF₂, KBr → 4 chất.\nĐáp án: 4.\nLưu ý: 5 là xếp AlCl₃ vào hợp chất ion chỉ vì có kim loại (M22); 6 là coi mọi liên kết có Δχ lớn hơn 1 là ion (thêm AlCl₃ và H₂O) – áp sai ngưỡng (M22).",
+    "reviewed": false
+  }
+]

@@ -1,0 +1,1812 @@
+[
+  {
+    "id": "Q-B5-001",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong bảng tuần hoàn hiện nay, các nguyên tố hóa học được sắp xếp theo chiều tăng dần của",
+    "terms": [
+      "T-116",
+      "T-101"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "nguyên tử khối.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "số khối.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "điện tích hạt nhân nguyên tử.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "số neutron.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Nguyên tắc thứ nhất của bảng tuần hoàn hiện nay: các nguyên tố được xếp theo chiều tăng dần điện tích hạt nhân nguyên tử (số hiệu nguyên tử Z).\nLưu ý: Mendeleev (1869) xếp theo chiều tăng nguyên tử khối; sau này cách sắp xếp được chuẩn hóa theo điện tích hạt nhân. Số khối và số neutron không phải là cơ sở sắp xếp (các đồng vị của một nguyên tố có số neutron khác nhau nhưng ở cùng một ô).\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-002",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Số thứ tự của chu kì trong bảng tuần hoàn bằng",
+    "terms": [
+      "T-101"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "số electron lớp ngoài cùng của nguyên tử.",
+        "misconception": "M11"
+      },
+      {
+        "key": "B",
+        "text": "số lớp electron của nguyên tử.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "số electron hóa trị của nguyên tử.",
+        "misconception": "M11"
+      },
+      {
+        "key": "D",
+        "text": "số proton trong hạt nhân.",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Các nguyên tố có cùng số lớp electron được xếp thành một hàng (chu kì).\nBước 2: Vì vậy số thứ tự chu kì = số lớp electron.\nLưu ý: số electron lớp ngoài cùng (với nhóm A cũng là số electron hóa trị) cho biết số thứ tự nhóm A, không phải chu kì; số proton bằng số thứ tự ô nguyên tố.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-003",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Đối với các nguyên tố nhóm A, số thứ tự của nhóm bằng",
+    "terms": [
+      "T-102",
+      "T-103"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "số lớp electron của nguyên tử.",
+        "misconception": "M11"
+      },
+      {
+        "key": "B",
+        "text": "số electron ở lớp trong cùng.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "số hiệu nguyên tử.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "số electron lớp ngoài cùng của nguyên tử.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Nhóm A gồm các nguyên tố s và p; electron hóa trị của chúng chính là electron lớp ngoài cùng.\nBước 2: Số thứ tự nhóm A = số electron lớp ngoài cùng (ví dụ Cl: 2, 8, 7 → nhóm VIIA).\nLưu ý: số lớp electron cho biết số thứ tự chu kì; số hiệu nguyên tử cho biết số thứ tự ô.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-004",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "true_false",
+    "level": "NB",
+    "stem": "Về cấu tạo của bảng tuần hoàn các nguyên tố hóa học, mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-101",
+      "T-106",
+      "T-105",
+      "T-103"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Bảng tuần hoàn có 7 chu kì, trong đó chu kì 1, 2, 3 là chu kì nhỏ.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Chu kì 2 và chu kì 3 đều có 8 nguyên tố.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Nhóm A gồm các nguyên tố s và p; nhóm B gồm các nguyên tố d và f.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Các nguyên tố trong cùng một chu kì có cùng số electron lớp ngoài cùng.",
+        "answer": false,
+        "misconception": "M11"
+      }
+    ],
+    "explanation": "a) Đúng: 7 chu kì; chu kì 1, 2, 3 là chu kì nhỏ, chu kì 4–7 là chu kì lớn.\nb) Đúng: số nguyên tố trong các chu kì lần lượt là 2, 8, 8, 18, 18, 32, 32.\nc) Đúng: nhóm A (IA–VIIIA) gồm nguyên tố s, p; nhóm B gồm nguyên tố d, f.\nd) Sai: các nguyên tố cùng chu kì có cùng số lớp electron; số electron lớp ngoài cùng tăng dần từ 1 đến 8 trong chu kì (trừ chu kì 1). Các nguyên tố cùng nhóm A mới có cùng số electron lớp ngoài cùng.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-005",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tử X có cấu hình electron 1s²2s²2p⁶3s²3p⁴. Vị trí của X trong bảng tuần hoàn là",
+    "terms": [
+      "T-101",
+      "T-102",
+      "T-103"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chu kì 3, nhóm VIA.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "chu kì 6, nhóm IIIA.",
+        "misconception": "M11"
+      },
+      {
+        "key": "C",
+        "text": "chu kì 3, nhóm IVA.",
+        "misconception": "M11"
+      },
+      {
+        "key": "D",
+        "text": "chu kì 4, nhóm VIA.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Cấu hình theo lớp: 2, 8, 6 → X có 3 lớp electron → chu kì 3.\nBước 2: Electron cuối cùng điền vào phân lớp p → nguyên tố p, thuộc nhóm A. Lớp ngoài cùng có 3s²3p⁴ = 6 electron → nhóm VIA (X là sulfur).\nLưu ý: \"chu kì 6, nhóm IIIA\" là đảo chu kì với nhóm; \"nhóm IVA\" là chỉ đếm 4 electron ở phân lớp 3p mà quên 2 electron 3s.\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-006",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tố calcium (Z = 20) thuộc",
+    "terms": [
+      "T-101",
+      "T-102",
+      "T-109"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chu kì 2, nhóm IVA.",
+        "misconception": "M11"
+      },
+      {
+        "key": "B",
+        "text": "chu kì 4, nhóm IIB.",
+        "misconception": "M12"
+      },
+      {
+        "key": "C",
+        "text": "chu kì 4, nhóm IIA.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "chu kì 3, nhóm IIA.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Cấu hình electron của Ca: 1s²2s²2p⁶3s²3p⁶4s² → theo lớp: 2, 8, 8, 2.\nBước 2: 4 lớp electron → chu kì 4. Electron cuối cùng điền vào phân lớp 4s → nguyên tố s, thuộc nhóm A; lớp ngoài cùng có 2 electron → nhóm IIA.\nLưu ý: Ca không có electron ở phân lớp d nên không thuộc nhóm B; \"chu kì 2, nhóm IVA\" là đảo chu kì với nhóm; \"chu kì 3\" là do điền nhầm 3d trước 4s.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-007",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tử iron (Fe, Z = 26) có cấu hình electron 1s²2s²2p⁶3s²3p⁶3d⁶4s². Vị trí của Fe trong bảng tuần hoàn là",
+    "terms": [
+      "T-104",
+      "T-105",
+      "T-102"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chu kì 4, nhóm IIA.",
+        "misconception": "M12"
+      },
+      {
+        "key": "B",
+        "text": "chu kì 4, nhóm VIB.",
+        "misconception": "M12"
+      },
+      {
+        "key": "C",
+        "text": "chu kì 2, nhóm VIIIB.",
+        "misconception": "M11"
+      },
+      {
+        "key": "D",
+        "text": "chu kì 4, nhóm VIIIB.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Fe có 4 lớp electron (lớp ngoài cùng là lớp 4) → chu kì 4.\nBước 2: Electron cuối cùng điền vào phân lớp 3d → nguyên tố d → thuộc nhóm B.\nBước 3: Cấu hình (n−1)dᵃnsᵇ = 3d⁶4s² → a + b = 8 → nhóm VIIIB.\nLưu ý: \"nhóm IIA\" là chỉ đếm 2 electron 4s; \"nhóm VIB\" là chỉ đếm 6 electron 3d; \"chu kì 2\" là lấy số electron lớp ngoài cùng làm số chu kì.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-008",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "short",
+    "level": "TH",
+    "stem": "Nguyên tử iron (Fe, Z = 26) có cấu hình electron 1s²2s²2p⁶3s²3p⁶3d⁶4s² và thuộc nhóm VIIIB. Nguyên tử Fe có bao nhiêu electron hóa trị?",
+    "terms": [
+      "T-104",
+      "T-102"
+    ],
+    "answer": "8",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "2",
+        "misconception": "M12"
+      },
+      {
+        "value": "6",
+        "misconception": "M12"
+      }
+    ],
+    "explanation": "Bước 1: Fe là nguyên tố d (electron cuối điền vào 3d). Với nguyên tố nhóm B, electron hóa trị gồm electron ở phân lớp (n−1)d và ns.\nBước 2: Số electron hóa trị = 6 (3d⁶) + 2 (4s²) = 8 → phù hợp nhóm VIIIB.\nLưu ý: 2 là chỉ đếm electron lớp ngoài cùng (4s²); 6 là chỉ đếm electron 3d.\nĐáp án: 8.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-009",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Cho các nguyên tố: sodium (Z = 11), magnesium (Z = 12), chlorine (Z = 17), potassium (Z = 19). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-101",
+      "T-102",
+      "T-108"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Sodium và potassium thuộc cùng nhóm IA.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Sodium và chlorine thuộc cùng chu kì 3.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Sodium và magnesium thuộc cùng một chu kì nên có tính chất hóa học tương tự nhau.",
+        "answer": false,
+        "misconception": "M18"
+      },
+      {
+        "key": "d",
+        "text": "Potassium thuộc chu kì 1 vì nguyên tử có 1 electron lớp ngoài cùng.",
+        "answer": false,
+        "misconception": "M11"
+      }
+    ],
+    "explanation": "Cấu hình theo lớp: Na 2, 8, 1; Mg 2, 8, 2; Cl 2, 8, 7; K 2, 8, 8, 1.\na) Đúng: Na và K đều có 1 electron lớp ngoài cùng (nguyên tố s) → nhóm IA.\nb) Đúng: Na và Cl đều có 3 lớp electron → chu kì 3.\nc) Sai: Na (1 e ngoài cùng) và Mg (2 e ngoài cùng) khác nhóm; các nguyên tố cùng nhóm A mới có tính chất hóa học tương tự.\nd) Sai: K có 4 lớp electron → chu kì 4; 1 electron lớp ngoài cùng cho biết nhóm IA.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-010",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Nguyên tử manganese (Mn, Z = 25) có cấu hình electron 1s²2s²2p⁶3s²3p⁶3d⁵4s². Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-104",
+      "T-105",
+      "T-107",
+      "T-102"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Mn thuộc chu kì 4, là chu kì lớn.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Mn là nguyên tố d.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Mn thuộc nhóm IIA vì nguyên tử có 2 electron lớp ngoài cùng.",
+        "answer": false,
+        "misconception": "M12"
+      },
+      {
+        "key": "d",
+        "text": "Mn thuộc nhóm VB vì nguyên tử có 5 electron ở phân lớp 3d.",
+        "answer": false,
+        "misconception": "M12"
+      }
+    ],
+    "explanation": "a) Đúng: Mn có 4 lớp electron → chu kì 4 (chu kì lớn).\nb) Đúng: electron cuối cùng điền vào phân lớp 3d → nguyên tố d.\nc) Sai: nguyên tố d thuộc nhóm B; không xét riêng 2 electron 4s.\nd) Sai: electron hóa trị gồm cả 3d và 4s: a + b = 5 + 2 = 7 → Mn thuộc nhóm VIIB.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-011",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Ion X²⁺ có cấu hình electron 1s²2s²2p⁶. Vị trí của nguyên tố X trong bảng tuần hoàn là",
+    "terms": [
+      "T-101",
+      "T-102",
+      "T-109"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chu kì 2, nhóm VIIIA.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "chu kì 3, nhóm IIA.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "chu kì 2, nhóm IIIA.",
+        "misconception": "M11"
+      },
+      {
+        "key": "D",
+        "text": "chu kì 3, nhóm IIB.",
+        "misconception": "M12"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: X²⁺ có 10 electron, được tạo ra khi X nhường 2 electron → nguyên tử X có 12 electron, Z = 12.\nBước 2: Cấu hình của X: 1s²2s²2p⁶3s² → 2, 8, 2 → 3 lớp electron → chu kì 3.\nBước 3: Electron cuối điền vào 3s → nguyên tố s, nhóm A; 2 electron lớp ngoài cùng → nhóm IIA (X là magnesium).\nLưu ý: \"chu kì 2, nhóm VIIIA\" là xác định vị trí theo cấu hình của ion thay vì của nguyên tử; \"chu kì 2, nhóm IIIA\" là đảo chu kì với nhóm; X là nguyên tố s nên không thuộc nhóm B.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B5-012",
+    "chapter": "C2",
+    "lesson": "B5",
+    "type": "short",
+    "level": "VD",
+    "stem": "Nguyên tố X thuộc chu kì 3, nhóm IIA. Tổng số hạt mang điện (proton và electron) trong một nguyên tử X là bao nhiêu?",
+    "terms": [
+      "T-101",
+      "T-103"
+    ],
+    "answer": "24",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "10",
+        "misconception": "M11"
+      }
+    ],
+    "explanation": "Bước 1: Chu kì 3 → 3 lớp electron; nhóm IIA → 2 electron lớp ngoài cùng → cấu hình theo lớp: 2, 8, 2.\nBước 2: Số electron = 12 → Z = 12 (magnesium); số proton = số electron = 12.\nBước 3: Tổng số hạt mang điện = 12 + 12 = 24.\nLưu ý: nếu đảo chu kì với nhóm (2 lớp, 3 electron ngoài cùng: 2, 3) sẽ được Z = 5 và kết quả sai 10.\nĐáp án: 24.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-001",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong một chu kì, theo chiều tăng của điện tích hạt nhân, bán kính nguyên tử của các nguyên tố nhóm A nhìn chung",
+    "terms": [
+      "T-111",
+      "T-116",
+      "T-117"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "giảm dần.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "tăng dần.",
+        "misconception": "M13"
+      },
+      {
+        "key": "C",
+        "text": "không thay đổi.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "tăng rồi giảm.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Trong một chu kì, các nguyên tử có cùng số lớp electron.\nBước 2: Điện tích hạt nhân tăng dần → lực hút giữa hạt nhân và electron lớp ngoài cùng tăng → bán kính nguyên tử giảm dần.\nLưu ý: số electron tăng nhưng các electron này vẫn ở cùng lớp ngoài cùng, nên nguyên tử không \"to ra\".\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-002",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong một nhóm A, theo chiều tăng của điện tích hạt nhân (từ trên xuống dưới), độ âm điện của các nguyên tố nhìn chung",
+    "terms": [
+      "T-112",
+      "T-117"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "tăng dần.",
+        "misconception": "M14"
+      },
+      {
+        "key": "B",
+        "text": "không thay đổi.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "giảm dần.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "tăng rồi giảm.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Đi từ trên xuống trong một nhóm A, số lớp electron tăng → bán kính nguyên tử tăng.\nBước 2: Electron lớp ngoài cùng ở xa hạt nhân hơn → khả năng hút electron liên kết giảm → độ âm điện giảm dần (ví dụ F 3,98 > Cl 3,16 > Br 2,96 > I 2,66).\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-003",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Nguyên tố có độ âm điện lớn nhất trong bảng tuần hoàn là",
+    "terms": [
+      "T-112",
+      "T-110"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "caesium.",
+        "misconception": "M14"
+      },
+      {
+        "key": "B",
+        "text": "iodine.",
+        "misconception": "M14"
+      },
+      {
+        "key": "C",
+        "text": "oxygen.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "fluorine.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Độ âm điện tăng từ trái sang phải trong chu kì và giảm từ trên xuống trong nhóm A → nguyên tố có độ âm điện lớn nhất nằm ở góc trên bên phải (không xét khí hiếm).\nBước 2: Đó là fluorine (3,98 theo thang Pauling); oxygen đứng thứ hai (3,44).\nLưu ý: iodine ở cuối nhóm VIIA có độ âm điện nhỏ hơn fluorine; caesium ở góc dưới bên trái có độ âm điện thuộc loại nhỏ nhất.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-004",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Dãy nào sau đây được sắp xếp theo chiều bán kính nguyên tử tăng dần? (Na: Z = 11; Mg: Z = 12; Al: Z = 13; K: Z = 19)",
+    "terms": [
+      "T-111",
+      "T-117"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "K, Na, Mg, Al.",
+        "misconception": "M13"
+      },
+      {
+        "key": "B",
+        "text": "Al, Mg, Na, K.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Na, Mg, Al, K.",
+        "misconception": "M13"
+      },
+      {
+        "key": "D",
+        "text": "Al, Mg, K, Na.",
+        "misconception": "M13"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Na, Mg, Al cùng chu kì 3; điện tích hạt nhân tăng → bán kính giảm: Na > Mg > Al.\nBước 2: Na và K cùng nhóm IA; K có nhiều lớp electron hơn (4 lớp) → K > Na.\nBước 3: Thứ tự tăng dần: Al < Mg < Na < K.\nLưu ý: \"Na, Mg, Al, K\" sai chiều trong chu kì; \"Al, Mg, K, Na\" sai chiều trong nhóm; \"K, Na, Mg, Al\" sai cả hai chiều.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-005",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho các nguyên tố thuộc chu kì 3: silicon (Z = 14), phosphorus (Z = 15), sulfur (Z = 16), chlorine (Z = 17). Dãy sắp xếp theo chiều độ âm điện tăng dần là",
+    "terms": [
+      "T-112",
+      "T-101"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Si, P, S, Cl.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Cl, S, P, Si.",
+        "misconception": "M14"
+      },
+      {
+        "key": "C",
+        "text": "S, Cl, P, Si.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "P, Si, Cl, S.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Bốn nguyên tố cùng chu kì 3, điện tích hạt nhân tăng từ Si đến Cl.\nBước 2: Trong một chu kì, độ âm điện tăng dần theo chiều tăng điện tích hạt nhân → Si (1,90) < P (2,19) < S (2,58) < Cl (3,16).\nLưu ý: \"Cl, S, P, Si\" là đảo chiều biến đổi độ âm điện trong chu kì.\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-006",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Trong các nguyên tố sodium (Z = 11), magnesium (Z = 12), aluminium (Z = 13), potassium (Z = 19), nguyên tố có tính kim loại mạnh nhất là",
+    "terms": [
+      "T-114",
+      "T-108"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "aluminium.",
+        "misconception": "M15"
+      },
+      {
+        "key": "B",
+        "text": "sodium.",
+        "misconception": "M15"
+      },
+      {
+        "key": "C",
+        "text": "potassium.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "magnesium.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Trong chu kì 3: Na > Mg > Al về tính kim loại (bán kính giảm, khó nhường electron hơn).\nBước 2: Trong nhóm IA: K > Na (K có bán kính lớn hơn, dễ nhường electron hơn).\nBước 3: Vậy potassium có tính kim loại mạnh nhất.\nLưu ý: chọn aluminium là cho rằng nhiều electron lớp ngoài cùng thì tính kim loại mạnh; chọn sodium là đảo chiều biến đổi trong nhóm.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-007",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Trong các nguyên tố nitrogen (Z = 7), oxygen (Z = 8), phosphorus (Z = 15), sulfur (Z = 16), nguyên tố có tính phi kim mạnh nhất là",
+    "terms": [
+      "T-115",
+      "T-117"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "nitrogen.",
+        "misconception": "M15"
+      },
+      {
+        "key": "B",
+        "text": "sulfur.",
+        "misconception": "M15"
+      },
+      {
+        "key": "C",
+        "text": "phosphorus.",
+        "misconception": "M15"
+      },
+      {
+        "key": "D",
+        "text": "oxygen.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Vị trí: N (chu kì 2, VA), O (chu kì 2, VIA), P (chu kì 3, VA), S (chu kì 3, VIA).\nBước 2: Trong một chu kì, tính phi kim tăng từ trái sang phải → O > N; S > P.\nBước 3: Trong một nhóm A, tính phi kim giảm từ trên xuống → O > S; N > P. Vậy oxygen mạnh nhất (cũng là nguyên tố có độ âm điện lớn nhất trong bốn nguyên tố).\nLưu ý: chọn sulfur là đảo chiều trong nhóm; chọn nitrogen là đảo chiều trong chu kì; chọn phosphorus là đảo cả hai chiều.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-008",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Cho các nguyên tố thuộc chu kì 3: sodium (Z = 11), magnesium (Z = 12), aluminium (Z = 13), silicon (Z = 14). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-111",
+      "T-112",
+      "T-114",
+      "T-116"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Trong bốn nguyên tố, sodium có bán kính nguyên tử lớn nhất.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Độ âm điện tăng dần từ sodium đến silicon.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Tính kim loại tăng dần từ sodium đến silicon vì số electron lớp ngoài cùng tăng dần.",
+        "answer": false,
+        "misconception": "M15"
+      },
+      {
+        "key": "d",
+        "text": "Bán kính nguyên tử tăng dần từ sodium đến silicon vì điện tích hạt nhân tăng dần.",
+        "answer": false,
+        "misconception": "M13"
+      }
+    ],
+    "explanation": "a) Đúng: trong chu kì, bán kính giảm theo chiều tăng điện tích hạt nhân → Na lớn nhất.\nb) Đúng: Na 0,93 < Mg 1,31 < Al 1,61 < Si 1,90.\nc) Sai: tính kim loại giảm dần từ Na đến Si (bán kính giảm, lực hút của hạt nhân với electron ngoài cùng tăng → khó nhường electron hơn).\nd) Sai: điện tích hạt nhân tăng trong khi số lớp electron không đổi → lực hút tăng → bán kính giảm.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-009",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho ba nguyên tố X (Z = 9), Y (Z = 17) và R (Z = 19). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-111",
+      "T-112",
+      "T-114",
+      "T-110"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "X và Y thuộc cùng nhóm VIIA.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Bán kính nguyên tử: X < Y < R.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Độ âm điện của Y lớn hơn độ âm điện của X.",
+        "answer": false,
+        "misconception": "M14"
+      },
+      {
+        "key": "d",
+        "text": "Tính kim loại của R yếu hơn tính kim loại của sodium (Z = 11).",
+        "answer": false,
+        "misconception": "M15"
+      }
+    ],
+    "explanation": "Cấu hình theo lớp: X 2, 7 (chu kì 2, VIIA – fluorine); Y 2, 8, 7 (chu kì 3, VIIA – chlorine); R 2, 8, 8, 1 (chu kì 4, IA – potassium).\na) Đúng: X và Y đều có 7 electron lớp ngoài cùng → nhóm VIIA.\nb) Đúng: X có 2 lớp, Y có 3 lớp, R có 4 lớp electron → bán kính X < Y < R.\nc) Sai: trong nhóm VIIA, độ âm điện giảm từ trên xuống → X (3,98) > Y (3,16).\nd) Sai: R (K) và Na cùng nhóm IA, R ở dưới nên bán kính lớn hơn, dễ nhường electron hơn → tính kim loại của R mạnh hơn Na.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-010",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho ba nguyên tố X (Z = 11), Y (Z = 12) và R (Z = 19). Dãy sắp xếp theo chiều tính kim loại tăng dần là",
+    "terms": [
+      "T-114",
+      "T-117",
+      "T-101",
+      "T-102"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Y, X, R.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "R, X, Y.",
+        "misconception": "M15"
+      },
+      {
+        "key": "C",
+        "text": "X, Y, R.",
+        "misconception": "M15"
+      },
+      {
+        "key": "D",
+        "text": "Y, R, X.",
+        "misconception": "M15"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Cấu hình theo lớp: X 2, 8, 1 (chu kì 3, IA); Y 2, 8, 2 (chu kì 3, IIA); R 2, 8, 8, 1 (chu kì 4, IA).\nBước 2: X và Y cùng chu kì 3: tính kim loại giảm từ trái sang phải → Y < X.\nBước 3: X và R cùng nhóm IA: tính kim loại tăng từ trên xuống → X < R.\nBước 4: Thứ tự tăng dần: Y < X < R (Mg < Na < K).\nLưu ý: \"X, Y, R\" sai chiều trong chu kì; \"Y, R, X\" sai chiều trong nhóm; \"R, X, Y\" sai cả hai chiều.\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-011",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "short",
+    "level": "TH",
+    "stem": "Trong các nguyên tố chu kì 3 từ sodium (Z = 11) đến chlorine (Z = 17), nguyên tố có bán kính nguyên tử nhỏ nhất có số hiệu nguyên tử là bao nhiêu?",
+    "terms": [
+      "T-111",
+      "T-116"
+    ],
+    "answer": "17",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "11",
+        "misconception": "M13"
+      }
+    ],
+    "explanation": "Bước 1: Các nguyên tố từ Na đến Cl cùng có 3 lớp electron.\nBước 2: Điện tích hạt nhân tăng → bán kính giảm dần → nguyên tố cuối dãy (chlorine) có bán kính nhỏ nhất.\nLưu ý: trả lời 11 (sodium) là cho rằng bán kính tăng theo điện tích hạt nhân – thực ra Na có bán kính lớn nhất dãy.\nĐáp án: 17.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B6-012",
+    "chapter": "C2",
+    "lesson": "B6",
+    "type": "short",
+    "level": "VD",
+    "stem": "Nguyên tố X thuộc chu kì 3, nhóm IA; nguyên tố Y thuộc chu kì 2, nhóm VIIA; nguyên tố R thuộc chu kì 4, nhóm IA. Trong ba nguyên tố trên, nguyên tố có bán kính nguyên tử lớn nhất có số hiệu nguyên tử là bao nhiêu?",
+    "terms": [
+      "T-111",
+      "T-101",
+      "T-102"
+    ],
+    "answer": "19",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "9",
+        "misconception": "M13"
+      },
+      {
+        "value": "11",
+        "misconception": "M13"
+      }
+    ],
+    "explanation": "Bước 1: Xác định Z: X (3 lớp, 1 e ngoài cùng: 2, 8, 1) → Z = 11; Y (2 lớp, 7 e ngoài cùng: 2, 7) → Z = 9; R (4 lớp, 1 e ngoài cùng: 2, 8, 8, 1) → Z = 19.\nBước 2: R có nhiều lớp electron nhất (4 lớp) và ở nhóm IA (đầu chu kì) → bán kính lớn nhất.\nLưu ý: 9 (fluorine) là đảo chiều biến đổi bán kính; 11 (sodium) là cho rằng bán kính giảm từ trên xuống trong nhóm IA.\nĐáp án: 19.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-001",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Sulfur thuộc nhóm VIA. Công thức oxide cao nhất của sulfur là",
+    "terms": [
+      "T-118",
+      "T-123"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "SO.",
+        "misconception": "M16"
+      },
+      {
+        "key": "B",
+        "text": "SO₃.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "SO₂.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "H₂S.",
+        "misconception": "M16"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Hóa trị cao nhất với oxygen của nguyên tố nhóm A bằng số thứ tự nhóm → sulfur có hóa trị cao nhất VI.\nBước 2: Oxygen hóa trị II → công thức oxide cao nhất: SO₃.\nLưu ý: SO (S hóa trị II) là dùng nhầm hóa trị với hydrogen (8 − 6 = 2); H₂S là hợp chất với hydrogen, không phải oxide; SO₂ là oxide nhưng không phải oxide cao nhất.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-002",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong một chu kì, theo chiều tăng của điện tích hạt nhân, tính acid của oxide cao nhất và hydroxide tương ứng nhìn chung",
+    "terms": [
+      "T-118",
+      "T-119",
+      "T-117"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "giảm dần.",
+        "misconception": "M17"
+      },
+      {
+        "key": "B",
+        "text": "không thay đổi.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "giảm rồi tăng.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "tăng dần.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Trong một chu kì, theo chiều tăng điện tích hạt nhân, tính base của oxide cao nhất và hydroxide tương ứng giảm dần, đồng thời tính acid tăng dần.\nBước 2: Ví dụ chu kì 3: NaOH (base mạnh) … Al(OH)₃ (lưỡng tính) … H₂SO₄, HClO₄ (acid mạnh).\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-003",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Đối với nguyên tố nhóm A, hóa trị cao nhất của nguyên tố trong oxide cao nhất bằng",
+    "terms": [
+      "T-123",
+      "T-118",
+      "T-103"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "số thứ tự của nhóm.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "8 trừ số thứ tự của nhóm.",
+        "misconception": "M16"
+      },
+      {
+        "key": "C",
+        "text": "số thứ tự của chu kì.",
+        "misconception": "M11"
+      },
+      {
+        "key": "D",
+        "text": "số hiệu nguyên tử.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Hóa trị cao nhất với oxygen của nguyên tố nhóm A bằng số thứ tự nhóm (IA: I; IIA: II; …; VIIA: VII – trừ một số ngoại lệ như fluorine).\nLưu ý: 8 − số thứ tự nhóm là hóa trị của phi kim trong hợp chất khí với hydrogen; số thứ tự chu kì (= số lớp electron) không liên quan đến hóa trị cao nhất; số hiệu nguyên tử là số thứ tự ô nguyên tố.\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-004",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Dãy hydroxide nào sau đây được sắp xếp theo chiều tính base giảm dần?",
+    "terms": [
+      "T-119",
+      "T-122"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Al(OH)₃, Mg(OH)₂, NaOH.",
+        "misconception": "M17"
+      },
+      {
+        "key": "B",
+        "text": "Mg(OH)₂, NaOH, Al(OH)₃.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "NaOH, Mg(OH)₂, Al(OH)₃.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Al(OH)₃, NaOH, Mg(OH)₂.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Na, Mg, Al cùng chu kì 3, điện tích hạt nhân tăng dần.\nBước 2: Tính base của hydroxide giảm dần: NaOH (base mạnh) > Mg(OH)₂ (base yếu) > Al(OH)₃ (hydroxide lưỡng tính).\nLưu ý: \"Al(OH)₃, Mg(OH)₂, NaOH\" là đảo chiều; số nhóm OH nhiều hơn không làm tính base mạnh hơn.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-005",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Trong các acid sau: H₂SiO₃, H₃PO₄, H₂SO₄, HClO₄, acid mạnh nhất là",
+    "terms": [
+      "T-119",
+      "T-117"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "H₂SiO₃.",
+        "misconception": "M17"
+      },
+      {
+        "key": "B",
+        "text": "HClO₄.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "H₃PO₄.",
+        "misconception": "M17"
+      },
+      {
+        "key": "D",
+        "text": "H₂SO₄.",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Si, P, S, Cl cùng chu kì 3, điện tích hạt nhân tăng dần.\nBước 2: Tính acid của hydroxide tương ứng với oxide cao nhất tăng dần: H₂SiO₃ (acid yếu) < H₃PO₄ (acid trung bình) < H₂SO₄ (acid mạnh) < HClO₄ (acid rất mạnh).\nLưu ý: chọn H₂SiO₃ là đảo chiều; chọn H₃PO₄ là cho rằng acid có nhiều nguyên tử H hơn thì mạnh hơn; H₂SO₄ là acid mạnh nhưng vẫn yếu hơn HClO₄.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-006",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Xét các oxide cao nhất của các nguyên tố chu kì 3: Na₂O, MgO, Al₂O₃, SiO₂, P₂O₅, SO₃, Cl₂O₇. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-118",
+      "T-120",
+      "T-121",
+      "T-122",
+      "T-123"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Na₂O và MgO là oxide base.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Al₂O₃ là oxide lưỡng tính, tác dụng được với cả dung dịch acid và dung dịch base.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Hóa trị cao nhất của chlorine trong oxide là I, giống hóa trị của chlorine trong HCl.",
+        "answer": false,
+        "misconception": "M16"
+      },
+      {
+        "key": "d",
+        "text": "SO₃ có tính acid mạnh hơn Cl₂O₇.",
+        "answer": false,
+        "misconception": "M17"
+      }
+    ],
+    "explanation": "a) Đúng: Na₂O, MgO tác dụng với acid tạo muối và nước (Na₂O + 2HCl → 2NaCl + H₂O; MgO + 2HCl → MgCl₂ + H₂O).\nb) Đúng: Al₂O₃ + 6HCl → 2AlCl₃ + 3H₂O; Al₂O₃ + 2NaOH + 3H₂O → 2Na[Al(OH)₄].\nc) Sai: chlorine thuộc nhóm VIIA → hóa trị cao nhất với oxygen là VII (Cl₂O₇); hóa trị I là hóa trị với hydrogen (8 − 7 = 1).\nd) Sai: trong chu kì, tính acid của oxide cao nhất tăng dần → Cl₂O₇ có tính acid mạnh hơn SO₃.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-007",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "short",
+    "level": "TH",
+    "stem": "Phosphorus thuộc nhóm VA. Oxide cao nhất của phosphorus có công thức PₓOᵧ (x, y là các số nguyên tối giản). Tính x + y.",
+    "terms": [
+      "T-118",
+      "T-123"
+    ],
+    "answer": "7",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "5",
+        "misconception": "M16"
+      }
+    ],
+    "explanation": "Bước 1: Phosphorus thuộc nhóm VA → hóa trị cao nhất với oxygen là V.\nBước 2: P(V), O(II) → công thức P₂O₅ → x = 2, y = 5.\nBước 3: x + y = 7.\nLưu ý: nếu dùng hóa trị với hydrogen (8 − 5 = 3) sẽ viết P₂O₃ và được kết quả sai 5.\nĐáp án: 7.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-008",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "short",
+    "level": "VD",
+    "stem": "Nguyên tố R thuộc nhóm VIA. Trong oxide cao nhất của R, R chiếm 40% về khối lượng. Tính nguyên tử khối của R (làm tròn đến hàng đơn vị). Cho O = 16.",
+    "terms": [
+      "T-118",
+      "T-123"
+    ],
+    "answer": "32",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "11",
+        "misconception": "M16"
+      }
+    ],
+    "explanation": "Bước 1: R thuộc nhóm VIA → hóa trị cao nhất với oxygen là VI → oxide cao nhất RO₃.\nBước 2: %R = R / (R + 48) = 0,40 → R = 0,4R + 19,2 → 0,6R = 19,2 → R = 32.\nBước 3: R là sulfur (S = 32); kiểm tra: SO₃ có %S = 32/80 = 40%.\nLưu ý: nếu viết nhầm oxide là RO (dùng hóa trị II như với hydrogen): R/(R + 16) = 0,4 → R ≈ 10,67 ≈ 11 – không phù hợp nhóm VIA.\nĐáp án: 32.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-009",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Hợp chất khí với hydrogen của nguyên tố R có công thức RH₄. Trong oxide cao nhất của R, oxygen chiếm 53,33% về khối lượng. Nguyên tố R là (cho C = 12, N = 14, Si = 28, Fe = 56, O = 16)",
+    "terms": [
+      "T-118",
+      "T-123"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "carbon.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "iron.",
+        "misconception": "M16"
+      },
+      {
+        "key": "C",
+        "text": "nitrogen.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "silicon.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: RH₄ → hóa trị với hydrogen là IV → R thuộc nhóm IVA (8 − 4 = 4) → hóa trị cao nhất với oxygen là IV → oxide cao nhất RO₂.\nBước 2: %O = 32 / (R + 32) = 0,5333 → R + 32 = 60 → R = 28.\nBước 3: R là silicon (SiO₂: 32/60 = 53,33%).\nLưu ý: nếu viết oxide là RO₄ (lấy số nguyên tử H làm số nguyên tử O) sẽ được R = 56 (iron) – sai; carbon cũng thuộc nhóm IVA nhưng CO₂ có %O = 72,7%.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B7-010",
+    "chapter": "C2",
+    "lesson": "B7",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Nguyên tố X có số hiệu nguyên tử Z = 16. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-118",
+      "T-119",
+      "T-120",
+      "T-123"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "X thuộc chu kì 3, nhóm VIA.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Oxide cao nhất của X là XO₃, là một oxide acid.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Hydroxide tương ứng với oxide cao nhất của X là H₂XO₄, có tính acid yếu hơn H₃PO₄.",
+        "answer": false,
+        "misconception": "M17"
+      },
+      {
+        "key": "d",
+        "text": "Hợp chất khí với hydrogen của X có công thức XH₆.",
+        "answer": false,
+        "misconception": "M16"
+      }
+    ],
+    "explanation": "Cấu hình: 1s²2s²2p⁶3s²3p⁴ (2, 8, 6) → X là sulfur.\na) Đúng: 3 lớp electron → chu kì 3; 6 electron lớp ngoài cùng → nhóm VIA.\nb) Đúng: hóa trị cao nhất VI → SO₃; SO₃ + H₂O → H₂SO₄ nên SO₃ là oxide acid.\nc) Sai: S đứng sau P trong chu kì 3 → H₂SO₄ có tính acid mạnh hơn H₃PO₄.\nd) Sai: hóa trị với hydrogen = 8 − 6 = 2 → H₂S (XH₂); VI là hóa trị cao nhất với oxygen.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B8-001",
+    "chapter": "C2",
+    "lesson": "B8",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Theo định luật tuần hoàn, tính chất của các nguyên tố và đơn chất, cũng như thành phần và tính chất của các hợp chất tạo nên từ các nguyên tố đó biến đổi tuần hoàn theo chiều tăng của",
+    "terms": [
+      "T-124",
+      "T-116"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "điện tích hạt nhân nguyên tử.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "nguyên tử khối.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "số neutron trong hạt nhân.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "số lớp electron.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Nội dung định luật tuần hoàn: tính chất của các nguyên tố và đơn chất, cũng như thành phần và tính chất của các hợp chất tạo nên từ các nguyên tố đó biến đổi tuần hoàn theo chiều tăng của điện tích hạt nhân nguyên tử.\nLưu ý: Mendeleev ban đầu phát biểu theo nguyên tử khối; định luật hiện đại dựa trên điện tích hạt nhân. Số lớp electron chỉ thay đổi khi chuyển sang chu kì mới.\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B8-002",
+    "chapter": "C2",
+    "lesson": "B8",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Các nguyên tố có tính chất hóa học tương tự nhau thường",
+    "terms": [
+      "T-102",
+      "T-103",
+      "T-125"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "thuộc cùng một chu kì.",
+        "misconception": "M18"
+      },
+      {
+        "key": "B",
+        "text": "có cùng số lớp electron.",
+        "misconception": "M18"
+      },
+      {
+        "key": "C",
+        "text": "thuộc cùng một nhóm A.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "có nguyên tử khối gần bằng nhau.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Tính chất hóa học của nguyên tố nhóm A phụ thuộc chủ yếu vào số electron lớp ngoài cùng.\nBước 2: Các nguyên tố cùng nhóm A có cùng số electron lớp ngoài cùng → tính chất hóa học tương tự.\nLưu ý: các nguyên tố cùng chu kì (cùng số lớp electron) có số electron lớp ngoài cùng khác nhau, tính chất biến đổi dần từ kim loại sang phi kim.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B8-003",
+    "chapter": "C2",
+    "lesson": "B8",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tố X ở ô số 12, thuộc chu kì 3, nhóm IIA. Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-119",
+      "T-103",
+      "T-109"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "X là phi kim.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Hydroxide của X có công thức X(OH)₂ và có tính base.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Hydroxide của X có tính acid mạnh hơn Al(OH)₃.",
+        "misconception": "M17"
+      },
+      {
+        "key": "D",
+        "text": "Nguyên tử X có 3 electron ở lớp ngoài cùng.",
+        "misconception": "M11"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Nhóm IIA → 2 electron lớp ngoài cùng, hóa trị cao nhất II → X là kim loại (magnesium), oxide cao nhất XO, hydroxide X(OH)₂ có tính base.\nBước 2: Mg đứng trước Al trong chu kì 3 → Mg(OH)₂ có tính base mạnh hơn Al(OH)₃, không có tính acid mạnh hơn.\nLưu ý: số 3 là số thứ tự chu kì (số lớp electron), không phải số electron lớp ngoài cùng.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B8-004",
+    "chapter": "C2",
+    "lesson": "B8",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tố nào sau đây có tính chất hóa học tương tự sodium (Z = 11)?",
+    "terms": [
+      "T-108",
+      "T-102"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Magnesium (Z = 12).",
+        "misconception": "M18"
+      },
+      {
+        "key": "B",
+        "text": "Neon (Z = 10).",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Chlorine (Z = 17).",
+        "misconception": "M18"
+      },
+      {
+        "key": "D",
+        "text": "Potassium (Z = 19).",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Na: 2, 8, 1 → nhóm IA.\nBước 2: K: 2, 8, 8, 1 → cũng có 1 electron lớp ngoài cùng, thuộc nhóm IA → tính chất tương tự Na (đều là kim loại kiềm).\nLưu ý: Mg, Cl cùng chu kì 3 với Na nhưng khác nhóm nên tính chất khác (Cl là phi kim mạnh); Ne là khí hiếm có Z liền trước Na.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B8-005",
+    "chapter": "C2",
+    "lesson": "B8",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Nguyên tố X có số hiệu nguyên tử Z = 17. Dựa vào vị trí của X trong bảng tuần hoàn, mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-124",
+      "T-110",
+      "T-118",
+      "T-119"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "X thuộc chu kì 3, nhóm VIIA.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "X là phi kim.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Oxide cao nhất của X là X₂O₇; hydroxide tương ứng HXO₄ là acid mạnh.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "X có tính chất hóa học tương tự sulfur vì cùng thuộc chu kì 3.",
+        "answer": false,
+        "misconception": "M18"
+      }
+    ],
+    "explanation": "Cấu hình: 1s²2s²2p⁶3s²3p⁵ (2, 8, 7) → X là chlorine.\na) Đúng: 3 lớp electron → chu kì 3; 7 electron lớp ngoài cùng → nhóm VIIA.\nb) Đúng: 7 electron lớp ngoài cùng, độ âm điện lớn → phi kim mạnh (halogen).\nc) Đúng: hóa trị cao nhất VII → Cl₂O₇; HClO₄ là acid rất mạnh.\nd) Sai: Cl tương tự các nguyên tố cùng nhóm VIIA (F, Br, I), không phải S cùng chu kì.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B8-006",
+    "chapter": "C2",
+    "lesson": "B8",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho ba nguyên tố X (Z = 12), Y (Z = 13) và R (Z = 20). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-114",
+      "T-119",
+      "T-122",
+      "T-124"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "X và R thuộc cùng nhóm IIA nên có tính chất hóa học tương tự nhau.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Tính kim loại: Y < X < R.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Hydroxide của Y có tính base mạnh hơn hydroxide của X.",
+        "answer": false,
+        "misconception": "M17"
+      },
+      {
+        "key": "d",
+        "text": "X và Y thuộc cùng chu kì 3 nên có tính chất hóa học tương tự nhau.",
+        "answer": false,
+        "misconception": "M18"
+      }
+    ],
+    "explanation": "Cấu hình theo lớp: X 2, 8, 2 (chu kì 3, IIA – Mg); Y 2, 8, 3 (chu kì 3, IIIA – Al); R 2, 8, 8, 2 (chu kì 4, IIA – Ca).\na) Đúng: X và R cùng 2 electron lớp ngoài cùng, cùng nhóm IIA.\nb) Đúng: trong chu kì 3: Al < Mg; trong nhóm IIA: Mg < Ca → Y < X < R.\nc) Sai: trong chu kì, tính base của hydroxide giảm dần → Mg(OH)₂ (base) mạnh hơn Al(OH)₃ (lưỡng tính).\nd) Sai: X, Y cùng chu kì nhưng khác số electron lớp ngoài cùng nên tính chất khác nhau.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B8-007",
+    "chapter": "C2",
+    "lesson": "B8",
+    "type": "short",
+    "level": "VD",
+    "stem": "Nguyên tố R thuộc chu kì 3. Hợp chất khí của R với hydrogen có công thức RH₂. Số hiệu nguyên tử của R là bao nhiêu?",
+    "terms": [
+      "T-123",
+      "T-101",
+      "T-103"
+    ],
+    "answer": "16",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "12",
+        "misconception": "M16"
+      }
+    ],
+    "explanation": "Bước 1: RH₂ → hóa trị của R với hydrogen là II.\nBước 2: Với phi kim nhóm A: hóa trị với hydrogen = 8 − số thứ tự nhóm → số thứ tự nhóm = 8 − 2 = 6 → R thuộc nhóm VIA.\nBước 3: Chu kì 3, nhóm VIA → cấu hình 2, 8, 6 → Z = 16 (sulfur).\nLưu ý: nếu lấy hóa trị với hydrogen (II) làm số thứ tự nhóm sẽ được nhóm IIA, Z = 12 (magnesium) – nhưng magnesium là kim loại, không tạo hợp chất khí với hydrogen.\nĐáp án: 16.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-001",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho hai nguyên tố X (Z = 8) và Y (Z = 16). Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-112",
+      "T-111",
+      "T-115"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "X có độ âm điện lớn hơn Y.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "X và Y thuộc cùng một chu kì.",
+        "misconception": "M11"
+      },
+      {
+        "key": "C",
+        "text": "Bán kính nguyên tử của X lớn hơn của Y.",
+        "misconception": "M13"
+      },
+      {
+        "key": "D",
+        "text": "Tính phi kim của Y mạnh hơn của X.",
+        "misconception": "M15"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: X: 2, 6 (chu kì 2, VIA – oxygen); Y: 2, 8, 6 (chu kì 3, VIA – sulfur). X và Y cùng nhóm VIA, khác chu kì.\nBước 2: Trong nhóm VIA, từ trên xuống: bán kính tăng (X < Y), độ âm điện giảm (X 3,44 > Y 2,58), tính phi kim giảm (X > Y).\nLưu ý: X và Y có cùng 6 electron lớp ngoài cùng nên cùng nhóm, không phải cùng chu kì.\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-002",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tử X có cấu hình electron lớp ngoài cùng là 3s²3p³. Công thức oxide cao nhất và hydroxide tương ứng của X lần lượt là",
+    "terms": [
+      "T-118",
+      "T-119",
+      "T-123"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "X₂O₃ và H₃XO₃.",
+        "misconception": "M16"
+      },
+      {
+        "key": "B",
+        "text": "XO₃ và H₂XO₄.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "X₂O₅ và H₃XO₄.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "X₂O₅ và X(OH)₅.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Lớp ngoài cùng 3s²3p³ có 5 electron, 3 lớp → X thuộc chu kì 3, nhóm VA (phosphorus).\nBước 2: Hóa trị cao nhất với oxygen = V → oxide cao nhất X₂O₅ (P₂O₅).\nBước 3: Hydroxide tương ứng là acid H₃XO₄ (H₃PO₄): P₂O₅ + 3H₂O → 2H₃PO₄.\nLưu ý: X₂O₃ là dùng hóa trị III (hóa trị với hydrogen, PH₃); XO₃/H₂XO₄ ứng với nhóm VIA; X là phi kim nên hydroxide là acid chứa oxygen, không viết dạng X(OH)₅.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-003",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nguyên tử titanium (Ti, Z = 22) có cấu hình electron 1s²2s²2p⁶3s²3p⁶3d²4s². Vị trí của Ti trong bảng tuần hoàn là",
+    "terms": [
+      "T-104",
+      "T-105",
+      "T-102"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chu kì 4, nhóm IIA.",
+        "misconception": "M12"
+      },
+      {
+        "key": "B",
+        "text": "chu kì 4, nhóm IVB.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "chu kì 4, nhóm IIB.",
+        "misconception": "M12"
+      },
+      {
+        "key": "D",
+        "text": "chu kì 2, nhóm IVA.",
+        "misconception": "M11"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Ti có 4 lớp electron → chu kì 4.\nBước 2: Electron cuối cùng điền vào phân lớp 3d → nguyên tố d → nhóm B.\nBước 3: 3d²4s² → a + b = 2 + 2 = 4 → nhóm IVB.\nLưu ý: \"nhóm IIA\" và \"nhóm IIB\" là chỉ xét 2 electron 4s; \"chu kì 2, nhóm IVA\" là lấy số electron lớp ngoài cùng làm số chu kì và xếp nhầm vào nhóm A.\nĐáp án: B.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-004",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Cho ba kim loại kiềm lithium (Z = 3), sodium (Z = 11) và potassium (Z = 19). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-108",
+      "T-111",
+      "T-112",
+      "T-114"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Ba nguyên tố đều thuộc nhóm IA.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Bán kính nguyên tử: Li < Na < K.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Độ âm điện: Li < Na < K.",
+        "answer": false,
+        "misconception": "M14"
+      },
+      {
+        "key": "d",
+        "text": "Tính kim loại: Li > Na > K.",
+        "answer": false,
+        "misconception": "M15"
+      }
+    ],
+    "explanation": "Cấu hình theo lớp: Li 2, 1; Na 2, 8, 1; K 2, 8, 8, 1.\na) Đúng: đều có 1 electron lớp ngoài cùng → nhóm IA.\nb) Đúng: số lớp electron tăng (2, 3, 4) → bán kính tăng.\nc) Sai: trong nhóm, độ âm điện giảm từ trên xuống: Li (0,98) > Na (0,93) > K (0,82).\nd) Sai: bán kính tăng → dễ nhường electron hơn → tính kim loại Li < Na < K.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-005",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Hai nguyên tố A và B đứng kế tiếp nhau trong một chu kì của bảng tuần hoàn (Z_A < Z_B), có tổng số proton trong hai hạt nhân là 25. Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-101",
+      "T-111",
+      "T-119"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Bán kính nguyên tử của A nhỏ hơn của B.",
+        "misconception": "M13"
+      },
+      {
+        "key": "B",
+        "text": "Hydroxide của B có tính base mạnh hơn hydroxide của A.",
+        "misconception": "M17"
+      },
+      {
+        "key": "C",
+        "text": "A và B có tính chất hóa học tương tự nhau vì cùng chu kì.",
+        "misconception": "M18"
+      },
+      {
+        "key": "D",
+        "text": "A và B đều thuộc chu kì 3.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Hai nguyên tố kế tiếp trong một chu kì có Z_B = Z_A + 1 → 2Z_A + 1 = 25 → Z_A = 12 (Mg), Z_B = 13 (Al).\nBước 2: Mg (2, 8, 2) và Al (2, 8, 3) đều có 3 lớp electron → chu kì 3.\nBước 3: Kiểm tra các phương án khác: bán kính Mg > Al; Mg(OH)₂ có tính base mạnh hơn Al(OH)₃ (lưỡng tính); Mg (IIA) và Al (IIIA) khác nhóm nên tính chất khác nhau.\nĐáp án: D.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-006",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Hai nguyên tố X và Y (Z_X < Z_Y) thuộc cùng một nhóm A và ở hai chu kì nhỏ liên tiếp; tổng số proton trong hai hạt nhân là 24. Nhận xét nào sau đây đúng?",
+    "terms": [
+      "T-102",
+      "T-106",
+      "T-112",
+      "T-115"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Độ âm điện của X nhỏ hơn của Y.",
+        "misconception": "M14"
+      },
+      {
+        "key": "B",
+        "text": "Bán kính nguyên tử của X lớn hơn của Y.",
+        "misconception": "M13"
+      },
+      {
+        "key": "C",
+        "text": "X và Y thuộc nhóm VIA; X có tính phi kim mạnh hơn Y.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "X và Y thuộc cùng chu kì 2.",
+        "misconception": "M11"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Hai nguyên tố cùng nhóm A ở hai chu kì nhỏ liên tiếp hơn kém nhau 8 proton: Z_Y − Z_X = 8 và Z_X + Z_Y = 24 → Z_X = 8 (oxygen), Z_Y = 16 (sulfur).\nBước 2: O (2, 6) và S (2, 8, 6) đều có 6 electron lớp ngoài cùng → nhóm VIA; O ở chu kì 2, S ở chu kì 3.\nBước 3: Trong nhóm VIA từ trên xuống: bán kính tăng, độ âm điện giảm, tính phi kim giảm → O có độ âm điện lớn hơn, bán kính nhỏ hơn và tính phi kim mạnh hơn S.\nLưu ý: X, Y cùng nhóm thì không thể cùng chu kì. Cặp ở chu kì 1 và 2 (H – Li, He – Ne) có tổng số proton quá nhỏ nên bị loại.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-007",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Nguyên tố R thuộc chu kì 3; oxide cao nhất của R có công thức R₂O₅. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-118",
+      "T-119",
+      "T-123",
+      "T-111"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "R là phosphorus (Z = 15).",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Hợp chất khí với hydrogen của R có công thức RH₃.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Hydroxide tương ứng với oxide cao nhất của R có tính acid mạnh hơn H₂SO₄.",
+        "answer": false,
+        "misconception": "M17"
+      },
+      {
+        "key": "d",
+        "text": "Bán kính nguyên tử của R nhỏ hơn bán kính nguyên tử của sulfur (Z = 16).",
+        "answer": false,
+        "misconception": "M13"
+      }
+    ],
+    "explanation": "a) Đúng: R₂O₅ → hóa trị cao nhất V → nhóm VA; chu kì 3 → 2, 8, 5 → Z = 15 (phosphorus).\nb) Đúng: hóa trị với hydrogen = 8 − 5 = 3 → RH₃ (PH₃).\nc) Sai: hydroxide là H₃PO₄ (acid trung bình); P đứng trước S trong chu kì 3 nên H₃PO₄ có tính acid yếu hơn H₂SO₄.\nd) Sai: P và S cùng chu kì 3, P có điện tích hạt nhân nhỏ hơn → bán kính P lớn hơn S.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-008",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "short",
+    "level": "VD",
+    "stem": "Nguyên tố R thuộc nhóm VIIA. Trong oxide cao nhất của R, oxygen chiếm 61,2% về khối lượng. Tính nguyên tử khối của R (làm tròn đến một chữ số thập phân). Cho O = 16.",
+    "terms": [
+      "T-118",
+      "T-123",
+      "T-110"
+    ],
+    "answer": "35.5",
+    "tolerance": 0.05,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "5.1",
+        "misconception": "M16"
+      }
+    ],
+    "explanation": "Bước 1: R thuộc nhóm VIIA → hóa trị cao nhất với oxygen là VII → oxide cao nhất R₂O₇.\nBước 2: %O = 112 / (2R + 112) = 0,612 → 2R + 112 = 112 / 0,612 ≈ 183,0 → 2R ≈ 71,0 → R ≈ 35,5.\nBước 3: R là chlorine (Cl₂O₇: 112/183 ≈ 61,2%).\nLưu ý: nếu viết oxide là R₂O (dùng hóa trị I như trong HR) sẽ được 16/(2R + 16) = 0,612 → R ≈ 5,1 – vô lí.\nĐáp án: 35,5.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B9-009",
+    "chapter": "C2",
+    "lesson": "B9",
+    "type": "short",
+    "level": "TH",
+    "stem": "Nguyên tố X có số hiệu nguyên tử Z = 15. Tính tổng hóa trị cao nhất của X trong oxide và hóa trị của X trong hợp chất khí với hydrogen.",
+    "terms": [
+      "T-123",
+      "T-118"
+    ],
+    "answer": "8",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "10",
+        "misconception": "M16"
+      },
+      {
+        "value": "6",
+        "misconception": "M16"
+      }
+    ],
+    "explanation": "Bước 1: X: 2, 8, 5 → chu kì 3, nhóm VA (phosphorus).\nBước 2: Hóa trị cao nhất với oxygen = số thứ tự nhóm = V (P₂O₅).\nBước 3: Hóa trị với hydrogen = 8 − 5 = III (PH₃).\nBước 4: Tổng = 5 + 3 = 8.\nLưu ý: 10 là coi cả hai hóa trị đều bằng V; 6 là coi cả hai đều bằng III.\nĐáp án: 8.",
+    "reviewed": false
+  }
+]

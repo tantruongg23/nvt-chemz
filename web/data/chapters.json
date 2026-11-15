@@ -1,0 +1,9 @@
+[
+  { "id": "C1", "number": 1, "title": "Cấu tạo nguyên tử", "title_en": "Atomic structure", "dir": "", "lessons": ["B1", "B2", "B3", "B4"], "status": "draft" },
+  { "id": "C2", "number": 2, "title": "Bảng tuần hoàn các nguyên tố hóa học", "title_en": "The periodic table", "dir": "c2", "lessons": ["B5", "B6", "B7", "B8", "B9"], "status": "draft" },
+  { "id": "C3", "number": 3, "title": "Liên kết hóa học", "title_en": "Chemical bonding", "dir": "c3", "lessons": ["B10", "B11", "B12", "B13", "B14"], "status": "draft" },
+  { "id": "C4", "number": 4, "title": "Phản ứng oxi hóa – khử", "title_en": "Redox reactions", "dir": null, "lessons": ["B15", "B16"], "status": "planned" },
+  { "id": "C5", "number": 5, "title": "Năng lượng hóa học", "title_en": "Chemical energetics", "dir": null, "lessons": ["B17", "B18"], "status": "planned" },
+  { "id": "C6", "number": 6, "title": "Tốc độ phản ứng", "title_en": "Reaction rates", "dir": null, "lessons": ["B19", "B20"], "status": "planned" },
+  { "id": "C7", "number": 7, "title": "Nguyên tố nhóm VIIA", "title_en": "Group VIIA elements", "dir": null, "lessons": ["B21", "B22", "B23"], "status": "planned" }
+]

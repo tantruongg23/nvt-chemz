@@ -27,7 +27,7 @@ function render(stats, hintsLeft) {
   const qCount = (id) => content.questions.filter((q) => q.lesson === id).length;
   const lessonsOf = (code) => {
     const ls = (content.index.mis.get(code)?.lessons || []).filter((l) => content.index.lesson.has(l));
-    const core = ls.filter((l) => l !== 'B4');
+    const core = ls.filter((l) => content.index.lesson.get(l)?.kind !== 'review');
     return core.length ? core : ls;
   };
   const total = stats.total_attempts || 0;

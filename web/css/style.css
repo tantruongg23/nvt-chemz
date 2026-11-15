@@ -42,6 +42,8 @@
   --g-B2: #0D9488; --g-B2-ink: #0F766E;
   --g-B3: #D97706; --g-B3-ink: #92400E;
   --g-B4: #E11D48; --g-B4-ink: #9F1239;
+  /* bài B5–B23: màu theo chương */
+  --g-C2: #0891B2; --g-C2-ink: #155E75; --g-C3: #7C3AED; --g-C3-ink: #5B21B6; --g-C4: #DC2626; --g-C4-ink: #991B1B; --g-C5: #EA580C; --g-C5-ink: #9A3412; --g-C6: #16A34A; --g-C6-ink: #166534; --g-C7: #A16207; --g-C7-ink: #713F12;
 
   /* misconception badge lightness (hue đặt theo từng mã) */
   --mb-ink-l: 28%;  --mb-bg-l: 95%;  --mb-bd-l: 78%;  --mb-sat: 70%;
@@ -80,6 +82,7 @@
     --g-B2: #2DD4BF; --g-B2-ink: #99F6E4;
     --g-B3: #FBBF24; --g-B3-ink: #FDE68A;
     --g-B4: #FB7185; --g-B4-ink: #FECDD3;
+    --g-C2: #22D3EE; --g-C2-ink: #A5F3FC; --g-C3: #A78BFA; --g-C3-ink: #DDD6FE; --g-C4: #F87171; --g-C4-ink: #FECACA; --g-C5: #FB923C; --g-C5-ink: #FED7AA; --g-C6: #4ADE80; --g-C6-ink: #BBF7D0; --g-C7: #FACC15; --g-C7-ink: #FEF08A;
     --mb-ink-l: 80%; --mb-bg-l: 17%; --mb-bd-l: 38%; --mb-sat: 60%;
     --shadow-1: 0 1px 2px rgba(0, 0, 0, .4);
     --shadow-2: 0 8px 24px -8px rgba(0, 0, 0, .6);
@@ -102,6 +105,7 @@
   --g-B2: #2DD4BF; --g-B2-ink: #99F6E4;
   --g-B3: #FBBF24; --g-B3-ink: #FDE68A;
   --g-B4: #FB7185; --g-B4-ink: #FECDD3;
+  --g-C2: #22D3EE; --g-C2-ink: #A5F3FC; --g-C3: #A78BFA; --g-C3-ink: #DDD6FE; --g-C4: #F87171; --g-C4-ink: #FECACA; --g-C5: #FB923C; --g-C5-ink: #FED7AA; --g-C6: #4ADE80; --g-C6-ink: #BBF7D0; --g-C7: #FACC15; --g-C7-ink: #FEF08A;
   --mb-ink-l: 80%; --mb-bg-l: 17%; --mb-bd-l: 38%; --mb-sat: 60%;
   --shadow-1: 0 1px 2px rgba(0, 0, 0, .4);
   --shadow-2: 0 8px 24px -8px rgba(0, 0, 0, .6);
@@ -246,6 +250,7 @@ main { flex: 1; padding: 20px 0 40px; }
 .section-head .spacer + a { font-weight: 700; font-size: var(--fs-sm); }
 
 .badge { display: inline-flex; align-items: center; gap: 4px; font-size: var(--fs-xs); font-weight: 700; padding: 3px 9px; border-radius: 999px; background: var(--surface-2); color: var(--text-muted); border: 1px solid var(--border); white-space: nowrap; line-height: 1.4; }
+.badge--warn { background: var(--warning-soft); color: var(--warning); border-color: color-mix(in srgb, var(--warning) 40%, var(--border)); }
 .badge-unreviewed { background: var(--warning-soft); color: var(--warning); border-color: color-mix(in srgb, var(--warning) 40%, transparent); }
 .badge-demo { background: var(--warning-soft); color: var(--warning); border-color: color-mix(in srgb, var(--warning) 40%, transparent); }
 .badge-ai { background: var(--accent-soft); color: var(--accent-ink); border-color: color-mix(in srgb, var(--accent) 35%, transparent); }
@@ -332,6 +337,12 @@ main { flex: 1; padding: 20px 0 40px; }
 .etile[data-lesson="B3"], [data-lesson="B3"] { --g: var(--g-B3); --g-ink: var(--g-B3-ink); }
 .etile[data-lesson="B4"], [data-lesson="B4"] { --g: var(--g-B4); --g-ink: var(--g-B4-ink); }
 [data-lesson="B1"] { --g: var(--g-B1); --g-ink: var(--g-B1-ink); }
+[data-lesson="B5"], [data-lesson="B6"], [data-lesson="B7"], [data-lesson="B8"], [data-lesson="B9"] { --g: var(--g-C2); --g-ink: var(--g-C2-ink); }
+[data-lesson="B10"], [data-lesson="B11"], [data-lesson="B12"], [data-lesson="B13"], [data-lesson="B14"] { --g: var(--g-C3); --g-ink: var(--g-C3-ink); }
+[data-lesson="B15"], [data-lesson="B16"] { --g: var(--g-C4); --g-ink: var(--g-C4-ink); }
+[data-lesson="B17"], [data-lesson="B18"] { --g: var(--g-C5); --g-ink: var(--g-C5-ink); }
+[data-lesson="B19"], [data-lesson="B20"] { --g: var(--g-C6); --g-ink: var(--g-C6-ink); }
+[data-lesson="B21"], [data-lesson="B22"], [data-lesson="B23"] { --g: var(--g-C7); --g-ink: var(--g-C7-ink); }
 .mini-bar { flex: 1; height: 6px; border-radius: 99px; background: var(--surface-3); overflow: hidden; }
 .mini-bar > i { display: block; height: 100%; background: var(--g, var(--primary)); border-radius: inherit; transition: width .6s var(--ease); }
 

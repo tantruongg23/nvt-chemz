@@ -16,6 +16,17 @@ const nQ = content.questions.length;
 const nT = content.terms.length;
 const nM = content.misconceptions.length;
 
+function chapterBlocks() {
+  return content.chapters.map((ch) => {
+    const ls = content.lessons.filter((l) => l.chapter === ch.id);
+    const n = ls.reduce((s, l) => s + qCount(l.id), 0);
+    const draft = content.questions.some((q) => q.chapter === ch.id && q.reviewed === false);
+    const tag = !ls.length ? '<span class="badge">Đang biên soạn</span>' : draft ? '<span class="badge badge--warn">Bản nháp – chưa duyệt</span>' : '';
+    return `<div class="section-head"><h2>Chương ${ch.number} · ${esc(ch.title)}</h2>${tag}<span class="spacer"></span>${n ? `<span class="small muted">${n} câu</span>` : ''}</div>
+    ${ls.length ? `<div class="tile-grid">${ls.map((l, i) => lessonTile(l, i, byLesson[l.id], qCount(l.id))).join('')}</div>` : `<p class="small muted">Chương ${ch.number} (${(ch.lessons || []).join(', ')}) đang được biên soạn.</p>`}`;
+  }).join('');
+}
+
 function welcomeCard() {
   const total = stats?.total_attempts || 0;
   // gợi ý bài tiếp theo: bài chưa làm, hoặc bài có độ chính xác thấp nhất
@@ -43,9 +54,9 @@ app.innerHTML = `
   ${contentErrorNotice(content)}
   <section class="hero">
     <div>
-      <p class="eyebrow">Hóa học 10 · Chương 1 · Kết nối tri thức</p>
-      <h1>Hiểu <span class="grad">cấu tạo nguyên tử</span> – không chỉ học thuộc.</h1>
-      <p class="hero__lead">Ôn tập bằng câu hỏi chẩn đoán: mỗi đáp án sai cho biết em đang hiểu nhầm điều gì, kèm gợi ý từng bước và thuật ngữ tiếng Anh.</p>
+      <p class="eyebrow">Hóa học 10 · Kết nối tri thức</p>
+      <h1>Hiểu <span class="grad">Hóa học 10</span> – không chỉ học thuộc.</h1>
+      <p class="hero__lead">Ôn tập và tự học trước bằng câu hỏi chẩn đoán: mỗi đáp án sai cho biết em đang hiểu nhầm điều gì, kèm gợi ý từng bước và thuật ngữ tiếng Anh.</p>
       <div class="hero__pills" aria-label="Nội dung hiện có">
         <span class="hero__pill"><b class="num">${nQ}</b> câu chẩn đoán</span>
         <span class="hero__pill"><b class="num">${nM}</b> lỗi sai được gắn mã</span>
@@ -56,10 +67,7 @@ app.innerHTML = `
     <div class="atom-stage" id="atom" aria-label="Mô hình nguyên tử tương tác"></div>
   </section>
 
-  <div class="section-head"><h2>Bài học chương 1</h2><span class="spacer"></span><a href="lesson.html">Tất cả bài</a></div>
-  <div class="tile-grid">
-    ${content.lessons.map((l, i) => lessonTile(l, i, byLesson[l.id], qCount(l.id))).join('') || '<p class="muted">Chưa có dữ liệu bài học.</p>'}
-  </div>
+  ${chapterBlocks()}
 
   <div class="section-head"><h2>Ôn theo cách của em</h2></div>
   <div class="quick-links">

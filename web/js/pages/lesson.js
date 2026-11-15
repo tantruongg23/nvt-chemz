@@ -1,5 +1,6 @@
 import { mountShell, $, esc, icon, md, rich, registerTerms, termChips, mbadge, misHue, lessonTile, contentErrorNotice, qs } from '../ui.js';
 import { loadContent, getMyStats, getSession } from '../store.js';
+import { chapterOfLesson } from '../content.js';
 
 mountShell('lesson');
 const app = $('#app');
@@ -14,12 +15,17 @@ const lesson = content.index.lesson.get(id);
 if (!lesson) {
   document.title = 'Bài học · NVT Smart Chemistry';
   app.innerHTML = `${contentErrorNotice(content)}
-    <p class="eyebrow">Chương 1 · Cấu tạo nguyên tử</p><h1>Chọn bài để ôn</h1>
+    <p class="eyebrow">Hóa học 10 · Kết nối tri thức</p><h1>Chọn bài để học</h1>
     ${id ? `<div class="notice notice--warn" role="status">${icon('warn')}Không tìm thấy bài “${esc(id)}”.</div>` : ''}
-    <div class="tile-grid" style="margin-top:16px">${content.lessons.map((l, i) => lessonTile(l, i, byLesson[l.id], qCount(l.id))).join('')}</div>`;
+    ${content.chapters.filter((ch) => content.lessons.some((l) => l.chapter === ch.id)).map((ch) => `<h2 style="margin-top:22px">Chương ${ch.number} · ${esc(ch.title)}</h2>
+    <div class="tile-grid" style="margin-top:10px">${content.lessons.filter((l) => l.chapter === ch.id).map((l, i) => lessonTile(l, i, byLesson[l.id], qCount(l.id))).join('')}</div>`).join('')}`;
 } else {
   document.title = `${lesson.id} – ${lesson.title} · NVT Smart Chemistry`;
   const idx = content.lessons.indexOf(lesson);
+  const num = lesson.number || idx + 1;
+  const ch = chapterOfLesson(content, lesson.id);
+  const chLabel = ch ? `Chương ${ch.number}` : '';
+  const quick = (lesson.quick_check || []).filter((q) => content.index.question.has(q));
   const prev = content.lessons[idx - 1];
   const next = content.lessons[idx + 1];
   const mis = content.misconceptions.filter((m) => (m.lessons || []).includes(lesson.id));
@@ -30,18 +36,23 @@ if (!lesson) {
     <nav aria-label="Đường dẫn" class="small muted" style="margin-bottom:10px"><a href="lesson.html">Bài học</a> / ${esc(lesson.id)}</nav>
     <header class="lesson-hero" data-lesson="${esc(lesson.id)}">
       <div class="etile" data-lesson="${esc(lesson.id)}" aria-hidden="true">
-        <div class="etile__top"><span>${idx + 1}</span><span></span></div>
+        <div class="etile__top"><span>${num}</span><span></span></div>
         <div class="etile__sym">${esc(lesson.id)}</div>
-        <div class="etile__sub">Chương 1</div>
+        <div class="etile__sub">${esc(chLabel)}</div>
       </div>
       <div>
-        <p class="eyebrow">Bài ${idx + 1} · Chương 1</p>
+        <p class="eyebrow">Bài ${num} · ${esc(chLabel)}${ch ? ` – ${esc(ch.title)}` : ''}${lesson.kind === 'review' ? ' · Ôn tập' : ''}</p>
         <h1>${esc(lesson.title)}</h1>
         <p class="muted" lang="en" style="margin:0">${esc(lesson.title_en || '')}</p>
       </div>
     </header>
 
     <div class="stack" data-lesson="${esc(lesson.id)}">
+      ${(lesson.objectives || []).length ? `<section class="card" aria-labelledby="objTitle">
+        <div class="card-title">${icon('target')}<h2 id="objTitle">Học xong bài này, em cần</h2></div>
+        <ul class="summary-list">${lesson.objectives.map((o) => `<li>${rich(o)}</li>`).join('')}</ul>
+      </section>` : ''}
+
       <section class="card" aria-labelledby="sumTitle">
         <div class="card-title">${icon('sparkle')}<h2 id="sumTitle">Ý chính cần nhớ</h2></div>
         <ul class="summary-list">${(lesson.summary || []).map((s) => `<li>${rich(s)}</li>`).join('')}</ul>
@@ -57,6 +68,20 @@ if (!lesson) {
         <div class="md">${md(s.body_md)}</div>
         ${(s.terms || []).length ? `<div class="term-row" aria-label="Thuật ngữ tiếng Anh trong mục này">${termChips(s.terms)}</div>` : ''}
       </section>`).join('')}
+
+      ${(lesson.worked_examples || []).length ? `<section class="card" aria-labelledby="exTitle">
+        <div class="card-title">${icon('flask')}<h2 id="exTitle">Ví dụ mẫu</h2></div>
+        ${lesson.worked_examples.map((ex, i) => `<div class="lesson-section" style="margin-top:${i ? 16 : 6}px">
+          <p style="margin:0 0 6px"><b>Ví dụ ${i + 1}.</b> ${rich(ex.problem)}</p>
+          <details><summary>Xem lời giải</summary><div class="small" style="margin-top:6px">${rich(ex.solution)}</div></details>
+        </div>`).join('')}
+      </section>` : ''}
+
+      ${quick.length ? `<section class="card" aria-labelledby="qcTitle">
+        <div class="card-title">${icon('check')}<h2 id="qcTitle">Kiểm tra nhanh</h2></div>
+        <p class="small" style="margin:0 0 10px">${quick.length} câu ngắn để tự kiểm tra em đã hiểu bài chưa.</p>
+        <a class="btn" href="practice.html?lesson=${encodeURIComponent(lesson.id)}&amp;ids=${encodeURIComponent(quick.join(','))}">Làm kiểm tra nhanh ${icon('right')}</a>
+      </section>` : ''}
 
       ${mis.length ? `<section aria-labelledby="misTitle">
         <div class="section-head" style="margin-top:20px"><h2 id="misTitle">Lỗi sai hay gặp ở bài này</h2></div>

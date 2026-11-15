@@ -1,0 +1,373 @@
+[
+  {
+    "id": "B5",
+    "number": 5,
+    "chapter": "C2",
+    "kind": "lesson",
+    "title": "Cấu tạo của bảng tuần hoàn các nguyên tố hóa học",
+    "title_en": "Structure of the periodic table of chemical elements",
+    "objectives": [
+      "Nêu được về lịch sử phát minh định luật tuần hoàn và bảng tuần hoàn.",
+      "Mô tả được cấu tạo của bảng tuần hoàn hiện tại, khái niệm về ô nguyên tố, chu kì, nhóm (nhóm A, nhóm B).",
+      "Nêu được nguyên tắc sắp xếp của bảng tuần hoàn các nguyên tố hóa học (dựa theo cấu hình electron).",
+      "Phân loại được các nguyên tố hóa học dựa theo cấu hình electron (nguyên tố s, p, d, f) và dựa theo tính chất hóa học (kim loại, phi kim, khí hiếm)."
+    ],
+    "summary": [
+      "Bảng tuần hoàn hiện nay xếp các nguyên tố theo chiều tăng dần điện tích hạt nhân; các nguyên tố cùng số lớp electron xếp cùng hàng (chu kì); các nguyên tố có số electron hóa trị như nhau (cấu hình electron tương tự) xếp cùng cột (nhóm).",
+      "Số thứ tự ô nguyên tố = số hiệu nguyên tử Z = số proton = số electron.",
+      "Có 7 chu kì: chu kì 1, 2, 3 là chu kì nhỏ (2, 8, 8 nguyên tố); chu kì 4–7 là chu kì lớn (18, 18, 32, 32 nguyên tố). Số thứ tự chu kì = số lớp electron.",
+      "Có 18 cột gồm 8 nhóm A (IA–VIIIA: nguyên tố s, p) và 8 nhóm B (IIIB–IIB, nhóm VIIIB có 3 cột: nguyên tố d, f). Số thứ tự nhóm A = số electron lớp ngoài cùng.",
+      "Nguyên tố nhóm B có cấu hình (n−1)dᵃnsᵇ: nhóm được xác định theo tổng a + b (3–7 → (a + b)B; 8–10 → VIIIB; 11 → IB; 12 → IIB).",
+      "Theo tính chất, nguyên tố gồm kim loại (phần lớn, ở bên trái và giữa bảng), phi kim (góc trên bên phải) và khí hiếm (nhóm VIIIA)."
+    ],
+    "sections": [
+      {
+        "heading": "Lịch sử phát minh bảng tuần hoàn",
+        "body_md": "- Trong thế kỉ XIX, trước Mendeleev, nhiều nhà khoa học đã tìm cách sắp xếp các nguyên tố đã biết theo một quy luật (ví dụ Döbereiner sắp xếp theo \"bộ ba\" – năm 1829; Newlands đưa ra \"quy luật bát độ\" – năm 1865).\n- **Năm 1869, D. I. Mendeleev** công bố bảng tuần hoàn: sắp xếp khoảng 60 nguyên tố theo chiều **tăng dần nguyên tử khối**, đặt các nguyên tố có tính chất giống nhau vào cùng cột; ông còn **để trống một số ô** và dự đoán tính chất của các nguyên tố chưa được tìm ra (sau này được xác nhận, ví dụ gallium, germanium).\n- Đầu thế kỉ XX, khi khám phá ra cấu tạo nguyên tử, các nhà khoa học nhận thấy tính chất của nguyên tố phụ thuộc vào **điện tích hạt nhân**. Bảng tuần hoàn hiện nay sắp xếp theo chiều **tăng dần điện tích hạt nhân** (số hiệu nguyên tử).",
+        "terms": [
+          "T-101",
+          "T-102",
+          "T-116"
+        ]
+      },
+      {
+        "heading": "Nguyên tắc sắp xếp và ô nguyên tố",
+        "body_md": "**Ba nguyên tắc sắp xếp:**\n1. Các nguyên tố được xếp theo chiều **tăng dần điện tích hạt nhân** nguyên tử.\n2. Các nguyên tố có **cùng số lớp electron** trong nguyên tử được xếp thành **một hàng** (chu kì).\n3. Các nguyên tố có **số electron hóa trị như nhau** (cấu hình electron tương tự) được xếp thành **một cột** (nhóm).\n\n**Ô nguyên tố:** mỗi nguyên tố chiếm một ô. **Số thứ tự ô = số hiệu nguyên tử Z** = số proton = số electron. Trong ô thường ghi: số hiệu nguyên tử, kí hiệu hóa học, tên nguyên tố, nguyên tử khối trung bình, độ âm điện, cấu hình electron, số oxi hóa (tùy mẫu bảng).\n\n> Ví dụ: ô số 11 là sodium (Na), Z = 11 → hạt nhân có 11 proton, vỏ có 11 electron.",
+        "terms": [
+          "T-116",
+          "T-101",
+          "T-102"
+        ]
+      },
+      {
+        "heading": "Chu kì",
+        "body_md": "**Chu kì** là dãy các nguyên tố mà nguyên tử của chúng có **cùng số lớp electron**, xếp theo chiều tăng dần điện tích hạt nhân. **Số thứ tự chu kì = số lớp electron.**\n\n| Chu kì | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n|---|---|---|---|---|---|---|---|\n| Số nguyên tố | 2 | 8 | 8 | 18 | 18 | 32 | 32 |\n| Loại | nhỏ | nhỏ | nhỏ | lớn | lớn | lớn | lớn |\n\n- Chu kì nhỏ (1, 2, 3) chỉ gồm nguyên tố s và p. Chu kì lớn (4–7) có thêm nguyên tố d; chu kì 6, 7 có thêm nguyên tố f (họ lanthanide, actinide – xếp thành hai hàng riêng ở cuối bảng).\n- Mỗi chu kì (trừ chu kì 1) bắt đầu bằng một kim loại kiềm (nhóm IA) và kết thúc bằng một khí hiếm (nhóm VIIIA).\n\n> Lưu ý: số electron lớp ngoài cùng **không** cho biết chu kì. Na (2, 8, 1) và Cl (2, 8, 7) đều có 3 lớp → cùng chu kì 3.",
+        "terms": [
+          "T-101",
+          "T-106",
+          "T-107",
+          "T-108"
+        ]
+      },
+      {
+        "heading": "Nhóm nguyên tố: nhóm A và nhóm B",
+        "body_md": "**Nhóm** là tập hợp các nguyên tố có **cấu hình electron tương tự** (cùng số electron hóa trị), do đó có tính chất hóa học gần giống nhau, xếp thành một cột. Bảng tuần hoàn có **18 cột**: 8 nhóm A và 8 nhóm B (nhóm VIIIB gồm 3 cột).\n\n**Nhóm A (IA → VIIIA)** – gồm nguyên tố s và p:\n- **Số thứ tự nhóm A = số electron lớp ngoài cùng** (= số electron hóa trị; ngoại lệ: helium ở nhóm VIIIA nhưng chỉ có 2 electron).\n- Ví dụ: Cl: 1s²2s²2p⁶**3s²3p⁵** → 3 lớp, 7 e ngoài cùng → chu kì 3, nhóm VIIA.\n- Một số nhóm có tên riêng: IA – kim loại kiềm (trừ H); IIA – kim loại kiềm thổ; VIIA – halogen; VIIIA – khí hiếm.\n\n**Nhóm B (IIIB → IIB)** – gồm nguyên tố d và f (đều là kim loại, còn gọi là nguyên tố chuyển tiếp), bắt đầu từ chu kì 4.\n- *Mở rộng (chỉ dùng khi đề cho sẵn cấu hình electron, vì chương trình chỉ yêu cầu viết cấu hình của 20 nguyên tố đầu):* với cấu hình **(n−1)dᵃnsᵇ**, electron hóa trị gồm cả electron (n−1)d và ns:\n\n| a + b | 3 → 7 | 8, 9, 10 | 11 | 12 |\n|---|---|---|---|---|\n| Nhóm | (a + b)B | VIIIB | IB | IIB |\n\n- Ví dụ: Fe (Z = 26): [Ar]3d⁶4s² → a + b = 8 → **chu kì 4, nhóm VIIIB** (không phải nhóm IIA). Mn (Z = 25): 3d⁵4s² → a + b = 7 → nhóm VIIB.",
+        "terms": [
+          "T-102",
+          "T-103",
+          "T-104",
+          "T-108",
+          "T-109",
+          "T-110"
+        ]
+      },
+      {
+        "heading": "Phân loại nguyên tố",
+        "body_md": "**Theo cấu hình electron** (phân lớp có electron cuối cùng điền vào):\n\n| Loại | Electron cuối cùng điền vào | Vị trí |\n|---|---|---|\n| Nguyên tố s | phân lớp ns | nhóm IA, IIA (và He) |\n| Nguyên tố p | phân lớp np | nhóm IIIA → VIIIA (trừ He) |\n| Nguyên tố d | phân lớp (n−1)d | nhóm B |\n| Nguyên tố f | phân lớp (n−2)f | họ lanthanide, actinide (nhóm IIIB) |\n\n**Theo tính chất hóa học:**\n- **Kim loại**: chiếm phần lớn bảng tuần hoàn (nhóm IA trừ H, IIA, IIIA trừ B, toàn bộ nhóm B và một phần các nhóm IVA–VIA).\n- **Phi kim**: tập trung ở góc trên bên phải (ví dụ C, N, O, F, P, S, Cl).\n- **Khí hiếm**: nhóm VIIIA (He, Ne, Ar…).",
+        "terms": [
+          "T-105",
+          "T-103",
+          "T-104"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Số thứ tự ô = Z = số proton = số electron",
+      "Số thứ tự chu kì = số lớp electron",
+      "Số thứ tự nhóm A = số electron lớp ngoài cùng (nguyên tố s, p)",
+      "Nhóm B, cấu hình (n−1)dᵃnsᵇ: a + b = 3–7 → (a + b)B; 8–10 → VIIIB; 11 → IB; 12 → IIB",
+      "Số nguyên tố trong chu kì 1 → 7: 2, 8, 8, 18, 18, 32, 32"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Xác định vị trí (ô, chu kì, nhóm) của chlorine (Z = 17) trong bảng tuần hoàn. Chlorine là kim loại, phi kim hay khí hiếm?",
+        "solution": "Bước 1: Z = 17 → chlorine ở ô số 17.\nBước 2: Cấu hình electron: 1s²2s²2p⁶3s²3p⁵ → theo lớp: 2, 8, 7.\nBước 3: 3 lớp electron → chu kì 3. Electron cuối cùng điền vào phân lớp 3p → nguyên tố p, thuộc nhóm A; lớp ngoài cùng có 7 electron → nhóm VIIA.\nBước 4: 7 electron lớp ngoài cùng, ở góc trên bên phải bảng → chlorine là phi kim (halogen)."
+      },
+      {
+        "problem": "Nguyên tử zinc (Zn, Z = 30) có cấu hình electron 1s²2s²2p⁶3s²3p⁶3d¹⁰4s². Xác định vị trí của Zn trong bảng tuần hoàn.",
+        "solution": "Bước 1: Lớp ngoài cùng là lớp 4 (4s²) → Zn có 4 lớp electron → chu kì 4.\nBước 2: Theo thứ tự mức năng lượng, electron cuối cùng điền vào phân lớp 3d → nguyên tố d → nhóm B.\nBước 3: Cấu hình (n−1)dᵃnsᵇ = 3d¹⁰4s² → a + b = 10 + 2 = 12 → nhóm IIB.\nBước 4: Kết luận: Zn ở ô 30, chu kì 4, nhóm IIB. (Không kết luận nhóm IIA chỉ vì có 2 electron 4s – lỗi M12.)"
+      }
+    ],
+    "quick_check": [
+      "Q-B5-001",
+      "Q-B5-002",
+      "Q-B5-005"
+    ]
+  },
+  {
+    "id": "B6",
+    "number": 6,
+    "chapter": "C2",
+    "kind": "lesson",
+    "title": "Xu hướng biến đổi một số tính chất của nguyên tử các nguyên tố trong một chu kì và trong một nhóm",
+    "title_en": "Periodic trends in atomic properties within a period and a group",
+    "objectives": [
+      "Giải thích được xu hướng biến đổi bán kính nguyên tử trong một chu kì, trong một nhóm (nhóm A) (dựa theo lực hút tĩnh điện của hạt nhân với electron ngoài cùng và dựa theo số lớp electron tăng trong một nhóm theo chiều từ trên xuống dưới).",
+      "Nhận xét và giải thích được xu hướng biến đổi độ âm điện và tính kim loại, phi kim của nguyên tử các nguyên tố trong một chu kì, trong một nhóm (nhóm A)."
+    ],
+    "summary": [
+      "Bán kính nguyên tử phụ thuộc vào số lớp electron và lực hút của hạt nhân với electron lớp ngoài cùng.",
+      "Trong một chu kì (trái → phải): bán kính giảm; độ âm điện tăng; tính kim loại giảm, tính phi kim tăng.",
+      "Trong một nhóm A (trên → dưới): bán kính tăng; độ âm điện giảm; tính kim loại tăng, tính phi kim giảm.",
+      "Độ âm điện đặc trưng cho khả năng hút electron của nguyên tử khi tạo liên kết hóa học; fluorine có độ âm điện lớn nhất (3,98 – thang Pauling).",
+      "Kim loại mạnh nhất nằm ở góc dưới bên trái; phi kim mạnh nhất là fluorine ở góc trên bên phải (không xét khí hiếm)."
+    ],
+    "sections": [
+      {
+        "heading": "Bán kính nguyên tử",
+        "body_md": "Bán kính nguyên tử phụ thuộc vào hai yếu tố: **số lớp electron** và **lực hút tĩnh điện** giữa hạt nhân (điện tích +Z) với các electron lớp ngoài cùng.\n\n- **Trong một chu kì**: các nguyên tử có **cùng số lớp electron**, nhưng điện tích hạt nhân tăng dần → lực hút electron ngoài cùng tăng → **bán kính giảm dần** từ trái sang phải.\n- **Trong một nhóm A**: từ trên xuống, **số lớp electron tăng** → electron ngoài cùng ở xa hạt nhân hơn → **bán kính tăng dần** (ảnh hưởng của số lớp electron lấn át ảnh hưởng của điện tích hạt nhân).\n\n> Ví dụ: chu kì 3: Na > Mg > Al > Si > P > S > Cl. Nhóm IA: Li < Na < K.\n\n*Lỗi hay gặp (M13): nghĩ rằng nguyên tử có nhiều proton, nhiều electron hơn thì \"to hơn\" – điều này chỉ đúng khi đi xuống trong nhóm (vì thêm lớp electron), không đúng trong một chu kì.*",
+        "terms": [
+          "T-111",
+          "T-116",
+          "T-117"
+        ]
+      },
+      {
+        "heading": "Độ âm điện",
+        "body_md": "**Độ âm điện** của một nguyên tử đặc trưng cho **khả năng hút electron** của nguyên tử đó khi tạo thành liên kết hóa học. Thường dùng **thang Pauling**.\n\n- **Trong một chu kì**: bán kính giảm, điện tích hạt nhân tăng → **độ âm điện tăng dần**.\n- **Trong một nhóm A**: bán kính tăng → **độ âm điện giảm dần**.\n\nĐộ âm điện (Pauling) của một số nguyên tố:\n\n| IA | IIA | IIIA | IVA | VA | VIA | VIIA |\n|---|---|---|---|---|---|---|\n| Li 0,98 | Be 1,57 | B 2,04 | C 2,55 | N 3,04 | O 3,44 | F 3,98 |\n| Na 0,93 | Mg 1,31 | Al 1,61 | Si 1,90 | P 2,19 | S 2,58 | Cl 3,16 |\n| K 0,82 | Ca 1,00 | | | | | |\n\n- **Fluorine** có độ âm điện **lớn nhất** (3,98); oxygen đứng thứ hai (3,44).",
+        "terms": [
+          "T-112",
+          "T-117"
+        ]
+      },
+      {
+        "heading": "Tính kim loại và tính phi kim",
+        "body_md": "- **Tính kim loại**: tính chất của nguyên tố mà nguyên tử **dễ nhường electron** để trở thành ion dương. Nguyên tử càng dễ nhường electron → tính kim loại càng mạnh.\n- **Tính phi kim**: tính chất của nguyên tố mà nguyên tử **dễ nhận electron** để trở thành ion âm. Nguyên tử càng dễ nhận electron → tính phi kim càng mạnh.\n\n| Đi theo | Bán kính | Độ âm điện | Tính kim loại | Tính phi kim |\n|---|---|---|---|---|\n| Chu kì (trái → phải) | giảm | tăng | giảm | tăng |\n| Nhóm A (trên → dưới) | tăng | giảm | tăng | giảm |\n\n**Giải thích:** trong chu kì, bán kính giảm và điện tích hạt nhân tăng → hạt nhân giữ electron ngoài cùng chặt hơn → khó nhường, dễ nhận electron. Trong nhóm A, bán kính tăng → electron ngoài cùng bị hút yếu hơn → dễ nhường electron.\n\n> Ví dụ: tính kim loại Na > Mg > Al (chu kì 3); Li < Na < K (nhóm IA). Tính phi kim F > Cl > Br > I (nhóm VIIA).\n\n*Lỗi hay gặp (M15): cho rằng nguyên tố có nhiều electron lớp ngoài cùng hơn thì tính kim loại mạnh hơn.*",
+        "terms": [
+          "T-114",
+          "T-115",
+          "T-111",
+          "T-108",
+          "T-110"
+        ]
+      },
+      {
+        "heading": "Mở rộng: năng lượng ion hóa thứ nhất",
+        "body_md": "**Năng lượng ion hóa thứ nhất (I₁)** là năng lượng tối thiểu cần để tách 1 electron ra khỏi nguyên tử ở thể khí, trạng thái cơ bản.\n- I₁ càng nhỏ → nguyên tử càng dễ nhường electron → tính kim loại càng mạnh.\n- Nhìn chung, I₁ **tăng** trong một chu kì (trái → phải) và **giảm** trong một nhóm A (trên → dưới) – ngược chiều với bán kính nguyên tử.\n\n*Phần này giúp hiểu sâu hơn vì sao tính kim loại biến đổi như trên.*",
+        "terms": [
+          "T-113",
+          "T-114"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Chu kì (trái → phải): bán kính ↓, độ âm điện ↑, tính kim loại ↓, tính phi kim ↑",
+      "Nhóm A (trên → dưới): bán kính ↑, độ âm điện ↓, tính kim loại ↑, tính phi kim ↓",
+      "Độ âm điện lớn nhất: F (3,98); kim loại mạnh nhất ở góc dưới bên trái"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Sắp xếp các nguyên tố Mg (Z = 12), Al (Z = 13), K (Z = 19), Ca (Z = 20) theo chiều bán kính nguyên tử tăng dần và theo chiều tính kim loại tăng dần.",
+        "solution": "Bước 1: Xác định vị trí: Mg (2, 8, 2: chu kì 3, IIA), Al (2, 8, 3: chu kì 3, IIIA), K (2, 8, 8, 1: chu kì 4, IA), Ca (2, 8, 8, 2: chu kì 4, IIA).\nBước 2: Trong chu kì 3: bán kính Mg > Al. Trong chu kì 4: bán kính K > Ca. Trong nhóm IIA: Ca > Mg.\nBước 3: Bán kính tăng dần: Al < Mg < Ca < K.\nBước 4: Tính kim loại biến đổi cùng chiều với bán kính (nguyên tử càng lớn càng dễ nhường electron): Al < Mg < Ca < K."
+      },
+      {
+        "problem": "So sánh độ âm điện và tính phi kim của các nguyên tố O (Z = 8), S (Z = 16), Cl (Z = 17).",
+        "solution": "Bước 1: Vị trí: O (chu kì 2, VIA), S (chu kì 3, VIA), Cl (chu kì 3, VIIA).\nBước 2: O và S cùng nhóm VIA: từ trên xuống độ âm điện giảm → O > S.\nBước 3: S và Cl cùng chu kì 3: từ trái sang phải độ âm điện tăng → Cl > S.\nBước 4: Theo số liệu Pauling: O (3,44) > Cl (3,16) > S (2,58). Tính phi kim biến đổi cùng chiều độ âm điện: O > Cl > S."
+      }
+    ],
+    "quick_check": [
+      "Q-B6-001",
+      "Q-B6-002",
+      "Q-B6-004"
+    ]
+  },
+  {
+    "id": "B7",
+    "number": 7,
+    "chapter": "C2",
+    "kind": "lesson",
+    "title": "Xu hướng biến đổi thành phần và một số tính chất của hợp chất trong một chu kì",
+    "title_en": "Trends in the composition and properties of compounds within a period",
+    "objectives": [
+      "Nhận xét được xu hướng biến đổi thành phần và tính chất acid/base của các oxide và các hydroxide theo chu kì.",
+      "Viết được phương trình hóa học minh họa tính chất acid, base, lưỡng tính của một số oxide và hydroxide."
+    ],
+    "summary": [
+      "Với nguyên tố nhóm A, hóa trị cao nhất với oxygen bằng số thứ tự nhóm; trong chu kì 3 tăng từ I (Na₂O) đến VII (Cl₂O₇).",
+      "(Mở rộng) Với phi kim nhóm IVA–VIIA, hóa trị trong hợp chất khí với hydrogen bằng 8 − số thứ tự nhóm (SiH₄, PH₃, H₂S, HCl).",
+      "Trong một chu kì, theo chiều tăng điện tích hạt nhân: tính base của oxide cao nhất và hydroxide tương ứng giảm dần, tính acid tăng dần.",
+      "Chu kì 3: Na₂O, MgO là oxide base; Al₂O₃ là oxide lưỡng tính; SiO₂, P₂O₅, SO₃, Cl₂O₇ là oxide acid.",
+      "Hydroxide chu kì 3: NaOH (base mạnh), Mg(OH)₂ (base yếu), Al(OH)₃ (lưỡng tính), H₂SiO₃ (acid yếu), H₃PO₄ (acid trung bình), H₂SO₄ (acid mạnh), HClO₄ (acid rất mạnh)."
+    ],
+    "sections": [
+      {
+        "heading": "Thành phần của oxide cao nhất và hydroxide",
+        "body_md": "Với các nguyên tố nhóm A, **hóa trị cao nhất với oxygen = số thứ tự nhóm**. Xét chu kì 3:\n\n| Nhóm | IA | IIA | IIIA | IVA | VA | VIA | VIIA |\n|---|---|---|---|---|---|---|---|\n| Nguyên tố | Na | Mg | Al | Si | P | S | Cl |\n| Hóa trị cao nhất | I | II | III | IV | V | VI | VII |\n| Oxide cao nhất | Na₂O | MgO | Al₂O₃ | SiO₂ | P₂O₅ | SO₃ | Cl₂O₇ |\n| Hydroxide tương ứng | NaOH | Mg(OH)₂ | Al(OH)₃ | H₂SiO₃ | H₃PO₄ | H₂SO₄ | HClO₄ |\n\n- Hóa trị cao nhất với oxygen **tăng dần từ I đến VII**.\n- Hydroxide của kim loại là base (hoặc lưỡng tính); hydroxide tương ứng với oxide cao nhất của phi kim là acid chứa oxygen.\n\n**Mở rộng – hợp chất khí với hydrogen** (của phi kim nhóm IVA–VIIA; SGK không đặt thành yêu cầu riêng nhưng hay gặp trong bài tập): hóa trị với hydrogen = **8 − số thứ tự nhóm**: SiH₄ (IV), PH₃ (III), H₂S (II), HCl (I).\n\n*Lỗi hay gặp (M16): dùng hóa trị với hydrogen để viết oxide cao nhất (viết Cl₂O thay vì Cl₂O₇) hoặc ngược lại.*",
+        "terms": [
+          "T-118",
+          "T-119",
+          "T-123"
+        ]
+      },
+      {
+        "heading": "Tính acid – base của oxide",
+        "body_md": "- **Oxide base** (Na₂O, MgO): tác dụng với acid tạo muối và nước; Na₂O tác dụng mạnh với nước tạo base.\n  - Na₂O + H₂O → 2NaOH\n  - MgO + 2HCl → MgCl₂ + H₂O\n- **Oxide lưỡng tính** (Al₂O₃): tác dụng được với cả dung dịch acid và dung dịch base.\n  - Al₂O₃ + 6HCl → 2AlCl₃ + 3H₂O\n  - Al₂O₃ + 2NaOH + 3H₂O → 2Na[Al(OH)₄] (một số tài liệu viết gọn: Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O)\n- **Oxide acid** (SiO₂, P₂O₅, SO₃, Cl₂O₇): tác dụng với base tạo muối và nước; nhiều oxide acid tác dụng với nước tạo acid.\n  - SO₃ + H₂O → H₂SO₄\n  - P₂O₅ + 3H₂O → 2H₃PO₄\n  - SO₃ + 2NaOH → Na₂SO₄ + H₂O\n\n**Xu hướng:** trong chu kì 3, từ Na₂O đến Cl₂O₇, **tính base giảm dần, tính acid tăng dần**.",
+        "terms": [
+          "T-118",
+          "T-120",
+          "T-121",
+          "T-122"
+        ]
+      },
+      {
+        "heading": "Tính acid – base của hydroxide",
+        "body_md": "| Hydroxide | NaOH | Mg(OH)₂ | Al(OH)₃ | H₂SiO₃ | H₃PO₄ | H₂SO₄ | HClO₄ |\n|---|---|---|---|---|---|---|---|\n| Tính chất | base mạnh | base yếu | lưỡng tính | acid yếu | acid trung bình | acid mạnh | acid rất mạnh |\n\n- Al(OH)₃ là **hydroxide lưỡng tính**:\n  - Al(OH)₃ + 3HCl → AlCl₃ + 3H₂O\n  - Al(OH)₃ + NaOH → Na[Al(OH)₄] (hoặc viết gọn: Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O)\n- **Quy luật:** trong một chu kì, theo chiều tăng điện tích hạt nhân, **tính base của hydroxide giảm dần, tính acid tăng dần**.\n\n*Lỗi hay gặp (M17): nghĩ rằng acid có nhiều nguyên tử H (H₃PO₄) mạnh hơn acid có ít H (HClO₄), hoặc base có nhiều nhóm OH (Al(OH)₃) mạnh hơn NaOH.*",
+        "terms": [
+          "T-119",
+          "T-122",
+          "T-117"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Hóa trị cao nhất với oxygen = số thứ tự nhóm A",
+      "(Mở rộng) Hóa trị với hydrogen (phi kim nhóm IVA–VIIA) = 8 − số thứ tự nhóm",
+      "Oxide cao nhất chu kì 3: Na₂O, MgO, Al₂O₃, SiO₂, P₂O₅, SO₃, Cl₂O₇",
+      "Chu kì (trái → phải): tính base của oxide, hydroxide ↓; tính acid ↑"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Nguyên tố R thuộc chu kì 3, nhóm VIIA. Viết công thức oxide cao nhất, hydroxide tương ứng và hợp chất khí với hydrogen của R. So sánh tính acid của hydroxide đó với H₂SO₄.",
+        "solution": "Bước 1: Chu kì 3, nhóm VIIA → R là chlorine (2, 8, 7).\nBước 2: Hóa trị cao nhất với oxygen = VII → oxide cao nhất Cl₂O₇; hydroxide tương ứng HClO₄ (Cl₂O₇ + H₂O → 2HClO₄).\nBước 3: Hóa trị với hydrogen = 8 − 7 = I → HCl.\nBước 4: Cl đứng sau S trong chu kì 3 → HClO₄ có tính acid mạnh hơn H₂SO₄."
+      },
+      {
+        "problem": "Viết phương trình hóa học chứng minh Al(OH)₃ là hydroxide lưỡng tính.",
+        "solution": "Bước 1: Hydroxide lưỡng tính phải tác dụng được với cả dung dịch acid và dung dịch base.\nBước 2: Với acid: Al(OH)₃ + 3HCl → AlCl₃ + 3H₂O.\nBước 3: Với base: Al(OH)₃ + NaOH → Na[Al(OH)₄].\nBước 4: Kết luận: Al(OH)₃ thể hiện cả tính base và tính acid → lưỡng tính."
+      }
+    ],
+    "quick_check": [
+      "Q-B7-001",
+      "Q-B7-002",
+      "Q-B7-004"
+    ]
+  },
+  {
+    "id": "B8",
+    "number": 8,
+    "chapter": "C2",
+    "kind": "lesson",
+    "title": "Định luật tuần hoàn. Ý nghĩa của bảng tuần hoàn các nguyên tố hóa học",
+    "title_en": "The periodic law. Significance of the periodic table",
+    "objectives": [
+      "Phát biểu được định luật tuần hoàn.",
+      "Trình bày được ý nghĩa của bảng tuần hoàn: mối liên hệ giữa vị trí (trong bảng tuần hoàn) với tính chất của nguyên tố và ngược lại."
+    ],
+    "summary": [
+      "Định luật tuần hoàn: tính chất của các nguyên tố và đơn chất, cũng như thành phần và tính chất của các hợp chất tạo nên từ các nguyên tố đó biến đổi tuần hoàn theo chiều tăng của điện tích hạt nhân nguyên tử.",
+      "Nguyên nhân: cấu hình electron lớp ngoài cùng của nguyên tử các nguyên tố biến đổi tuần hoàn.",
+      "Biết vị trí (ô, chu kì, nhóm) → suy ra cấu tạo nguyên tử và tính chất: kim loại/phi kim, hóa trị cao nhất, công thức oxide cao nhất, hydroxide và tính acid/base.",
+      "Biết cấu hình electron → suy ra vị trí; từ vị trí so sánh tính chất với các nguyên tố lân cận.",
+      "Các nguyên tố cùng nhóm A có tính chất hóa học tương tự; các nguyên tố cùng chu kì có tính chất biến đổi dần."
+    ],
+    "sections": [
+      {
+        "heading": "Định luật tuần hoàn",
+        "body_md": "> **Định luật tuần hoàn:** Tính chất của các nguyên tố và đơn chất, cũng như thành phần và tính chất của các hợp chất tạo nên từ các nguyên tố đó **biến đổi tuần hoàn theo chiều tăng của điện tích hạt nhân** nguyên tử.\n\n- **Nguyên nhân:** khi điện tích hạt nhân tăng, cấu hình electron lớp ngoài cùng **lặp lại tuần hoàn** (ns¹ → ns²np⁶ ở mỗi chu kì). Vì vậy tính chất (bán kính, độ âm điện, tính kim loại – phi kim, hóa trị, tính acid – base của hợp chất…) cũng lặp lại.\n- Ví dụ: Li, Na, K đều có 1 electron lớp ngoài cùng → đều là kim loại kiềm, tạo oxide R₂O và hydroxide ROH là base mạnh.",
+        "terms": [
+          "T-124",
+          "T-125",
+          "T-116"
+        ]
+      },
+      {
+        "heading": "Ý nghĩa: quan hệ giữa vị trí và cấu tạo",
+        "body_md": "**Vị trí ⇄ cấu tạo nguyên tử** (với nguyên tố nhóm A):\n\n| Vị trí | | Cấu tạo nguyên tử |\n|---|---|---|\n| Số thứ tự ô | = | số proton = số electron (Z) |\n| Số thứ tự chu kì | = | số lớp electron |\n| Số thứ tự nhóm A | = | số electron lớp ngoài cùng |\n\n> Ví dụ: biết X ở ô 16 → Z = 16 → 2, 8, 6 → chu kì 3, nhóm VIA. Ngược lại, biết Y ở chu kì 2, nhóm VA → 2 lớp, 5 e ngoài cùng → 2, 5 → Z = 7 (nitrogen).",
+        "terms": [
+          "T-101",
+          "T-102",
+          "T-103"
+        ]
+      },
+      {
+        "heading": "Ý nghĩa: quan hệ giữa vị trí và tính chất",
+        "body_md": "Biết vị trí của một nguyên tố nhóm A, có thể suy ra:\n1. **Kim loại hay phi kim** (nhóm IA, IIA, IIIA thường là kim loại – trừ H, B; nhóm VA, VIA, VIIA thường là phi kim).\n2. **Hóa trị cao nhất với oxygen** = số thứ tự nhóm; (mở rộng) **hóa trị với hydrogen** (phi kim) = 8 − số thứ tự nhóm.\n3. **Công thức oxide cao nhất, hydroxide** và tính acid hay base của chúng.\n4. **So sánh tính chất** với các nguyên tố lân cận (cùng chu kì, cùng nhóm).\n\n> Ví dụ – sulfur (ô 16, chu kì 3, nhóm VIA): phi kim; oxide cao nhất SO₃ (oxide acid); hydroxide H₂SO₄ (acid mạnh); hợp chất với hydrogen H₂S. So sánh: tính phi kim P < S < Cl (chu kì 3); S < O (nhóm VIA).\n\n**Lưu ý:** nguyên tố cùng **nhóm A** mới có tính chất hóa học tương tự (cùng số electron lớp ngoài cùng). Na và Cl cùng chu kì 3 nhưng một là kim loại mạnh, một là phi kim mạnh (lỗi M18).",
+        "terms": [
+          "T-114",
+          "T-115",
+          "T-123",
+          "T-118",
+          "T-119"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Ô = Z; chu kì = số lớp e; nhóm A = số e lớp ngoài cùng",
+      "Hóa trị cao nhất với O = số thứ tự nhóm A; (mở rộng) hóa trị với H (phi kim) = 8 − số thứ tự nhóm",
+      "Cùng nhóm A → tính chất tương tự; cùng chu kì → tính chất biến đổi dần"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Nguyên tố X ở ô số 19 trong bảng tuần hoàn. Hãy nêu: cấu tạo nguyên tử, vị trí, tính kim loại hay phi kim, công thức oxide cao nhất và hydroxide tương ứng; so sánh tính kim loại của X với sodium (Z = 11).",
+        "solution": "Bước 1: Ô 19 → Z = 19: 19 proton, 19 electron; cấu hình 1s²2s²2p⁶3s²3p⁶4s¹ (2, 8, 8, 1).\nBước 2: 4 lớp electron → chu kì 4; 1 electron lớp ngoài cùng → nhóm IA (X là potassium).\nBước 3: Nhóm IA → kim loại mạnh (kim loại kiềm); hóa trị cao nhất I → oxide K₂O (oxide base), hydroxide KOH (base mạnh).\nBước 4: K và Na cùng nhóm IA, K ở dưới → bán kính lớn hơn → tính kim loại K > Na."
+      }
+    ],
+    "quick_check": [
+      "Q-B8-001",
+      "Q-B8-002",
+      "Q-B8-004"
+    ]
+  },
+  {
+    "id": "B9",
+    "number": 9,
+    "chapter": "C2",
+    "kind": "review",
+    "title": "Ôn tập chương 2",
+    "title_en": "Chapter 2 review",
+    "objectives": [
+      "Hệ thống hóa kiến thức về cấu tạo bảng tuần hoàn, xu hướng biến đổi tính chất của nguyên tử và hợp chất, định luật tuần hoàn.",
+      "Vận dụng giải các dạng bài: xác định vị trí từ cấu hình electron và ngược lại; so sánh bán kính, độ âm điện, tính kim loại – phi kim, tính acid – base; tìm nguyên tố từ công thức và thành phần phần trăm của oxide, hợp chất với hydrogen."
+    ],
+    "summary": [
+      "Ô = Z; chu kì = số lớp electron; nhóm A = số electron lớp ngoài cùng; nhóm B xét tổng electron (n−1)d và ns.",
+      "Chu kì (trái → phải): bán kính ↓, độ âm điện ↑, tính kim loại ↓, tính phi kim ↑, tính base của oxide/hydroxide ↓, tính acid ↑.",
+      "Nhóm A (trên → dưới): bán kính ↑, độ âm điện ↓, tính kim loại ↑, tính phi kim ↓.",
+      "Hóa trị cao nhất với oxygen = số thứ tự nhóm A; (mở rộng) hóa trị với hydrogen của phi kim = 8 − số thứ tự nhóm.",
+      "Định luật tuần hoàn: tính chất biến đổi tuần hoàn theo chiều tăng điện tích hạt nhân, do cấu hình electron lớp ngoài cùng lặp lại tuần hoàn."
+    ],
+    "sections": [
+      {
+        "heading": "Các dạng bài thường gặp",
+        "body_md": "**Dạng 1 – Cấu hình electron ⇄ vị trí.** Viết cấu hình → đếm số lớp (chu kì) → xét electron cuối cùng (s, p → nhóm A; d → nhóm B) → số e lớp ngoài cùng (nhóm A) hoặc a + b (nhóm B).\n\n**Dạng 2 – So sánh tính chất.** Xếp các nguyên tố vào bảng; so sánh từng cặp cùng chu kì hoặc cùng nhóm; nếu hai nguyên tố khác cả chu kì lẫn nhóm thì dùng nguyên tố trung gian (ví dụ so sánh Mg và K qua Na).\n\n**Dạng 3 – Tìm nguyên tố từ oxide cao nhất / hợp chất với hydrogen.**\n1. Từ nhóm (hoặc hóa trị với hydrogen) → hóa trị cao nhất với oxygen → công thức oxide R₂Oₙ.\n2. Lập phương trình phần trăm khối lượng → giải ra nguyên tử khối R.\n\n> Ví dụ: R nhóm IIA, oxide cao nhất RO có 60% R → R/(R + 16) = 0,6 → 0,4R = 9,6 → R = 24 (magnesium).\n\n**Dạng 4 – Hai nguyên tố liên tiếp.** Cùng chu kì, kế tiếp: Z₂ − Z₁ = 1. Cùng nhóm A, ở chu kì 2 và chu kì 3: Z₂ − Z₁ = 8. Giữa chu kì 3 và 4: 8 với nhóm IA, IIA nhưng 18 với nhóm IIIA–VIIIA (vì chu kì 4 có thêm 10 nguyên tố d).",
+        "terms": [
+          "T-101",
+          "T-102",
+          "T-118",
+          "T-123"
+        ]
+      },
+      {
+        "heading": "Bẫy lỗi sai cần tránh",
+        "body_md": "| Mã | Bẫy | Nhớ |\n|---|---|---|\n| M11 | Lấy số e ngoài cùng làm chu kì | Chu kì = số lớp e |\n| M12 | Fe 4s² → nhóm IIA | Nguyên tố d → nhóm B, tính a + b |\n| M13 | Bán kính tăng theo Z trong chu kì | Chu kì: bán kính giảm |\n| M14 | Độ âm điện tăng xuống dưới nhóm | F lớn nhất; nhóm: giảm |\n| M15 | Nhiều e ngoài cùng → kim loại mạnh | Chu kì: kim loại giảm |\n| M16 | Cl₂O thay vì Cl₂O₇ | Hóa trị với O = số nhóm; với H = 8 − số nhóm |\n| M17 | H₃PO₄ mạnh hơn HClO₄ | Chu kì: acid tăng, base giảm |\n| M18 | Cùng chu kì → tính chất giống | Cùng nhóm A → tính chất giống |",
+        "terms": [
+          "T-111",
+          "T-112",
+          "T-114",
+          "T-119"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Ô = Z; chu kì = số lớp e; nhóm A = số e lớp ngoài cùng",
+      "Nhóm B: (n−1)dᵃnsᵇ → a + b",
+      "Hóa trị cao nhất với O = số nhóm A; (mở rộng) hóa trị với H = 8 − số nhóm (phi kim)",
+      "%R trong R₂Oₙ = 2R / (2R + 16n) × 100%",
+      "Hai nguyên tố cùng nhóm A ở chu kì 2 và 3: ΔZ = 8"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Hai nguyên tố A và B đứng kế tiếp nhau trong một chu kì, có tổng số proton là 23 (Z_A < Z_B). Xác định A, B và so sánh bán kính nguyên tử, tính kim loại, tính base của hydroxide của chúng.",
+        "solution": "Bước 1: Kế tiếp trong chu kì → Z_B = Z_A + 1 → 2Z_A + 1 = 23 → Z_A = 11 (Na), Z_B = 12 (Mg).\nBước 2: Cấu hình: Na 2, 8, 1 (chu kì 3, IA); Mg 2, 8, 2 (chu kì 3, IIA).\nBước 3: Cùng chu kì 3, Z tăng: bán kính Na > Mg; tính kim loại Na > Mg.\nBước 4: Tính base của hydroxide: NaOH (base mạnh) > Mg(OH)₂ (base yếu)."
+      },
+      {
+        "problem": "Oxide cao nhất của nguyên tố R (nhóm VA) chứa 43,66% R về khối lượng. Xác định R.",
+        "solution": "Bước 1: Nhóm VA → hóa trị cao nhất V → oxide R₂O₅.\nBước 2: %R = 2R / (2R + 80) = 0,4366 → 2R = 0,4366 × (2R + 80) → 1,1268R = 34,928 → R ≈ 31,0.\nBước 3: R là phosphorus (P₂O₅: 62/142 ≈ 43,66%).\nLưu ý: không viết R₂O₃ (dùng hóa trị III như trong PH₃ – lỗi M16); khi đó R ≈ 18,6, không ứng với nguyên tố nào phù hợp."
+      }
+    ],
+    "quick_check": [
+      "Q-B9-001",
+      "Q-B9-002",
+      "Q-B9-004"
+    ]
+  }
+]

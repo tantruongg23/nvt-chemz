@@ -1,0 +1,112 @@
+[
+  {
+    "code": "M11",
+    "chapter": "C2",
+    "title": "Xác định sai chu kì, nhóm A từ cấu hình electron (nhầm chu kì với nhóm, đếm sai electron lớp ngoài cùng)",
+    "description": "Học sinh lấy số electron lớp ngoài cùng làm số thứ tự chu kì, hoặc lấy số lớp electron làm số thứ tự nhóm (đảo vị trí chu kì – nhóm); từ đó cho rằng các nguyên tố cùng chu kì có cùng số electron lớp ngoài cùng. Một biến thể hay gặp: chỉ đếm electron ở phân lớp p ngoài cùng mà quên electron phân lớp s cùng lớp (ví dụ 3s²3p⁴ → \"nhóm IVA\").",
+    "lessons": [
+      "B5",
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "remedy": "Số thứ tự chu kì = số lớp electron; số thứ tự nhóm A = số electron lớp ngoài cùng (= số electron hóa trị, gồm cả electron ns và np). Viết cấu hình theo lớp (ví dụ 2, 8, 6) rồi đếm: có mấy lớp → chu kì; lớp cuối có mấy electron → nhóm A.",
+    "example_wrong": "Sulfur (Z = 16; 2, 8, 6) thuộc chu kì 6, nhóm IIIA.",
+    "example_right": "Sulfur có 3 lớp electron → chu kì 3; lớp ngoài cùng có 6 electron → nhóm VIA."
+  },
+  {
+    "code": "M12",
+    "chapter": "C2",
+    "title": "Nhầm lẫn nhóm A – nhóm B: xác định nhóm của nguyên tố d chỉ theo electron lớp ngoài cùng (hoặc chỉ theo electron phân lớp d), hay xếp nguyên tố s, p vào nhóm B",
+    "description": "Với nguyên tố d (cấu hình (n−1)dᵃnsᵇ), học sinh chỉ đếm electron ns (ví dụ Fe 4s² → nhóm IIA) hoặc chỉ đếm electron (n−1)d (Fe 3d⁶ → nhóm VIB), quên rằng electron hóa trị của nguyên tố nhóm B gồm cả electron phân lớp (n−1)d và ns, và nguyên tố d luôn thuộc nhóm B. Theo chiều ngược lại, học sinh xếp nguyên tố s, p (electron cuối không điền vào phân lớp d) vào nhóm B (ví dụ Ca 4s² → \"nhóm IIB\").",
+    "lessons": [
+      "B5",
+      "B9"
+    ],
+    "remedy": "Electron điền cuối cùng vào phân lớp d → nguyên tố d → nhóm B. Tính a + b với cấu hình (n−1)dᵃnsᵇ: a + b = 3–7 → nhóm (a + b)B; a + b = 8, 9, 10 → nhóm VIIIB; a + b = 11 → IB; a + b = 12 → IIB.",
+    "example_wrong": "Fe (Z = 26): …3d⁶4s² có 2 electron lớp ngoài cùng nên thuộc nhóm IIA.",
+    "example_right": "Fe: …3d⁶4s² là nguyên tố d; a + b = 6 + 2 = 8 → chu kì 4, nhóm VIIIB."
+  },
+  {
+    "code": "M13",
+    "chapter": "C2",
+    "title": "Xác định sai chiều biến đổi bán kính nguyên tử (cho rằng bán kính tăng theo điện tích hạt nhân trong một chu kì hoặc giảm trong một nhóm)",
+    "description": "Học sinh cho rằng nguyên tử có điện tích hạt nhân lớn hơn, nhiều electron hơn thì \"to hơn\", nên bán kính tăng dần trong một chu kì; hoặc cho rằng bán kính giảm dần từ trên xuống trong một nhóm A.",
+    "lessons": [
+      "B6",
+      "B9"
+    ],
+    "remedy": "Trong một chu kì, số lớp electron không đổi nhưng điện tích hạt nhân tăng → lực hút electron ngoài cùng mạnh hơn → bán kính giảm. Trong một nhóm A, từ trên xuống số lớp electron tăng → bán kính tăng.",
+    "example_wrong": "Trong chu kì 3, bán kính nguyên tử: Na < Mg < Al < Si.",
+    "example_right": "Trong chu kì 3, bán kính nguyên tử: Na > Mg > Al > Si (cùng 3 lớp, điện tích hạt nhân tăng)."
+  },
+  {
+    "code": "M14",
+    "chapter": "C2",
+    "title": "Xác định sai chiều biến đổi độ âm điện trong chu kì và trong nhóm",
+    "description": "Học sinh cho rằng độ âm điện tăng từ trên xuống trong một nhóm A (vì điện tích hạt nhân tăng), hoặc giảm từ trái sang phải trong một chu kì; không nhận ra fluorine có độ âm điện lớn nhất.",
+    "lessons": [
+      "B6",
+      "B9"
+    ],
+    "remedy": "Độ âm điện tăng khi bán kính giảm: trong một chu kì tăng từ trái sang phải; trong một nhóm A giảm từ trên xuống. Fluorine (3,98) có độ âm điện lớn nhất; các kim loại kiềm cuối nhóm IA có độ âm điện nhỏ nhất.",
+    "example_wrong": "Độ âm điện của chlorine lớn hơn của fluorine vì chlorine có điện tích hạt nhân lớn hơn.",
+    "example_right": "Độ âm điện F (3,98) > Cl (3,16): đi xuống trong nhóm VIIA, bán kính tăng, khả năng hút electron liên kết giảm."
+  },
+  {
+    "code": "M15",
+    "chapter": "C2",
+    "title": "Xác định sai chiều biến đổi tính kim loại, tính phi kim",
+    "description": "Học sinh đảo chiều biến đổi: cho rằng tính kim loại tăng dần trong một chu kì (vì số electron lớp ngoài cùng tăng), hoặc tính phi kim tăng dần từ trên xuống trong một nhóm A (vì nhiều lớp electron hơn).",
+    "lessons": [
+      "B6",
+      "B8",
+      "B9"
+    ],
+    "remedy": "Tính kim loại là khả năng nhường electron: nguyên tử càng lớn, electron ngoài cùng bị hút càng yếu → càng dễ nhường. Vì vậy trong một chu kì tính kim loại giảm, tính phi kim tăng; trong một nhóm A tính kim loại tăng, tính phi kim giảm. Kim loại mạnh nhất ở góc dưới bên trái, phi kim mạnh nhất là fluorine (góc trên bên phải, trừ khí hiếm).",
+    "example_wrong": "Tính kim loại: Na < Mg < Al vì Al có nhiều electron lớp ngoài cùng nhất.",
+    "example_right": "Tính kim loại: Na > Mg > Al (cùng chu kì 3, bán kính giảm, khả năng nhường electron giảm)."
+  },
+  {
+    "code": "M16",
+    "chapter": "C2",
+    "title": "Nhầm hóa trị cao nhất với oxygen và hóa trị trong hợp chất khí với hydrogen",
+    "description": "Học sinh dùng hóa trị với hydrogen để viết công thức oxide cao nhất (hoặc ngược lại), ví dụ viết oxide cao nhất của chlorine là Cl₂O (vì HCl) hay hợp chất với hydrogen của sulfur là SH₆ (vì SO₃); hoặc cho rằng hóa trị cao nhất với oxygen bằng 8 − số thứ tự nhóm.",
+    "lessons": [
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "remedy": "Với nguyên tố nhóm A: hóa trị cao nhất với oxygen = số thứ tự nhóm (IA → VIIA: I → VII). (Mở rộng) Với phi kim nhóm IVA–VIIA: hóa trị trong hợp chất khí với hydrogen = 8 − số thứ tự nhóm; tổng hai hóa trị này bằng 8.",
+    "example_wrong": "Sulfur (nhóm VIA) có oxide cao nhất là SO (hóa trị II như trong H₂S).",
+    "example_right": "Sulfur: hóa trị cao nhất với oxygen là VI → SO₃; hóa trị với hydrogen là 8 − 6 = II → H₂S."
+  },
+  {
+    "code": "M17",
+    "chapter": "C2",
+    "title": "Xác định sai chiều biến đổi tính acid – base của oxide và hydroxide trong một chu kì",
+    "description": "Học sinh cho rằng tính base của oxide cao nhất và hydroxide tăng dần từ trái sang phải trong một chu kì (hoặc tính acid giảm dần), hay cho rằng acid có nhiều nguyên tử H hơn thì mạnh hơn (H₃PO₄ mạnh hơn HClO₄); không nhận ra Al₂O₃, Al(OH)₃ là lưỡng tính.",
+    "lessons": [
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "remedy": "Trong một chu kì, theo chiều tăng điện tích hạt nhân: tính base của oxide cao nhất và hydroxide tương ứng giảm dần, tính acid tăng dần. Chu kì 3: NaOH (base mạnh) > Mg(OH)₂ (base yếu) > Al(OH)₃ (lưỡng tính) → H₂SiO₃ (acid yếu) < H₃PO₄ (acid trung bình) < H₂SO₄ (acid mạnh) < HClO₄ (acid rất mạnh).",
+    "example_wrong": "Al(OH)₃ có tính base mạnh hơn NaOH vì có nhiều nhóm OH hơn.",
+    "example_right": "Tính base: NaOH > Mg(OH)₂ > Al(OH)₃ (Al(OH)₃ là hydroxide lưỡng tính)."
+  },
+  {
+    "code": "M18",
+    "chapter": "C2",
+    "title": "Cho rằng các nguyên tố cùng chu kì có tính chất hóa học tương tự nhau",
+    "description": "Học sinh nghĩ các nguyên tố đứng cạnh nhau trong một chu kì (cùng số lớp electron) thì có tính chất hóa học giống nhau, trong khi tính chất hóa học chủ yếu do số electron lớp ngoài cùng quyết định nên các nguyên tố cùng nhóm A mới có tính chất tương tự.",
+    "lessons": [
+      "B5",
+      "B8",
+      "B9"
+    ],
+    "remedy": "Các nguyên tố cùng nhóm A có cùng số electron lớp ngoài cùng → tính chất hóa học tương tự (ví dụ Li, Na, K đều là kim loại mạnh). Trong một chu kì, số electron lớp ngoài cùng tăng dần → tính chất biến đổi dần từ kim loại mạnh sang phi kim mạnh rồi khí hiếm.",
+    "example_wrong": "Sodium (Z = 11) và chlorine (Z = 17) cùng chu kì 3 nên có tính chất hóa học tương tự nhau.",
+    "example_right": "Sodium là kim loại mạnh, chlorine là phi kim mạnh; sodium có tính chất tương tự potassium (cùng nhóm IA)."
+  }
+]

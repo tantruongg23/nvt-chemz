@@ -82,13 +82,13 @@ Nguyên tắc: mỗi phương án sai nên là **kết quả mà học sinh sẽ
 |---|---|---|
 | M1 | Đưa nguyên tử khối trung bình (số lẻ) làm số khối; lấy số khối thay cho nguyên tử khối trung bình | "Số khối của Cl là 35,5" |
 | M2 | Electron nặng ≈ 1 amu; khối lượng tập trung ở vỏ | "Khối lượng tập trung ở lớp vỏ" |
-| M3 | N = A + Z; N = Z; N = A; đảo vị trí A và Z | ⁵⁶₂₆Fe → 82 hoặc 26 |
+| M3 | N = A + Z; N = Z; N = A; đảo vị trí A và Z; lấy A làm Z hoặc ngược lại | ⁵⁶₂₆Fe → 82 hoặc 26 |
 | M4 | Cặp cùng số khối hoặc cùng số neutron nhưng khác Z | ¹⁴₆C và ¹⁴₇N |
 | M5 | Trung bình cộng; ghép nhầm % cho đồng vị | (35 + 37)/2 = 36 |
 | M6 | Orbital là đường tròn/elip | "Electron chạy trên đường tròn 1s" |
-| M7 | Điền 3d trước 4s; bỏ qua 3d sang 4p | K: …3p⁶3d¹ |
+| M7 | Điền 3d trước 4s; bỏ qua 3d sang 4p; ghép đôi electron trước khi điền đủ các ô (sai quy tắc Hund) → đếm sai electron độc thân | K: …3p⁶3d¹; P có 1 e độc thân |
 | M8 | Lớp nào cũng tối đa 8 e; p chứa 3 e; 2p⁸, 3p⁷ | "Lớp M tối đa 8 e" |
-| M9 | Số proton thay đổi khi tạo ion | Na⁺ có 10 proton |
+| M9 | Số proton thay đổi khi tạo ion; nhầm chiều thêm/bớt electron (cation nhận e, anion nhường e) | Na⁺ có 10 proton; S²⁻ có 14 e |
 | M10 | Quên ngoại lệ H, He, B; "nhiều e ngoài cùng → kim loại"; 4 e chắc chắn là kim loại/phi kim | "Cl có 7 e nên là kim loại" |
 
 - Phương án sai **không** ứng với lỗi nào trong danh mục thì ghi `null` – không gán mã cho có.

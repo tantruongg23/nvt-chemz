@@ -93,3 +93,21 @@
 
 **Có dùng AI không?** Có – xem AI_USAGE_LOG ngày 15/11/2026.
 
+---
+
+## Chủ nhật, 15/11/2026 (tối) – Sprint S0 – Người ghi: AI (Claude), theo yêu cầu của GV
+
+**Quyết định của GV:** phần soạn nội dung và kỹ thuật do AI thực hiện; GV và học sinh tập trung chuẩn bị thuyết trình. Việc dùng AI ghi đầy đủ ở AI_USAGE_LOG.
+
+**Đã làm (AI)**
+- Chương 1 hoàn thiện nội dung: 61 câu, yêu cầu cần đạt, ví dụ mẫu, kiểm tra nhanh; bỏ câu vượt phạm vi 20 nguyên tố đầu.
+- Chương 2 (B5–B9) và Chương 3 (B10–B14): soạn song song, mỗi chương 50 câu, 25 thuật ngữ, 8 mã lỗi; mỗi chương được một agent khác rà soát độc lập.
+- Web đọc dữ liệu theo chương (`chapters.json`), trang chủ nhóm theo chương, màu theo chương; đã chạy thử trên trình duyệt (bài B3, B12, kiểm tra nhanh B6) không lỗi.
+- Phiếu khảo sát, phiếu đồng ý, đề pre/post-test Chương 1 (đề chỉ lưu trên máy, không đưa lên repo công khai).
+
+**Việc GV cần làm**
+- [ ] Đọc mục "Quyết định của chuyên gia" trong `docs/content/EXPERT_REVIEW_C1.md`, `_C2.md`, `_C3.md`; đối chiếu những điểm chuyên gia AI ghi "theo trí nhớ, chưa đối chiếu SGK in".
+- [ ] Duyệt câu hỏi (đổi `reviewed` sang `true`) – ưu tiên 61 câu Chương 1 trước thực nghiệm.
+- [ ] Duyệt phiếu khảo sát, phiếu đồng ý, đề pre/post-test; xin phép nhà trường.
+- [ ] Kiểm tra thể lệ về số học sinh / mức độ AI được phép.
+

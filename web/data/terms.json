@@ -1,192 +1,192 @@
 [
   {
-    "id": "T-001", "en": "atom", "vi": "nguyên tử", "ipa": "/ˈæt.əm/", "pos": "noun", "lesson": "B1",
+    "id": "T-001", "en": "atom", "vi": "nguyên tử", "ipa": "/ˈæt.əm/", "pos": "noun", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Hạt vô cùng nhỏ, trung hòa về điện, gồm hạt nhân mang điện tích dương ở tâm và lớp vỏ gồm các electron mang điện tích âm.",
     "example_en": "An atom is electrically neutral because it has equal numbers of protons and electrons.",
     "example_vi": "Nguyên tử trung hòa về điện vì có số proton bằng số electron."
   },
   {
-    "id": "T-002", "en": "nucleus", "vi": "hạt nhân (nguyên tử)", "ipa": "/ˈnjuː.kli.əs/", "pos": "noun (plural: nuclei)", "lesson": "B1",
+    "id": "T-002", "en": "nucleus", "vi": "hạt nhân (nguyên tử)", "ipa": "/ˈnjuː.kli.əs/", "pos": "noun (plural: nuclei)", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Phần ở tâm nguyên tử, gồm các proton và neutron; mang điện tích dương và chứa gần như toàn bộ khối lượng nguyên tử.",
     "example_en": "The nucleus is about ten thousand times smaller than the atom.",
     "example_vi": "Hạt nhân nhỏ hơn nguyên tử khoảng mười nghìn lần (về đường kính)."
   },
   {
-    "id": "T-003", "en": "proton", "vi": "proton", "ipa": "/ˈprəʊ.tɒn/", "pos": "noun", "lesson": "B1",
+    "id": "T-003", "en": "proton", "vi": "proton", "ipa": "/ˈprəʊ.tɒn/", "pos": "noun", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Hạt trong hạt nhân, mang điện tích +1 (điện tích tương đối), khối lượng xấp xỉ 1 amu. Kí hiệu p.",
     "example_en": "A sodium atom has 11 protons in its nucleus.",
     "example_vi": "Nguyên tử sodium có 11 proton trong hạt nhân."
   },
   {
-    "id": "T-004", "en": "neutron", "vi": "neutron", "ipa": "/ˈnjuː.trɒn/", "pos": "noun", "lesson": "B1",
+    "id": "T-004", "en": "neutron", "vi": "neutron", "ipa": "/ˈnjuː.trɒn/", "pos": "noun", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Hạt trong hạt nhân, không mang điện, khối lượng xấp xỉ 1 amu. Kí hiệu n.",
     "example_en": "The number of neutrons equals the mass number minus the atomic number.",
     "example_vi": "Số neutron bằng số khối trừ đi số hiệu nguyên tử."
   },
   {
-    "id": "T-005", "en": "electron", "vi": "electron", "ipa": "/iˈlek.trɒn/", "pos": "noun", "lesson": "B1",
+    "id": "T-005", "en": "electron", "vi": "electron", "ipa": "/iˈlek.trɒn/", "pos": "noun", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Hạt ở lớp vỏ nguyên tử, mang điện tích −1 (điện tích tương đối), khối lượng rất nhỏ, khoảng 0,00055 amu. Kí hiệu e.",
     "example_en": "The mass of an electron is about 1/1836 of the mass of a proton.",
     "example_vi": "Khối lượng của một electron chỉ bằng khoảng 1/1836 khối lượng của một proton."
   },
   {
-    "id": "T-006", "en": "electric charge", "vi": "điện tích", "ipa": "/iˌlek.trɪk ˈtʃɑːdʒ/", "pos": "noun phrase", "lesson": "B1",
+    "id": "T-006", "en": "electric charge", "vi": "điện tích", "ipa": "/iˌlek.trɪk ˈtʃɑːdʒ/", "pos": "noun phrase", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Đại lượng đặc trưng cho tính chất điện của hạt. Điện tích của proton là +1,602 × 10⁻¹⁹ C, của electron là −1,602 × 10⁻¹⁹ C, quy ước là +1 và −1.",
     "example_en": "A proton has a relative electric charge of +1.",
     "example_vi": "Proton có điện tích tương đối là +1."
   },
   {
-    "id": "T-007", "en": "atomic mass unit", "vi": "đơn vị khối lượng nguyên tử (amu)", "ipa": "/əˌtɒm.ɪk ˈmæs ˌjuː.nɪt/", "pos": "noun phrase", "lesson": "B1",
+    "id": "T-007", "en": "atomic mass unit", "vi": "đơn vị khối lượng nguyên tử (amu)", "ipa": "/əˌtɒm.ɪk ˈmæs ˌjuː.nɪt/", "pos": "noun phrase", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Đơn vị dùng để đo khối lượng nguyên tử và các hạt; 1 amu = 1,6605 × 10⁻²⁷ kg.",
     "example_en": "Protons and neutrons each have a mass of about 1 atomic mass unit.",
     "example_vi": "Proton và neutron mỗi hạt có khối lượng khoảng 1 amu."
   },
   {
-    "id": "T-008", "en": "electron cloud", "vi": "đám mây electron", "ipa": "/iˈlek.trɒn klaʊd/", "pos": "noun phrase", "lesson": "B1",
+    "id": "T-008", "en": "electron cloud", "vi": "đám mây electron", "ipa": "/iˈlek.trɒn klaʊd/", "pos": "noun phrase", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Cách hình dung vùng không gian quanh hạt nhân có electron chuyển động rất nhanh; chỗ mây dày là nơi xác suất gặp electron lớn.",
     "example_en": "The electron cloud is densest where the electron is most likely to be found.",
     "example_vi": "Đám mây electron dày đặc nhất ở nơi xác suất tìm thấy electron lớn nhất."
   },
   {
-    "id": "T-009", "en": "ion", "vi": "ion", "ipa": "/ˈaɪ.ɒn/", "pos": "noun", "lesson": "B1",
+    "id": "T-009", "en": "ion", "vi": "ion", "ipa": "/ˈaɪ.ɒn/", "pos": "noun", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Hạt mang điện tạo thành khi nguyên tử (hoặc nhóm nguyên tử) nhường hay nhận electron. Số proton không thay đổi.",
     "example_en": "When an atom loses or gains electrons, it becomes an ion.",
     "example_vi": "Khi nguyên tử nhường hoặc nhận electron, nó trở thành ion."
   },
   {
-    "id": "T-010", "en": "cation", "vi": "cation (ion dương)", "ipa": "/ˈkæt.aɪ.ən/", "pos": "noun", "lesson": "B1",
+    "id": "T-010", "en": "cation", "vi": "cation (ion dương)", "ipa": "/ˈkæt.aɪ.ən/", "pos": "noun", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Ion mang điện tích dương, tạo thành khi nguyên tử nhường electron (ví dụ Na⁺, Mg²⁺).",
     "example_en": "Na⁺ is a cation with 11 protons and 10 electrons.",
     "example_vi": "Na⁺ là một cation có 11 proton và 10 electron."
   },
   {
-    "id": "T-011", "en": "anion", "vi": "anion (ion âm)", "ipa": "/ˈæn.aɪ.ən/", "pos": "noun", "lesson": "B1",
+    "id": "T-011", "en": "anion", "vi": "anion (ion âm)", "ipa": "/ˈæn.aɪ.ən/", "pos": "noun", "chapter": "C1", "lesson": "B1",
     "definition_vi": "Ion mang điện tích âm, tạo thành khi nguyên tử nhận thêm electron (ví dụ Cl⁻, O²⁻).",
     "example_en": "A chlorine atom gains one electron to form the anion Cl⁻.",
     "example_vi": "Nguyên tử chlorine nhận thêm một electron để tạo thành anion Cl⁻."
   },
   {
-    "id": "T-012", "en": "atomic number", "vi": "số hiệu nguyên tử", "ipa": "/əˌtɒm.ɪk ˈnʌm.bə/", "pos": "noun phrase", "lesson": "B2",
+    "id": "T-012", "en": "atomic number", "vi": "số hiệu nguyên tử", "ipa": "/əˌtɒm.ɪk ˈnʌm.bə/", "pos": "noun phrase", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Số đơn vị điện tích hạt nhân, bằng số proton (và bằng số electron trong nguyên tử). Kí hiệu Z.",
     "example_en": "The atomic number of carbon is 6.",
     "example_vi": "Số hiệu nguyên tử của carbon là 6."
   },
   {
-    "id": "T-013", "en": "mass number", "vi": "số khối", "ipa": "/ˈmæs ˌnʌm.bə/", "pos": "noun phrase", "lesson": "B2",
+    "id": "T-013", "en": "mass number", "vi": "số khối", "ipa": "/ˈmæs ˌnʌm.bə/", "pos": "noun phrase", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Tổng số proton và số neutron trong hạt nhân: A = Z + N. Số khối luôn là số nguyên.",
     "example_en": "Chlorine-37 has a mass number of 37.",
     "example_vi": "Đồng vị chlorine-37 có số khối là 37."
   },
   {
-    "id": "T-014", "en": "chemical element", "vi": "nguyên tố hóa học", "ipa": "/ˌkem.ɪ.kəl ˈel.ɪ.mənt/", "pos": "noun phrase", "lesson": "B2",
+    "id": "T-014", "en": "chemical element", "vi": "nguyên tố hóa học", "ipa": "/ˌkem.ɪ.kəl ˈel.ɪ.mənt/", "pos": "noun phrase", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Tập hợp các nguyên tử có cùng số đơn vị điện tích hạt nhân (cùng số proton, cùng Z).",
     "example_en": "All atoms of the same chemical element have the same number of protons.",
     "example_vi": "Mọi nguyên tử của cùng một nguyên tố hóa học đều có cùng số proton."
   },
   {
-    "id": "T-015", "en": "chemical symbol", "vi": "kí hiệu hóa học", "ipa": "/ˌkem.ɪ.kəl ˈsɪm.bəl/", "pos": "noun phrase", "lesson": "B2",
+    "id": "T-015", "en": "chemical symbol", "vi": "kí hiệu hóa học", "ipa": "/ˌkem.ɪ.kəl ˈsɪm.bəl/", "pos": "noun phrase", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Một hoặc hai chữ cái dùng để biểu diễn nguyên tố, chữ đầu viết hoa (ví dụ Na, Cl, Fe).",
     "example_en": "The chemical symbol of sodium is Na.",
     "example_vi": "Kí hiệu hóa học của sodium là Na."
   },
   {
-    "id": "T-016", "en": "isotope", "vi": "đồng vị", "ipa": "/ˈaɪ.sə.təʊp/", "pos": "noun", "lesson": "B2",
+    "id": "T-016", "en": "isotope", "vi": "đồng vị", "ipa": "/ˈaɪ.sə.təʊp/", "pos": "noun", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Các nguyên tử của cùng một nguyên tố (cùng số proton) nhưng khác số neutron, do đó khác số khối.",
     "example_en": "Carbon-12 and carbon-14 are isotopes of carbon.",
     "example_vi": "Carbon-12 và carbon-14 là hai đồng vị của carbon."
   },
   {
-    "id": "T-017", "en": "relative atomic mass", "vi": "nguyên tử khối", "ipa": "/ˌrel.ə.tɪv əˌtɒm.ɪk ˈmæs/", "pos": "noun phrase", "lesson": "B2",
+    "id": "T-017", "en": "relative atomic mass", "vi": "nguyên tử khối", "ipa": "/ˌrel.ə.tɪv əˌtɒm.ɪk ˈmæs/", "pos": "noun phrase", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Khối lượng tương đối của nguyên tử, cho biết nguyên tử nặng gấp bao nhiêu lần đơn vị khối lượng nguyên tử (amu). Có giá trị xấp xỉ số khối nhưng không phải là số khối.",
     "example_en": "The relative atomic mass of an atom is approximately equal to its mass number.",
     "example_vi": "Nguyên tử khối của một nguyên tử xấp xỉ bằng số khối của nó."
   },
   {
-    "id": "T-018", "en": "average atomic mass", "vi": "nguyên tử khối trung bình", "ipa": "/ˌæv.ər.ɪdʒ əˌtɒm.ɪk ˈmæs/", "pos": "noun phrase", "lesson": "B2",
+    "id": "T-018", "en": "average atomic mass", "vi": "nguyên tử khối trung bình", "ipa": "/ˌæv.ər.ɪdʒ əˌtɒm.ɪk ˈmæs/", "pos": "noun phrase", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Nguyên tử khối của nguyên tố có nhiều đồng vị, tính theo phần trăm số nguyên tử của mỗi đồng vị: A̅ = (a·A₁ + b·A₂ + …)/100.",
     "example_en": "The average atomic mass of chlorine is 35.5.",
     "example_vi": "Nguyên tử khối trung bình của chlorine là 35,5."
   },
   {
-    "id": "T-019", "en": "abundance", "vi": "độ phong phú (phần trăm số nguyên tử của đồng vị)", "ipa": "/əˈbʌn.dəns/", "pos": "noun", "lesson": "B2",
+    "id": "T-019", "en": "abundance", "vi": "độ phong phú (phần trăm số nguyên tử của đồng vị)", "ipa": "/əˈbʌn.dəns/", "pos": "noun", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Phần trăm số nguyên tử của một đồng vị trong tự nhiên so với tổng số nguyên tử của nguyên tố đó.",
     "example_en": "The abundance of chlorine-35 is about 75%.",
     "example_vi": "Đồng vị chlorine-35 chiếm khoảng 75% số nguyên tử chlorine."
   },
   {
-    "id": "T-020", "en": "periodic table", "vi": "bảng tuần hoàn", "ipa": "/ˌpɪə.ri.ɒd.ɪk ˈteɪ.bəl/", "pos": "noun phrase", "lesson": "B2",
+    "id": "T-020", "en": "periodic table", "vi": "bảng tuần hoàn", "ipa": "/ˌpɪə.ri.ɒd.ɪk ˈteɪ.bəl/", "pos": "noun phrase", "chapter": "C1", "lesson": "B2",
     "definition_vi": "Bảng sắp xếp các nguyên tố hóa học theo chiều tăng dần số hiệu nguyên tử Z.",
     "example_en": "Elements in the periodic table are arranged in order of increasing atomic number.",
     "example_vi": "Các nguyên tố trong bảng tuần hoàn được sắp xếp theo chiều tăng dần số hiệu nguyên tử."
   },
   {
-    "id": "T-021", "en": "orbital", "vi": "orbital", "ipa": "/ˈɔː.bɪ.təl/", "pos": "noun", "lesson": "B3",
+    "id": "T-021", "en": "orbital", "vi": "orbital", "ipa": "/ˈɔː.bɪ.təl/", "pos": "noun", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Vùng không gian xung quanh hạt nhân mà xác suất tìm thấy electron là lớn nhất (khoảng 90%). Không phải là một đường đi (quỹ đạo) xác định.",
     "example_en": "Each orbital can hold a maximum of two electrons.",
     "example_vi": "Mỗi orbital chứa tối đa hai electron."
   },
   {
-    "id": "T-022", "en": "atomic orbital", "vi": "orbital nguyên tử (AO)", "ipa": "/əˌtɒm.ɪk ˈɔː.bɪ.təl/", "pos": "noun phrase", "lesson": "B3",
+    "id": "T-022", "en": "atomic orbital", "vi": "orbital nguyên tử (AO)", "ipa": "/əˌtɒm.ɪk ˈɔː.bɪ.təl/", "pos": "noun phrase", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Tên đầy đủ của orbital trong nguyên tử, viết tắt AO. Orbital s có dạng hình cầu; orbital p có dạng hình số tám nổi, gồm 3 orbital px, py, pz.",
     "example_en": "An s atomic orbital is spherical, while a p atomic orbital has a dumbbell shape.",
     "example_vi": "Orbital nguyên tử s có dạng hình cầu, còn orbital nguyên tử p có dạng hình số tám nổi."
   },
   {
-    "id": "T-023", "en": "electron shell", "vi": "lớp electron", "ipa": "/iˈlek.trɒn ʃel/", "pos": "noun phrase", "lesson": "B3",
+    "id": "T-023", "en": "electron shell", "vi": "lớp electron", "ipa": "/iˈlek.trɒn ʃel/", "pos": "noun phrase", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Tập hợp các electron có mức năng lượng gần bằng nhau. Các lớp n = 1, 2, 3, 4 có tên K, L, M, N; lớp thứ n chứa tối đa 2n² electron.",
     "example_en": "The M shell (n = 3) can hold up to 18 electrons.",
     "example_vi": "Lớp M (n = 3) chứa tối đa 18 electron."
   },
   {
-    "id": "T-024", "en": "subshell", "vi": "phân lớp electron", "ipa": "/ˈsʌb.ʃel/", "pos": "noun", "lesson": "B3",
+    "id": "T-024", "en": "subshell", "vi": "phân lớp electron", "ipa": "/ˈsʌb.ʃel/", "pos": "noun", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Tập hợp các electron có mức năng lượng bằng nhau trong một lớp, kí hiệu s, p, d, f; chứa tối đa lần lượt 2, 6, 10, 14 electron.",
     "example_en": "A p subshell contains three orbitals and can hold six electrons.",
     "example_vi": "Phân lớp p gồm ba orbital và chứa tối đa sáu electron."
   },
   {
-    "id": "T-025", "en": "energy level", "vi": "mức năng lượng", "ipa": "/ˈen.ə.dʒi ˌlev.əl/", "pos": "noun phrase", "lesson": "B3",
+    "id": "T-025", "en": "energy level", "vi": "mức năng lượng", "ipa": "/ˈen.ə.dʒi ˌlev.əl/", "pos": "noun phrase", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Năng lượng của electron trong orbital. Thứ tự mức năng lượng tăng dần: 1s 2s 2p 3s 3p 4s 3d 4p 5s…",
     "example_en": "The 4s subshell has a lower energy level than the 3d subshell.",
     "example_vi": "Phân lớp 4s có mức năng lượng thấp hơn phân lớp 3d."
   },
   {
-    "id": "T-026", "en": "electron configuration", "vi": "cấu hình electron", "ipa": "/iˌlek.trɒn kənˌfɪɡ.əˈreɪ.ʃən/", "pos": "noun phrase", "lesson": "B3",
+    "id": "T-026", "en": "electron configuration", "vi": "cấu hình electron", "ipa": "/iˌlek.trɒn kənˌfɪɡ.əˈreɪ.ʃən/", "pos": "noun phrase", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Cách biểu diễn sự phân bố electron trên các lớp và phân lớp của nguyên tử ở trạng thái cơ bản, ví dụ Na: 1s²2s²2p⁶3s¹.",
     "example_en": "The electron configuration of sodium is 1s² 2s² 2p⁶ 3s¹.",
     "example_vi": "Cấu hình electron của sodium là 1s²2s²2p⁶3s¹."
   },
   {
-    "id": "T-027", "en": "valence electron", "vi": "electron hóa trị", "ipa": "/ˈveɪ.ləns iˌlek.trɒn/", "pos": "noun phrase", "lesson": "B3",
+    "id": "T-027", "en": "valence electron", "vi": "electron hóa trị", "ipa": "/ˈveɪ.ləns iˌlek.trɒn/", "pos": "noun phrase", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Electron có khả năng tham gia tạo liên kết hóa học. Với các nguyên tố có Z từ 1 đến 20, đó là các electron ở lớp ngoài cùng.",
     "example_en": "A chlorine atom has seven valence electrons.",
     "example_vi": "Nguyên tử chlorine có bảy electron hóa trị."
   },
   {
-    "id": "T-028", "en": "unpaired electron", "vi": "electron độc thân", "ipa": "/ʌnˌpeəd iˈlek.trɒn/", "pos": "noun phrase", "lesson": "B3",
+    "id": "T-028", "en": "unpaired electron", "vi": "electron độc thân", "ipa": "/ʌnˌpeəd iˈlek.trɒn/", "pos": "noun phrase", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Electron đứng một mình trong một orbital (ô orbital chỉ có một mũi tên).",
     "example_en": "A nitrogen atom has three unpaired electrons in its 2p subshell.",
     "example_vi": "Nguyên tử nitrogen có ba electron độc thân ở phân lớp 2p."
   },
   {
-    "id": "T-029", "en": "ground state", "vi": "trạng thái cơ bản", "ipa": "/ˈɡraʊnd ˌsteɪt/", "pos": "noun phrase", "lesson": "B3",
+    "id": "T-029", "en": "ground state", "vi": "trạng thái cơ bản", "ipa": "/ˈɡraʊnd ˌsteɪt/", "pos": "noun phrase", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Trạng thái có năng lượng thấp nhất của nguyên tử; khi đó electron chiếm các orbital theo thứ tự mức năng lượng từ thấp đến cao.",
     "example_en": "In the ground state, electrons fill the lowest energy orbitals first.",
     "example_vi": "Ở trạng thái cơ bản, electron chiếm các orbital có mức năng lượng thấp nhất trước."
   },
   {
-    "id": "T-030", "en": "noble gas", "vi": "khí hiếm", "ipa": "/ˌnəʊ.bəl ˈɡæs/", "pos": "noun phrase", "lesson": "B3",
+    "id": "T-030", "en": "noble gas", "vi": "khí hiếm", "ipa": "/ˌnəʊ.bəl ˈɡæs/", "pos": "noun phrase", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Nguyên tố có 8 electron ở lớp ngoài cùng (riêng helium có 2), rất khó tham gia phản ứng hóa học, ví dụ He, Ne, Ar.",
     "example_en": "Argon is a noble gas with eight electrons in its outer shell.",
     "example_vi": "Argon là khí hiếm có tám electron ở lớp ngoài cùng."
   },
   {
-    "id": "T-031", "en": "metal", "vi": "kim loại", "ipa": "/ˈmet.əl/", "pos": "noun", "lesson": "B3",
+    "id": "T-031", "en": "metal", "vi": "kim loại", "ipa": "/ˈmet.əl/", "pos": "noun", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Nhóm nguyên tố mà nguyên tử thường có 1, 2 hoặc 3 electron lớp ngoài cùng (trừ H, He, B), dễ nhường electron.",
     "example_en": "Magnesium is a metal because its atom has two electrons in the outer shell.",
     "example_vi": "Magnesium là kim loại vì nguyên tử của nó có hai electron ở lớp ngoài cùng."
   },
   {
-    "id": "T-032", "en": "non-metal", "vi": "phi kim", "ipa": "/ˌnɒnˈmet.əl/", "pos": "noun", "lesson": "B3",
+    "id": "T-032", "en": "non-metal", "vi": "phi kim", "ipa": "/ˌnɒnˈmet.əl/", "pos": "noun", "chapter": "C1", "lesson": "B3",
     "definition_vi": "Nhóm nguyên tố mà nguyên tử thường có 5, 6 hoặc 7 electron lớp ngoài cùng, dễ nhận thêm electron.",
     "example_en": "Sulfur is a non-metal with six electrons in its outer shell.",
     "example_vi": "Sulfur là phi kim có sáu electron ở lớp ngoài cùng."

@@ -1,8 +1,15 @@
 [
   {
     "id": "B1",
+    "number": 1,
+    "chapter": "C1",
+    "kind": "lesson",
     "title": "Thành phần của nguyên tử",
     "title_en": "Atomic composition",
+    "objectives": [
+      "Trình bày được thành phần của nguyên tử: hạt nhân (proton, neutron) và vỏ nguyên tử (electron); điện tích và khối lượng của mỗi loại hạt.",
+      "So sánh được khối lượng của electron với proton và neutron; so sánh kích thước của hạt nhân với kích thước nguyên tử."
+    ],
     "summary": [
       "Nguyên tử gồm hạt nhân ở tâm (chứa proton và neutron) và lớp vỏ gồm các electron chuyển động rất nhanh xung quanh hạt nhân.",
       "Proton mang điện tích +1, electron mang điện tích −1, neutron không mang điện (điện tích tương đối).",
@@ -15,17 +22,36 @@
       {
         "heading": "Các hạt cấu tạo nên nguyên tử",
         "body_md": "Nguyên tử gồm **hạt nhân** (proton, neutron) và **lớp vỏ** (electron).\n\n| Hạt | Kí hiệu | Vị trí | Điện tích tương đối | Khối lượng (amu) |\n|---|---|---|---|---|\n| proton | p | hạt nhân | +1 | ≈ 1 |\n| neutron | n | hạt nhân | 0 | ≈ 1 |\n| electron | e | lớp vỏ | −1 | ≈ 0,00055 |\n\n- Điện tích thực của proton là +1,602 × 10⁻¹⁹ C, của electron là −1,602 × 10⁻¹⁹ C.\n- 1 amu = 1,6605 × 10⁻²⁷ kg.\n- Electron nhẹ hơn proton khoảng 1836 lần.",
-        "terms": ["T-001", "T-002", "T-003", "T-004", "T-005", "T-006", "T-007"]
+        "terms": [
+          "T-001",
+          "T-002",
+          "T-003",
+          "T-004",
+          "T-005",
+          "T-006",
+          "T-007"
+        ]
       },
       {
         "heading": "Kích thước và khối lượng nguyên tử",
         "body_md": "- Đường kính nguyên tử khoảng **10⁻¹⁰ m** (= 0,1 nm = 1 Å); đường kính hạt nhân khoảng **10⁻¹⁴ m**. Nguyên tử lớn hơn hạt nhân khoảng **10 000 lần**, nên phần lớn thể tích nguyên tử là không gian rỗng có electron chuyển động (đám mây electron).\n- Khối lượng nguyên tử ≈ khối lượng hạt nhân ≈ tổng khối lượng proton và neutron. Khối lượng các electron có thể bỏ qua.\n\n> Ví dụ: nguyên tử ²³Na có 11 p, 12 n, 11 e → khối lượng ≈ 11 + 12 = 23 amu (11 electron chỉ nặng ≈ 0,006 amu).",
-        "terms": ["T-001", "T-002", "T-008", "T-007"]
+        "terms": [
+          "T-001",
+          "T-002",
+          "T-008",
+          "T-007"
+        ]
       },
       {
         "heading": "Nguyên tử trung hòa điện và ion",
         "body_md": "- Trong nguyên tử: **số p = số e**, nên nguyên tử trung hòa về điện.\n- Nguyên tử **nhường** n electron → **cation** Xⁿ⁺ (số e = Z − n). Ví dụ: Na → Na⁺ có 11 p, 10 e.\n- Nguyên tử **nhận** n electron → **anion** Xⁿ⁻ (số e = Z + n). Ví dụ: Cl → Cl⁻ có 17 p, 18 e.\n- Hạt nhân **không đổi** khi tạo ion: số proton và số neutron giữ nguyên.",
-        "terms": ["T-009", "T-010", "T-011", "T-003", "T-005"]
+        "terms": [
+          "T-009",
+          "T-010",
+          "T-011",
+          "T-003",
+          "T-005"
+        ]
       }
     ],
     "key_formulas": [
@@ -33,12 +59,35 @@
       "Khối lượng nguyên tử ≈ (số p + số n) × 1 amu",
       "1 amu = 1,6605 × 10⁻²⁷ kg",
       "Cation Xⁿ⁺: số e = Z − n; anion Xⁿ⁻: số e = Z + n"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Nguyên tử X có tổng số hạt proton, neutron và electron là 48, trong đó số hạt mang điện gấp đôi số hạt không mang điện. Xác định số proton, số neutron và số khối của X.",
+        "solution": "Bước 1: Gọi số proton = số electron = Z, số neutron = N. Hạt mang điện: 2Z; hạt không mang điện: N.\nBước 2: Lập hệ: 2Z + N = 48 và 2Z = 2N (tức Z = N).\nBước 3: Thay Z = N: 3Z = 48 → Z = 16, N = 16.\nBước 4: Số khối A = Z + N = 32. X là sulfur (³²₁₆S)."
+      },
+      {
+        "problem": "Nguyên tử magnesium (Z = 12) nhường 2 electron tạo thành ion Mg²⁺. Ion Mg²⁺ có bao nhiêu proton và bao nhiêu electron?",
+        "solution": "Bước 1: Khi tạo ion, hạt nhân không đổi → ion vẫn có 12 proton.\nBước 2: Cation Xⁿ⁺ có số electron = Z − n = 12 − 2 = 10.\nKết luận: Mg²⁺ có 12 proton và 10 electron (không phải 10 proton)."
+      }
+    ],
+    "quick_check": [
+      "Q-B1-001",
+      "Q-B1-005",
+      "Q-B1-006"
     ]
   },
   {
     "id": "B2",
+    "number": 2,
+    "chapter": "C1",
+    "kind": "lesson",
     "title": "Nguyên tố hóa học",
     "title_en": "Chemical elements",
+    "objectives": [
+      "Trình bày được khái niệm nguyên tố hóa học, số hiệu nguyên tử và kí hiệu nguyên tử.",
+      "Phát biểu được khái niệm đồng vị, nguyên tử khối.",
+      "Tính được nguyên tử khối trung bình dựa vào khối lượng nguyên tử và phần trăm số nguyên tử của các đồng vị (theo phổ khối lượng được cung cấp)."
+    ],
     "summary": [
       "Số hiệu nguyên tử Z = số proton = số electron (trong nguyên tử) = số đơn vị điện tích hạt nhân.",
       "Số khối A = Z + N (N là số neutron); số khối luôn là số nguyên.",
@@ -51,22 +100,40 @@
       {
         "heading": "Hạt nhân nguyên tử: số hiệu và số khối",
         "body_md": "- **Số hiệu nguyên tử** Z = số proton = số đơn vị điện tích hạt nhân = số electron (trong nguyên tử).\n- **Số khối** A = Z + N, suy ra **N = A − Z**.\n\n> Ví dụ: ³⁵₁₇Cl có Z = 17 → 17 p, 17 e; N = 35 − 17 = 18 neutron.\n\n⚠️ Không viết N = A + Z. Số ghi **trên** là A, số ghi **dưới** là Z.",
-        "terms": ["T-012", "T-013", "T-004"]
+        "terms": [
+          "T-012",
+          "T-013",
+          "T-004"
+        ]
       },
       {
         "heading": "Nguyên tố hóa học và kí hiệu nguyên tử",
         "body_md": "- **Nguyên tố hóa học** là tập hợp các nguyên tử có cùng số proton (cùng Z). Z quyết định nguyên tử thuộc nguyên tố nào.\n- **Kí hiệu nguyên tử**: viết A ở góc trên bên trái, Z ở góc dưới bên trái kí hiệu hóa học X, ví dụ ⁵⁶₂₆Fe (A = 56, Z = 26).\n- Các nguyên tố được sắp xếp trong **bảng tuần hoàn** theo chiều tăng dần Z.",
-        "terms": ["T-014", "T-015", "T-020", "T-012"]
+        "terms": [
+          "T-014",
+          "T-015",
+          "T-020",
+          "T-012"
+        ]
       },
       {
         "heading": "Đồng vị",
         "body_md": "**Đồng vị** là những nguyên tử có **cùng số proton** nhưng **khác số neutron**, do đó số khối A khác nhau.\n\n> Ví dụ: ¹H, ²H, ³H (cùng 1 proton; 0, 1, 2 neutron); ¹²₆C và ¹⁴₆C; ³⁵₁₇Cl và ³⁷₁₇Cl.\n\n- Hai nguyên tử **khác Z** thì **không** phải đồng vị, kể cả khi cùng số khối (¹⁴₆C và ¹⁴₇N) hoặc cùng số neutron (³⁹₁₉K và ⁴⁰₂₀Ca).",
-        "terms": ["T-016", "T-014", "T-013"]
+        "terms": [
+          "T-016",
+          "T-014",
+          "T-013"
+        ]
       },
       {
         "heading": "Nguyên tử khối và nguyên tử khối trung bình",
         "body_md": "- **Nguyên tử khối** là khối lượng tương đối của nguyên tử (cho biết nguyên tử nặng gấp bao nhiêu lần 1 amu); có giá trị xấp xỉ số khối A.\n- Nguyên tố có nhiều đồng vị thì dùng **nguyên tử khối trung bình**:\n\n  A̅ = (a·A₁ + b·A₂ + …) / 100, với a, b, … là phần trăm số nguyên tử của từng đồng vị.\n\n> Ví dụ: chlorine gồm ³⁵Cl (75%) và ³⁷Cl (25%): A̅ = (35 × 75 + 37 × 25) / 100 = **35,5**.\n\n⚠️ 35,5 không phải là số khối của nguyên tử chlorine nào; số khối luôn là số nguyên.",
-        "terms": ["T-017", "T-018", "T-019", "T-016"]
+        "terms": [
+          "T-017",
+          "T-018",
+          "T-019",
+          "T-016"
+        ]
       }
     ],
     "key_formulas": [
@@ -74,12 +141,37 @@
       "A = Z + N  ⇒  N = A − Z",
       "A̅ = (a·A₁ + b·A₂ + …) / 100",
       "Hai đồng vị (A₁, A₂), biết A̅: x% đồng vị A₂ thỏa A̅ = [A₁(100 − x) + A₂·x] / 100"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Phổ khối lượng của neon cho hai tín hiệu chính: ²⁰Ne chiếm 90,9% và ²²Ne chiếm 9,1% số nguyên tử. Tính nguyên tử khối trung bình của neon.",
+        "solution": "Bước 1: Dùng trung bình có trọng số: A̅ = (20 × 90,9 + 22 × 9,1) / 100.\nBước 2: = (1818 + 200,2) / 100 = 20,182 ≈ 20,18.\nKiểm tra: kết quả gần 20 vì ²⁰Ne chiếm phần lớn. Nếu lấy trung bình cộng (20 + 22) / 2 = 21 là sai (lỗi M5)."
+      },
+      {
+        "problem": "Bromine có hai đồng vị ⁷⁹Br và ⁸¹Br, nguyên tử khối trung bình là 79,91 (số liệu dùng cho bài tập). Tính phần trăm số nguyên tử mỗi đồng vị.",
+        "solution": "Bước 1: Gọi phần trăm ⁸¹Br là x → ⁷⁹Br là (100 − x).\nBước 2: 79,91 = [79(100 − x) + 81x] / 100 → 7991 = 7900 + 2x → x = 45,5.\nKết luận: ⁸¹Br chiếm 45,5%, ⁷⁹Br chiếm 54,5%."
+      }
+    ],
+    "quick_check": [
+      "Q-B2-001",
+      "Q-B2-002",
+      "Q-B2-011"
     ]
   },
   {
     "id": "B3",
+    "number": 3,
+    "chapter": "C1",
+    "kind": "lesson",
     "title": "Cấu trúc lớp vỏ electron nguyên tử",
     "title_en": "Electron shell structure of atoms",
+    "objectives": [
+      "Trình bày và so sánh được mô hình nguyên tử của Rutherford – Bohr với mô hình hiện đại mô tả sự chuyển động của electron trong nguyên tử.",
+      "Nêu được khái niệm orbital nguyên tử, mô tả được hình dạng của orbital s, p và số electron tối đa trong một orbital.",
+      "Trình bày được khái niệm lớp, phân lớp electron; mối quan hệ giữa số phân lớp, số orbital trong một lớp.",
+      "Viết được cấu hình electron theo lớp, phân lớp và theo ô orbital của 20 nguyên tố đầu tiên.",
+      "Dựa vào cấu hình electron lớp ngoài cùng, dự đoán được nguyên tố là kim loại, phi kim hay khí hiếm."
+    ],
     "summary": [
       "Orbital nguyên tử là vùng không gian quanh hạt nhân mà xác suất tìm thấy electron lớn nhất (khoảng 90%); orbital s hình cầu, orbital p hình số tám nổi.",
       "Mỗi orbital chứa tối đa 2 electron có chiều tự quay ngược nhau.",
@@ -91,23 +183,43 @@
     "sections": [
       {
         "heading": "Orbital nguyên tử",
-        "body_md": "- Electron chuyển động rất nhanh quanh hạt nhân **không theo quỹ đạo xác định**.\n- **Orbital nguyên tử (AO)** là vùng không gian xung quanh hạt nhân mà xác suất có mặt electron là lớn nhất (khoảng 90%).\n- **Orbital s**: hình cầu. **Orbital p**: hình số tám nổi, gồm 3 orbital px, py, pz định hướng theo 3 trục vuông góc.\n- Mỗi orbital chứa **tối đa 2 electron** có chiều tự quay ngược nhau (biểu diễn ↑↓ trong ô orbital).",
-        "terms": ["T-021", "T-022", "T-008"]
+        "body_md": "- **Mô hình Rutherford – Bohr**: electron chuyển động trên những quỹ đạo tròn xác định quanh hạt nhân, mỗi quỹ đạo ứng với một mức năng lượng (giống hành tinh quay quanh Mặt Trời).\n- **Mô hình hiện đại**: electron chuyển động rất nhanh quanh hạt nhân **không theo quỹ đạo xác định**, tạo thành đám mây electron.\n- **Orbital nguyên tử (AO)** là vùng không gian xung quanh hạt nhân mà xác suất có mặt electron là lớn nhất (khoảng 90%).\n- **Orbital s**: hình cầu. **Orbital p**: hình số tám nổi, gồm 3 orbital px, py, pz định hướng theo 3 trục vuông góc.\n- Mỗi orbital chứa **tối đa 2 electron** có chiều tự quay ngược nhau (biểu diễn ↑↓ trong ô orbital).",
+        "terms": [
+          "T-021",
+          "T-022",
+          "T-008"
+        ]
       },
       {
         "heading": "Lớp và phân lớp electron",
         "body_md": "| Lớp (n) | Tên | Các phân lớp | Số orbital (n²) | Số e tối đa (2n²) |\n|---|---|---|---|---|\n| 1 | K | 1s | 1 | 2 |\n| 2 | L | 2s 2p | 4 | 8 |\n| 3 | M | 3s 3p 3d | 9 | 18 |\n| 4 | N | 4s 4p 4d 4f | 16 | 32 |\n\n| Phân lớp | s | p | d | f |\n|---|---|---|---|---|\n| Số orbital | 1 | 3 | 5 | 7 |\n| Số e tối đa | 2 | 6 | 10 | 14 |\n\n- Phân lớp chứa đủ số e tối đa gọi là **phân lớp bão hòa**; lớp chứa đủ 2n² electron gọi là **lớp bão hòa**.",
-        "terms": ["T-023", "T-024", "T-021"]
+        "terms": [
+          "T-023",
+          "T-024",
+          "T-021"
+        ]
       },
       {
         "heading": "Cấu hình electron",
-        "body_md": "**Thứ tự mức năng lượng** (điền electron): 1s 2s 2p 3s 3p **4s 3d** 4p 5s…\n\nCách viết cấu hình electron (trạng thái cơ bản):\n1. Xác định số electron (= Z).\n2. Điền electron theo thứ tự mức năng lượng; s tối đa 2, p tối đa 6, d tối đa 10.\n3. Sắp xếp lại theo từng lớp (khi có phân lớp d).\n\n> Ví dụ: Na (Z = 11): 1s²2s²2p⁶3s¹ → 2, 8, 1.\n> K (Z = 19): 1s²2s²2p⁶3s²3p⁶4s¹ → 2, 8, 8, 1.\n> Fe (Z = 26): điền …3p⁶4s²3d⁶ → viết 1s²2s²2p⁶3s²3p⁶3d⁶4s² → 2, 8, 14, 2.\n\n**Ô orbital**: mỗi ô là một orbital. Theo **quy tắc Hund**, trong một phân lớp electron được điền vào mỗi ô một mũi tên cùng chiều trước, rồi mới ghép đôi. Ví dụ N (2p³): ↑ ↑ ↑ → 3 electron độc thân; O (2p⁴): ↑↓ ↑ ↑ → 2 electron độc thân.\n\n*Lưu ý: một số nguyên tố như Cr (Z = 24), Cu (Z = 29) có cấu hình ngoại lệ, nằm ngoài phạm vi ôn tập này.*",
-        "terms": ["T-025", "T-026", "T-028", "T-029", "T-024"]
+        "body_md": "**Thứ tự mức năng lượng** (điền electron): 1s 2s 2p 3s 3p **4s 3d** 4p 5s…\n\nCách viết cấu hình electron (trạng thái cơ bản):\n1. Xác định số electron (= Z).\n2. Điền electron theo thứ tự mức năng lượng; s tối đa 2, p tối đa 6, d tối đa 10.\n3. Với các nguyên tố có phân lớp d (ngoài 20 nguyên tố đầu, chỉ mở rộng), sắp xếp lại theo từng lớp.\n\n> Ví dụ: Na (Z = 11): 1s²2s²2p⁶3s¹ → 2, 8, 1.\n> K (Z = 19): 1s²2s²2p⁶3s²3p⁶4s¹ → 2, 8, 8, 1.\n> Ca (Z = 20): 1s²2s²2p⁶3s²3p⁶4s² → 2, 8, 8, 2 (không viết …3p⁶3d²).\n\n**Ô orbital**: mỗi ô là một orbital. Theo **quy tắc Hund**, trong một phân lớp electron được điền vào mỗi ô một mũi tên cùng chiều trước, rồi mới ghép đôi. Ví dụ N (2p³): ↑ ↑ ↑ → 3 electron độc thân; O (2p⁴): ↑↓ ↑ ↑ → 2 electron độc thân. Không ghép đôi khi còn ô trống (viết N là ↑↓ ↑ _ là sai).\n\n*Lưu ý: một số nguyên tố như Cr (Z = 24), Cu (Z = 29) có cấu hình ngoại lệ, nằm ngoài phạm vi ôn tập này.*",
+        "terms": [
+          "T-025",
+          "T-026",
+          "T-028",
+          "T-029",
+          "T-024"
+        ]
       },
       {
         "heading": "Đặc điểm của lớp electron ngoài cùng",
         "body_md": "| Số e lớp ngoài cùng | Loại nguyên tố | Ví dụ |\n|---|---|---|\n| 1, 2, 3 | thường là kim loại (**trừ H, He, B**) | Na (2, 8, 1), Mg (2, 8, 2), Al (2, 8, 3) |\n| 4 | có thể là kim loại hoặc phi kim | C, Si (phi kim); Sn, Pb (kim loại) |\n| 5, 6, 7 | thường là phi kim | N, O, S, Cl |\n| 8 (He: 2) | khí hiếm | Ne, Ar |\n\n- Lớp ngoài cùng có 8 electron (He có 2) là cấu hình bền vững của khí hiếm.\n- Với các nguyên tố Z = 1–20, electron lớp ngoài cùng cũng là electron hóa trị.",
-        "terms": ["T-027", "T-030", "T-031", "T-032", "T-023"]
+        "terms": [
+          "T-027",
+          "T-030",
+          "T-031",
+          "T-032",
+          "T-023"
+        ]
       }
     ],
     "key_formulas": [
@@ -115,12 +227,34 @@
       "s² p⁶ d¹⁰ f¹⁴ (số e tối đa của phân lớp)",
       "Thứ tự mức năng lượng: 1s 2s 2p 3s 3p 4s 3d 4p 5s",
       "Mỗi orbital tối đa 2 electron (↑↓)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Viết cấu hình electron và biểu diễn theo ô orbital của nguyên tử oxygen (Z = 8). Oxygen có bao nhiêu electron độc thân? Là kim loại hay phi kim?",
+        "solution": "Bước 1: Điền 8 electron theo thứ tự mức năng lượng: 1s²2s²2p⁴.\nBước 2: Ô orbital: 1s [↑↓], 2s [↑↓], 2p [↑↓][↑][↑] – theo quy tắc Hund, 3 electron đầu vào 3 ô riêng, electron thứ 4 ghép đôi.\nBước 3: Có 2 electron độc thân.\nBước 4: Lớp ngoài cùng (lớp 2) có 2 + 4 = 6 electron → oxygen là phi kim."
+      },
+      {
+        "problem": "Viết cấu hình electron của potassium (Z = 19) và cho biết số lớp electron.",
+        "solution": "Bước 1: Thứ tự mức năng lượng: 1s 2s 2p 3s 3p 4s 3d…; phân lớp 4s có năng lượng thấp hơn 3d nên được điền trước.\nBước 2: 1s²2s²2p⁶3s²3p⁶4s¹ (không viết 3d¹ – lỗi M7).\nBước 3: Potassium có 4 lớp electron, lớp ngoài cùng có 1 electron → kim loại."
+      }
+    ],
+    "quick_check": [
+      "Q-B3-001",
+      "Q-B3-003",
+      "Q-B3-012"
     ]
   },
   {
     "id": "B4",
+    "number": 4,
+    "chapter": "C1",
+    "kind": "review",
     "title": "Ôn tập chương 1",
     "title_en": "Chapter 1 review: Atomic structure",
+    "objectives": [
+      "Hệ thống hóa kiến thức về thành phần nguyên tử, nguyên tố hóa học, đồng vị và cấu hình electron.",
+      "Vận dụng giải các dạng bài: tổng số hạt, đồng vị và nguyên tử khối trung bình, cấu hình electron và tính chất của nguyên tố."
+    ],
     "summary": [
       "Nguyên tử = hạt nhân (p, n) + lớp vỏ (e); khối lượng tập trung ở hạt nhân.",
       "Z = số p = số e (nguyên tử); A = Z + N; nguyên tố = tập hợp nguyên tử cùng Z.",
@@ -132,12 +266,24 @@
       {
         "heading": "Các dạng bài thường gặp",
         "body_md": "1. **Bài toán tổng số hạt**: tổng số hạt S = 2Z + N; hạt mang điện nhiều hơn hạt không mang điện: 2Z − N. Giải hệ để tìm Z, N, rồi A = Z + N.\n   > Ví dụ: S = 40, hiệu = 12 → 4Z = 52 → Z = 13 (Al), N = 14, A = 27.\n2. **Nguyên tử khối trung bình**: thuận (biết % → tính A̅) và ngược (biết A̅ → tính %).\n3. **Cấu hình electron**: viết cấu hình, xác định số lớp, số e lớp ngoài cùng, số electron độc thân, suy ra kim loại/phi kim/khí hiếm.\n4. **Ion**: từ cấu hình ion suy ra Z (cation Xⁿ⁺ có Z = số e + n; anion Xⁿ⁻ có Z = số e − n).",
-        "terms": ["T-012", "T-013", "T-018", "T-026", "T-009"]
+        "terms": [
+          "T-012",
+          "T-013",
+          "T-018",
+          "T-026",
+          "T-009"
+        ]
       },
       {
         "heading": "Bẫy lỗi sai cần tránh",
-        "body_md": "| Mã | Lỗi | Cách tránh |\n|---|---|---|\n| M1 | Nhầm số khối với nguyên tử khối | Số khối luôn nguyên; 35,5 là nguyên tử khối trung bình |\n| M2 | Electron góp đáng kể vào khối lượng | e ≈ 0,00055 amu, bỏ qua |\n| M3 | Tính sai số neutron | N = A − Z |\n| M4 | Đồng vị khác số proton | Đồng vị: cùng Z, khác N |\n| M5 | Trung bình cộng thay vì theo % | Nhân với % rồi chia 100 |\n| M6 | Orbital là quỹ đạo | Orbital là vùng không gian xác suất |\n| M7 | Điền 3d trước 4s | Theo mức năng lượng: 4s trước 3d |\n| M8 | Sai số e tối đa | s2 p6 d10 f14; lớp 2n² |\n| M9 | Số proton đổi khi tạo ion | Chỉ số e thay đổi |\n| M10 | Sai kim loại/phi kim | Nhớ ngoại lệ H, He, B; 4 e có thể cả hai |",
-        "terms": ["T-013", "T-017", "T-016", "T-021", "T-025"]
+        "body_md": "| Mã | Lỗi | Cách tránh |\n|---|---|---|\n| M1 | Nhầm số khối với nguyên tử khối | Số khối luôn nguyên; 35,5 là nguyên tử khối trung bình |\n| M2 | Electron góp đáng kể vào khối lượng | e ≈ 0,00055 amu, bỏ qua |\n| M3 | Đọc sai kí hiệu, nhầm Z, N, A | A trên, Z dưới; N = A − Z |\n| M4 | Đồng vị khác số proton | Đồng vị: cùng Z, khác N |\n| M5 | Trung bình cộng thay vì theo % | Nhân với % rồi chia 100 |\n| M6 | Orbital là quỹ đạo | Orbital là vùng không gian xác suất |\n| M7 | Điền sai thứ tự (3d trước 4s; sai quy tắc Hund) | 4s trước 3d; điền đơn mỗi ô rồi mới ghép đôi |\n| M8 | Sai số e tối đa | s² p⁶ d¹⁰ f¹⁴; lớp 2n² |\n| M9 | Hiểu sai sự thay đổi hạt khi tạo ion | Chỉ số e đổi: nhường → Z − n; nhận → Z + n |\n| M10 | Sai kim loại/phi kim | Nhớ ngoại lệ H, He, B; 4 e có thể cả hai |",
+        "terms": [
+          "T-013",
+          "T-017",
+          "T-016",
+          "T-021",
+          "T-025"
+        ]
       }
     ],
     "key_formulas": [
@@ -146,6 +292,17 @@
       "A = Z + N",
       "A̅ = (a·A₁ + b·A₂ + …) / 100",
       "Lớp n: tối đa 2n² electron"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Nguyên tử X có cấu hình electron lớp ngoài cùng là 3s²3p¹. Viết cấu hình electron đầy đủ, xác định Z, cho biết X là kim loại hay phi kim và số electron của ion X³⁺.",
+        "solution": "Bước 1: Các lớp bên trong đã bão hòa: 1s²2s²2p⁶3s²3p¹.\nBước 2: Z = 2 + 2 + 6 + 2 + 1 = 13 (aluminium).\nBước 3: Lớp ngoài cùng có 3 electron → kim loại.\nBước 4: Ion X³⁺ có 13 proton (không đổi) và 13 − 3 = 10 electron."
+      }
+    ],
+    "quick_check": [
+      "Q-B4-007",
+      "Q-B4-002",
+      "Q-B4-011"
     ]
   }
 ]

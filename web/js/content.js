@@ -6,35 +6,49 @@ let contentPromise = null;
 
 export function codeNum(code) { const n = parseInt(String(code).replace(/\D/g, ''), 10); return Number.isFinite(n) ? n : 999; }
 
+async function fetchJSON(path, errors, label) {
+  try {
+    const res = await fetch(new URL(`../data/${path}`, import.meta.url), { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = await res.json();
+    if (!Array.isArray(json)) throw new Error('không phải mảng JSON');
+    return json;
+  } catch (e) {
+    if (errors) errors.push(`${label || path}: ${e.message}`);
+    return null;
+  }
+}
+
 /**
- * loadContent() → { lessons, misconceptions, terms, questions, errors[], index{lesson,mis,term,question: Map} }
- * Không ném lỗi: tệp nào lỗi thì trả mảng rỗng và ghi vào errors.
+ * loadContent() → { chapters, lessons, misconceptions, terms, questions, errors[], index{chapter,lesson,mis,term,question: Map} }
+ * Đọc chapters.json; mỗi chương có "dir" ("" = thư mục data/ gốc, "c2" = data/c2/…, null = chưa có nội dung).
+ * Không ném lỗi: tệp nào lỗi thì bỏ qua và ghi vào errors.
  */
 export function loadContent() {
   if (contentPromise) return contentPromise;
   contentPromise = (async () => {
     const errors = [];
-    const results = await Promise.all(DATA_FILES.map(async (name) => {
-      try {
-        const res = await fetch(new URL(`../data/${name}.json`, import.meta.url), { cache: 'no-cache' });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const json = await res.json();
-        if (!Array.isArray(json)) throw new Error('không phải mảng JSON');
-        return json;
-      } catch (e) {
-        errors.push(`${name}.json: ${e.message}`);
-        return [];
-      }
+    let chapters = await fetchJSON('chapters.json', null);
+    if (!chapters) chapters = [{ id: 'C1', number: 1, title: 'Cấu tạo nguyên tử', dir: '', lessons: [] }];
+    const parts = await Promise.all(chapters.map(async (ch) => {
+      if (ch.dir == null) return null;
+      const base = ch.dir ? `${ch.dir}/` : '';
+      const files = await Promise.all(DATA_FILES.map((name) => fetchJSON(`${base}${name}.json`, errors, `${base}${name}.json`)));
+      const tag = (arr) => (arr || []).map((x) => (x && typeof x === 'object' && !x.chapter ? { ...x, chapter: ch.id } : x));
+      return Object.fromEntries(DATA_FILES.map((name, i) => [name, tag(files[i])]));
     }));
-    const [lessons, misconceptions, terms, questions] = results;
+    const all = (name) => parts.flatMap((p) => (p ? p[name] : []));
+    const lessonNum = (l) => l.number || codeNum(l.id);
     const content = {
-      lessons: lessons.filter((l) => l && l.id).sort((a, b) => String(a.id).localeCompare(String(b.id), 'vi', { numeric: true })),
-      misconceptions: misconceptions.filter((m) => m && m.code).sort((a, b) => codeNum(a.code) - codeNum(b.code)),
-      terms: terms.filter((t) => t && t.id && t.en),
-      questions: questions.filter((q) => q && q.id && q.type),
+      chapters: chapters.filter((c) => c && c.id).sort((a, b) => (a.number || 0) - (b.number || 0)),
+      lessons: all('lessons').filter((l) => l && l.id).sort((a, b) => lessonNum(a) - lessonNum(b)),
+      misconceptions: all('misconceptions').filter((m) => m && m.code).sort((a, b) => codeNum(a.code) - codeNum(b.code)),
+      terms: all('terms').filter((t) => t && t.id && t.en),
+      questions: all('questions').filter((q) => q && q.id && q.type),
       errors,
     };
     content.index = {
+      chapter: new Map(content.chapters.map((c) => [c.id, c])),
       lesson: new Map(content.lessons.map((l) => [l.id, l])),
       mis: new Map(content.misconceptions.map((m) => [m.code, m])),
       term: new Map(content.terms.map((t) => [t.id, t])),
@@ -43,6 +57,12 @@ export function loadContent() {
     return content;
   })();
   return contentPromise;
+}
+
+/** Chương chứa một bài (theo trường chapter của bài, hoặc danh sách lessons trong chapters.json) */
+export function chapterOfLesson(content, lessonId) {
+  const l = content.index.lesson.get(lessonId);
+  return content.index.chapter.get(l && l.chapter) || content.chapters.find((c) => (c.lessons || []).includes(lessonId)) || null;
 }
 
 /** Tất cả mã lỗi sai có thể gặp trong một câu hỏi */

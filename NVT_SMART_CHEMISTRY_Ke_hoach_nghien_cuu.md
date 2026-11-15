@@ -1,4 +1,4 @@
-# KẾ HOẠCH NGHIÊN CỨU – CUỘC THI KHOA HỌC KỸ THUẬT CẤP TRƯỜNG
+| M26 | So sánh nhiệt độ sôi chỉ dựa vào khối lượng phân tử, bỏ qua liên kết hydrogen || M25 | Nhầm liên kết hydrogen với liên kết cộng hóa trị trong phân tử, hoặc cho rằng mọi chất chứa H đều có liên kết hydrogen || M24 | Nhầm lẫn liên kết σ và π (cách hình thành, số lượng, độ bền) || M23 | Viết sai công thức Lewis (sai tổng số electron hóa trị, bỏ sót cặp electron không liên kết) || M22 | Phân loại liên kết chỉ theo "kim loại – phi kim", không dựa vào hiệu độ âm điện || M21 | Hiểu sai bản chất liên kết ion và hợp chất ion || M20 | Viết sai điện tích ion hoặc cấu hình electron của ion || M19 | Xác định sai chiều nhường – nhận electron khi nguyên tử tạo ion || M18 | Cho rằng các nguyên tố cùng chu kì có tính chất hóa học tương tự nhau || M17 | Xác định sai chiều biến đổi tính acid – base của oxide và hydroxide trong một chu kì || M16 | Nhầm hóa trị cao nhất với oxygen và hóa trị trong hợp chất khí với hydrogen || M15 | Xác định sai chiều biến đổi tính kim loại, tính phi kim || M14 | Xác định sai chiều biến đổi độ âm điện trong chu kì và trong nhóm || M13 | Xác định sai chiều biến đổi bán kính nguyên tử (cho rằng bán kính tăng theo điện tích hạt nhân trong một chu kì hoặc giảm trong một nhóm) || M12 | Nhầm lẫn nhóm A – nhóm B: xác định nhóm của nguyên tố d chỉ theo electron lớp ngoài cùng (hoặc chỉ theo electron phân lớp d), hay xếp nguyên tố s, p vào nhóm B || M11 | Xác định sai chu kì, nhóm A từ cấu hình electron (nhầm chu kì với nhóm, đếm sai electron lớp ngoài cùng) |# KẾ HOẠCH NGHIÊN CỨU – CUỘC THI KHOA HỌC KỸ THUẬT CẤP TRƯỜNG
 
 **Trường THPT Nguyễn Văn Thoại – Năm học 2026–2027**
 
@@ -103,16 +103,16 @@ Danh mục Chương 1 dùng cho thực nghiệm, sẽ được giáo viên chố
 |---|---|
 | M1 | Nhầm số khối (A) với nguyên tử khối |
 | M2 | Cho rằng electron đóng góp đáng kể vào khối lượng nguyên tử |
-| M3 | Tính sai số neutron (ví dụ N = A + Z, hoặc nhầm Z với N) |
+| M3 | Đọc sai kí hiệu nguyên tử, nhầm lẫn giữa Z, N và A (ví dụ N = A + Z) |
 | M4 | Cho rằng các đồng vị khác nhau về số proton |
 | M5 | Tính nguyên tử khối trung bình bằng trung bình cộng, không theo tỉ lệ phần trăm |
 | M6 | Hiểu orbital là quỹ đạo chuyển động xác định (theo mô hình hành tinh) |
-| M7 | Điền electron theo thứ tự lớp thay vì theo mức năng lượng (ví dụ điền 3d trước 4s) |
+| M7 | Điền electron sai thứ tự (3d trước 4s) hoặc sai quy tắc Hund khi biểu diễn ô orbital |
 | M8 | Sai số electron tối đa của lớp hoặc phân lớp |
-| M9 | Cho rằng số proton thay đổi khi nguyên tử tạo thành ion |
+| M9 | Hiểu sai sự thay đổi số hạt khi tạo ion (số proton thay đổi, hoặc nhầm chiều thêm/bớt electron) |
 | M10 | Xác định sai tính kim loại hoặc phi kim dựa trên số electron lớp ngoài cùng |
 
-**Chương 2 – Bảng tuần hoàn (dự thảo)**
+**Chương 2 – Bảng tuần hoàn (chuyên gia AI đã rà soát, chờ GV chốt)**
 
 | Mã | Lỗi sai |
 |---|---|
@@ -125,7 +125,7 @@ Danh mục Chương 1 dùng cho thực nghiệm, sẽ được giáo viên chố
 | M17 | Xác định sai chiều biến đổi tính acid – base của oxide và hydroxide trong một chu kì |
 | M18 | Cho rằng các nguyên tố cùng chu kì có tính chất hóa học tương tự nhau |
 
-**Chương 3 – Liên kết hóa học (dự thảo)**
+**Chương 3 – Liên kết hóa học (chuyên gia AI đã rà soát, chờ GV chốt)**
 
 | Mã | Lỗi sai |
 |---|---|

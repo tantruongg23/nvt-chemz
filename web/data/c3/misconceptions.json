@@ -1,0 +1,109 @@
+[
+  {
+    "code": "M19",
+    "chapter": "C3",
+    "title": "Xác định sai chiều nhường – nhận electron khi nguyên tử tạo ion",
+    "description": "Học sinh cho rằng nguyên tử kim loại (1–3 electron lớp ngoài cùng) nhận thêm electron để đủ 8, hoặc nguyên tử phi kim (5–7 electron lớp ngoài cùng) nhường hết electron lớp ngoài cùng, nên viết ra các ion như Na⁻, Cl⁷⁺, O⁶⁺ khi xét liên kết ion.",
+    "lessons": [
+      "B10",
+      "B11",
+      "B14"
+    ],
+    "remedy": "Nguyên tử đi theo con đường cần ít electron nhất để đạt cấu hình khí hiếm: kim loại có 1–3 e lớp ngoài cùng thì nhường hết các e đó (tạo cation), phi kim có 5–7 e thì nhận thêm 3–1 e (tạo anion).",
+    "example_wrong": "Nguyên tử magnesium (2, 8, 2) nhận thêm 6 electron để có 8 electron lớp ngoài cùng.",
+    "example_right": "Nguyên tử magnesium (2, 8, 2) nhường 2 electron tạo ion Mg²⁺ (2, 8) có cấu hình của neon."
+  },
+  {
+    "code": "M20",
+    "chapter": "C3",
+    "title": "Viết sai điện tích ion hoặc cấu hình electron của ion",
+    "description": "Học sinh ghi điện tích ion không bằng số electron đã nhường/nhận (Mg⁺, Al²⁺, Cl²⁻), viết cấu hình ion giống cấu hình nguyên tử (Mg²⁺: …3s²), hoặc nhầm \"8 electron lớp ngoài cùng\" thành \"ion có tổng cộng 8 electron\"; từ đó viết sai công thức hợp chất ion (CaF thay vì CaF₂).",
+    "lessons": [
+      "B10",
+      "B11",
+      "B14"
+    ],
+    "remedy": "Điện tích cation = số e nhường, điện tích anion = số e nhận. Cấu hình ion: cation bớt e ở lớp ngoài cùng, anion thêm e vào phân lớp đang điền dở; kiểm tra ion có cấu hình khí hiếm gần nhất. Công thức hợp chất ion phải trung hòa điện.",
+    "example_wrong": "Ion Mg²⁺ có cấu hình 1s²2s²2p⁶3s²; ion F⁻ có cấu hình 1s²2s²2p⁵.",
+    "example_right": "Mg²⁺: 1s²2s²2p⁶ (10 e, giống Ne); F⁻: 1s²2s²2p⁶ (10 e, giống Ne)."
+  },
+  {
+    "code": "M21",
+    "chapter": "C3",
+    "title": "Hiểu sai bản chất liên kết ion và hợp chất ion",
+    "description": "Học sinh cho rằng liên kết ion là sự dùng chung electron (giống liên kết cộng hóa trị), hoặc nghĩ hợp chất ion gồm các phân tử riêng lẻ (phân tử NaCl), từ đó suy luận sai tính chất (ví dụ tinh thể NaCl rắn dẫn điện được).",
+    "lessons": [
+      "B11",
+      "B14"
+    ],
+    "remedy": "Liên kết ion là lực hút tĩnh điện giữa cation và anion sau khi electron đã chuyển hẳn từ nguyên tử này sang nguyên tử kia. Hợp chất ion tồn tại ở dạng mạng tinh thể (NaCl: mỗi ion được 6 ion trái dấu bao quanh); ion chỉ di chuyển được khi nóng chảy hoặc tan trong nước nên khi đó mới dẫn điện.",
+    "example_wrong": "Trong NaCl, Na và Cl góp chung một cặp electron; tinh thể NaCl rắn dẫn điện vì có ion.",
+    "example_right": "Na nhường 1 e cho Cl tạo Na⁺ và Cl⁻, hai ion hút nhau bằng lực tĩnh điện; NaCl rắn không dẫn điện, NaCl nóng chảy hoặc dung dịch NaCl mới dẫn điện."
+  },
+  {
+    "code": "M22",
+    "chapter": "C3",
+    "title": "Phân loại liên kết chỉ theo \"kim loại – phi kim\", không dựa vào hiệu độ âm điện",
+    "description": "Học sinh khẳng định cứ kim loại + phi kim là liên kết ion, hai phi kim khác nhau thì chắc chắn phân cực/không phân cực mà không tính hiệu độ âm điện Δχ; hoặc tính Δχ sai (lấy tổng thay cho hiệu), áp sai ngưỡng 0,4 và 1,7 (ví dụ cho AlCl₃ là hợp chất ion, cho N–H là liên kết ion vì Δχ > 0,4).",
+    "lessons": [
+      "B12",
+      "B14"
+    ],
+    "remedy": "Tính Δχ = |χA − χB| bằng độ âm điện Pauling rồi so với ngưỡng: 0 ≤ Δχ < 0,4 cộng hóa trị không phân cực; 0,4 ≤ Δχ < 1,7 cộng hóa trị phân cực; Δχ ≥ 1,7 ion. Đây là quy ước gần đúng, nhưng là cách phân loại chuẩn trong SGK.",
+    "example_wrong": "AlCl₃ tạo bởi kim loại và phi kim nên là hợp chất ion.",
+    "example_right": "Δχ(Al–Cl) = 3,16 − 1,61 = 1,55 < 1,7 nên liên kết Al–Cl là liên kết cộng hóa trị phân cực."
+  },
+  {
+    "code": "M23",
+    "chapter": "C3",
+    "title": "Viết sai công thức Lewis (sai tổng số electron hóa trị, bỏ sót cặp electron không liên kết)",
+    "description": "Học sinh chỉ vẽ các cặp electron dùng chung mà quên cặp electron không liên kết, dùng tổng số electron (cả electron lớp trong) thay cho số electron hóa trị, hoặc chọn sai số liên kết khiến nguyên tử không đạt octet (H không đạt 2).",
+    "lessons": [
+      "B10",
+      "B12",
+      "B14"
+    ],
+    "remedy": "Viết Lewis theo 4 bước: (1) tính tổng electron hóa trị; (2) đặt khung, nối liên kết đơn; (3) điền cặp electron còn lại cho nguyên tử xung quanh rồi nguyên tử trung tâm; (4) nếu nguyên tử trung tâm thiếu octet thì chuyển cặp không liên kết thành liên kết đôi/ba. Cuối cùng đếm lại: tổng electron phải đúng, mỗi nguyên tử (trừ H) có 8 e.",
+    "example_wrong": "Công thức Lewis của NH₃: N ở giữa nối với 3 H, không có cặp electron nào khác trên N.",
+    "example_right": "NH₃ có 8 electron hóa trị: 3 cặp dùng chung N–H và 1 cặp electron không liên kết trên N."
+  },
+  {
+    "code": "M24",
+    "chapter": "C3",
+    "title": "Nhầm lẫn liên kết σ và π (cách hình thành, số lượng, độ bền)",
+    "description": "Học sinh cho rằng liên kết đôi gồm 2 liên kết σ, liên kết ba gồm 3 liên kết π (hoặc 3 σ), quên các liên kết đơn C–H khi đếm σ; nhầm cách hình thành (cho rằng liên kết σ do xen phủ bên, liên kết π do xen phủ trục); hoặc cho rằng liên kết π bền hơn liên kết σ.",
+    "lessons": [
+      "B12",
+      "B14"
+    ],
+    "remedy": "Mỗi liên kết (đơn, đôi, ba) luôn có đúng 1 liên kết σ; phần còn lại là π: đơn = 1σ, đôi = 1σ + 1π, ba = 1σ + 2π. Số σ = tổng số liên kết giữa các cặp nguyên tử. Liên kết σ (xen phủ trục) bền hơn liên kết π (xen phủ bên).",
+    "example_wrong": "Phân tử CO₂ (O=C=O) có 4 liên kết σ.",
+    "example_right": "Phân tử CO₂ có 2 liên kết đôi → 2 liên kết σ và 2 liên kết π."
+  },
+  {
+    "code": "M25",
+    "chapter": "C3",
+    "title": "Nhầm liên kết hydrogen với liên kết cộng hóa trị trong phân tử, hoặc cho rằng mọi chất chứa H đều có liên kết hydrogen",
+    "description": "Học sinh coi liên kết O–H trong phân tử nước là liên kết hydrogen (nên nghĩ khi đun sôi nước thì liên kết O–H bị phá vỡ, liên kết hydrogen bền hơn liên kết cộng hóa trị), hoặc cho rằng CH₄, HCl, H₂S… cũng tạo liên kết hydrogen giữa các phân tử chỉ vì có nguyên tử H.",
+    "lessons": [
+      "B13",
+      "B14"
+    ],
+    "remedy": "Liên kết hydrogen là tương tác giữa các phân tử (hoặc các nhóm nguyên tử): nguyên tử H đã liên kết với F, O hoặc N bị hút bởi một nguyên tử F, O hoặc N khác còn cặp electron không liên kết. Nó yếu hơn nhiều so với liên kết cộng hóa trị; khi nước sôi chỉ liên kết hydrogen bị phá vỡ, phân tử H₂O vẫn giữ nguyên.",
+    "example_wrong": "Phân tử CH₄ tạo liên kết hydrogen với nhau vì có nguyên tử H; khi nước sôi, liên kết O–H bị đứt.",
+    "example_right": "CH₄ không tạo liên kết hydrogen (H liên kết với C, độ âm điện nhỏ); khi nước sôi, liên kết hydrogen giữa các phân tử H₂O bị phá vỡ, liên kết O–H trong phân tử vẫn giữ nguyên."
+  },
+  {
+    "code": "M26",
+    "chapter": "C3",
+    "title": "So sánh nhiệt độ sôi chỉ dựa vào khối lượng phân tử, bỏ qua liên kết hydrogen",
+    "description": "Học sinh áp dụng máy móc quy luật \"khối lượng phân tử lớn hơn thì nhiệt độ sôi cao hơn\" (đúng với các chất chỉ có tương tác van der Waals) cho cả các chất có liên kết hydrogen, ví dụ cho rằng H₂S sôi ở nhiệt độ cao hơn H₂O, PH₃ cao hơn NH₃.",
+    "lessons": [
+      "B13",
+      "B14"
+    ],
+    "remedy": "Trước hết xét liên kết hydrogen: chất có liên kết hydrogen giữa các phân tử thường có nhiệt độ sôi cao hơn hẳn chất có khối lượng tương đương không có liên kết hydrogen. Chỉ khi các chất cùng loại tương tác (chỉ có van der Waals) mới so sánh theo khối lượng và kích thước phân tử.",
+    "example_wrong": "H₂S (M = 34) có nhiệt độ sôi cao hơn H₂O (M = 18) vì nặng hơn.",
+    "example_right": "H₂O sôi ở 100 °C, cao hơn nhiều so với H₂S (khoảng −60 °C) vì giữa các phân tử H₂O có liên kết hydrogen."
+  }
+]

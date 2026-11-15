@@ -28,7 +28,7 @@ app.innerHTML = `
   ${contentErrorNotice(content)}
   <p class="eyebrow">Từ điển Việt – Anh</p>
   <h1>Thuật ngữ Hóa học</h1>
-  <p class="muted">${content.terms.length} thuật ngữ của Chương 1. Bấm vào ô để xem nghĩa, ví dụ và nghe phát âm${speechSupported() ? '' : ' (trình duyệt này chưa hỗ trợ đọc)'}.</p>
+  <p class="muted">${content.terms.length} thuật ngữ Hóa học 10. Bấm vào ô để xem nghĩa, ví dụ và nghe phát âm${speechSupported() ? '' : ' (trình duyệt này chưa hỗ trợ đọc)'}.</p>
   <div class="toolbar">
     <div class="search">${icon('search')}<label class="sr-only" for="q">Tìm thuật ngữ</label>
       <input class="input" id="q" type="search" placeholder="Tìm: isotope, đồng vị, orbital…" autocomplete="off"></div>

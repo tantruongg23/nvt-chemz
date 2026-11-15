@@ -13,6 +13,8 @@ registerTerms(content.terms);
 
 const lessonId = (qs('lesson') || '').toUpperCase() || null;
 const misCode = (qs('m') || '').toUpperCase() || null;
+// ?ids=Q-B1-001,Q-B1-005 — bộ câu cố định (ví dụ "Kiểm tra nhanh" cuối bài học), giữ đúng thứ tự
+const idList = (qs('ids') || '').toUpperCase().split(',').map((x) => x.trim()).filter(Boolean);
 const lesson = lessonId ? content.index.lesson.get(lessonId) : null;
 const mis = misCode ? content.index.mis.get(misCode) : null;
 // mode: practice (mặc định) | pretest | posttest — kiểm tra trước/sau: không gợi ý, không phản hồi từng câu
@@ -42,6 +44,11 @@ function header() {
       <h1 style="margin-bottom:10px">${MODE === 'pretest' ? 'Bài kiểm tra trước' : 'Bài kiểm tra sau'}${lesson ? ` · ${esc(lesson.id)}` : ''}</h1>
       <div class="notice">${icon('info')}<span>Bài kiểm tra không có gợi ý và không hiện đáp án từng câu. Em làm hết rồi xem tổng kết.</span></div>`;
   }
+  if (idList.length) {
+    return `<p class="eyebrow">Kiểm tra nhanh</p>
+      <h1 style="margin-bottom:10px">${lesson ? `${esc(lesson.id)} · ${esc(lesson.title)}` : 'Bộ câu kiểm tra nhanh'}</h1>
+      <p class="small muted">${idList.length} câu để tự kiểm tra sau khi đọc bài. Sai câu nào thì đọc lại phần lời giải và mục bài học liên quan.</p>`;
+  }
   const title = lesson ? `${lesson.id} · ${lesson.title}` : 'Luyện tập tổng hợp';
   return `<p class="eyebrow">Luyện tập chẩn đoán</p>
     <h1 style="margin-bottom:10px">${esc(title)}</h1>
@@ -57,8 +64,10 @@ if (!sessionUser) {
 }
 
 function start() {
-  let questions = content.questions.filter((q) => (!lessonId || q.lesson === lessonId) && (!misCode || questionMisconceptions(q).includes(misCode)));
-  if (!lessonId) { // tổng hợp: xáo trộn
+  let questions = idList.length
+    ? idList.map((x) => content.index.question.get(x)).filter(Boolean)
+    : content.questions.filter((q) => (!lessonId || q.lesson === lessonId) && (!misCode || questionMisconceptions(q).includes(misCode)));
+  if (!lessonId && !idList.length) { // tổng hợp: xáo trộn
     questions = [...questions];
     for (let i = questions.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [questions[i], questions[j]] = [questions[j], questions[i]]; }
   }

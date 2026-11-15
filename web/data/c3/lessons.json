@@ -1,0 +1,350 @@
+[
+  {
+    "id": "B10",
+    "number": 10,
+    "chapter": "C3",
+    "kind": "lesson",
+    "title": "Quy tắc octet",
+    "title_en": "The octet rule",
+    "objectives": [
+      "Trình bày được khái niệm về liên kết hóa học.",
+      "Trình bày được quy tắc octet trong quá trình hình thành liên kết hóa học cho các nguyên tố nhóm A.",
+      "Vận dụng được quy tắc octet để giải thích xu hướng nhường, nhận hoặc góp chung electron của một số nguyên tử khi hình thành liên kết."
+    ],
+    "summary": [
+      "Liên kết hóa học là sự kết hợp giữa các nguyên tử tạo thành phân tử hay tinh thể bền vững hơn.",
+      "Khí hiếm có 8 electron lớp ngoài cùng (helium có 2) nên rất bền, hầu như không tham gia liên kết.",
+      "Quy tắc octet: khi hình thành liên kết, nguyên tử các nguyên tố nhóm A có xu hướng nhường, nhận hoặc góp chung electron để đạt cấu hình electron bền của khí hiếm (8 electron lớp ngoài cùng, hoặc 2 với lớp K).",
+      "Kim loại (1–3 e lớp ngoài cùng) có xu hướng nhường electron tạo ion dương; phi kim (5–7 e) có xu hướng nhận electron tạo ion âm hoặc góp chung electron với phi kim khác.",
+      "Quy tắc octet giúp giải thích sự hình thành nhiều phân tử, nhưng có nhiều trường hợp ngoại lệ."
+    ],
+    "sections": [
+      {
+        "heading": "Liên kết hóa học là gì?",
+        "body_md": "- Trong tự nhiên, trừ khí hiếm, các nguyên tử hầu như không tồn tại riêng lẻ mà **kết hợp với nhau** tạo thành phân tử hoặc tinh thể.\n- **Liên kết hóa học** là sự kết hợp giữa các nguyên tử tạo thành phân tử hay tinh thể **bền vững hơn**.\n- Khi tạo liên kết, chỉ các **electron hóa trị** (với nguyên tố nhóm A là electron lớp ngoài cùng) tham gia; hạt nhân và các electron lớp trong không thay đổi.\n- Có thể biểu diễn electron hóa trị bằng các dấu chấm quanh kí hiệu nguyên tố (kí hiệu Lewis): Na có 1 chấm, Mg có 2 chấm, Cl có 7 chấm, Ne có 8 chấm.",
+        "terms": [
+          "T-201",
+          "T-203"
+        ]
+      },
+      {
+        "heading": "Quy tắc octet",
+        "body_md": "- Khí hiếm có lớp ngoài cùng 8 electron (ns²np⁶), riêng helium 2 electron (1s²): đây là cấu hình **rất bền**.\n- **Quy tắc octet**: khi hình thành liên kết hóa học, nguyên tử các nguyên tố nhóm A có xu hướng **nhường, nhận hoặc góp chung electron** để đạt cấu hình electron bền vững của khí hiếm, tức có 8 electron ở lớp ngoài cùng (hoặc 2 electron nếu lớp ngoài cùng là lớp K, như H, Li).\n- Nguyên tử chọn cách **cần ít electron nhất**:\n\n| Số e lớp ngoài cùng | Xu hướng | Ví dụ |\n|---|---|---|\n| 1, 2, 3 (kim loại) | **nhường** hết e lớp ngoài cùng → ion dương | Na (2, 8, 1) → Na⁺ (2, 8) + 1e |\n| 5, 6, 7 (phi kim) | **nhận** thêm 3, 2, 1 e → ion âm | Cl (2, 8, 7) + 1e → Cl⁻ (2, 8, 8) |\n| 4 – 7 (phi kim với phi kim) | **góp chung** electron | Mỗi Cl góp 1 e tạo cặp chung trong Cl₂ |\n\n- Kim loại **không** nhận thêm 5–7 electron, phi kim **không** nhường hết 5–7 electron: số electron trao đổi như vậy quá lớn.",
+        "terms": [
+          "T-202",
+          "T-201"
+        ]
+      },
+      {
+        "heading": "Vận dụng quy tắc octet",
+        "body_md": "**Hình thành ion.** Mg (Z = 12): 1s²2s²2p⁶3s² → nhường 2 e → Mg²⁺: 1s²2s²2p⁶ (giống neon). O (Z = 8): 1s²2s²2p⁴ → nhận 2 e → O²⁻: 1s²2s²2p⁶ (giống neon).\n\nĐiện tích ion = số electron nhường (dấu +) hoặc nhận (dấu −). Ion có **8 electron ở lớp ngoài cùng**, không phải tổng cộng 8 electron.\n\n**Góp chung electron.** Phân tử H₂: mỗi H góp 1 e tạo 1 cặp chung, mỗi H có 2 e như helium. Phân tử Cl₂: mỗi Cl (7 e) góp 1 e, tạo 1 cặp chung `Cl–Cl`, mỗi Cl có 6 e riêng + 2 e chung = 8 e.\n\n**Hạn chế.** Một số phân tử không thỏa mãn quy tắc octet (ví dụ BF₃: B chỉ có 6 e quanh nó; PCl₅: P có 10 e). Quy tắc octet áp dụng tốt cho các nguyên tố chu kì 2 và phần lớn hợp chất thường gặp.",
+        "terms": [
+          "T-202",
+          "T-203"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Kim loại 1–3 e lớp ngoài cùng: M → Mⁿ⁺ + ne (n = 1, 2, 3)",
+      "Phi kim 5–7 e lớp ngoài cùng: X + (8 − a)e → anion điện tích −(8 − a) (a = số e lớp ngoài cùng)",
+      "Đạt cấu hình khí hiếm: 8 e lớp ngoài cùng (2 e với lớp K)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Vận dụng quy tắc octet, cho biết nguyên tử sodium (Z = 11) và sulfur (Z = 16) có xu hướng nhường hay nhận bao nhiêu electron. Viết cấu hình electron của các ion tạo thành.",
+        "solution": "Bước 1: Na: 1s²2s²2p⁶3s¹ (2, 8, 1) có 1 e lớp ngoài cùng → nhường 1 e (dễ hơn nhiều so với nhận 7 e).\nBước 2: Na → Na⁺ + 1e; Na⁺: 1s²2s²2p⁶ (giống neon).\nBước 3: S: 1s²2s²2p⁶3s²3p⁴ (2, 8, 6) có 6 e lớp ngoài cùng → nhận 2 e.\nBước 4: S + 2e → S²⁻; S²⁻: 1s²2s²2p⁶3s²3p⁶ (giống argon).\nLưu ý: viết Na⁻ (Na nhận e) hay S⁶⁺ (S nhường 6 e) là sai chiều nhường – nhận (lỗi M19)."
+      },
+      {
+        "problem": "Giải thích sự hình thành phân tử Cl₂ theo quy tắc octet.",
+        "solution": "Bước 1: Cl (Z = 17) có 7 electron lớp ngoài cùng, thiếu 1 electron để đạt octet.\nBước 2: Hai nguyên tử Cl giống nhau, không nguyên tử nào nhường electron cho nguyên tử kia, nên mỗi nguyên tử góp chung 1 electron tạo 1 cặp electron dùng chung.\nBước 3: Mỗi Cl có 6 electron riêng + 2 electron dùng chung = 8 electron, giống argon. Kết quả: Cl–Cl."
+      }
+    ],
+    "quick_check": [
+      "Q-B10-001",
+      "Q-B10-002",
+      "Q-B10-003"
+    ]
+  },
+  {
+    "id": "B11",
+    "number": 11,
+    "chapter": "C3",
+    "kind": "lesson",
+    "title": "Liên kết ion",
+    "title_en": "Ionic bonding",
+    "objectives": [
+      "Trình bày được khái niệm ion, cation, anion, ion đơn nguyên tử, ion đa nguyên tử.",
+      "Trình bày được khái niệm liên kết ion; nêu được cấu tạo tinh thể NaCl.",
+      "Giải thích được sự tạo thành liên kết ion trong một số phân tử (NaCl, MgO, …) theo quy tắc octet.",
+      "Giải thích được vì sao các hợp chất ion thường ở trạng thái rắn ở điều kiện thường (dạng tinh thể ion)."
+    ],
+    "summary": [
+      "Ion là nguyên tử hay nhóm nguyên tử mang điện; cation mang điện dương, anion mang điện âm; có ion đơn nguyên tử (Na⁺, Cl⁻) và ion đa nguyên tử (NH₄⁺, SO₄²⁻).",
+      "Liên kết ion là liên kết được hình thành bởi lực hút tĩnh điện giữa các ion mang điện tích trái dấu.",
+      "Liên kết ion thường hình thành giữa kim loại điển hình và phi kim điển hình: kim loại nhường electron, phi kim nhận electron.",
+      "Hợp chất ion tồn tại ở dạng mạng tinh thể ion; trong tinh thể NaCl mỗi ion Na⁺ được bao quanh bởi 6 ion Cl⁻ và ngược lại.",
+      "Hợp chất ion thường là chất rắn, có nhiệt độ nóng chảy và nhiệt độ sôi cao, nhiều chất tan tốt trong nước; dẫn điện khi nóng chảy hoặc khi tan trong nước, không dẫn điện ở thể rắn."
+    ],
+    "sections": [
+      {
+        "heading": "Ion, cation và anion",
+        "body_md": "- **Ion** là nguyên tử hay nhóm nguyên tử mang điện. Khi tạo ion, chỉ số electron thay đổi, **số proton giữ nguyên**.\n- **Cation** (ion dương): nguyên tử kim loại nhường electron. Na → Na⁺ + 1e; Mg → Mg²⁺ + 2e; Al → Al³⁺ + 3e.\n- **Anion** (ion âm): nguyên tử phi kim nhận electron. Cl + 1e → Cl⁻; O + 2e → O²⁻; N + 3e → N³⁻.\n- **Ion đơn nguyên tử** tạo từ một nguyên tử (Na⁺, Mg²⁺, Cl⁻, O²⁻). **Ion đa nguyên tử** tạo từ nhóm nguyên tử (NH₄⁺, OH⁻, NO₃⁻, SO₄²⁻, CO₃²⁻).\n\n| Nguyên tử | Cấu hình | Ion | Cấu hình ion | Giống khí hiếm |\n|---|---|---|---|---|\n| Na (Z = 11) | 1s²2s²2p⁶3s¹ | Na⁺ | 1s²2s²2p⁶ | Ne |\n| Mg (Z = 12) | 1s²2s²2p⁶3s² | Mg²⁺ | 1s²2s²2p⁶ | Ne |\n| F (Z = 9) | 1s²2s²2p⁵ | F⁻ | 1s²2s²2p⁶ | Ne |\n| Cl (Z = 17) | 1s²2s²2p⁶3s²3p⁵ | Cl⁻ | 1s²2s²2p⁶3s²3p⁶ | Ar |",
+        "terms": [
+          "T-206",
+          "T-202"
+        ]
+      },
+      {
+        "heading": "Sự hình thành liên kết ion",
+        "body_md": "**Liên kết ion** là liên kết được hình thành bởi **lực hút tĩnh điện giữa các ion mang điện tích trái dấu**. Electron **chuyển hẳn** từ nguyên tử kim loại sang nguyên tử phi kim, không có cặp electron dùng chung.\n\nVí dụ 1 – sodium chloride: Na → Na⁺ + 1e; Cl + 1e → Cl⁻; Na⁺ + Cl⁻ → NaCl.\n\nVí dụ 2 – magnesium oxide: Mg → Mg²⁺ + 2e; O + 2e → O²⁻; Mg²⁺ + O²⁻ → MgO.\n\nVí dụ 3 – calcium fluoride: Ca → Ca²⁺ + 2e; mỗi F nhận 1e → cần 2 nguyên tử F: Ca²⁺ + 2F⁻ → CaF₂.\n\n**Lập công thức hợp chất ion:** tổng điện tích dương bằng tổng điện tích âm (Al³⁺ và O²⁻ → Al₂O₃ vì 2 × 3 = 3 × 2).",
+        "terms": [
+          "T-204",
+          "T-205"
+        ]
+      },
+      {
+        "heading": "Tinh thể ion và tính chất hợp chất ion",
+        "body_md": "- Ở điều kiện thường, hợp chất ion tồn tại ở dạng **tinh thể ion**: các ion sắp xếp đều đặn, luân phiên trong không gian (mạng tinh thể). Không có \"phân tử NaCl\" riêng lẻ; NaCl chỉ là công thức cho biết tỉ lệ ion 1 : 1.\n- Trong tinh thể NaCl (hình lập phương), **mỗi ion Na⁺ được bao quanh bởi 6 ion Cl⁻** gần nhất và mỗi ion Cl⁻ được bao quanh bởi 6 ion Na⁺.\n\n| Tính chất | Hợp chất ion | Giải thích |\n|---|---|---|\n| Trạng thái (điều kiện thường) | rắn | lực hút tĩnh điện giữa các ion rất mạnh |\n| Nhiệt độ nóng chảy, sôi | cao (NaCl nóng chảy ở 801 °C) | cần nhiều năng lượng để phá vỡ mạng tinh thể |\n| Tính tan | nhiều chất tan tốt trong nước | |\n| Dẫn điện | **không** dẫn điện ở thể rắn; dẫn điện khi nóng chảy hoặc tan trong nước | ở thể rắn ion bị giữ cố định; khi nóng chảy/tan, ion di chuyển tự do |",
+        "terms": [
+          "T-207",
+          "T-208",
+          "T-205"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Cation: M → Mⁿ⁺ + ne; anion: X + me → Xᵐ⁻",
+      "Số proton không đổi khi tạo ion; số e của Mⁿ⁺ = Z − n, của Xᵐ⁻ = Z + m",
+      "Công thức hợp chất ion: tổng điện tích dương = tổng điện tích âm",
+      "Tinh thể NaCl: mỗi ion được bao quanh bởi 6 ion trái dấu"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Trình bày sự hình thành liên kết ion trong phân tử magnesium oxide (MgO). Biết Mg (Z = 12), O (Z = 8).",
+        "solution": "Bước 1: Mg: 1s²2s²2p⁶3s² có 2 e lớp ngoài cùng → nhường 2 e: Mg → Mg²⁺ + 2e (Mg²⁺: 1s²2s²2p⁶, giống Ne).\nBước 2: O: 1s²2s²2p⁴ có 6 e lớp ngoài cùng → nhận 2 e: O + 2e → O²⁻ (O²⁻: 1s²2s²2p⁶, giống Ne).\nBước 3: Hai ion trái dấu hút nhau bằng lực hút tĩnh điện: Mg²⁺ + O²⁻ → MgO.\nLưu ý: Mg và O không dùng chung electron (đó là liên kết cộng hóa trị) – lỗi M21."
+      },
+      {
+        "problem": "Nguyên tố X (Z = 13) kết hợp với nguyên tố Y (Z = 8) tạo hợp chất ion. Xác định các ion và công thức hợp chất.",
+        "solution": "Bước 1: X: 1s²2s²2p⁶3s²3p¹ (3 e lớp ngoài cùng) → X là aluminium, nhường 3 e tạo Al³⁺.\nBước 2: Y: 1s²2s²2p⁴ (6 e lớp ngoài cùng) → Y là oxygen, nhận 2 e tạo O²⁻.\nBước 3: Trung hòa điện: 2 ion Al³⁺ (+6) và 3 ion O²⁻ (−6).\nĐáp án: Al₂O₃."
+      }
+    ],
+    "quick_check": [
+      "Q-B11-001",
+      "Q-B11-004",
+      "Q-B11-007"
+    ]
+  },
+  {
+    "id": "B12",
+    "number": 12,
+    "chapter": "C3",
+    "kind": "lesson",
+    "title": "Liên kết cộng hóa trị",
+    "title_en": "Covalent bonding",
+    "objectives": [
+      "Trình bày được khái niệm và lấy được ví dụ về liên kết cộng hóa trị (liên kết đơn, đôi, ba) khi áp dụng quy tắc octet.",
+      "Viết được công thức electron, công thức Lewis và công thức cấu tạo của các phân tử đơn giản (H₂, Cl₂, N₂, HCl, H₂O, NH₃, CO₂, CH₄, …).",
+      "Dựa theo giá trị độ âm điện, nêu được liên kết cộng hóa trị không phân cực, phân cực và dự đoán được kiểu liên kết hóa học có thể được hình thành giữa hai nguyên tử.",
+      "Giải thích được sự hình thành liên kết σ và π qua sự xen phủ AO.",
+      "Nêu được khái niệm về năng lượng liên kết (của liên kết cộng hóa trị)."
+    ],
+    "summary": [
+      "Liên kết cộng hóa trị là liên kết được hình thành giữa hai nguyên tử bằng một hay nhiều cặp electron dùng chung.",
+      "Một cặp chung → liên kết đơn (–); hai cặp → liên kết đôi (=); ba cặp → liên kết ba (≡).",
+      "Công thức Lewis biểu diễn cả cặp electron dùng chung và cặp electron không liên kết; mỗi nguyên tử (trừ H) thường có 8 electron.",
+      "Phân loại theo hiệu độ âm điện Δχ (quy ước gần đúng): 0 ≤ Δχ < 0,4 cộng hóa trị không phân cực; 0,4 ≤ Δχ < 1,7 cộng hóa trị phân cực; Δχ ≥ 1,7 liên kết ion.",
+      "Liên kết σ do xen phủ trục, liên kết π do xen phủ bên; đơn = 1σ, đôi = 1σ + 1π, ba = 1σ + 2π; liên kết σ bền hơn liên kết π.",
+      "Năng lượng liên kết là năng lượng cần để phá vỡ một liên kết trong phân tử ở thể khí; năng lượng liên kết càng lớn, liên kết càng bền."
+    ],
+    "sections": [
+      {
+        "heading": "Khái niệm liên kết cộng hóa trị",
+        "body_md": "- **Liên kết cộng hóa trị** là liên kết được hình thành giữa hai nguyên tử bằng **một hay nhiều cặp electron dùng chung**. Thường gặp giữa các nguyên tử phi kim.\n- Mỗi cặp electron dùng chung được biểu diễn bằng một gạch nối:\n\n| Số cặp e dùng chung | Loại liên kết | Kí hiệu | Ví dụ |\n|---|---|---|---|\n| 1 | liên kết đơn | – | H–H, H–Cl, Cl–Cl |\n| 2 | liên kết đôi | = | O=O, O=C=O |\n| 3 | liên kết ba | ≡ | N≡N |\n\n- **Liên kết cho – nhận** là trường hợp đặc biệt: cặp electron dùng chung chỉ do một nguyên tử đóng góp (biểu diễn bằng mũi tên từ nguyên tử cho sang nguyên tử nhận). Ví dụ trong ion NH₄⁺, cặp electron không liên kết của N trong NH₃ được dùng chung với ion H⁺.",
+        "terms": [
+          "T-209",
+          "T-210",
+          "T-211",
+          "T-212",
+          "T-213"
+        ]
+      },
+      {
+        "heading": "Công thức Lewis",
+        "body_md": "**Công thức electron** biểu diễn mọi electron hóa trị bằng dấu chấm, cặp electron dùng chung đặt giữa hai kí hiệu nguyên tố (ví dụ HCl: H : Cl, quanh Cl có thêm 3 cặp chấm). Thay mỗi cặp electron dùng chung bằng một gạch nối, giữ các cặp electron không liên kết → **công thức Lewis**.\n\n**Các bước viết công thức Lewis:**\n1. Tính tổng số electron hóa trị của các nguyên tử (chỉ electron lớp ngoài cùng với nguyên tố nhóm A).\n2. Viết khung: nguyên tử trung tâm (thường có độ âm điện nhỏ hơn, không phải H) ở giữa; nối mỗi nguyên tử xung quanh với nguyên tử trung tâm bằng 1 liên kết đơn.\n3. Điền các electron còn lại thành từng cặp cho nguyên tử xung quanh (đủ 8, H đủ 2), rồi cho nguyên tử trung tâm.\n4. Nếu nguyên tử trung tâm chưa đủ 8 electron, chuyển cặp electron không liên kết của nguyên tử bên cạnh thành liên kết đôi hoặc ba.\n\n**Kiểm tra:** tổng electron đúng; mỗi nguyên tử (trừ H) có 8 electron (tính cả electron dùng chung).\n\n| Phân tử | Số e hóa trị | Khung liên kết | Cặp e không liên kết |\n|---|---|---|---|\n| H₂ | 2 | H–H | 0 |\n| Cl₂ | 14 | Cl–Cl | 6 (3 cặp trên mỗi Cl) |\n| HCl | 8 | H–Cl | 3 (trên Cl) |\n| H₂O | 8 | H–O–H | 2 (trên O) |\n| NH₃ | 8 | N nối 3 H bằng 3 liên kết đơn | 1 (trên N) |\n| CH₄ | 8 | C nối 4 H bằng 4 liên kết đơn | 0 |\n| O₂ | 12 | O=O | 4 (2 cặp trên mỗi O) |\n| CO₂ | 16 | O=C=O | 4 (2 cặp trên mỗi O) |\n| N₂ | 10 | N≡N | 2 (1 cặp trên mỗi N) |\n\n**Công thức cấu tạo** chỉ giữ lại các gạch nối (bỏ cặp e không liên kết), ví dụ H–O–H, O=C=O, N≡N.",
+        "terms": [
+          "T-214",
+          "T-215",
+          "T-210"
+        ]
+      },
+      {
+        "heading": "Liên kết cộng hóa trị phân cực, không phân cực và hiệu độ âm điện",
+        "body_md": "- **Không phân cực**: cặp electron chung nằm giữa hai nguyên tử (hai nguyên tử giống nhau như H₂, Cl₂, N₂ hoặc độ âm điện gần bằng nhau).\n- **Phân cực**: cặp electron chung **lệch về phía nguyên tử có độ âm điện lớn hơn**; nguyên tử đó mang một phần điện tích âm (δ−), nguyên tử kia mang δ+. Ví dụ H^δ+^–Cl^δ−^.\n\n**Quy ước phân loại theo hiệu độ âm điện Pauling** Δχ = |χA − χB| (gần đúng):\n\n| Δχ | Loại liên kết |\n|---|---|\n| 0 ≤ Δχ < 0,4 | cộng hóa trị không phân cực |\n| 0,4 ≤ Δχ < 1,7 | cộng hóa trị phân cực |\n| Δχ ≥ 1,7 | ion |\n\nMột số giá trị độ âm điện (Pauling): H 2,20; C 2,55; N 3,04; O 3,44; F 3,98; Na 0,93; Mg 1,31; Al 1,61; S 2,58; Cl 3,16; K 0,82; Ca 1,00; Br 2,96.\n\nVí dụ: NaCl: 3,16 − 0,93 = 2,23 → ion. HCl: 0,96 → phân cực. CH₄: C–H 0,35 → không phân cực (sát ngưỡng 0,4, chỉ xếp theo quy ước). **AlCl₃: 3,16 − 1,61 = 1,55 → cộng hóa trị phân cực** (dù Al là kim loại).\n\nĐây là quy ước gần đúng: không có ranh giới tuyệt đối giữa liên kết ion và cộng hóa trị phân cực. Với các giá trị sát ngưỡng (C–H 0,35; S–H 0,38) việc phân loại chỉ mang tính quy ước. Không phân loại chỉ dựa vào \"kim loại – phi kim\".",
+        "terms": [
+          "T-216",
+          "T-217",
+          "T-218"
+        ]
+      },
+      {
+        "heading": "Liên kết σ, liên kết π và năng lượng liên kết",
+        "body_md": "- Liên kết cộng hóa trị hình thành do **sự xen phủ** của các orbital nguyên tử (AO) chứa electron hóa trị.\n- **Liên kết σ (sigma)**: xen phủ **trục**, vùng xen phủ nằm trên đường nối hai hạt nhân (s–s như H₂, s–p như HCl, p–p như Cl₂). Liên kết σ bền.\n- **Liên kết π (pi)**: xen phủ **bên** của hai orbital p song song, vùng xen phủ nằm hai bên đường nối hai hạt nhân. Liên kết π kém bền hơn liên kết σ.\n\n| Liên kết | Thành phần |\n|---|---|\n| đơn | 1σ |\n| đôi | 1σ + 1π |\n| ba | 1σ + 2π |\n\n**Cách đếm**: số liên kết σ = số cặp nguyên tử liên kết trực tiếp; số liên kết π = số liên kết đôi + 2 × số liên kết ba. Ví dụ C₂H₄ (H₂C=CH₂): 4 C–H + 1 C=C → 5σ, 1π.\n\n**Năng lượng liên kết (Eb)** là năng lượng cần thiết để phá vỡ một liên kết hóa học trong phân tử ở thể khí, thường tính cho 1 mol liên kết (kJ/mol). Eb càng lớn, liên kết càng bền. Ví dụ (số liệu tham khảo, có thể chênh 1–2 kJ/mol tùy tài liệu): H–H 436; Cl–Cl 243; H–Cl 431; O=O 498; N≡N 945 kJ/mol → N₂ rất bền.",
+        "terms": [
+          "T-219",
+          "T-220",
+          "T-221",
+          "T-211",
+          "T-212",
+          "T-213"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Δχ = |χA − χB|",
+      "0 ≤ Δχ < 0,4: CHT không phân cực; 0,4 ≤ Δχ < 1,7: CHT phân cực; Δχ ≥ 1,7: ion",
+      "Đơn = 1σ; đôi = 1σ + 1π; ba = 1σ + 2π",
+      "Số cặp e không liên kết = (tổng e hóa trị − 2 × số cặp e dùng chung) / 2",
+      "Eb càng lớn → liên kết càng bền"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Viết công thức Lewis của phân tử carbon dioxide (CO₂). Cho biết số liên kết σ, số liên kết π và số cặp electron không liên kết trong phân tử.",
+        "solution": "Bước 1: Tổng electron hóa trị: C có 4, mỗi O có 6 → 4 + 2 × 6 = 16 e.\nBước 2: Khung O–C–O dùng 2 cặp (4 e); còn 12 e, điền cho mỗi O 3 cặp → mỗi O đủ 8 e nhưng C chỉ có 4 e.\nBước 3: Chuyển 1 cặp không liên kết của mỗi O thành cặp dùng chung với C → O=C=O. Mỗi O còn 2 cặp không liên kết, C có 8 e.\nBước 4: Kiểm tra: 4 cặp dùng chung (8 e) + 4 cặp không liên kết (8 e) = 16 e. Đúng.\nBước 5: 2 liên kết đôi → 2σ và 2π; có 4 cặp electron không liên kết.\nLưu ý: 2 liên kết đôi không phải 4 liên kết σ (lỗi M24); quên 4 cặp trên O là lỗi M23."
+      },
+      {
+        "problem": "Dựa vào độ âm điện (Mg 1,31; Al 1,61; Cl 3,16; H 2,20), cho biết loại liên kết trong MgCl₂, AlCl₃ và HCl.",
+        "solution": "Bước 1: MgCl₂: Δχ = 3,16 − 1,31 = 1,85 ≥ 1,7 → liên kết ion.\nBước 2: AlCl₃: Δχ = 3,16 − 1,61 = 1,55; 0,4 ≤ 1,55 < 1,7 → liên kết cộng hóa trị phân cực.\nBước 3: HCl: Δχ = 3,16 − 2,20 = 0,96 → liên kết cộng hóa trị phân cực, cặp e chung lệch về Cl.\nLưu ý: AlCl₃ gồm kim loại và phi kim nhưng không phải hợp chất ion theo quy ước Δχ (lỗi M22)."
+      }
+    ],
+    "quick_check": [
+      "Q-B12-001",
+      "Q-B12-002",
+      "Q-B12-004"
+    ]
+  },
+  {
+    "id": "B13",
+    "number": 13,
+    "chapter": "C3",
+    "kind": "lesson",
+    "title": "Liên kết hydrogen và tương tác van der Waals",
+    "title_en": "Hydrogen bonding and van der Waals forces",
+    "objectives": [
+      "Nêu được khái niệm liên kết hydrogen và vận dụng để giải thích sự xuất hiện liên kết hydrogen giữa một số phân tử (H₂O, NH₃, HF, …).",
+      "Trình bày được ảnh hưởng của liên kết hydrogen tới tính chất vật lí (nhiệt độ sôi, nhiệt độ nóng chảy, tính tan) của một số chất.",
+      "Nêu được khái niệm tương tác van der Waals và ảnh hưởng của tương tác này tới nhiệt độ nóng chảy, nhiệt độ sôi của các chất."
+    ],
+    "summary": [
+      "Liên kết hydrogen hình thành giữa nguyên tử H (đã liên kết với nguyên tử có độ âm điện lớn F, O, N) với một nguyên tử F, O hoặc N khác còn cặp electron không liên kết; biểu diễn bằng dấu ba chấm (…).",
+      "Liên kết hydrogen là tương tác giữa các phân tử, yếu hơn nhiều so với liên kết cộng hóa trị.",
+      "Liên kết hydrogen làm tăng nhiệt độ sôi, nhiệt độ nóng chảy và tăng độ tan trong nước của các chất có thể tạo liên kết hydrogen với nước.",
+      "Tương tác van der Waals là lực hút tĩnh điện giữa các lưỡng cực (tạm thời hoặc vĩnh cửu) của các phân tử; tăng khi khối lượng và kích thước phân tử tăng.",
+      "So sánh nhiệt độ sôi: xét liên kết hydrogen trước, sau đó mới xét khối lượng, kích thước phân tử."
+    ],
+    "sections": [
+      {
+        "heading": "Liên kết hydrogen",
+        "body_md": "- Trong liên kết O–H, N–H, F–H, cặp electron chung lệch mạnh về O, N, F nên nguyên tử H mang một phần điện tích dương (δ+) đáng kể.\n- **Liên kết hydrogen** là tương tác tĩnh điện giữa nguyên tử H (δ+) đã liên kết với nguyên tử có độ âm điện lớn (F, O, N) và một nguyên tử F, O hoặc N (δ−) **khác** còn cặp electron không liên kết.\n- Kí hiệu bằng dấu ba chấm: `O–H…O`, `N–H…N`, `F–H…F`.\n\n**Điều kiện** để giữa các phân tử có liên kết hydrogen: phân tử có H gắn trực tiếp với F, O hoặc N, và có nguyên tử F, O, N còn cặp electron không liên kết.\n\n| Chất | Có liên kết hydrogen giữa các phân tử? | Lí do |\n|---|---|---|\n| H₂O, NH₃, HF, C₂H₅OH (ethanol) | có | H gắn với O, N, F |\n| CH₄ | không | H gắn với C (độ âm điện nhỏ) |\n| HCl, H₂S | không (theo SGK) | Cl, S không thuộc nhóm F, O, N |\n\n- **Phân biệt**: liên kết O–H **trong** phân tử nước là liên kết cộng hóa trị (rất bền); liên kết hydrogen là tương tác **giữa** các phân tử nước (yếu hơn nhiều).",
+        "terms": [
+          "T-222",
+          "T-225",
+          "T-215"
+        ]
+      },
+      {
+        "heading": "Ảnh hưởng của liên kết hydrogen",
+        "body_md": "1. **Nhiệt độ sôi, nhiệt độ nóng chảy cao bất thường**: phải cung cấp thêm năng lượng để phá vỡ liên kết hydrogen giữa các phân tử. Ví dụ H₂O (M = 18) sôi ở 100 °C trong khi H₂S (M = 34) sôi ở khoảng −60 °C; NH₃ (−33 °C) cao hơn PH₃ (khoảng −88 °C).\n2. **Tính tan**: các chất tạo được liên kết hydrogen với nước (ammonia, ethanol, …) tan tốt trong nước; ethanol tan vô hạn trong nước.\n3. **Nước đá nhẹ hơn nước lỏng**: trong nước đá, mỗi phân tử H₂O liên kết hydrogen với 4 phân tử H₂O xung quanh (2 qua 2 nguyên tử H, 2 qua 2 cặp electron không liên kết của O) tạo cấu trúc tứ diện **rỗng**, nên khối lượng riêng của nước đá nhỏ hơn nước lỏng; nước đá nổi trên mặt nước.\n\nKhi nước sôi hoặc nước đá nóng chảy, **chỉ** liên kết hydrogen bị phá vỡ (một phần); các liên kết cộng hóa trị O–H trong phân tử vẫn giữ nguyên.",
+        "terms": [
+          "T-222",
+          "T-224"
+        ]
+      },
+      {
+        "heading": "Tương tác van der Waals",
+        "body_md": "- Electron chuyển động không ngừng nên tại mỗi thời điểm, mật độ electron trong phân tử có thể phân bố không đều, tạo **lưỡng cực tạm thời**; lưỡng cực này làm phân tử bên cạnh phân cực theo (**lưỡng cực cảm ứng**). Phân tử phân cực sẵn có **lưỡng cực vĩnh cửu**.\n- **Tương tác van der Waals** là lực hút tĩnh điện giữa các lưỡng cực của các nguyên tử, phân tử. Tương tác này **yếu** (yếu hơn liên kết hydrogen) và tồn tại giữa mọi phân tử.\n- Tương tác van der Waals **tăng khi khối lượng phân tử và kích thước phân tử tăng** → nhiệt độ nóng chảy, nhiệt độ sôi tăng.\n\n| Chất | F₂ | Cl₂ | Br₂ | I₂ |\n|---|---|---|---|---|\n| M | 38 | 71 | 160 | 254 |\n| Trạng thái (25 °C) | khí | khí | lỏng | rắn |\n\n**Quy tắc so sánh nhiệt độ sôi** (với các chất phân tử):\n1. Chất có liên kết hydrogen giữa các phân tử thường sôi cao hơn hẳn chất không có (khi khối lượng tương đương).\n2. Các chất cùng chỉ có tương tác van der Waals: khối lượng, kích thước phân tử càng lớn thì nhiệt độ sôi càng cao.",
+        "terms": [
+          "T-223",
+          "T-225",
+          "T-224"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Liên kết hydrogen: X–H…Y với X, Y ∈ {F, O, N}",
+      "Độ bền: liên kết cộng hóa trị ≫ liên kết hydrogen > tương tác van der Waals",
+      "Cùng chỉ có van der Waals: M tăng → nhiệt độ sôi tăng",
+      "Mỗi phân tử H₂O liên kết hydrogen tối đa với 4 phân tử H₂O khác"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Sắp xếp các chất sau theo chiều tăng dần nhiệt độ sôi và giải thích: CH₄ (M = 16), H₂S (M = 34), H₂O (M = 18).",
+        "solution": "Bước 1: Xét liên kết hydrogen: chỉ H₂O có H gắn với O và O còn cặp electron không liên kết → giữa các phân tử H₂O có liên kết hydrogen. CH₄ và H₂S không có.\nBước 2: H₂O có nhiệt độ sôi cao nhất (100 °C).\nBước 3: CH₄ và H₂S chỉ có tương tác van der Waals; H₂S có khối lượng lớn hơn nên sôi cao hơn CH₄.\nĐáp án: CH₄ < H₂S < H₂O.\nLưu ý: xếp theo khối lượng (CH₄ < H₂O < H₂S) là bỏ qua liên kết hydrogen (lỗi M26)."
+      }
+    ],
+    "quick_check": [
+      "Q-B13-001",
+      "Q-B13-003",
+      "Q-B13-004"
+    ]
+  },
+  {
+    "id": "B14",
+    "number": 14,
+    "chapter": "C3",
+    "kind": "review",
+    "title": "Ôn tập chương 3",
+    "title_en": "Chapter 3 review: Chemical bonding",
+    "objectives": [
+      "Hệ thống hóa kiến thức về quy tắc octet, liên kết ion, liên kết cộng hóa trị, liên kết hydrogen và tương tác van der Waals.",
+      "Vận dụng giải các dạng bài: viết sự hình thành ion và công thức hợp chất ion, viết công thức Lewis, đếm liên kết σ và π, phân loại liên kết theo hiệu độ âm điện, so sánh nhiệt độ sôi."
+    ],
+    "summary": [
+      "Nguyên tử nhóm A nhường, nhận hoặc góp chung electron để đạt cấu hình khí hiếm (quy tắc octet).",
+      "Liên kết ion: lực hút tĩnh điện giữa cation và anion; hợp chất ion là tinh thể rắn, nhiệt độ nóng chảy cao.",
+      "Liên kết cộng hóa trị: cặp electron dùng chung; đơn = 1σ, đôi = 1σ + 1π, ba = 1σ + 2π.",
+      "Phân loại liên kết theo Δχ: < 0,4 không phân cực; 0,4 đến < 1,7 phân cực; ≥ 1,7 ion.",
+      "Liên kết hydrogen (H gắn F, O, N) và tương tác van der Waals là tương tác giữa các phân tử, quyết định nhiệt độ sôi, nóng chảy và tính tan."
+    ],
+    "sections": [
+      {
+        "heading": "Sơ đồ hệ thống kiến thức",
+        "body_md": "| Loại | Bản chất | Hình thành giữa | Ví dụ |\n|---|---|---|---|\n| Liên kết ion | lực hút tĩnh điện giữa ion trái dấu | kim loại điển hình – phi kim điển hình (Δχ ≥ 1,7) | NaCl, MgO, CaF₂ |\n| Cộng hóa trị phân cực | cặp e chung lệch về nguyên tử có χ lớn hơn | 0,4 ≤ Δχ < 1,7 | HCl, H₂O, NH₃, AlCl₃ |\n| Cộng hóa trị không phân cực | cặp e chung không lệch | 0 ≤ Δχ < 0,4 | H₂, Cl₂, N₂, O₂ |\n| Liên kết hydrogen | H(δ+) gắn F/O/N hút F/O/N khác | giữa các phân tử | H₂O, NH₃, HF |\n| Tương tác van der Waals | hút giữa các lưỡng cực | giữa mọi phân tử | I₂, các khí hiếm |\n\n**Các dạng bài thường gặp:**\n1. Viết quá trình tạo ion, cấu hình ion, công thức hợp chất ion (trung hòa điện).\n2. Viết công thức Lewis: tính tổng e hóa trị → khung → điền cặp e → kiểm tra octet.\n3. Đếm σ, π: mỗi liên kết có đúng 1σ; π = số liên kết đôi + 2 × số liên kết ba.\n4. Phân loại liên kết bằng Δχ.\n5. So sánh nhiệt độ sôi: liên kết hydrogen trước, khối lượng phân tử sau.",
+        "terms": [
+          "T-204",
+          "T-209",
+          "T-216",
+          "T-222",
+          "T-223"
+        ]
+      },
+      {
+        "heading": "Bẫy lỗi sai cần tránh",
+        "body_md": "| Mã | Lỗi | Cách tránh |\n|---|---|---|\n| M19 | Sai chiều nhường – nhận e (Mg nhận 6 e, Cl nhường 7 e) | Kim loại 1–3 e nhường; phi kim 5–7 e nhận |\n| M20 | Sai điện tích hoặc cấu hình ion (Mg⁺, F⁻ là 2p⁵) | Điện tích = số e nhường/nhận; ion có cấu hình khí hiếm |\n| M21 | Liên kết ion là dùng chung e; NaCl rắn dẫn điện | Ion: chuyển hẳn e, hút tĩnh điện; tinh thể rắn không dẫn điện |\n| M22 | Chỉ dựa \"kim loại – phi kim\" để phân loại | Tính Δχ và so với 0,4 và 1,7 (AlCl₃ là CHT phân cực) |\n| M23 | Lewis thiếu cặp e không liên kết, sai tổng e | Đếm lại tổng e hóa trị; mỗi nguyên tử (trừ H) đủ 8 e |\n| M24 | Đôi = 2σ; ba = 3π | Mỗi liên kết có 1σ; phần thêm là π |\n| M25 | Nhầm liên kết hydrogen với O–H; mọi chất có H đều tạo liên kết hydrogen | Liên kết hydrogen giữa các phân tử, cần H gắn F, O, N |\n| M26 | So sánh nhiệt độ sôi chỉ theo khối lượng | Xét liên kết hydrogen trước |",
+        "terms": [
+          "T-202",
+          "T-214",
+          "T-219",
+          "T-220",
+          "T-224"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Δχ = |χA − χB|; ngưỡng 0,4 và 1,7",
+      "Đơn = 1σ; đôi = 1σ + 1π; ba = 1σ + 2π",
+      "Số e của Mⁿ⁺ = Z − n; của Xᵐ⁻ = Z + m",
+      "Hợp chất ion: tổng điện tích = 0"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Cho nguyên tố X (Z = 19) và Y (Z = 17). (a) Viết quá trình tạo ion và công thức hợp chất giữa X và Y. (b) Cho χ(X) = 0,82, χ(Y) = 3,16, xác định loại liên kết. (c) Viết công thức Lewis của phân tử Y₂ và cho biết số liên kết σ, π.",
+        "solution": "Bước 1: X: 1s²2s²2p⁶3s²3p⁶4s¹ → potassium, nhường 1 e: K → K⁺ + 1e.\nBước 2: Y: 1s²2s²2p⁶3s²3p⁵ → chlorine, nhận 1 e: Cl + 1e → Cl⁻. Hợp chất: KCl.\nBước 3: Δχ = 3,16 − 0,82 = 2,34 ≥ 1,7 → liên kết ion.\nBước 4: Cl₂ có 14 e hóa trị: Cl–Cl, mỗi Cl còn 3 cặp electron không liên kết.\nBước 5: Cl₂ có 1 liên kết đơn → 1σ, 0π."
+      }
+    ],
+    "quick_check": [
+      "Q-B14-001",
+      "Q-B14-002",
+      "Q-B14-004"
+    ]
+  }
+]
