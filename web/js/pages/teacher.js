@@ -192,8 +192,9 @@ function download(name, rows) {
 }
 function exportAttempts(code, rows) {
   if (!rows.length) { toast('Không có dữ liệu để xuất.'); return; }
-  const out = [['anon_id', 'question_id', 'lesson', 'is_correct', 'misconception_codes', 'hint_level_used', 'duration_ms', 'mode', 'created_at']];
-  rows.forEach((a) => out.push([a.anon_id, a.question_id, a.lesson, a.is_correct ? 1 : 0, (a.misconception_codes || []).join(' '), a.hint_level_used, a.duration_ms, a.mode, a.created_at]));
+  // Cột theo BACKLOG US-11 (thêm class, type) + các cột của get_class_export
+  const out = [['anon_id', 'class', 'question_id', 'lesson', 'type', 'is_correct', 'misconception_codes', 'hint_level_used', 'duration_ms', 'mode', 'created_at']];
+  rows.forEach((a) => out.push([a.anon_id, code, a.question_id, a.lesson, content.index.question.get(a.question_id)?.type || '', a.is_correct ? 1 : 0, (a.misconception_codes || []).join(' '), a.hint_level_used, a.duration_ms, a.mode, a.created_at]));
   download(`nvt_${code}_luot_lam.csv`, out);
 }
 function exportMis(code, stats, rows) {

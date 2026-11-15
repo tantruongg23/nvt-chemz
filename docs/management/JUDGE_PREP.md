@@ -24,8 +24,8 @@
 
 **1. Em giới thiệu dự án trong 1 phút?**
 - Vấn đề: ôn tập chỉ biết đúng/sai, không biết vì sao sai; AI phổ biến đưa ngay đáp án; ít tiếp xúc thuật ngữ tiếng Anh.
-- Giải pháp: 3 điểm khác biệt – chẩn đoán lỗi sai M1–M10, AI gợi ý 3 mức, thuật ngữ Việt – Anh; thêm dashboard giáo viên.
-- Kiểm chứng: thực nghiệm 2 lớp có đối chứng.
+- Giải pháp: 3 điểm khác biệt – chẩn đoán lỗi sai (48 mã cho 7 chương), AI gợi ý 3 mức, thuật ngữ Việt – Anh; thêm dashboard giáo viên; bao phủ cả Hóa 10 để ôn tập và học trước.
+- Kiểm chứng: thực nghiệm 2 lớp có đối chứng trên Chương 1; dữ liệu sử dụng các chương khác.
 
 **2. Đã có rất nhiều web trắc nghiệm và ChatGPT, dự án của em khác gì?**
 - Phương án nhiễu được thiết kế có chủ đích, gắn với lỗi sai cụ thể → biết *vì sao* sai.
@@ -38,10 +38,16 @@
 - Kết quả khảo sát thực trạng (nêu số phiếu n và 1–2 con số **thật**).
 - Thừa nhận: ban đầu là giả định, khảo sát dùng để kiểm chứng.
 
-**4. Vì sao chọn Chương 1 mà không làm cả chương trình?**
-- Thời gian 1 tuần → làm nhỏ nhưng chắc, đủ để thực nghiệm.
-- Chương 1 có nhiều lỗi sai điển hình, dễ đo.
-- Cấu trúc dữ liệu cho phép mở rộng thêm chương sau.
+**4. Sản phẩm có 7 chương, sao thực nghiệm chỉ đo Chương 1?**
+- Thực nghiệm có đối chứng cần cùng nội dung, cùng thời lượng, đề pre/post tương đương – làm cho 7 chương trong 1 tuần là không chắc chắn.
+- Chương 1 lớp 10 đã học xong, có nhiều lỗi sai điển hình, dễ đo.
+- Các chương khác: chỉ báo cáo số liệu sử dụng (mô tả), **không** khẳng định hiệu quả.
+- Vì sao vẫn làm đủ 7 chương: nhu cầu học trước/học bù (nêu số liệu khảo sát thật) và để GV dùng được cả năm.
+
+**4b. 300 câu hỏi trong 2 tuần – làm sao đảm bảo đúng?**
+- Quy trình 7 bước cho mỗi chương; kiểm tra tự động; **GV duyệt 100%** trước khi gắn "đã duyệt".
+- Nêu đúng số câu đã duyệt / tổng số câu của từng chương; nội dung chưa duyệt có nhãn.
+- Khai báo có dùng AI soạn nháp; em đã đối chiếu SGK và sửa những gì (chỉ ví dụ cụ thể).
 
 ## B. Kiến thức Hóa học — *HS1 dẫn (cả nhóm đều phải trả lời được câu 5–7)*
 
@@ -60,7 +66,7 @@
 - Không phải đường đi xác định như hành tinh quanh Mặt Trời.
 - Liên hệ cách SGK KNTT trình bày.
 
-**8. Danh mục lỗi M1–M10 lấy từ đâu? Ai đảm bảo đáp án đúng?**
+**8. Danh mục lỗi sai (M1–M10 và M11–M48) lấy từ đâu? Ai đảm bảo đáp án đúng?**
 - Kinh nghiệm giảng dạy của GV + nhóm tổng hợp + khảo sát + tài liệu về quan niệm sai (nêu tài liệu đã đọc thật).
 - Quy trình duyệt: HS1 soạn → GV duyệt → mới đánh dấu "đã duyệt"; nội dung chưa duyệt có nhãn.
 - Danh mục sẽ được hiệu chỉnh theo dữ liệu thực nghiệm.
@@ -150,12 +156,12 @@
 ## G. Hạn chế và hướng phát triển — *Cả nhóm, HS2 mở đầu*
 
 **24. Hạn chế lớn nhất của dự án là gì?**
-- Mỗi bạn chuẩn bị 1 hạn chế khác nhau: mẫu nhỏ/thời gian ngắn; mới có 1 chương; AI vẫn có thể sai; chưa đo hiệu quả lâu dài.
+- Mỗi bạn chuẩn bị 1 hạn chế khác nhau: mẫu nhỏ/thời gian ngắn; thực nghiệm mới đo 1 chương; danh mục lỗi C2–C7 chưa được kiểm chứng; AI vẫn có thể sai; chưa đo hiệu quả lâu dài.
 - Kèm cách nhóm đã giảm thiểu hoặc sẽ cải thiện.
 
 **25. Nếu được đi tiếp, nhóm sẽ làm gì?**
 - Mở rộng thực nghiệm (thêm lớp, kiểm tra lại sau 3–4 tuần).
-- Thêm chương; cho GV tự thêm câu hỏi.
+- Thực nghiệm thêm chương (C2, C3); hiệu chỉnh danh mục lỗi C2–C7 bằng dữ liệu; cho GV tự thêm câu hỏi.
 - Dùng danh mục lỗi sai thu được để hỗ trợ GV dạy học.
 - Chỉ nêu những gì khả thi, không hứa quá sức.
 

@@ -70,3 +70,26 @@
 - [ ] HS1 + GV: rà và chốt danh mục lỗi sai M1–M10.
 - [ ] HS1: hoàn thiện phiếu khảo sát, gửi GV duyệt, phát cho lớp 10.
 - [ ] Cả nhóm: đọc BACKLOG, nhận story S1.
+
+---
+
+## Chủ nhật, 15/11/2026 (buổi chiều) – Sprint S0 – Người ghi: [HS?] (cùng GV)
+
+**Đã làm**
+- GV quyết định **mở rộng sản phẩm ra toàn bộ Hóa học 10 (7 chương, 23 bài)** để phục vụ cả ôn tập và tự học trước; **thực nghiệm sư phạm giữ nguyên trên Chương 1**.
+- Cập nhật Kế hoạch nghiên cứu (thêm câu hỏi nghiên cứu 5, chỉ tiêu nội dung từng chương, tiêu chuẩn "chương hoàn thiện", danh mục lỗi sai dự thảo M11–M48, mục 6.4 đánh giá sử dụng C2–C7), ROADMAP (dây chuyền chương, bảng trạng thái 7 chương), BACKLOG (US-23…US-28, US-C1…US-C7), CONTRACT (mã B1–B23, M1–M48, `chapters.json`, thư mục theo chương), RISKS (R16–R21).
+- Rà soát bản nháp nội dung C1 và mã nguồn (có AI hỗ trợ – xem AI_USAGE_LOG):
+  - Nội dung: các phép tính và đáp án đều đúng; sửa 6 điểm nhỏ (ghi ở `docs/content/REVIEW_SHEET.md`). Ngân hàng mới có 40/60 câu.
+  - Code: sửa lỗi XSS ở tham số `?lesson=`, nút Kiểm tra không bật khi gõ đáp án ngắn, gợi ý AI không nhận diện lỗi ở câu đúng/sai, CSV thiếu cột `class`, `type`, lọc kí tự `< >` trong câu trả lời gửi AI, tăng `max_tokens`, sửa `seed.sql` cho khớp đáp án.
+
+**Quyết định quan trọng** (và lý do)
+- Mã bài trùng số bài SGK (B1–B23), mã lỗi đánh số liên tục M1–M48 → dữ liệu C1 không phải đổi mã, học sinh dễ nhớ.
+- Ưu tiên: C1 + thực nghiệm > C2, C3 > C4–C7 > AI. Chương chưa duyệt giữ nhãn "Bản nháp", không trình bày như nội dung đã duyệt.
+
+**Việc còn mở**
+- [ ] GV kiểm tra thể lệ: số học sinh tối đa của một dự án tập thể (RISKS R21).
+- [ ] GV nộp phiếu khảo sát + kế hoạch thực nghiệm xin phép nhà trường (R19).
+- [ ] Chưa có chế độ pre/post-test trên web (US-12) → nếu không kịp, dùng đề giấy.
+
+**Có dùng AI không?** Có – xem AI_USAGE_LOG ngày 15/11/2026.
+

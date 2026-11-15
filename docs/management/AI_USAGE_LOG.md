@@ -31,6 +31,8 @@
 | 15/11/2026 | GV (định hướng) | Claude | Bản nháp kiến trúc kỹ thuật | `docs/architecture/`, `supabase/` (lược đồ dữ liệu, hàm gợi ý AI) | *HS3 phải đọc hiểu từng dòng trước S1* | *HS3 tự điền* |
 | 15/11/2026 | GV (định hướng) | Claude | Bản nháp nội dung Hóa học | `docs/content/`, `web/data/*.json` (bài học, thuật ngữ, lỗi sai, câu hỏi – tất cả `reviewed: false`) | *HS1 đối chiếu SGK KNTT; GV duyệt từng lô theo quy trình* | *HS1 tự điền* |
 | 15/11/2026 | GV (định hướng) | Claude | Bản mẫu giao diện | `docs/design/`, các trang và CSS/JS trong `web/` | *HS2 đọc hiểu, chạy thử trên điện thoại, sửa theo ý nhóm* | *HS2 tự điền* |
+| 15/11/2026 | GV (định hướng) | Claude | Điều chỉnh kế hoạch sang 7 chương | Sửa Kế hoạch nghiên cứu (md + Word), ROADMAP, BACKLOG, CONTRACT, RISKS, CONTENT_GUIDE, JUDGE_PREP, TEAM_WORKFLOW; danh mục lỗi dự thảo M11–M48 | *GV đọc lại, chốt danh mục lỗi từng chương trước khi soạn câu hỏi* | *Mỗi HS tự điền* |
+| 15/11/2026 | GV (định hướng) | Claude | Rà soát nội dung C1 và mã nguồn | Báo cáo rà soát; sửa nhỏ trong `web/data/*.json`, `web/js/`, `supabase/` (liệt kê ở DEVLOG và REVIEW_SHEET) | *GV xem lại các câu đã sửa; HS2, HS3 đọc hiểu các chỗ sửa trong code* | *HS2/HS3 tự điền* |
 
 > ⚠️ Các dòng ngày 15/11 ghi nhận rằng **bộ khung ban đầu do AI tạo** dưới sự định hướng của GV. Khi trình bày với giám khảo, nhóm nói rõ điều này và chỉ ra phần nào các em đã đọc hiểu, sửa đổi, viết lại hoặc làm mới sau đó (đối chiếu với lịch sử commit Git).
 

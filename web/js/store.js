@@ -359,8 +359,8 @@ export async function getHintsRemaining() {
 
 function serializeAnswer(a) {
   if (a == null || a === '') return null;
-  if (typeof a === 'object') return Object.entries(a).map(([k, v]) => `${k}:${v ? 'Đúng' : 'Sai'}`).join(', ');
-  return String(a);
+  if (typeof a === 'object') return a; // true_false: gửi nguyên đối tượng {a:true,…} để máy chủ dò được mã lỗi sai
+  return String(a).slice(0, 200);    // máy chủ từ chối chuỗi > 200 ký tự
 }
 
 export async function requestHint(questionId, level, studentAnswer) {

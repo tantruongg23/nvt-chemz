@@ -11,7 +11,7 @@
 
 | ID | Rủi ro | KN | AH | Điểm | Phương án phòng ngừa / xử lý | Người phụ trách | Dấu hiệu kích hoạt |
 |---|---|---|---|---|---|---|---|
-| R01 | **Không đủ thời gian** hoàn thành trước 23/11 | 3 | 3 | 🔴 9 | Làm Must trước; cắt theo thứ tự ở [ROADMAP mục 4](ROADMAP.md#4-nếu-bị-trễ-thì-cắt-gì-thứ-tự-cắt); MVP chế độ demo xong trước 20/11 | Cả nhóm (HS2 theo dõi) | Tối 18/11 chưa xong luồng luyện tập cơ bản |
+| R01 | **Không đủ thời gian** hoàn thành trước 23/11 (khối lượng tăng do mở rộng 7 chương) | 3 | 3 | 🔴 9 | Làm Must trước (C1–C3 + kỹ thuật); cắt theo thứ tự ở [ROADMAP mục 4](ROADMAP.md#4-nếu-bị-trễ-thì-cắt-gì-thứ-tự-cắt); MVP chế độ demo xong trước 20/11 | Cả nhóm (HS2 theo dõi) | Tối 18/11 chưa xong luồng luyện tập cơ bản |
 | R02 | **Học sinh quá tải** vì trùng lịch kiểm tra trên lớp | 3 | 2 | 🔴 6 | Mỗi bạn khai lịch kiểm tra từ S0; giới hạn 2–4 giờ/ngày; chia lại việc khi một bạn báo quá tải; GV xin linh động nếu cần | GV, cả nhóm | Một bạn 2 ngày liền không cập nhật họp nhanh, hoặc ghi "quá tải" |
 | R03 | **AI gợi ý sai kiến thức** | 2 | 3 | 🔴 6 | Server chỉ đưa vào AI câu hỏi + lời giải đã duyệt; kiểm thử 30 câu (US-18); luôn hiện "AI có thể sai"; mức 3 dùng lời giải đã duyệt, không dùng AI | HS3, GV | Bất kỳ lỗi kiến thức nào trong kiểm thử, hoặc học sinh báo gợi ý sai |
 | R04 | **AI lộ đáp án ngay ở mức 1** (phá mục đích gợi ý từng bước) | 2 | 2 | 🟡 4 | Hướng dẫn hệ thống (prompt) cấm nêu đáp án ở mức 1–2; kiểm thử riêng tiêu chí này; nếu tỉ lệ lộ cao → dùng gợi ý soạn sẵn | HS3 | Tỉ lệ lộ đáp án trong kiểm thử > 10% (ngưỡng đề xuất, GV chốt) |
@@ -26,9 +26,16 @@
 | R13 | **Kết quả thực nghiệm không ủng hộ giả thuyết** | 2 | 1 | 🟢 2 | Đây **không phải thất bại**: báo cáo trung thực, phân tích nguyên nhân, nêu hướng cải tiến. Không chỉnh sửa số liệu | HS3, GV | Kiểm định cho kết quả không có ý nghĩa thống kê |
 | R14 | **Web Speech API không có giọng tiếng Anh** trên một số máy | 2 | 1 | 🟢 2 | Ẩn nút phát âm khi không hỗ trợ; vẫn hiện IPA; có thể bổ sung file âm thanh sau | HS2 | Thử trên máy phòng máy không phát âm được |
 | R15 | **Ngày thi thay đổi** so với giả định ~03/12 | 2 | 2 | 🟡 4 | Theo dõi thông báo của BTC; ưu tiên hoàn thành báo cáo trước poster | GV | BTC công bố lịch chính thức |
+| R16 | **GV không duyệt kịp nội dung 7 chương** (≈ 295 câu, ≈ 12–13 giờ duyệt) | 3 | 2 | 🔴 6 | Duyệt theo lô 15–20 câu/ngày theo thứ tự C1 → C7; HS tự kiểm tra kỹ trước khi gửi; chương chưa duyệt giữ nhãn "Bản nháp" ([ROADMAP mục 6](ROADMAP.md#6-nếu-bị-trễ-thì-cắt-gì-thứ-tự-cắt)) | GV, HS1 | Cuối ngày còn > 40 câu chờ duyệt |
+| R17 | **Mở rộng 7 chương làm trễ Chương 1 / thực nghiệm** | 2 | 3 | 🔴 6 | C1 và thực nghiệm luôn ưu tiên; không ai làm C4–C7 khi việc C1 của mình chưa xong | Cả nhóm (HS1 theo dõi) | 21/11 C1 chưa đủ 60 câu đã duyệt |
+| R18 | **Sai sót Hóa học do soạn nhanh / AI soạn nháp** ở chương mới | 3 | 3 | 🔴 9 | HS đối chiếu SGK từng câu; `validate.js`; GV duyệt 100%; nút báo lỗi (US-26); kiểm tra lại mọi phép tính | HS phụ trách chương, GV | GV trả lại > 20% câu trong một lô |
+| R19 | **Chưa được phê duyệt** khảo sát / thực nghiệm có sự tham gia của học sinh | 2 | 3 | 🔴 6 | Nộp phiếu khảo sát, kế hoạch thực nghiệm, phiếu đồng ý cho nhà trường ngay trong S0; không thu dữ liệu trước khi được đồng ý | GV | 18/11 chưa có phản hồi của nhà trường |
+| R20 | **Dữ liệu sử dụng C2–C7 quá ít** để nói được điều gì (ít học sinh tự nguyện, thời gian ngắn) | 3 | 1 | 🟡 3 | Báo cáo đúng là "số liệu bước đầu"; không suy diễn; tiếp tục thu trong học kì 2 | HS3 | < 20 học sinh dùng C2–C7 đến 01/12 |
+| R21 | **Số thành viên vượt quy định** của thể lệ KHKT (nhiều cuộc thi giới hạn dự án tập thể tối đa 2 học sinh) | 2 | 3 | 🔴 6 | GV kiểm tra thể lệ cấp trường và cấp trên ngay trong S0; nếu giới hạn 2 → điều chỉnh tên tác giả, ghi nhận bạn thứ ba là cộng tác viên đúng quy định | GV | Thể lệ ghi giới hạn số tác giả |
 
 ## Lịch sử cập nhật
 
 | Ngày | Thay đổi | Người cập nhật |
 |---|---|---|
 | 15/11/2026 | Tạo sổ rủi ro ban đầu (bản nháp có AI hỗ trợ) | GV |
+| 15/11/2026 | Mở rộng phạm vi 7 chương: thêm R16–R21 (bản nháp có AI hỗ trợ) | GV |

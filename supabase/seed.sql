@@ -25,7 +25,7 @@ select
   q.lesson,
   to_jsonb(case when r.v < 60 then q.right_key else q.wrong_key end),
   r.v < 60                                            as is_correct,
-  case when r.v < 60 then '{}'::text[] else array[q.misconception] end,
+  case when r.v < 60 or q.misconception is null then '{}'::text[] else array[q.misconception] end,
   case when m.mode = 'practice' and r.v >= 60 then (r.v % 4) else 0 end,
   20000 + r.v * 900                                   as duration_ms,
   m.mode,
@@ -33,14 +33,15 @@ select
     + (m.day_offset || ' days')::interval + (r.v || ' minutes')::interval
 from public.students s
 cross join (values
-  ('Q-B1-001', 'B1', 'B', 'A', 'M2'),
-  ('Q-B1-002', 'B1', 'C', 'D', 'M3'),
-  ('Q-B2-001', 'B2', 'B', 'A', 'M1'),
-  ('Q-B2-002', 'B2', 'D', 'C', 'M4'),
-  ('Q-B2-003', 'B2', 'A', 'C', 'M5'),
-  ('Q-B3-001', 'B3', 'C', 'B', 'M7'),
-  ('Q-B3-002', 'B3', 'B', 'D', 'M8'),
-  ('Q-B3-003', 'B3', 'A', 'B', 'M6')
+  -- (khớp đáp án và mã lỗi của phương án sai trong web/data/questions.json)
+  ('Q-B1-001', 'B1', 'A', 'B', null::text),
+  ('Q-B1-002', 'B1', 'D', 'A', 'M2'),
+  ('Q-B2-001', 'B2', 'C', 'D', 'M1'),
+  ('Q-B2-002', 'B2', 'D', 'B', 'M1'),
+  ('Q-B2-003', 'B2', 'A', 'B', 'M4'),
+  ('Q-B3-001', 'B3', 'B', 'A', 'M6'),
+  ('Q-B3-002', 'B3', 'A', 'B', 'M6'),
+  ('Q-B3-003', 'B3', 'C', 'A', 'M8')
 ) as q(question_id, lesson, right_key, wrong_key, misconception)
 cross join (values ('pretest', 0), ('practice', 2), ('posttest', 4)) as m(mode, day_offset)
 cross join lateral (

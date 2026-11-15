@@ -5,13 +5,13 @@
 
 ## 💡 Dự án trong một đoạn
 
-**NVT SMART CHEMISTRY** là website ôn tập Hóa học 10 – Chương 1 *Cấu tạo nguyên tử* (SGK Kết nối tri thức, Bài 1–4). Khác với đề trắc nghiệm thông thường chỉ báo "đúng/sai", mỗi phương án sai trong ngân hàng câu hỏi được gắn với một **lỗi sai thường gặp (M1–M10)**, nên khi em chọn sai, hệ thống cho biết *em đang hiểu nhầm điều gì* và nên xem lại phần nào. Khi bí, em được **trợ lý AI gợi ý theo 3 mức** – từ câu hỏi gợi mở đến lời giải – thay vì nhận ngay đáp án. Thuật ngữ **Việt – Anh** có phát âm được lồng ngay trong bài. Giáo viên xem **thống kê theo lớp và theo lỗi sai** để biết cần dạy lại gì. Nhóm sẽ kiểm chứng hiệu quả bằng thực nghiệm với 2 lớp 10 (có lớp đối chứng) và báo cáo kết quả trung thực, dù kết quả thế nào.
+**NVT SMART CHEMISTRY** là website ôn tập và tự học trước **Hóa học 10 – cả 7 chương, 23 bài** (SGK Kết nối tri thức). Khác với đề trắc nghiệm thông thường chỉ báo "đúng/sai", mỗi phương án sai trong ngân hàng câu hỏi được gắn với một **lỗi sai thường gặp (M1–M48)**, nên khi em chọn sai, hệ thống cho biết *em đang hiểu nhầm điều gì* và nên xem lại phần nào. Khi bí, em được **trợ lý AI gợi ý theo 3 mức** – từ câu hỏi gợi mở đến lời giải – thay vì nhận ngay đáp án. Thuật ngữ **Việt – Anh** có phát âm được lồng ngay trong bài. Giáo viên xem **thống kê theo lớp và theo lỗi sai** để biết cần dạy lại gì. Nhóm sẽ kiểm chứng hiệu quả bằng thực nghiệm **trên Chương 1** với 2 lớp 10 (có lớp đối chứng), đánh giá việc dùng các chương còn lại qua dữ liệu sử dụng, và báo cáo kết quả trung thực, dù kết quả thế nào.
 
 ## 🗂️ Mục lục
 
 | File | Dùng để làm gì | Ai hay mở nhất |
 |---|---|---|
-| [ROADMAP.md](ROADMAP.md) | Các mốc thời gian, 5 sprint (S0–S4), biểu đồ Gantt | Cả nhóm, GV |
+| [ROADMAP.md](ROADMAP.md) | Các mốc thời gian, 5 sprint (S0–S4), Gantt, dây chuyền chương và **bảng trạng thái 7 chương** | Cả nhóm, GV |
 | [BACKLOG.md](BACKLOG.md) | Danh sách user story (US-01…), ưu tiên, tiêu chí nghiệm thu | Cả nhóm |
 | [TEAM_WORKFLOW.md](TEAM_WORKFLOW.md) | Phân vai, họp nhanh hằng ngày, Git, DoR/DoD, quy trình duyệt nội dung, dùng AI trung thực | Cả nhóm |
 | [DEVLOG.md](DEVLOG.md) | Nhật ký phát triển (đính kèm hồ sơ dự thi) | Người trực nhật ký mỗi ngày |
@@ -26,9 +26,10 @@ Tài liệu liên quan ở thư mục khác: `docs/architecture/` (kiến trúc,
 | Ngày | Mốc |
 |---|---|
 | CN 15/11/2026 | Khởi động – nền tảng dự án |
-| T6 20/11 | Bản MVP chạy được (chế độ demo) |
-| **T2 23/11** | **Nộp hồ sơ dự thi** |
-| T3 24/11 – T7 28/11 | Thực nghiệm với 2 lớp 10 |
+| T6 20/11 | Bản MVP đa chương chạy được (chế độ demo); C1 đủ 60 câu |
+| **T2 23/11** | **Nộp hồ sơ dự thi** – C1 duyệt 100%, C2–C3 hoàn thiện |
+| T3 24/11 – T7 28/11 | Thực nghiệm Chương 1 với 2 lớp 10; C4–C5 hoàn thiện |
+| T3 01/12 | Khóa nội dung – C6–C7 hoàn thiện |
 | ~T5 03/12 | Thi KHKT cấp trường (ngày chính xác: chờ BTC thông báo) |
 
 ## ✅ Checklist bắt đầu mỗi buổi làm việc (5 phút)

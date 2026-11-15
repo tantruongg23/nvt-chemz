@@ -1,8 +1,10 @@
 # Hướng dẫn biên soạn và kiểm duyệt nội dung
 
-Áp dụng cho các file trong `web/data/`: `lessons.json`, `misconceptions.json`, `terms.json`, `questions.json`. Lược đồ dữ liệu bắt buộc nằm ở `docs/CONTRACT.md` mục 3 – **tên trường phải giữ đúng như hợp đồng**.
+Áp dụng cho các file trong `web/data/` (sau US-23: `web/data/c1/` … `web/data/c7/`): `lessons.json`, `misconceptions.json`, `terms.json`, `questions.json`. Lược đồ dữ liệu bắt buộc nằm ở `docs/CONTRACT.md` mục 3 – **tên trường phải giữ đúng như hợp đồng**.
 
-Phạm vi: Hóa học 10, Chương 1 – Cấu tạo nguyên tử, SGK Kết nối tri thức (Chương trình GDPT 2018). Không đưa kiến thức ngoài chương (liên kết hóa học, bảng tuần hoàn chi tiết, cấu hình ngoại lệ Cr, Cu…).
+Phạm vi: **Hóa học 10, 7 chương, 23 bài**, SGK Kết nối tri thức (Chương trình GDPT 2018) – xem bảng chương/bài/mã lỗi ở `docs/CONTRACT.md` mục 1. Mỗi câu hỏi chỉ dùng kiến thức **của chương đó và các chương trước** (học sinh học trước chưa biết chương sau). Không đưa nội dung ngoài chương trình Hóa 10 (ví dụ cấu hình ngoại lệ Cr, Cu; cân bằng ion – electron; hằng số cân bằng).
+
+**Thứ tự soạn một chương:** khung + yêu cầu cần đạt → GV chốt lỗi sai → bài học + thuật ngữ → câu hỏi → kiểm tra tự động → GV duyệt → đọc thử (xem `docs/management/ROADMAP.md` mục 3).
 
 Mọi nội dung soạn với hỗ trợ của AI phải ghi vào `docs/management/AI_USAGE_LOG.md` và **phải được giáo viên duyệt** trước khi bật `reviewed: true`.
 
@@ -19,7 +21,8 @@ Mọi nội dung soạn với hỗ trợ của AI phải ghi vào `docs/manageme
 | Số thập phân | Trong lời văn dùng dấu phẩy (35,5). Trường `answer` của câu trả lời ngắn dùng **dấu chấm** ("35.5") để máy chấm |
 | Đơn vị khối lượng | amu (1 amu = 1,6605 × 10⁻²⁷ kg) |
 | Số liệu đồng vị | Ưu tiên số "đẹp" kiểu SGK/SBT (Cl 75%/25% → 35,5). Nếu dùng số liệu khác số liệu thực, ghi chú cho GV |
-| Mã định danh | Thuật ngữ `T-001`…; câu hỏi `Q-B2-013` (bài – số thứ tự 3 chữ số). Không đổi hoặc tái sử dụng mã đã có |
+| Mã định danh | Bài `B1`…`B23` (trùng số bài SGK); lỗi sai `M1`…`M48`; thuật ngữ `T-001`… (đánh số tiếp, toàn cục); câu hỏi `Q-B2-013` (bài – số thứ tự 3 chữ số). Không đổi hoặc tái sử dụng mã đã có |
+| Ký hiệu khác | ΔrH°₂₉₈, ΔfH°₂₉₈ (Chương 5); số oxi hóa viết trên kí hiệu dạng +2, −1 (Chương 4); đơn vị tốc độ mol/(L·s) (Chương 6) |
 
 ## 2. Mức độ nhận thức
 
@@ -69,7 +72,9 @@ Tỉ lệ gợi ý cho một bộ câu: NB ≈ 25%, TH ≈ 45%, VD ≈ 30%.
 - Với mỗi phương án nhiễu quan trọng, thêm "Lưu ý: …" giải thích vì sao sai – trợ lý AI dựa vào lời giải này để gợi ý mức 3.
 - Kiểm tra lại mọi phép tính hai lần (bấm máy tính, ghi ra giấy).
 
-## 4. Thiết kế phương án nhiễu từ lỗi sai (M1–M10)
+## 4. Thiết kế phương án nhiễu từ lỗi sai (ví dụ Chương 1: M1–M10)
+
+Danh mục lỗi sai của các chương 2–7 (M11–M48, bản dự thảo) nằm trong Kế hoạch nghiên cứu mục 5.4. Khi soạn một chương mới, HS phụ trách lập bảng "cách tạo phương án nhiễu" tương tự bảng dưới cho các mã của chương đó, GV chốt trước khi soạn câu hỏi.
 
 Nguyên tắc: mỗi phương án sai nên là **kết quả mà học sinh sẽ thu được nếu mắc đúng một lỗi cụ thể**. Khi học sinh chọn phương án đó, hệ thống ghi nhận mã lỗi.
 
@@ -109,10 +114,10 @@ Nguyên tắc: mỗi phương án sai nên là **kết quả mà học sinh sẽ
 4. Với câu ✓: HS đổi `"reviewed": false` thành `"reviewed": true` trong `questions.json` (chỉ đổi đúng câu đó), ghi vào nhật ký: ngày, mã câu, tên GV duyệt. Sau khi sửa nội dung một câu đã duyệt, **phải đổi lại `false`** và duyệt lại.
 
 ### Bảng kiểm cho giáo viên
-- [ ] Kiến thức đúng SGK KNTT và nằm trong phạm vi Chương 1.
+- [ ] Kiến thức đúng SGK KNTT, nằm trong phạm vi chương đó (và các chương trước).
 - [ ] Đáp án đúng; phép tính đã kiểm tra lại; đơn vị, làm tròn rõ ràng.
 - [ ] Câu mcq có duy nhất một phương án đúng; câu đúng/sai có 4 ý với đáp án rõ ràng, không mơ hồ.
-- [ ] Mã lỗi M1–M10 gắn đúng bản chất phương án sai.
+- [ ] Mã lỗi gắn đúng bản chất phương án sai và thuộc danh mục của chương.
 - [ ] Mức độ NB/TH/VD phù hợp.
 - [ ] Lời giải từng bước dễ hiểu, không có bước sai.
 - [ ] Tên nguyên tố, thuật ngữ, kí hiệu đúng quy ước (IUPAC, Unicode).

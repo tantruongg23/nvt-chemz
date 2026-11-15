@@ -19,7 +19,7 @@
   },
   {
     "code": "M3",
-    "title": "Tính sai số nơtron (ví dụ N = A + Z, hoặc nhầm Z với N)",
+    "title": "Tính sai số neutron (ví dụ N = A + Z, hoặc nhầm Z với N)",
     "description": "Học sinh dùng sai công thức A = Z + N (ví dụ tính N = A + Z), hoặc đọc nhầm vị trí số hiệu nguyên tử và số khối trong kí hiệu nguyên tử, dẫn tới nhầm số proton với số neutron (SGK KNTT viết là neutron).",
     "lessons": ["B1", "B2", "B4"],
     "remedy": "Trong kí hiệu nguyên tử, số khối A ghi ở góc trên bên trái, số hiệu nguyên tử Z ghi ở góc dưới bên trái kí hiệu (ví dụ ⁵⁶₂₆Fe). Số neutron N = A − Z.",

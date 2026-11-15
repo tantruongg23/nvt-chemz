@@ -32,7 +32,7 @@ function filterBar() {
   return `<div class="filter-chips" role="navigation" aria-label="Chọn bài để luyện">
     <a class="fchip" href="${link(null)}" aria-pressed="${!lessonId}" style="text-decoration:none">Tổng hợp</a>
     ${content.lessons.map((l) => `<a class="fchip" data-lesson="${esc(l.id)}" href="${link(l.id)}" aria-pressed="${l.id === lessonId}" style="text-decoration:none" title="${esc(l.title)}">${esc(l.id)}</a>`).join('')}
-    ${misCode ? `<a class="fchip" aria-pressed="true" href="${lessonId ? `practice.html?lesson=${lessonId}` : 'practice.html'}" style="text-decoration:none;--h:${misHue(misCode)}" aria-label="Bỏ lọc lỗi ${esc(misCode)}">Lỗi ${esc(misCode)} ✕</a>` : ''}
+    ${misCode ? `<a class="fchip" aria-pressed="true" href="${lessonId ? `practice.html?lesson=${encodeURIComponent(lessonId)}` : 'practice.html'}" style="text-decoration:none;--h:${misHue(misCode)}" aria-label="Bỏ lọc lỗi ${esc(misCode)}">Lỗi ${esc(misCode)} ✕</a>` : ''}
   </div>`;
 }
 
@@ -114,7 +114,9 @@ function start() {
     const form = $('#qform');
     form.addEventListener('submit', (e) => { e.preventDefault(); if (!st.answered) check(st); });
     $$('.ladder__btn').forEach((b) => b.addEventListener('click', () => askHint(st, Number(b.dataset.level))));
-    form.addEventListener('change', () => { $('#checkBtn').disabled = getAnswer(q, true) == null; });
+    const syncCheck = () => { $('#checkBtn').disabled = getAnswer(q, true) == null; };
+    form.addEventListener('change', syncCheck);
+    form.addEventListener('input', syncCheck); // ô trả lời ngắn: 'change' chỉ chạy khi rời ô ⇒ Enter bị chặn vì nút đang disabled
     $('#checkBtn').disabled = true;
     st.keyHandler = (e) => keyNav(e, st);
     document.addEventListener('keydown', st.keyHandler);

@@ -20,11 +20,11 @@
 | ID | Story (rút gọn) | Ưu tiên | Người làm | Sprint | Ước lượng | Trạng thái |
 |---|---|---|---|---|---|---|
 | US-01 | Vào app bằng mã lớp + mã ẩn danh | Must | HS2, HS3 | S1 | M | ⬜ |
-| US-02 | Ôn lại kiến thức Bài 1–4 | Must | HS1, HS2 | S1 | M | ⬜ |
+| US-02 | Đọc bài học (23 bài, có ví dụ mẫu) | Must | HS1, HS2 | S1 | M | ⬜ |
 | US-03 | Tra thuật ngữ Việt – Anh, nghe phát âm | Must | HS1, HS2 | S1 | M | ⬜ |
-| US-04 | Luyện tập theo bài với 3 dạng câu hỏi | Must | HS2 | S1 | L | ⬜ |
+| US-04 | Luyện tập theo bài/chương với 3 dạng câu hỏi | Must | HS2 | S1 | L | ⬜ |
 | US-05 | Chẩn đoán ngay lỗi sai khi trả lời sai | Must | HS2, HS1 | S1 | M | ⬜ |
-| US-06 | Ngân hàng ≥ 60 câu gắn nhãn lỗi sai | Must | HS1, GV | S1 | L | ⬜ |
+| US-06 | Ngân hàng C1 ≥ 60 câu gắn nhãn lỗi sai | Must | HS1, GV | S1 | L | 🟨 40/60 |
 | US-07 | Thang gợi ý 3 mức (bản soạn sẵn) | Must | HS2 | S1 | M | ⬜ |
 | US-08 | Gợi ý mức 1–2 do AI sinh qua Edge Function | Should | HS3 | S1–S2 | L | ⬜ |
 | US-09 | Xem điểm yếu của bản thân và bài nên ôn lại | Must | HS2 | S1 | M | ⬜ |
@@ -36,18 +36,33 @@
 | US-15 | Giới hạn số lượt hỏi AI mỗi ngày | Should* | HS3 | S2 | S | ⬜ |
 | US-16 | Thông báo quyền riêng tư | Must | HS1, HS2 | S1 | S | ⬜ |
 | US-17 | Ghi nhận mỗi lượt làm bài và mức gợi ý đã dùng | Must | HS3, HS2 | S1 | M | ⬜ |
-| US-18 | Kiểm thử AI trên bộ 30 câu chuẩn | Should* | HS3, GV | S2 | M | ⬜ |
+| US-18 | Kiểm thử AI: 30 câu C1 + 5 câu/chương C2–C7 | Should* | HS3, GV | S2, S4 | M | ⬜ |
 | US-19 | Khảo sát thực trạng | Must | HS1, GV | S0 | S | ⬜ |
 | US-20 | Chuyển chế độ sáng/tối | Could | HS2 | S2 | S | ⬜ |
 | US-21 | Thẻ ghi nhớ (flashcard) luyện thuật ngữ | Could | HS1, HS2 | S2 | M | ⬜ |
 | US-22 | Hoạt động offline hoàn toàn (PWA) | Could | HS2 | S4 | M | ⬜ |
+| US-23 | Dữ liệu tách theo chương, tải theo chương | Must | HS3 | S1 | M | ⬜ |
+| US-24 | Trang chủ chọn chương + tiến độ theo chương | Must | HS2 | S1 | M | ⬜ |
+| US-25 | Chế độ "Học trước": bài → kiểm tra nhanh → luyện tập | Should | HS2, HS1 | S1–S2 | M | ⬜ |
+| US-26 | Báo lỗi nội dung trên từng câu | Should | HS2 | S2 | S | ⬜ |
+| US-27 | Luyện tập tổng hợp nhiều chương | Could | HS2 | S4 | S | ⬜ |
+| US-28 | Trợ lý AI dùng được cho mọi chương | Should | HS3 | S2 | S | ⬜ |
+| US-C1 | Nội dung Chương 1 hoàn thiện (4 bài, 30 thuật ngữ, 60 câu) | Must | HS1, GV | S1–S2 | L | 🟨 |
+| US-C2 | Nội dung Chương 2 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | ⬜ |
+| US-C3 | Nội dung Chương 3 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | ⬜ |
+| US-C4 | Nội dung Chương 4 hoàn thiện (2 bài, 15 thuật ngữ, 35 câu) | Should | HS3, GV | S2–S3 | L | ⬜ |
+| US-C5 | Nội dung Chương 5 hoàn thiện (2 bài, 15 thuật ngữ, 30 câu) | Should | HS3, GV | S2–S3 | L | ⬜ |
+| US-C6 | Nội dung Chương 6 hoàn thiện (2 bài, 15 thuật ngữ, 30 câu) | Should | HS2, GV | S3–S4 | L | ⬜ |
+| US-C7 | Nội dung Chương 7 hoàn thiện (3 bài, 20 thuật ngữ, 40 câu) | Should | HS2, GV | S3–S4 | L | ⬜ |
 | — | Bảng xếp hạng điểm giữa học sinh | Won't | — | — | — | — |
 | — | Chat tự do với AI về mọi chủ đề | Won't | — | — | — | — |
 | — | Đăng nhập bằng họ tên / email / Google | Won't | — | — | — | — |
 
 \* **US-15** và **US-18** bắt buộc phải xong **nếu** US-08 (AI thật) được bật trong thực nghiệm. Nếu không bật AI, hai story này không cần.
 
-**Ước tính khối lượng Must:** 7 M + 2 L + 5 S ≈ 45 giờ cho cả nhóm ≈ 15 giờ mỗi bạn trong S0–S2 → vừa sức nếu mỗi bạn làm 3–4 giờ/ngày. Không nhận thêm Should khi Must của mình chưa xong.
+**Ước tính khối lượng:** phần kỹ thuật Must ≈ 50 giờ. Phần nội dung 7 chương (soạn có AI hỗ trợ + đối chiếu SGK + sửa theo góp ý GV) ≈ **25 giờ**, chưa kể ≈ 12–13 giờ duyệt của GV. Tổng ≈ 25 giờ mỗi bạn trong 18 ngày → **chỉ vừa sức nếu đi đúng thứ tự ưu tiên** ở [ROADMAP](ROADMAP.md#6-nếu-bị-trễ-thì-cắt-gì-thứ-tự-cắt). Không nhận thêm Should khi Must của mình chưa xong.
+
+> **Vì sao C1–C3 là Must còn C4–C7 là Should?** C1 phục vụ thực nghiệm; C2, C3 là các chương lớp 10 đã/đang học tới cuối tháng 11 nên dùng ngay được để ôn tập. C4–C7 phục vụ học trước – rất nên có trước ngày thi, nhưng nếu trễ vẫn có phương án (nhãn "Bản nháp", hoàn thiện trong học kì 2).
 
 ---
 
@@ -64,11 +79,12 @@ Tiêu chí nghiệm thu:
 - [ ] Tải lại trang vẫn giữ đăng nhập; có nút "Đổi mã / Thoát".
 - [ ] Hoạt động ở cả chế độ demo và chế độ Supabase.
 
-### US-02 · Ôn lại kiến thức Bài 1–4
-**Là học sinh, em muốn** đọc tóm tắt kiến thức từng bài B1–B4 **để** nhớ lại ý chính trước khi làm bài.
+### US-02 · Đọc bài học (23 bài)
+**Là học sinh, em muốn** đọc bài học của từng bài B1–B23 **để** nhớ lại ý chính khi ôn tập, hoặc tự học trước khi học trên lớp.
 Must · HS1 (nội dung `lessons.json`), HS2 (trang `lesson.html`) · S1 · M
 
-- [ ] Có đủ 4 bài B1–B4, mỗi bài có tên tiếng Việt + tiếng Anh, phần "Ý chính", các mục nội dung, công thức chính.
+- [ ] Mỗi bài có tên tiếng Việt + tiếng Anh, **yêu cầu cần đạt**, phần "Ý chính", các mục nội dung, công thức chính, **ít nhất 1 ví dụ mẫu có lời giải** và 3 câu kiểm tra nhanh.
+- [ ] Có nút "Bài trước / Bài sau" trong cùng chương; tiêu đề hiện đúng "Chương X – Bài N" lấy từ dữ liệu (không suy ra từ vị trí).
 - [ ] Thuật ngữ trong bài hiện dạng chip; bấm vào chip mở định nghĩa thuật ngữ.
 - [ ] Cuối mỗi bài có nút "Luyện tập bài này" dẫn sang US-04.
 - [ ] Đọc dễ trên điện thoại màn hình 360px (không phải cuộn ngang).
@@ -78,8 +94,8 @@ Must · HS1 (nội dung `lessons.json`), HS2 (trang `lesson.html`) · S1 · M
 **Là học sinh, em muốn** xem các thuật ngữ Hóa học tiếng Anh của chương và nghe phát âm **để** đọc hiểu được tài liệu tiếng Anh.
 Must · HS1 (`terms.json` ~30 thuật ngữ), HS2 (`terms.html`) · S1 · M
 
-- [ ] Hiển thị ≥ 30 thuật ngữ, mỗi thuật ngữ có: từ tiếng Anh, nghĩa tiếng Việt, phiên âm IPA, định nghĩa, câu ví dụ Anh – Việt.
-- [ ] Lọc được theo bài (B1–B4) và tìm kiếm theo từ tiếng Anh hoặc tiếng Việt.
+- [ ] Hiển thị thuật ngữ của chương đang chọn (C1 ≥ 30; cả 7 chương ≈ 145), mỗi thuật ngữ có: từ tiếng Anh, nghĩa tiếng Việt, phiên âm IPA, định nghĩa, câu ví dụ Anh – Việt.
+- [ ] Lọc được theo chương và theo bài; tìm kiếm theo từ tiếng Anh hoặc tiếng Việt trên toàn bộ 7 chương.
 - [ ] Nút 🔊 phát âm bằng Web Speech API (giọng `en-US` hoặc `en-GB`).
 - [ ] Trình duyệt không hỗ trợ giọng đọc → nút bị ẩn hoặc hiện "Trình duyệt chưa hỗ trợ phát âm", **không** báo lỗi đỏ.
 - [ ] HS1 đã đối chiếu IPA với một từ điển uy tín (ghi nguồn trong `docs/content/`).
@@ -88,7 +104,7 @@ Must · HS1 (`terms.json` ~30 thuật ngữ), HS2 (`terms.html`) · S1 · M
 **Là học sinh, em muốn** chọn một bài và làm các câu nhiều lựa chọn, đúng/sai, trả lời ngắn **để** quen với định dạng đề thi mới.
 Must · HS2 · S1 · L (nên chia: 4a mcq · 4b true_false · 4c short)
 
-- [ ] Chọn được bài B1, B2, B3, B4 hoặc "Cả chương".
+- [ ] Chọn được chương, rồi chọn một bài của chương hoặc "Cả chương".
 - [ ] `mcq`: chọn 1 trong 4 phương án, bấm "Kiểm tra".
 - [ ] `true_false`: chọn Đúng/Sai cho từng ý a–d; chấm từng ý.
 - [ ] `short`: nhập số; chấp nhận dấu phẩy hoặc dấu chấm thập phân (`35,5` = `35.5`); chấm đúng trong khoảng `tolerance`.
@@ -109,7 +125,7 @@ Must · HS2 (hiển thị), HS1 (nội dung `misconceptions.json`) · S1 · M
 **Là giáo viên, tôi muốn** có ngân hàng câu hỏi trong đó mỗi phương án nhiễu gắn với một lỗi sai cụ thể **để** biết học sinh sai vì hiểu nhầm gì.
 Must · HS1 (soạn), GV (duyệt) · S1 · L
 
-- [ ] ≥ 60 câu, phân bổ cả 4 bài và 3 mức NB/TH/VD; có đủ 3 dạng câu hỏi.
+- [ ] Chương 1: ≥ 60 câu, phân bổ cả 4 bài và 3 mức NB/TH/VD; có đủ 3 dạng câu hỏi. *(Các chương khác: xem US-C2…US-C7.)*
 - [ ] Mỗi lỗi M1–M10 xuất hiện ở ít nhất 3 câu.
 - [ ] Mỗi câu có `explanation` từng bước.
 - [ ] File JSON hợp lệ (kiểm bằng công cụ kiểm tra JSON hoặc script của HS3), đúng lược đồ CONTRACT.
@@ -140,7 +156,7 @@ Should · HS3 · S1–S2 · L
 **Là học sinh, em muốn** xem tóm tắt các lỗi em hay mắc **để** biết nên ôn lại bài nào.
 Must · HS2 · S1 · M
 
-- [ ] Trang `results.html` hiện: số câu đã làm, tỉ lệ đúng theo bài, top 3 lỗi sai em mắc nhiều nhất.
+- [ ] Trang `results.html` hiện: số câu đã làm, tiến độ và tỉ lệ đúng **theo chương** và theo bài, top 3 lỗi sai em mắc nhiều nhất.
 - [ ] Mỗi lỗi có link "Ôn lại" đến đúng mục bài học liên quan (trường `lessons` trong `misconceptions.json`).
 - [ ] Chưa làm câu nào → hiện hướng dẫn "Hãy làm ít nhất 5 câu…", không hiện bảng trống.
 - [ ] Chỉ hiện dữ liệu của chính mã ẩn danh đang đăng nhập.
@@ -150,7 +166,7 @@ Must · HS2 · S1 · M
 Should · HS2 (giao diện), HS3 (truy vấn) · S2 · M
 
 - [ ] Chọn lớp → thấy số học sinh đã làm, tổng lượt, tỉ lệ đúng theo bài.
-- [ ] Biểu đồ cột tần suất M1–M10 của lớp; bấm một lỗi thấy các câu hay gây lỗi đó.
+- [ ] Lọc theo chương; biểu đồ tần suất lỗi của chương đó; bấm một lỗi thấy các câu hay gây lỗi đó.
 - [ ] Chỉ hiển thị mã ẩn danh, không có họ tên.
 - [ ] Trang được bảo vệ bằng mã giáo viên (học sinh không vào được bằng mã lớp).
 - [ ] Phương án dự phòng: nếu chưa kịp, GV dùng file CSV (US-11) + bảng tính.
@@ -159,7 +175,7 @@ Should · HS2 (giao diện), HS3 (truy vấn) · S2 · M
 **Là giáo viên, tôi muốn** tải dữ liệu làm bài dạng CSV **để** nhóm phân tích bằng Excel/Google Sheets.
 Must · HS3 · S2 · S
 
-- [ ] Một nút tải file CSV, mỗi dòng là một lượt trả lời: `anon_id, class, question_id, lesson, type, is_correct, misconception, hint_level_max, created_at`.
+- [ ] Một nút tải file CSV, mỗi dòng là một lượt trả lời: `anon_id, class, question_id, chapter, lesson, type, is_correct, misconception, hint_level_max, created_at`.
 - [ ] Mở bằng Excel không lỗi font tiếng Việt (UTF-8 có BOM).
 - [ ] Không có cột họ tên hay thông tin cá nhân.
 - [ ] Đã thử mở file bằng Google Sheets và đếm khớp số dòng với dashboard.
@@ -219,20 +235,93 @@ Must · HS3 (bảng dữ liệu), HS2 (gọi `store.js`) · S1 · M
 **Là giáo viên, tôi muốn** biết AI gợi ý đúng đến mức nào trước khi cho học sinh dùng **để** đảm bảo an toàn học tập.
 Should* · HS3, GV · S2 · M
 
-- [ ] Bộ 30 câu có đáp án chuẩn được GV duyệt, gồm cả vài câu **ngoài phạm vi** (ví dụ hỏi bài Toán, hỏi chuyện riêng).
+- [ ] Bộ 30 câu C1 (trước thực nghiệm) + 5 câu/chương C2–C7 (ưu tiên câu tính toán), có đáp án chuẩn được GV duyệt, gồm cả vài câu **ngoài phạm vi** (ví dụ hỏi bài Toán, hỏi chuyện riêng).
 - [ ] Bảng ghi từng câu: gợi ý có sai kiến thức không, mức 1 có lộ đáp án không, câu ngoài phạm vi có bị từ chối không – do GV/HS chấm thủ công.
 - [ ] Báo cáo 3 tỉ lệ: đúng kiến thức, lộ đáp án sớm, từ chối đúng. Ghi **số thật**.
-- [ ] Ngưỡng đề xuất để bật AI cho thực nghiệm: 0 lỗi kiến thức nghiêm trọng (GV quyết định). Không đạt → chỉ dùng gợi ý soạn sẵn.
+- [ ] Ngưỡng đề xuất để bật AI: 0 lỗi kiến thức nghiêm trọng **trên từng chương** (GV quyết định). Chương nào không đạt → chương đó chỉ dùng gợi ý soạn sẵn.
 
 ### US-19 · Khảo sát thực trạng
 **Là giáo viên, tôi muốn** có số liệu khảo sát về cách học sinh lớp 10 đang ôn tập **để** kiểm chứng lý do chọn đề tài.
 Must · HS1, GV · S0 · S
 
 - [ ] Phiếu ~15 câu, ẩn danh, không hỏi họ tên; GV duyệt trước khi phát.
-- [ ] Có câu về: cách ôn hiện nay, khó khăn Chương 1, hiểu thuật ngữ tiếng Anh, thói quen dùng AI.
+- [ ] Có câu về: cách ôn hiện nay, khó khăn Chương 1, **nhu cầu học trước/học bù và chương thấy khó nhất**, hiểu thuật ngữ tiếng Anh, thói quen dùng AI.
+- [ ] Nhà trường đã đồng ý phiếu khảo sát trước khi phát.
 - [ ] Đến 20/11 có bảng tổng hợp + biểu đồ, ghi rõ số phiếu thu về (n = …).
 
 ### US-20 / US-21 / US-22 (Could)
 - **US-20** Là học sinh, em muốn chuyển chế độ sáng/tối **để** đỡ mỏi mắt buổi tối. *(Giao diện đã theo hệ thống; story này chỉ thêm nút chuyển tay.)*
 - **US-21** Là học sinh, em muốn luyện thuật ngữ bằng thẻ lật **để** nhớ từ nhanh hơn.
 - **US-22** Là học sinh, em muốn mở app khi hoàn toàn không có mạng **để** ôn ở nhà không có Wi-Fi.
+
+---
+
+## Story mới cho phạm vi 7 chương
+
+### US-23 · Dữ liệu tách theo chương
+**Là thành viên nhóm, em muốn** dữ liệu mỗi chương nằm trong thư mục riêng và chỉ tải chương đang mở **để** 3 bạn soạn song song không đụng file của nhau, và trang nhẹ trên điện thoại.
+Must · HS3 · S1 · M
+
+- [ ] Có `web/data/chapters.json` và thư mục `web/data/c1/ … c7/` đúng [CONTRACT](../CONTRACT.md) mục 2–3.
+- [ ] Dữ liệu C1 hiện có được chuyển vào `web/data/c1/` **không đổi mã** (B1–B4, M1–M10, T-001…, Q-B1-001…).
+- [ ] `content.js` tách thành `loadIndex()` (tải ngay `chapters.json`) và `loadChapter(id)` (tải khi cần); trang Thuật ngữ tìm kiếm được cả 7 chương.
+- [ ] Bỏ danh sách bài cố định B1–B4 trong `store.js` và ràng buộc `lesson` trong `schema.sql` (cho phép B1–B23); thêm cột `chapter` vào bảng `attempts`, thống kê và CSV.
+- [ ] Bỏ các chỗ viết cứng "Chương 1" (`lesson.js`, `ui.js`, tiêu đề trang) và màu riêng B1–B4 trong `style.css` (chuyển sang màu theo chương).
+- [ ] `results.js` nhận biết bài ôn tập bằng trường `kind: "review"`, không viết cứng `'B4'`.
+- [ ] `validate.js` kiểm tra từng chương và kiểm tra mã không trùng **giữa các chương**.
+
+### US-24 · Trang chủ chọn chương
+**Là học sinh, em muốn** thấy 7 chương và tiến độ của em ở từng chương **để** biết mình đã ôn đến đâu.
+Must · HS2 · S1 · M
+
+- [ ] 7 thẻ chương, mỗi thẻ: tên chương, số bài, % câu đã làm, tỉ lệ đúng, số câu đã duyệt / tổng.
+- [ ] Chương chưa có câu hỏi hiện "Đang biên soạn"; chương có nội dung chưa duyệt hiện nhãn "Bản nháp".
+- [ ] Hiển thị tốt ở màn hình 360px.
+
+### US-25 · Chế độ "Học trước"
+**Là học sinh, em muốn** học một bài chưa học trên lớp theo trình tự đọc bài → kiểm tra nhanh → luyện tập **để** tự học có định hướng.
+Should · HS2 (giao diện), HS1 (nội dung kiểm tra nhanh) · S1–S2 · M
+
+- [ ] Trong mỗi bài có nút "Học bài này" dẫn qua 3 bước, có thanh tiến độ.
+- [ ] 3 câu kiểm tra nhanh lấy từ trường `quick_check` của bài; sai thì hiện đoạn bài học liên quan.
+- [ ] Ghi nhận lượt học trước (`mode = "learn"`) để trả lời câu hỏi nghiên cứu 5.
+
+### US-26 · Báo lỗi nội dung
+**Là học sinh, em muốn** bấm "Báo lỗi" khi thấy câu hỏi có vẻ sai **để** GV kiểm tra lại.
+Should · HS2 · S2 · S
+
+- [ ] Nút "Báo lỗi" trên mỗi câu; ghi mã câu + loại lỗi (đáp án / lời giải / chính tả / khác), không ghi thông tin cá nhân.
+- [ ] GV xem danh sách báo lỗi trên dashboard (hoặc CSV).
+
+### US-27 · Luyện tập tổng hợp (Could)
+**Là học sinh, em muốn** làm một bộ câu trộn từ nhiều chương **để** ôn thi học kì.
+
+### US-28 · Trợ lý AI cho mọi chương
+**Là học sinh, em muốn** nhận gợi ý AI ở mọi chương đã được kiểm thử **để** được hỗ trợ cả khi học trước.
+Should · HS3 · S2 · S
+
+- [ ] Hướng dẫn hệ thống (system prompt) trong `supabase/functions/hint/index.ts` lấy tên chương/bài từ dữ liệu, không viết cứng "Chương 1".
+- [ ] Hàm tìm câu hỏi theo mã ở đúng file chương (qua `chapters.json`), có bộ nhớ đệm.
+- [ ] Có danh sách chương được bật AI (chỉ chương đã đạt kiểm thử US-18).
+
+### US-C1 … US-C7 · Nội dung từng chương
+**Là học sinh, em muốn** mỗi chương có đủ bài học, thuật ngữ và câu hỏi đã được GV duyệt **để** ôn tập và học trước một cách tin cậy.
+
+Tiêu chí nghiệm thu chung = **tiêu chuẩn "chương hoàn thiện"** (Kế hoạch nghiên cứu mục 5.3; dây chuyền 7 bước ở [ROADMAP mục 3](ROADMAP.md#3-dây-chuyền-chương-áp-dụng-cho-mỗi-chương-c1c7)):
+- [ ] Danh mục lỗi sai của chương đã được GV chốt.
+- [ ] Mỗi bài: yêu cầu cần đạt, ý chính, mục nội dung, công thức, ≥ 1 ví dụ mẫu, 3 câu kiểm tra nhanh.
+- [ ] Đủ chỉ tiêu thuật ngữ và câu hỏi; đủ 3 dạng; NB/TH/VD ≈ 25/45/30; mỗi lỗi ≥ 3 câu; đáp án đúng rải đều A–D.
+- [ ] `validate.js` báo `ALL CHECKS PASSED`.
+- [ ] 100% nội dung `reviewed: true` (GV duyệt) – trước đó luôn hiện nhãn "Chưa duyệt".
+- [ ] Kiểm thử AI 5 câu của chương (US-18), riêng C1 là 30 câu.
+- [ ] ≥ 3 học sinh ngoài nhóm đọc thử và góp ý.
+- [ ] Ghi AI_USAGE_LOG cho mọi phần có AI hỗ trợ soạn.
+
+Lưu ý riêng theo chương:
+- **C1:** ưu tiên bổ sung B4 (chưa có câu NB) và M6 (mới có ở B3). Xem các mục còn mở trong `docs/content/REVIEW_SHEET.md`.
+- **C2:** cần hình bảng tuần hoàn rút gọn (tự vẽ SVG hoặc nguồn có giấy phép mở). Cân nhắc chuyển thuật ngữ "valence electron" từ C1 sang B5.
+- **C3:** công thức Lewis, liên kết σ/π cần hình minh họa; phân loại liên kết theo hiệu độ âm điện đúng ngưỡng SGK.
+- **C4:** câu cân bằng phản ứng nên dùng dạng `short` (nhập tổng hệ số) hoặc `mcq`; lời giải ghi rõ các bước thăng bằng electron.
+- **C5:** dùng số liệu ΔfH° và năng lượng liên kết **đúng bảng trong SGK** để học sinh đối chiếu được.
+- **C6:** câu tính tốc độ trung bình và hệ số nhiệt độ dùng dạng `short`, ghi rõ đơn vị và cách làm tròn.
+- **C7:** thí nghiệm halogen chỉ ở dạng hình ảnh/video có nguồn; nhấn mạnh an toàn hóa chất.

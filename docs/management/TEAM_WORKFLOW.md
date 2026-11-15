@@ -8,17 +8,19 @@
 
 | Thành viên | Vai trò | Phụ trách |
 |---|---|---|
-| **HS1** | Nội dung & nghiên cứu | Học liệu B1–B4, thuật ngữ Việt – Anh, ngân hàng câu hỏi + nhãn lỗi sai, khảo sát, điều phối hồ sơ |
-| **HS2** | Giao diện & trải nghiệm | Các trang web, phân hệ luyện tập, chẩn đoán, trang kết quả, dashboard, kịch bản demo |
-| **HS3** | Dữ liệu & AI | Supabase, `store.js`, Edge Function gợi ý AI, kiểm thử AI, xuất CSV, phân tích thống kê |
-| **GV** | Hướng dẫn | Định hướng, kiểm duyệt nội dung Hóa học, duyệt đề kiểm tra, tổ chức thực nghiệm |
+| **HS1** | Nội dung & nghiên cứu | Điều phối nội dung 7 chương; học liệu, thuật ngữ, câu hỏi **C1, C2, C3**; khảo sát; điều phối hồ sơ |
+| **HS2** | Giao diện & trải nghiệm | Các trang web, chọn chương, học trước, luyện tập, chẩn đoán, kết quả, dashboard, kịch bản demo; nội dung **C6, C7** |
+| **HS3** | Dữ liệu & AI | Supabase, `store.js`, tách dữ liệu theo chương, Edge Function gợi ý AI, kiểm thử AI, xuất CSV, phân tích thống kê; nội dung **C4, C5** |
+| **GV** | Hướng dẫn | Định hướng, chốt danh mục lỗi sai, kiểm duyệt toàn bộ nội dung Hóa học 7 chương (≈ 50 phút/ngày), duyệt đề kiểm tra, tổ chức khảo sát và thực nghiệm |
 
 **RACI** – **R** = làm chính · **A** = chịu trách nhiệm cuối, người "chốt" · **C** = được hỏi ý kiến · **I** = được thông báo
 
 | Công việc | HS1 | HS2 | HS3 | GV |
 |---|---|---|---|---|
-| Danh mục lỗi sai M1–M10 | R | C | I | A |
-| Học liệu B1–B4, thuật ngữ | R | C | I | A |
+| Danh mục lỗi sai M1–M48 (mỗi chương do HS phụ trách soạn) | R | C | C | A |
+| Nội dung C1–C3 | R | I | I | A |
+| Nội dung C4–C5 | C | I | R | A |
+| Nội dung C6–C7 | C | R | I | A |
 | Ngân hàng câu hỏi | R | I | C | A |
 | Giao diện, luyện tập, kết quả | C | R/A | C | I |
 | Cơ sở dữ liệu, `store.js` | I | C | R/A | I |

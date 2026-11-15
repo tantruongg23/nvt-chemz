@@ -12,6 +12,17 @@ Kí hiệu cột "Đáp án": câu Đúng/Sai ghi dạng `aĐ bS …` (Đ = đú
 4. **Q-B3-007, Q-B3-011**: cấu hình và số electron độc thân của Fe (3d⁶4s², 4 e độc thân) – kiểm tra cách viết cấu hình phù hợp với cách dạy trên lớp.
 5. **Q-B3-008 (D), Q-B3-010 (c, d)**: quy tắc kim loại/phi kim theo số electron lớp ngoài cùng và ngoại lệ H, He, B.
 6. Tên nguyên tố theo IUPAC/KNTT (sodium, potassium, aluminium, sulfur, iron, copper…).
+7. **Q-B2-002 (B)** gắn M1 nhưng thực chất là đọc nhầm Z thành khối lượng – có nên đổi sang M3? **Q-B2-001 (B, D)** gắn M4/M1 hơi lỏng.
+8. **T-027 "electron hóa trị"** và đoạn tương ứng trong bài B3: KNTT dạy kĩ ở Chương 2 – giữ ở Chương 1 hay chuyển sang B5?
+9. **Q-B2-012** (VD) và **Q-B2-011** (TH) cùng kĩ năng tính nguyên tử khối trung bình – thống nhất mức độ.
+
+### Đã sửa sau rà soát ngày 15/11 (AI hỗ trợ rà soát, GV xem lại)
+- M3: "nơtron" → "neutron" (đúng quy ước SGK mới).
+- Q-B2-007 phương án B (73%): gắn thêm M5 (ghép nhầm % cho đồng vị).
+- Q-B1-007 phương án D (23 = số khối): gắn M3. Q-B2-003 phương án D (đồng vị cùng số khối): gắn M4.
+- Q-B4-006: thêm giá trị sai đặc trưng "75" → M5 (ghép % cho nhầm đồng vị).
+- Q-B1-003: mức TH → NB (chỉ nhớ số liệu).
+- Ngân hàng hiện có **40/60 câu**; B4 mới có 6 câu (chưa có câu NB); M6 chỉ có câu ở B3 → ưu tiên khi bổ sung.
 
 ## Danh sách câu hỏi
 
@@ -19,7 +30,7 @@ Kí hiệu cột "Đáp án": câu Đúng/Sai ghi dạng `aĐ bS …` (Đ = đú
 |---|---|---|---|---|---|---|
 | Q-B1-001 | Nhiều lựa chọn | NB | A | — | | |
 | Q-B1-002 | Nhiều lựa chọn | NB | D | M2 | | |
-| Q-B1-003 | Nhiều lựa chọn | TH | B | M2 | | |
+| Q-B1-003 | Nhiều lựa chọn | NB | B | M2 | | |
 | Q-B1-004 | Nhiều lựa chọn | NB | C | — | | |
 | Q-B1-005 | Nhiều lựa chọn | TH | D | M3 | | |
 | Q-B1-006 | Nhiều lựa chọn | TH | C | M9 | | |
@@ -33,7 +44,7 @@ Kí hiệu cột "Đáp án": câu Đúng/Sai ghi dạng `aĐ bS …` (Đ = đú
 | Q-B2-004 | Nhiều lựa chọn | TH | B | M4 | | |
 | Q-B2-005 | Nhiều lựa chọn | TH | C | M1, M5 | | |
 | Q-B2-006 | Nhiều lựa chọn | VD | B | M5 | | |
-| Q-B2-007 | Nhiều lựa chọn | VD | A | M5 | | |
+| Q-B2-007 | Nhiều lựa chọn | VD | A | M5 (thêm phương án B) | | |
 | Q-B2-008 | Đúng/Sai | TH | aĐ bS cĐ dS | M4, M9 | | |
 | Q-B2-009 | Đúng/Sai | TH | aĐ bS cĐ dS | M1, M5 | | |
 | Q-B2-010 | Đúng/Sai | VD | aĐ bĐ cS dĐ | M5 | | |

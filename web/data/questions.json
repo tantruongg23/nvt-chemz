@@ -78,7 +78,7 @@
     "id": "Q-B1-003",
     "lesson": "B1",
     "type": "mcq",
-    "level": "TH",
+    "level": "NB",
     "stem": "Khối lượng của một electron xấp xỉ bằng",
     "terms": [
       "T-005",
@@ -254,7 +254,7 @@
       {
         "key": "D",
         "text": "23",
-        "misconception": null
+        "misconception": "M3"
       }
     ],
     "answer": "A",
@@ -480,7 +480,7 @@
       {
         "key": "D",
         "text": "Các đồng vị của một nguyên tố có cùng số proton và cùng số khối.",
-        "misconception": null
+        "misconception": "M4"
       }
     ],
     "answer": "A",
@@ -619,7 +619,7 @@
       {
         "key": "B",
         "text": "73%",
-        "misconception": null
+        "misconception": "M5"
       },
       {
         "key": "C",
@@ -1444,6 +1444,10 @@
     "misconception_hints": [
       {
         "value": "50",
+        "misconception": "M5"
+      },
+      {
+        "value": "75",
         "misconception": "M5"
       }
     ],

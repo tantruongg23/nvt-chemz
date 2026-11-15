@@ -267,9 +267,10 @@ function formatCorrectAnswer(q: Question): string {
 
 function formatStudentAnswer(answer: HintRequest["studentAnswer"]): string {
   if (answer === null || answer === "") return "(học sinh chưa trả lời)";
-  if (typeof answer === "string") return answer;
+  // Bỏ dấu < > để học sinh không thể tự đóng thẻ <student_answer> và chèn chỉ dẫn giả.
+  if (typeof answer === "string") return answer.replace(/[<>]/g, " ");
   return Object.entries(answer)
-    .map(([k, v]) => `${k}) ${v === true ? "Đúng" : v === false ? "Sai" : String(v).slice(0, 50)}`)
+    .map(([k, v]) => `${k.slice(0, 5).replace(/[<>]/g, " ")}) ${v === true ? "Đúng" : v === false ? "Sai" : String(v).slice(0, 50).replace(/[<>]/g, " ")}`)
     .join("; ");
 }
 
@@ -367,7 +368,8 @@ type ClaudeResult = { kind: "text"; text: string } | { kind: "refusal" };
 async function askClaude(userMessage: string): Promise<ClaudeResult> {
   const response = await anthropic.beta.messages.create({
     model: MODEL,
-    max_tokens: 1024,
+    // Opus 5.5 luôn suy nghĩ (thinking) và phần suy nghĩ tính vào max_tokens ⇒ để dư chỗ, tránh cắt cụt gợi ý.
+    max_tokens: 4096,
     // Nếu mô hình chính từ chối (refusal), máy chủ Anthropic tự chuyển sang mô hình dự phòng.
     // Ghi chú: Claude Haiku 5.5 KHÔNG hỗ trợ fallback phía máy chủ – nếu đổi CLAUDE_MODEL
     // sang "claude-haiku-5-5", hãy xóa hai dòng `betas` và `fallbacks` bên dưới.
