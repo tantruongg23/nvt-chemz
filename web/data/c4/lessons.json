@@ -1,0 +1,167 @@
+[
+  {
+    "id": "B15",
+    "number": 15,
+    "chapter": "C4",
+    "kind": "lesson",
+    "title": "Phản ứng oxi hóa – khử",
+    "title_en": "Redox reactions",
+    "objectives": [
+      "Nêu được khái niệm và xác định được số oxi hóa của nguyên tử các nguyên tố trong hợp chất.",
+      "Nêu được khái niệm về phản ứng oxi hóa – khử; xác định được chất oxi hóa, chất khử, quá trình oxi hóa, quá trình khử.",
+      "Cân bằng được phản ứng oxi hóa – khử bằng phương pháp thăng bằng electron.",
+      "Nêu được ý nghĩa của phản ứng oxi hóa – khử; mô tả được một số phản ứng oxi hóa – khử quan trọng gắn liền với cuộc sống."
+    ],
+    "summary": [
+      "Số oxi hóa của một nguyên tử trong phân tử là điện tích của nguyên tử đó với giả định phân tử là hợp chất ion; viết dấu trước, số sau (+3), khác cách viết điện tích ion (3+).",
+      "Quy tắc: đơn chất = 0; trong hợp chất H thường +1, O thường −2, kim loại nhóm IA +1, IIA +2, Al +3; tổng số oxi hóa trong phân tử = 0, trong ion = điện tích ion.",
+      "Chất khử (chất bị oxi hóa) nhường electron, số oxi hóa tăng; chất oxi hóa (chất bị khử) nhận electron, số oxi hóa giảm.",
+      "Phản ứng oxi hóa – khử là phản ứng có sự chuyển electron giữa các chất, tức là có sự thay đổi số oxi hóa của nguyên tử một số nguyên tố; trong đó quá trình oxi hóa và quá trình khử xảy ra đồng thời.",
+      "Cân bằng bằng phương pháp thăng bằng electron theo 4 bước, dựa trên nguyên tắc: tổng số electron chất khử nhường = tổng số electron chất oxi hóa nhận.",
+      "Phản ứng oxi hóa – khử có mặt trong sự cháy, hô hấp, quang hợp, luyện kim, pin và ắc quy, sản xuất hóa chất; sự gỉ sắt là ví dụ phản ứng oxi hóa – khử có hại."
+    ],
+    "sections": [
+      {
+        "heading": "Số oxi hóa",
+        "body_md": "**Số oxi hóa** của một nguyên tử trong phân tử là **điện tích của nguyên tử** nguyên tố đó, với giả định đây là hợp chất ion. Số oxi hóa viết **dấu trước, số sau** (+2, −1) và đặt phía trên kí hiệu nguyên tố. Trên trang này số oxi hóa được ghi sau kí hiệu dạng chỉ số trên: Fe⁺³, Cl⁻¹, Cu⁰ (khác điện tích ion Fe³⁺: số trước, dấu sau).\n\n**Quy tắc xác định số oxi hóa:**\n1. Trong **đơn chất**, số oxi hóa của nguyên tử bằng **0**: Na⁰, Cl₂ → Cl⁰, O₂ → O⁰.\n2. Trong hầu hết hợp chất: **H = +1** (trừ hydride kim loại NaH, CaH₂…: H = −1); **O = −2** (trừ peroxide H₂O₂, Na₂O₂…: O = −1; OF₂: O = +2). Kim loại **nhóm IA = +1, nhóm IIA = +2, Al = +3**.\n3. Trong **phân tử**, tổng số oxi hóa của các nguyên tử (đã nhân chỉ số) **bằng 0**.\n4. Trong **ion**: ion đơn nguyên tử có số oxi hóa bằng điện tích ion (Na⁺ → +1, S²⁻ → −2); ion đa nguyên tử có tổng số oxi hóa **bằng điện tích ion**.\n\n**Cách tính:** đặt ẩn x cho nguyên tố cần tìm rồi lập phương trình tổng.\n- H₂SO₄: 2(+1) + x + 4(−2) = 0 → x = +6.\n- NH₃: x + 3(+1) = 0 → x = −3 (khác hóa trị III: số oxi hóa có dấu).\n- SO₄²⁻: x + 4(−2) = −2 → x = +6.\n- Na₂O₂: 2(+1) + 2y = 0 → y = −1 (peroxide).\n\n| Chất | NH₃ | N₂ | NO | NO₂ | HNO₃ |\n|---|---|---|---|---|---|\n| Số oxi hóa của N | −3 | 0 | +2 | +4 | +5 |",
+        "terms": [
+          "T-301",
+          "T-313",
+          "T-314"
+        ]
+      },
+      {
+        "heading": "Chất oxi hóa, chất khử và phản ứng oxi hóa – khử",
+        "body_md": "Xét phản ứng: 2Na⁰ + Cl₂⁰ → 2Na⁺¹Cl⁻¹.\n- Na⁰ → Na⁺¹ + 1e: sodium **nhường** electron, số oxi hóa **tăng** → Na là **chất khử**; đây là **quá trình oxi hóa**.\n- Cl₂⁰ + 2e → 2Cl⁻¹: chlorine **nhận** electron, số oxi hóa **giảm** → Cl₂ là **chất oxi hóa**; đây là **quá trình khử**.\n\n| | Chất khử | Chất oxi hóa |\n|---|---|---|\n| Electron | nhường | nhận |\n| Số oxi hóa | tăng | giảm |\n| Tên khác | chất bị oxi hóa | chất bị khử |\n| Quá trình xảy ra ở chất đó | quá trình oxi hóa (sự oxi hóa) | quá trình khử (sự khử) |\n\nMẹo ghi nhớ (không phải câu trong SGK): **\"Khử cho – O nhận\"** (chất khử cho electron, chất oxi hóa nhận electron). Chất khử \"bị oxi hóa\", chất oxi hóa \"bị khử\" – đừng suy ngược theo tên gọi.\n\n**Phản ứng oxi hóa – khử** là phản ứng hóa học trong đó có sự **chuyển electron** giữa các chất, hay có sự **thay đổi số oxi hóa** của nguyên tử một số nguyên tố. Quá trình oxi hóa và quá trình khử luôn xảy ra **đồng thời**.\n\n**Nhận biết:** xác định số oxi hóa của các nguyên tố ở hai vế.\n- Fe + CuSO₄ → FeSO₄ + Cu: Fe 0 → +2, Cu +2 → 0 → là phản ứng oxi hóa – khử.\n- CaCO₃ → CaO + CO₂ (t°), NaOH + HCl → NaCl + H₂O: không nguyên tố nào thay đổi số oxi hóa → **không** phải phản ứng oxi hóa – khử.\n- Phản ứng có **đơn chất** tham gia hoặc tạo thành (như 2H₂ + O₂ → 2H₂O, 2KClO₃ → 2KCl + 3O₂) là phản ứng oxi hóa – khử (trừ trường hợp chỉ chuyển đổi giữa các dạng thù hình của cùng một nguyên tố, như 3O₂ → 2O₃). Một chất có thể vừa là chất oxi hóa vừa là chất khử (2KClO₃: Cl giảm từ +5 xuống −1, O tăng từ −2 lên 0).",
+        "terms": [
+          "T-304",
+          "T-305",
+          "T-306",
+          "T-302",
+          "T-303",
+          "T-307",
+          "T-308",
+          "T-309"
+        ]
+      },
+      {
+        "heading": "Lập phương trình hóa học của phản ứng oxi hóa – khử",
+        "body_md": "Nguyên tắc: **tổng số electron do chất khử nhường = tổng số electron mà chất oxi hóa nhận**. Phương pháp **thăng bằng electron** gồm 4 bước. Ví dụ: Fe₂O₃ + CO → Fe + CO₂ (t°).\n\n**Bước 1.** Xác định số oxi hóa của các nguyên tử có sự thay đổi số oxi hóa, từ đó xác định chất oxi hóa, chất khử.\nFe₂⁺³O₃ + C⁺²O → Fe⁰ + C⁺⁴O₂ → Fe₂O₃ là chất oxi hóa, CO là chất khử.\n\n**Bước 2.** Biểu diễn quá trình oxi hóa và quá trình khử (viết theo đúng số nguyên tử trong phân tử).\n- Quá trình oxi hóa: C⁺² → C⁺⁴ + 2e\n- Quá trình khử: 2Fe⁺³ + 6e → 2Fe⁰ (Fe₂O₃ có 2 nguyên tử Fe)\n\n**Bước 3.** Tìm hệ số thích hợp sao cho tổng số electron nhường bằng tổng số electron nhận (bội chung nhỏ nhất của 2 và 6 là 6).\n- × 3: C⁺² → C⁺⁴ + 2e\n- × 1: 2Fe⁺³ + 6e → 2Fe⁰\n\n**Bước 4.** Đặt hệ số của chất oxi hóa và chất khử vào sơ đồ, tính hệ số các chất còn lại, kiểm tra số nguyên tử mỗi nguyên tố ở hai vế.\nFe₂O₃ + 3CO → 2Fe + 3CO₂ (t°). Kiểm tra: Fe 2 = 2; C 3 = 3; O 3 + 3 = 6 = 6.\n\n**Chú ý:** khi một chất vừa là chất oxi hóa (HNO₃, H₂SO₄ đặc) hoặc chất khử (HCl) vừa là môi trường tạo muối, hệ số của chất đó = phần bị khử (hoặc bị oxi hóa) + phần tạo muối; luôn kiểm tra lại ở Bước 4.",
+        "terms": [
+          "T-311",
+          "T-310",
+          "T-312",
+          "T-307"
+        ]
+      },
+      {
+        "heading": "Ý nghĩa của phản ứng oxi hóa – khử",
+        "body_md": "Phản ứng oxi hóa – khử rất phổ biến trong tự nhiên, đời sống và sản xuất:\n- **Sự cháy** của nhiên liệu (than, xăng, gas) cung cấp năng lượng: C + O₂ → CO₂ (t°); CH₄ + 2O₂ → CO₂ + 2H₂O (t°).\n- **Hô hấp** và **quang hợp** ở sinh vật là chuỗi các phản ứng oxi hóa – khử.\n- **Luyện kim:** trong lò cao, carbon monoxide khử iron(III) oxide thành iron (sản xuất gang): Fe₂O₃ + 3CO → 2Fe + 3CO₂ (t°).\n- **Pin, ắc quy:** năng lượng điện sinh ra từ phản ứng oxi hóa – khử.\n- **Sản xuất hóa chất:** nhiều chất như ammonia, nitric acid, sulfuric acid, chlorine… được sản xuất qua các phản ứng oxi hóa – khử.\n- **Có hại:** sự gỉ sắt (sắt bị oxi hóa trong không khí ẩm), thực phẩm bị ôi thiu, cháy nổ – cần biết để phòng tránh.",
+        "terms": [
+          "T-315",
+          "T-304",
+          "T-308",
+          "T-309"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Đơn chất: số oxi hóa = 0",
+      "Hợp chất: H thường = +1 (hydride kim loại NaH, CaH₂: H = −1); O thường = −2 (peroxide H₂O₂, Na₂O₂: O = −1; OF₂: O = +2)",
+      "Kim loại nhóm IA = +1; nhóm IIA = +2; Al = +3",
+      "Phân tử: Σ số oxi hóa (nhân chỉ số) = 0; ion: Σ số oxi hóa = điện tích ion",
+      "Chất khử (chất bị oxi hóa): nhường e, số oxi hóa tăng",
+      "Chất oxi hóa (chất bị khử): nhận e, số oxi hóa giảm",
+      "Mẹo ghi nhớ (không phải câu trong SGK): \"Khử cho – O nhận\"",
+      "Quá trình oxi hóa: e ở vế phải, ví dụ Fe⁰ → Fe⁺² + 2e; quá trình khử: e ở vế trái, ví dụ Cl₂⁰ + 2e → 2Cl⁻¹",
+      "Thăng bằng electron: Σ e chất khử nhường = Σ e chất oxi hóa nhận"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Xác định số oxi hóa của: (a) S trong Na₂SO₃; (b) P trong ion PO₄³⁻; (c) Na và O trong sodium peroxide Na₂O₂.",
+        "solution": "Bước 1: (a) Na₂SO₃: 2(+1) + x + 3(−2) = 0 → x = +4.\nBước 2: (b) PO₄³⁻: tổng số oxi hóa bằng điện tích ion: x + 4(−2) = −3 → x = +5.\nBước 3: (c) Na thuộc nhóm IA → +1. Na₂O₂ là peroxide: 2(+1) + 2y = 0 → y = −1.\nĐáp án: S +4; P +5; Na +1, O −1.\nLưu ý: nếu cho tổng trong PO₄³⁻ bằng 0 sẽ ra +8 (sai – M29); nếu gán O = −2 trong Na₂O₂ thì Na phải là +2, mâu thuẫn với Na nhóm IA (M30)."
+      },
+      {
+        "problem": "Lập phương trình hóa học của phản ứng sau theo phương pháp thăng bằng electron, chỉ rõ chất oxi hóa, chất khử: H₂S + O₂ → SO₂ + H₂O (t°).",
+        "solution": "Bước 1: Xác định số oxi hóa thay đổi: H₂S⁻² + O₂⁰ → S⁺⁴O₂⁻² + H₂O⁻². S tăng từ −2 lên +4 → H₂S là chất khử; O giảm từ 0 xuống −2 → O₂ là chất oxi hóa.\nBước 2: Quá trình oxi hóa: S⁻² → S⁺⁴ + 6e. Quá trình khử: O₂⁰ + 4e → 2O⁻² (một phân tử O₂ có 2 nguyên tử).\nBước 3: BCNN(6, 4) = 12: × 2 cho quá trình oxi hóa (nhường 12e), × 3 cho quá trình khử (nhận 12e).\nBước 4: Đặt hệ số: 2H₂S + 3O₂ → 2SO₂ + 2H₂O. Kiểm tra: H 4 = 4; S 2 = 2; O 6 = 4 + 2.\nĐáp án: 2H₂S + 3O₂ → 2SO₂ + 2H₂O (t°); chất khử H₂S, chất oxi hóa O₂."
+      },
+      {
+        "problem": "Lập phương trình hóa học của phản ứng: Cu + H₂SO₄ (đặc) → CuSO₄ + SO₂ + H₂O (t°). Cho biết hệ số của H₂SO₄.",
+        "solution": "Bước 1: Cu⁰ → Cu⁺² (tăng) → Cu là chất khử; S⁺⁶ (trong H₂SO₄) → S⁺⁴ (trong SO₂) (giảm) → H₂SO₄ là chất oxi hóa.\nBước 2: Quá trình oxi hóa: Cu⁰ → Cu⁺² + 2e. Quá trình khử: S⁺⁶ + 2e → S⁺⁴.\nBước 3: Số electron đã bằng nhau (2 = 2) → hệ số 1 cho mỗi quá trình.\nBước 4: 1 Cu, 1 SO₂; thêm 1 H₂SO₄ tạo muối CuSO₄ → tổng 2 H₂SO₄; H: 4 → 2H₂O: Cu + 2H₂SO₄ → CuSO₄ + SO₂ + 2H₂O. Kiểm tra O: 8 = 4 + 2 + 2.\nĐáp án: hệ số H₂SO₄ là 2.\nLưu ý: chỉ đặt 1 H₂SO₄ (phần bị khử) mà quên phần tạo muối là lỗi M31."
+      }
+    ],
+    "quick_check": [
+      "Q-B15-001",
+      "Q-B15-002",
+      "Q-B15-008"
+    ]
+  },
+  {
+    "id": "B16",
+    "number": 16,
+    "chapter": "C4",
+    "kind": "review",
+    "title": "Ôn tập chương 4",
+    "title_en": "Chapter 4 review: Redox reactions",
+    "objectives": [
+      "Hệ thống hóa kiến thức về số oxi hóa, chất oxi hóa, chất khử, quá trình oxi hóa, quá trình khử và phản ứng oxi hóa – khử.",
+      "Vận dụng giải các dạng bài: xác định số oxi hóa, nhận diện phản ứng oxi hóa – khử, xác định vai trò các chất, cân bằng phương trình bằng phương pháp thăng bằng electron, tính theo sự bảo toàn electron đơn giản.",
+      "Nêu được ý nghĩa thực tiễn của phản ứng oxi hóa – khử."
+    ],
+    "summary": [
+      "Số oxi hóa tính bằng quy tắc: đơn chất 0; H +1 (hydride kim loại −1); O −2 (peroxide −1); IA +1, IIA +2, Al +3; tổng = 0 (phân tử) hoặc = điện tích (ion).",
+      "Chất khử nhường e (số oxi hóa tăng, bị oxi hóa); chất oxi hóa nhận e (số oxi hóa giảm, bị khử).",
+      "Phản ứng oxi hóa – khử có sự thay đổi số oxi hóa; phản ứng trao đổi, trung hòa, phân hủy CaCO₃… không phải phản ứng oxi hóa – khử.",
+      "Thăng bằng electron 4 bước: xác định số oxi hóa → viết quá trình → cân bằng số e → đặt hệ số và kiểm tra.",
+      "Số mol electron nhường = số mol electron nhận – dùng để tính lượng chất trong phản ứng oxi hóa – khử."
+    ],
+    "sections": [
+      {
+        "heading": "Sơ đồ hệ thống kiến thức",
+        "body_md": "| Khái niệm | Electron | Số oxi hóa | Ví dụ (Zn + CuSO₄ → ZnSO₄ + Cu) |\n|---|---|---|---|\n| Chất khử (chất bị oxi hóa) | nhường | tăng | Zn |\n| Chất oxi hóa (chất bị khử) | nhận | giảm | CuSO₄ (Cu⁺²) |\n| Quá trình oxi hóa | nhường | tăng | Zn⁰ → Zn⁺² + 2e |\n| Quá trình khử | nhận | giảm | Cu⁺² + 2e → Cu⁰ |\n\n**Các dạng bài thường gặp:**\n1. Tính số oxi hóa: đặt ẩn, nhân chỉ số, tổng = 0 hoặc = điện tích ion; chú ý hydride kim loại, peroxide.\n2. Nhận diện phản ứng oxi hóa – khử: so sánh số oxi hóa ở hai vế.\n3. Xác định chất oxi hóa, chất khử, quá trình oxi hóa, quá trình khử: dựa vào sự tăng/giảm số oxi hóa (mẹo ghi nhớ \"Khử cho – O nhận\").\n4. Cân bằng bằng thăng bằng electron: viết quá trình theo cả phân tử (Cl₂, O₂, Fe₂O₃, N₂O), cộng phần chất làm môi trường.\n5. Tính toán: n(e nhường) = n(e nhận).",
+        "terms": [
+          "T-301",
+          "T-304",
+          "T-305",
+          "T-306",
+          "T-302",
+          "T-303",
+          "T-311"
+        ]
+      },
+      {
+        "heading": "Bẫy lỗi sai cần tránh",
+        "body_md": "| Mã | Lỗi | Cách tránh |\n|---|---|---|\n| M27 | Chất khử là chất bị khử; CO \"lấy oxygen\" nên là chất oxi hóa | Chất khử nhường e, bị oxi hóa; xét số oxi hóa |\n| M28 | Oxi hóa = nhận e | Oxi hóa = nhường e (e ở vế phải); khử = nhận e |\n| M29 | Tổng trong SO₄²⁻ bằng 0; quên chỉ số; N₂ là +3 | Tổng = điện tích ion; nhân chỉ số; đơn chất = 0 |\n| M30 | H luôn +1, O luôn −2 (CaH₂, H₂O₂, O₂) | Hydride kim loại H = −1; peroxide O = −1; đơn chất = 0 |\n| M31 | O₂ nhận 2e; quên phần HNO₃ tạo muối | Viết quá trình theo cả phân tử; kiểm tra nguyên tố ở Bước 4 |\n| M32 | CaCO₃ → CaO + CO₂ là oxi hóa – khử; nhiệt phân KClO₃ thì không | Chỉ dựa vào sự thay đổi số oxi hóa |",
+        "terms": [
+          "T-305",
+          "T-306",
+          "T-313",
+          "T-314",
+          "T-310",
+          "T-312"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Σ số oxi hóa = 0 (phân tử); = điện tích (ion)",
+      "Chất khử: nhường e, số oxi hóa tăng; chất oxi hóa: nhận e, số oxi hóa giảm",
+      "Σ e nhường = Σ e nhận; n(e) = n(chất) × số e trao đổi của một phân tử",
+      "Hệ số chất vừa oxi hóa vừa môi trường = phần bị khử + phần tạo muối"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Cho sơ đồ phản ứng: C + HNO₃ (đặc) → CO₂ + NO₂ + H₂O (t°). (a) Xác định chất oxi hóa, chất khử. (b) Lập phương trình hóa học theo phương pháp thăng bằng electron và tính tổng hệ số (nguyên, tối giản).",
+        "solution": "Bước 1: C⁰ → C⁺⁴ (tăng) → C là chất khử; N⁺⁵ (HNO₃) → N⁺⁴ (NO₂) (giảm) → HNO₃ là chất oxi hóa.\nBước 2: Quá trình oxi hóa: C⁰ → C⁺⁴ + 4e. Quá trình khử: N⁺⁵ + 1e → N⁺⁴.\nBước 3: × 1 cho quá trình oxi hóa, × 4 cho quá trình khử (4e = 4e).\nBước 4: C + 4HNO₃ → CO₂ + 4NO₂ + 2H₂O. Kiểm tra: N 4 = 4; H 4 = 4; O 12 = 2 + 8 + 2.\nĐáp án: chất khử C, chất oxi hóa HNO₃; tổng hệ số = 1 + 4 + 1 + 4 + 2 = 12."
+      },
+      {
+        "problem": "Đốt cháy hoàn toàn 2,4 gam magnesium trong oxygen dư: 2Mg + O₂ → 2MgO (t°). Tính số mol electron magnesium đã nhường và số mol O₂ đã phản ứng. (Mg = 24)",
+        "solution": "Bước 1: n(Mg) = 2,4 : 24 = 0,1 mol.\nBước 2: Quá trình oxi hóa: Mg⁰ → Mg⁺² + 2e → n(e nhường) = 0,1 × 2 = 0,2 mol.\nBước 3: Quá trình khử: O₂⁰ + 4e → 2O⁻² → n(O₂) = 0,2 : 4 = 0,05 mol.\nĐáp án: 0,2 mol electron; 0,05 mol O₂.\nLưu ý: nếu cho một phân tử O₂ chỉ nhận 2e sẽ ra 0,1 mol O₂ (sai – M31)."
+      }
+    ],
+    "quick_check": [
+      "Q-B16-001",
+      "Q-B16-002",
+      "Q-B16-003"
+    ]
+  }
+]

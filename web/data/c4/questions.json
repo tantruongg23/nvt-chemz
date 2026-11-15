@@ -1,0 +1,1274 @@
+[
+  {
+    "id": "Q-B15-001",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Số oxi hóa của nguyên tử nitrogen trong phân tử N₂ là",
+    "terms": [
+      "T-301"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "0",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "+3",
+        "misconception": "M29"
+      },
+      {
+        "key": "C",
+        "text": "−3",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "+5",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: N₂ là đơn chất.\nBước 2: Trong đơn chất, số oxi hóa của nguyên tử bằng 0.\nĐáp án: A.\nLưu ý: +3 là nhầm số oxi hóa với hóa trị (hoặc số liên kết trong N≡N) – M29; −3 là số oxi hóa của N trong NH₃, không áp dụng cho đơn chất.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-002",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong phản ứng oxi hóa – khử, chất khử là chất",
+    "terms": [
+      "T-306",
+      "T-307"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "nhận electron.",
+        "misconception": "M27"
+      },
+      {
+        "key": "B",
+        "text": "nhường electron.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "có số oxi hóa giảm sau phản ứng.",
+        "misconception": "M27"
+      },
+      {
+        "key": "D",
+        "text": "bị khử.",
+        "misconception": "M27"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Chất khử là chất nhường electron (mẹo ghi nhớ \"Khử cho – O nhận\").\nBước 2: Khi nhường electron, số oxi hóa của chất khử tăng; chất khử là chất bị oxi hóa.\nĐáp án: B.\nLưu ý: nhận electron, số oxi hóa giảm, bị khử là đặc điểm của chất oxi hóa – chọn A, C, D là nhầm chất khử với chất bị khử (M27).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-003",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Quá trình oxi hóa là quá trình",
+    "terms": [
+      "T-302",
+      "T-307"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "nhận electron.",
+        "misconception": "M28"
+      },
+      {
+        "key": "B",
+        "text": "làm giảm số oxi hóa của nguyên tử.",
+        "misconception": "M28"
+      },
+      {
+        "key": "C",
+        "text": "nhường electron.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "nhận proton.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Quá trình oxi hóa (sự oxi hóa) là quá trình nhường electron, ví dụ Na⁰ → Na⁺¹ + 1e.\nBước 2: Khi nhường electron, số oxi hóa tăng.\nĐáp án: C.\nLưu ý: nhận electron và làm giảm số oxi hóa là quá trình khử (M28).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-004",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Phản ứng oxi hóa – khử là phản ứng hóa học",
+    "terms": [
+      "T-304",
+      "T-301"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "có chất khí thoát ra.",
+        "misconception": "M32"
+      },
+      {
+        "key": "B",
+        "text": "có oxygen tham gia phản ứng.",
+        "misconception": "M32"
+      },
+      {
+        "key": "C",
+        "text": "có sự trao đổi thành phần giữa hai hợp chất.",
+        "misconception": "M32"
+      },
+      {
+        "key": "D",
+        "text": "có sự thay đổi số oxi hóa của nguyên tử một số nguyên tố.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Phản ứng oxi hóa – khử là phản ứng có sự chuyển electron giữa các chất.\nBước 2: Dấu hiệu nhận biết: số oxi hóa của nguyên tử một số nguyên tố thay đổi.\nĐáp án: D.\nLưu ý: có khí thoát ra (CaCO₃ → CaO + CO₂), có oxygen tham gia hay trao đổi thành phần (AgNO₃ + NaCl) đều không phải tiêu chí – nhiều phản ứng như vậy không phải oxi hóa – khử (M32).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-005",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Số oxi hóa của manganese trong ion permanganate MnO₄⁻ là",
+    "terms": [
+      "T-301"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "−1",
+        "misconception": "M29"
+      },
+      {
+        "key": "B",
+        "text": "+7",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "+8",
+        "misconception": "M29"
+      },
+      {
+        "key": "D",
+        "text": "+6",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Gọi số oxi hóa của Mn là x; O có số oxi hóa −2.\nBước 2: Trong ion, tổng số oxi hóa bằng điện tích ion: x + 4(−2) = −1.\nBước 3: x = +7.\nĐáp án: B.\nLưu ý: +8 là cho tổng bằng 0, quên điện tích ion; −1 là lấy điện tích của cả ion làm số oxi hóa của Mn (M29); +6 là số oxi hóa của Mn trong ion MnO₄²⁻.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-006",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Số oxi hóa của oxygen trong hydrogen peroxide (H₂O₂) là",
+    "terms": [
+      "T-301",
+      "T-313"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "−2",
+        "misconception": "M30"
+      },
+      {
+        "key": "B",
+        "text": "+1",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "−1",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "0",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: H trong H₂O₂ có số oxi hóa +1. Gọi số oxi hóa của O là y.\nBước 2: 2(+1) + 2y = 0 → y = −1.\nĐáp án: C.\nLưu ý: H₂O₂ là peroxide, O có số oxi hóa −1; gán máy móc O = −2 là lỗi M30 (khi đó tổng = 2 − 4 = −2 ≠ 0).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-007",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Dãy nào sau đây gồm các chất được sắp xếp theo chiều tăng dần số oxi hóa của nitrogen?",
+    "terms": [
+      "T-301"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "NH₃, N₂, NO, HNO₃",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "N₂, NO, NH₃, HNO₃",
+        "misconception": "M29"
+      },
+      {
+        "key": "C",
+        "text": "NH₃, N₂, NO₂, NO",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "HNO₃, NO, N₂, NH₃",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: NH₃: x + 3 = 0 → −3. N₂: đơn chất → 0. NO: x − 2 = 0 → +2. NO₂: x − 4 = 0 → +4. HNO₃: 1 + x − 6 = 0 → +5.\nBước 2: Thứ tự tăng dần: NH₃ (−3) < N₂ (0) < NO (+2) < NO₂ (+4) < HNO₃ (+5).\nĐáp án: A.\nLưu ý: B là thứ tự thu được nếu coi N trong NH₃ là +3 (nhầm với hóa trị III – M29): 0 < +2 < +3 < +5; C đặt NO₂ (+4) trước NO (+2); D là chiều giảm dần.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-008",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phản ứng nhiệt nhôm dùng để hàn đường ray: 2Al + Fe₂O₃ → Al₂O₃ + 2Fe (t°). Chất oxi hóa trong phản ứng này là",
+    "terms": [
+      "T-305",
+      "T-306"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Al",
+        "misconception": "M27"
+      },
+      {
+        "key": "B",
+        "text": "Al₂O₃",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Fe",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Fe₂O₃",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Fe: +3 (trong Fe₂O₃) → 0 (Fe): số oxi hóa giảm, nhận electron.\nBước 2: Al: 0 (Al) → +3 (trong Al₂O₃): số oxi hóa tăng, nhường electron.\nBước 3: Chất nhận electron là chất oxi hóa → Fe₂O₃.\nĐáp án: D.\nLưu ý: Al là chất khử (chất bị oxi hóa); chọn Al vì nghĩ \"Al lấy oxygen nên là chất oxi hóa\" là lỗi M27. Al₂O₃ và Fe là sản phẩm.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-009",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phản ứng: Zn + CuSO₄ → ZnSO₄ + Cu. Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-302",
+      "T-303",
+      "T-310"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cu⁺² + 2e → Cu⁰ là quá trình oxi hóa.",
+        "misconception": "M28"
+      },
+      {
+        "key": "B",
+        "text": "Zn⁰ → Zn⁺² + 2e là quá trình khử.",
+        "misconception": "M28"
+      },
+      {
+        "key": "C",
+        "text": "Zn⁰ → Zn⁺² + 2e là quá trình oxi hóa.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "CuSO₄ là chất khử vì nó nhận electron.",
+        "misconception": "M27"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Zn: 0 → +2 (nhường 2e): Zn⁰ → Zn⁺² + 2e là quá trình oxi hóa; Zn là chất khử.\nBước 2: Cu: +2 → 0 (nhận 2e): Cu⁺² + 2e → Cu⁰ là quá trình khử; CuSO₄ là chất oxi hóa.\nĐáp án: C.\nLưu ý: A, B gọi ngược tên hai quá trình (M28); D gọi chất nhận electron là chất khử (M27).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-010",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phản ứng nào sau đây là phản ứng oxi hóa – khử?",
+    "terms": [
+      "T-304",
+      "T-301"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "CaCO₃ → CaO + CO₂ (t°)",
+        "misconception": "M32"
+      },
+      {
+        "key": "B",
+        "text": "2Na + Cl₂ → 2NaCl",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "NaOH + HCl → NaCl + H₂O",
+        "misconception": "M32"
+      },
+      {
+        "key": "D",
+        "text": "CaO + H₂O → Ca(OH)₂",
+        "misconception": "M32"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: 2Na + Cl₂ → 2NaCl: Na 0 → +1, Cl 0 → −1 → có thay đổi số oxi hóa.\nBước 2: A: Ca +2, C +4, O −2 giữ nguyên. C: Na +1, O −2, H +1, Cl −1 giữ nguyên. D: Ca +2, O −2, H +1 giữ nguyên.\nĐáp án: B.\nLưu ý: phản ứng phân hủy có khí thoát ra (A), phản ứng trung hòa (C), phản ứng hóa hợp của oxide (D) không làm thay đổi số oxi hóa nên không phải phản ứng oxi hóa – khử (M32).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-011",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phản ứng nào sau đây KHÔNG phải là phản ứng oxi hóa – khử?",
+    "terms": [
+      "T-304",
+      "T-301"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "AgNO₃ + NaCl → AgCl + NaNO₃",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "2KClO₃ → 2KCl + 3O₂ (t°)",
+        "misconception": "M32"
+      },
+      {
+        "key": "C",
+        "text": "Fe + 2HCl → FeCl₂ + H₂",
+        "misconception": "M32"
+      },
+      {
+        "key": "D",
+        "text": "CH₄ + 2O₂ → CO₂ + 2H₂O (t°)",
+        "misconception": "M32"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: A: Ag +1, N +5, O −2, Na +1, Cl −1 giữ nguyên ở hai vế → không phải phản ứng oxi hóa – khử (phản ứng trao đổi).\nBước 2: B: Cl +5 → −1, O −2 → 0. C: Fe 0 → +2, H +1 → 0. D: C −4 → +4, O 0 → −2. Ba phản ứng này đều là phản ứng oxi hóa – khử.\nĐáp án: A.\nLưu ý: chọn B vì \"chỉ có một chất tham gia\", chọn C hoặc D vì quen gọi là phản ứng thế, phản ứng cháy là bỏ sót phản ứng oxi hóa – khử có đơn chất tham gia/tạo thành (M32).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-012",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho sơ đồ phản ứng: MnO₂ + HCl → MnCl₂ + Cl₂ + H₂O (t°). Sau khi cân bằng bằng phương pháp thăng bằng electron với hệ số nguyên, tối giản, hệ số của HCl là",
+    "terms": [
+      "T-311",
+      "T-312",
+      "T-305",
+      "T-306"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "1",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "2",
+        "misconception": "M31"
+      },
+      {
+        "key": "C",
+        "text": "8",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "4",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Mn: +4 (MnO₂) → +2 (MnCl₂): MnO₂ là chất oxi hóa. Cl: −1 (HCl) → 0 (Cl₂): HCl là chất khử.\nBước 2: Quá trình khử: Mn⁺⁴ + 2e → Mn⁺². Quá trình oxi hóa: 2Cl⁻¹ → Cl₂⁰ + 2e.\nBước 3: Số electron bằng nhau (2 = 2) → hệ số 1 cho mỗi quá trình.\nBước 4: 1 MnO₂, 1 Cl₂ (2 HCl bị oxi hóa) + 2 HCl tạo MnCl₂ → 4 HCl; H: 4 → 2H₂O. MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O. Kiểm tra: Cl 4 = 2 + 2; O 2 = 2.\nĐáp án: D.\nLưu ý: 2 là chỉ tính số HCl bị oxi hóa, quên 2 HCl tạo muối MnCl₂ (M31); 1 và 8 không bảo toàn được nguyên tố Cl, H.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-013",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho phản ứng: 2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O. Tỉ lệ giữa số phân tử HCl đóng vai trò chất khử và tổng số phân tử HCl tham gia phản ứng là",
+    "terms": [
+      "T-306",
+      "T-312"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "1",
+        "misconception": "M31"
+      },
+      {
+        "key": "B",
+        "text": "3/8",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "5/8",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "5/16",
+        "misconception": "M31"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Cl: −1 (HCl) → 0 (Cl₂): chỉ phần HCl tạo ra Cl₂ là chất khử.\nBước 2: 5 phân tử Cl₂ chứa 10 nguyên tử Cl → 10 phân tử HCl bị oxi hóa. 6 phân tử HCl còn lại tạo 2KCl + 2MnCl₂ (2 + 4 = 6 nguyên tử Cl) giữ nguyên số oxi hóa −1.\nBước 3: Tỉ lệ = 10/16 = 5/8.\nĐáp án: C.\nLưu ý: 5/16 là quên mỗi Cl₂ có 2 nguyên tử Cl; 1 là coi toàn bộ HCl là chất khử, bỏ qua phần tạo muối (M31); 3/8 là tỉ lệ phần HCl tạo muối.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-014",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho phản ứng: Cl₂ + 2NaOH → NaCl + NaClO + H₂O. Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-305",
+      "T-306",
+      "T-301"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cl₂ chỉ đóng vai trò chất oxi hóa.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Cl₂ vừa là chất oxi hóa, vừa là chất khử.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "NaOH là chất khử vì đã nhường electron cho Cl₂.",
+        "misconception": "M27"
+      },
+      {
+        "key": "D",
+        "text": "Phản ứng không phải phản ứng oxi hóa – khử vì không có đơn chất tạo thành.",
+        "misconception": "M32"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Số oxi hóa của Cl: 0 (Cl₂) → −1 (NaCl) và 0 → +1 (NaClO: 1 + x − 2 = 0 → x = +1).\nBước 2: Na +1, O −2, H +1 không đổi → NaOH không nhường, không nhận electron.\nBước 3: Một nguyên tử Cl nhận 1e (Cl₂ là chất oxi hóa), một nguyên tử Cl nhường 1e (Cl₂ là chất khử).\nĐáp án: B.\nLưu ý: A bỏ qua Cl tăng lên +1; C gán vai trò chất khử cho chất không đổi số oxi hóa (M27); D sai vì có đơn chất Cl₂ tham gia và có thay đổi số oxi hóa (M32).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-015",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Quá trình nào sau đây KHÔNG xảy ra phản ứng oxi hóa – khử?",
+    "terms": [
+      "T-304",
+      "T-315"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Hòa tan muối ăn vào nước.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Đốt cháy than trong không khí.",
+        "misconception": "M32"
+      },
+      {
+        "key": "C",
+        "text": "Đinh sắt bị gỉ trong không khí ẩm.",
+        "misconception": "M32"
+      },
+      {
+        "key": "D",
+        "text": "Quang hợp của cây xanh.",
+        "misconception": "M32"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Sự cháy của than (C + O₂ → CO₂), sự gỉ sắt (sắt bị oxi hóa) và quang hợp đều có sự thay đổi số oxi hóa → là phản ứng oxi hóa – khử.\nBước 2: Hòa tan muối ăn vào nước là quá trình vật lí; Na +1, Cl −1 không đổi.\nĐáp án: A.\nLưu ý: chọn B, C hoặc D là bỏ sót các phản ứng oxi hóa – khử quen thuộc trong đời sống (M32).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-016",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "true_false",
+    "level": "NB",
+    "stem": "Về quy tắc xác định số oxi hóa, mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-301",
+      "T-314"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Số oxi hóa của nguyên tử trong đơn chất bằng 0.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Trong mọi hợp chất, số oxi hóa của hydrogen luôn bằng +1.",
+        "answer": false,
+        "misconception": "M30"
+      },
+      {
+        "key": "c",
+        "text": "Trong ion Ca²⁺, calcium có số oxi hóa +2.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Tổng số oxi hóa của các nguyên tử trong ion SO₄²⁻ bằng 0.",
+        "answer": false,
+        "misconception": "M29"
+      }
+    ],
+    "explanation": "a) Đúng: ví dụ Na, Cl₂, O₂ đều có số oxi hóa 0.\nb) Sai: trong hydride kim loại (NaH, CaH₂), H có số oxi hóa −1 (M30).\nc) Đúng: ion đơn nguyên tử có số oxi hóa bằng điện tích ion.\nd) Sai: trong ion, tổng số oxi hóa bằng điện tích ion, tức là −2 (M29).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-017",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Xác định số oxi hóa trong một số chất. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-301",
+      "T-314"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Số oxi hóa của sulfur trong H₂S là −2.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Số oxi hóa của chlorine trong HClO₄ là +7.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Số oxi hóa của hydrogen trong CaH₂ là +1.",
+        "answer": false,
+        "misconception": "M30"
+      },
+      {
+        "key": "d",
+        "text": "Số oxi hóa của carbon trong ion CO₃²⁻ là +6.",
+        "answer": false,
+        "misconception": "M29"
+      }
+    ],
+    "explanation": "a) Đúng: 2(+1) + x = 0 → x = −2.\nb) Đúng: (+1) + x + 4(−2) = 0 → x = +7.\nc) Sai: Ca (nhóm IIA) = +2 → 2 + 2y = 0 → y = −1; CaH₂ là hydride kim loại (M30).\nd) Sai: x + 3(−2) = −2 → x = +4; +6 là cho tổng bằng 0, quên điện tích ion (M29).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-018",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Cho phản ứng: H₂ + CuO → Cu + H₂O (t°). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-305",
+      "T-306",
+      "T-302",
+      "T-303"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Số oxi hóa của copper giảm từ +2 xuống 0.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "H₂ là chất oxi hóa vì đã lấy oxygen của CuO.",
+        "answer": false,
+        "misconception": "M27"
+      },
+      {
+        "key": "c",
+        "text": "Quá trình khử là: Cu⁺² + 2e → Cu⁰.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Quá trình H₂⁰ → 2H⁺¹ + 2e là quá trình khử.",
+        "answer": false,
+        "misconception": "M28"
+      }
+    ],
+    "explanation": "a) Đúng: Cu +2 (CuO) → 0 (Cu).\nb) Sai: H tăng từ 0 lên +1, H₂ nhường electron nên là chất khử; CuO là chất oxi hóa. Xác định vai trò theo việc \"lấy oxygen\" là lỗi M27.\nc) Đúng: Cu⁺² nhận 2e, số oxi hóa giảm → quá trình khử.\nd) Sai: H₂ nhường electron (e ở vế phải), số oxi hóa tăng → đây là quá trình oxi hóa (M28).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-019",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Mỗi phát biểu sau về việc nhận diện phản ứng oxi hóa – khử đúng hay sai?",
+    "terms": [
+      "T-304",
+      "T-301"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Phản ứng 2H₂ + O₂ → 2H₂O (t°) là phản ứng oxi hóa – khử.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Phản ứng CaCO₃ → CaO + CO₂ (t°) là phản ứng oxi hóa – khử vì một chất bị phân hủy thành hai chất.",
+        "answer": false,
+        "misconception": "M32"
+      },
+      {
+        "key": "c",
+        "text": "Phản ứng Fe + CuSO₄ → FeSO₄ + Cu là phản ứng oxi hóa – khử.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Mọi phản ứng có chất chứa oxygen tham gia đều là phản ứng oxi hóa – khử.",
+        "answer": false,
+        "misconception": "M32"
+      }
+    ],
+    "explanation": "a) Đúng: H 0 → +1, O 0 → −2.\nb) Sai: Ca +2, C +4, O −2 không thay đổi → không phải phản ứng oxi hóa – khử (M32).\nc) Đúng: Fe 0 → +2, Cu +2 → 0.\nd) Sai: ví dụ CaO + H₂O → Ca(OH)₂ hay NaOH + HCl → NaCl + H₂O có chất chứa oxygen nhưng không có nguyên tố nào thay đổi số oxi hóa (M32).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-020",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Trong công nghiệp sản xuất nitric acid có phản ứng (xúc tác, t°): NH₃ + O₂ → NO + H₂O. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-305",
+      "T-306",
+      "T-311",
+      "T-312"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "NH₃ là chất khử, O₂ là chất oxi hóa.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Quá trình khử được viết là: O₂⁰ + 2e → 2O⁻².",
+        "answer": false,
+        "misconception": "M31"
+      },
+      {
+        "key": "c",
+        "text": "Số oxi hóa của nitrogen tăng từ −3 lên +2 nên NH₃ là chất bị khử.",
+        "answer": false,
+        "misconception": "M27"
+      },
+      {
+        "key": "d",
+        "text": "Sau khi cân bằng với hệ số nguyên, tối giản, tổng hệ số của phương trình là 19.",
+        "answer": true,
+        "misconception": null
+      }
+    ],
+    "explanation": "Bước 1: N: −3 (NH₃) → +2 (NO), nhường 5e; O: 0 (O₂) → −2, nhận electron.\nBước 2: Quá trình oxi hóa: N⁻³ → N⁺² + 5e; quá trình khử: O₂⁰ + 4e → 2O⁻².\nBước 3: BCNN(5, 4) = 20: × 4 cho quá trình oxi hóa, × 5 cho quá trình khử.\nBước 4: 4NH₃ + 5O₂ → 4NO + 6H₂O. Kiểm tra: N 4 = 4; H 12 = 12; O 10 = 4 + 6. Tổng hệ số = 4 + 5 + 4 + 6 = 19.\na) Đúng.\nb) Sai: một phân tử O₂ có 2 nguyên tử O, mỗi nguyên tử nhận 2e → nhận 4e (M31).\nc) Sai: số oxi hóa tăng thì NH₃ nhường electron, là chất khử (chất bị oxi hóa), không phải chất bị khử (M27).\nd) Đúng.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-021",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho phản ứng phân hủy hydrogen peroxide (xúc tác MnO₂): 2H₂O₂ → 2H₂O + O₂. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-313",
+      "T-304",
+      "T-305",
+      "T-306"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Số oxi hóa của oxygen trong H₂O₂ là −2.",
+        "answer": false,
+        "misconception": "M30"
+      },
+      {
+        "key": "b",
+        "text": "Phản ứng trên là phản ứng oxi hóa – khử.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "H₂O₂ vừa là chất oxi hóa, vừa là chất khử.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Khi tạo thành 1 phân tử O₂, có 4 electron được chuyển từ chất khử sang chất oxi hóa.",
+        "answer": false,
+        "misconception": "M30"
+      }
+    ],
+    "explanation": "a) Sai: H₂O₂ là peroxide, 2(+1) + 2y = 0 → y = −1 (M30).\nb) Đúng: O −1 (H₂O₂) → −2 (H₂O) và −1 → 0 (O₂); tiêu chí là sự thay đổi số oxi hóa, không phụ thuộc số chất tham gia.\nc) Đúng: một phần nguyên tử O nhận electron (−1 → −2), một phần nhường electron (−1 → 0).\nd) Sai: quá trình oxi hóa 2O⁻¹ → O₂⁰ + 2e, quá trình khử 2O⁻¹ + 2e → 2O⁻² → mỗi phân tử O₂ tạo thành ứng với 2 electron được chuyển. Con số 4 là do gán O = −2 trong H₂O₂ (2O⁻² → O₂ + 4e) – lỗi M30.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-022",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "short",
+    "level": "NB",
+    "stem": "Số oxi hóa của aluminium trong aluminium oxide (Al₂O₃) là bao nhiêu? (Nhập số nguyên, có dấu \"-\" nếu âm; số dương không cần dấu \"+\".)",
+    "terms": [
+      "T-301"
+    ],
+    "answer": "3",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "6",
+        "misconception": "M29"
+      },
+      {
+        "value": "2",
+        "misconception": "M29"
+      }
+    ],
+    "explanation": "Bước 1: Aluminium trong hợp chất có số oxi hóa +3 (kiểm tra: 2(+3) + 3(−2) = 0).\nĐáp án: 3.\nLưu ý: 6 là tổng số oxi hóa của 2 nguyên tử Al, không phải số oxi hóa của một nguyên tử; 2 là lấy nhầm chỉ số (M29).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-023",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "short",
+    "level": "TH",
+    "stem": "Số oxi hóa của chromium trong potassium dichromate (K₂Cr₂O₇) là bao nhiêu? (Nhập số nguyên, có dấu \"-\" nếu âm; số dương không cần dấu \"+\".)",
+    "terms": [
+      "T-301"
+    ],
+    "answer": "6",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "12",
+        "misconception": "M29"
+      },
+      {
+        "value": "7",
+        "misconception": "M29"
+      }
+    ],
+    "explanation": "Bước 1: K (nhóm IA) = +1; O = −2; gọi số oxi hóa của Cr là x.\nBước 2: 2(+1) + 2x + 7(−2) = 0 → 2x = 12 → x = +6.\nĐáp án: 6.\nLưu ý: 12 là quên chia cho chỉ số 2 của Cr; 7 là quên 2 nguyên tử K (2x − 14 = 0) – M29.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-024",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "short",
+    "level": "TH",
+    "stem": "Trong một phản ứng, K₂Cr₂O₇ bị khử, toàn bộ chromium chuyển từ số oxi hóa +6 thành +3. Một phân tử K₂Cr₂O₇ đã nhận bao nhiêu electron? (Nhập số nguyên.)",
+    "terms": [
+      "T-303",
+      "T-305",
+      "T-310"
+    ],
+    "answer": "6",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "3",
+        "misconception": "M31"
+      },
+      {
+        "value": "9",
+        "misconception": null
+      }
+    ],
+    "explanation": "Bước 1: Mỗi nguyên tử Cr nhận 6 − 3 = 3 electron: Cr⁺⁶ + 3e → Cr⁺³.\nBước 2: Một phân tử K₂Cr₂O₇ có 2 nguyên tử Cr: 2Cr⁺⁶ + 6e → 2Cr⁺³.\nĐáp án: 6.\nLưu ý: 3 là quên chỉ số 2 của Cr trong phân tử (M31); 9 là cộng nhầm 6 + 3.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B15-025",
+    "chapter": "C4",
+    "lesson": "B15",
+    "type": "short",
+    "level": "VD",
+    "stem": "Lập phương trình hóa học của phản ứng sau theo phương pháp thăng bằng electron: Cu + HNO₃ (loãng) → Cu(NO₃)₂ + NO + H₂O. Tổng hệ số (nguyên, tối giản) của các chất trong phương trình là bao nhiêu?",
+    "terms": [
+      "T-311",
+      "T-312",
+      "T-305",
+      "T-306"
+    ],
+    "answer": "20",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "11",
+        "misconception": "M31"
+      }
+    ],
+    "explanation": "Bước 1: Cu: 0 → +2 (Cu là chất khử); N: +5 (HNO₃) → +2 (NO) (HNO₃ là chất oxi hóa).\nBước 2: Quá trình oxi hóa: Cu⁰ → Cu⁺² + 2e. Quá trình khử: N⁺⁵ + 3e → N⁺².\nBước 3: BCNN(2, 3) = 6: × 3 cho quá trình oxi hóa, × 2 cho quá trình khử.\nBước 4: 3Cu, 2NO; 2 HNO₃ bị khử + 6 HNO₃ tạo 3Cu(NO₃)₂ → 8HNO₃; H: 8 → 4H₂O. 3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O. Kiểm tra O: 24 = 18 + 2 + 4.\nTổng hệ số = 3 + 8 + 3 + 2 + 4 = 20.\nĐáp án: 20.\nLưu ý: 11 là chỉ đặt 2 HNO₃ (phần bị khử) và 1 H₂O, quên phần HNO₃ tạo muối, không kiểm tra lại N, O (M31).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-001",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Chất oxi hóa còn được gọi là",
+    "terms": [
+      "T-305"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chất bị oxi hóa.",
+        "misconception": "M27"
+      },
+      {
+        "key": "B",
+        "text": "chất nhường electron.",
+        "misconception": "M27"
+      },
+      {
+        "key": "C",
+        "text": "chất có số oxi hóa tăng sau phản ứng.",
+        "misconception": "M27"
+      },
+      {
+        "key": "D",
+        "text": "chất bị khử.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Chất oxi hóa nhận electron, số oxi hóa giảm, tức là bị khử.\nBước 2: Vì vậy chất oxi hóa còn được gọi là chất bị khử.\nĐáp án: D.\nLưu ý: A, B, C là đặc điểm của chất khử (chất bị oxi hóa) – nhầm theo tên gọi (M27).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-002",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Khi lập phương trình hóa học của phản ứng oxi hóa – khử theo phương pháp thăng bằng electron, cần tìm hệ số sao cho",
+    "terms": [
+      "T-311",
+      "T-307"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "số nguyên tử bị oxi hóa bằng số nguyên tử bị khử.",
+        "misconception": "M31"
+      },
+      {
+        "key": "B",
+        "text": "hệ số của chất khử bằng hệ số của chất oxi hóa.",
+        "misconception": "M31"
+      },
+      {
+        "key": "C",
+        "text": "tổng số electron do chất khử nhường bằng tổng số electron mà chất oxi hóa nhận.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "tổng số electron chất khử nhường lớn hơn tổng số electron chất oxi hóa nhận.",
+        "misconception": "M31"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Nguyên tắc của phương pháp thăng bằng electron: electron không tự sinh ra hay mất đi trong phản ứng.\nBước 2: Tổng số electron chất khử nhường = tổng số electron chất oxi hóa nhận.\nĐáp án: C.\nLưu ý: cân bằng số nguyên tử bị oxi hóa với số nguyên tử bị khử hoặc cho hệ số hai chất bằng nhau đều không bảo toàn electron (ví dụ 3Cu cần 2 HNO₃ bị khử) – M31.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-003",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phản ứng: 2FeCl₂ + Cl₂ → 2FeCl₃. Trong phản ứng này, FeCl₂ là",
+    "terms": [
+      "T-305",
+      "T-306",
+      "T-302"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chất khử.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "chất oxi hóa.",
+        "misconception": "M27"
+      },
+      {
+        "key": "C",
+        "text": "chất bị khử.",
+        "misconception": "M27"
+      },
+      {
+        "key": "D",
+        "text": "chất nhường electron, trong đó Fe⁺² → Fe⁺³ + 1e là quá trình khử.",
+        "misconception": "M28"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Fe: +2 (FeCl₂) → +3 (FeCl₃): số oxi hóa tăng, nhường 1e.\nBước 2: Chất nhường electron là chất khử (chất bị oxi hóa); Fe⁺² → Fe⁺³ + 1e là quá trình oxi hóa.\nBước 3: Cl₂ (0 → −1) nhận electron là chất oxi hóa.\nĐáp án: A.\nLưu ý: B, C là nhầm vai trò chất khử – chất oxi hóa (M27); D đúng ở chỗ nhường electron nhưng gọi sai tên quá trình (M28).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-004",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phản ứng: SO₂ + 2H₂S → 3S + 2H₂O. Vai trò của SO₂ trong phản ứng là",
+    "terms": [
+      "T-305",
+      "T-306",
+      "T-301"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "chất khử.",
+        "misconception": "M27"
+      },
+      {
+        "key": "B",
+        "text": "chất oxi hóa.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "vừa là chất oxi hóa, vừa là chất khử.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "không là chất oxi hóa, không là chất khử vì đây không phải phản ứng oxi hóa – khử.",
+        "misconception": "M32"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: S trong SO₂: +4 → 0 (S): số oxi hóa giảm, nhận 4e → SO₂ là chất oxi hóa.\nBước 2: S trong H₂S: −2 → 0: số oxi hóa tăng → H₂S là chất khử.\nĐáp án: B.\nLưu ý: chọn A là nhầm chất nhận electron thành chất khử (M27); C sai vì S trong SO₂ chỉ giảm số oxi hóa; D sai vì có đơn chất S tạo thành và có sự thay đổi số oxi hóa (M32).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-005",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho sơ đồ phản ứng: Al + H₂SO₄ (đặc) → Al₂(SO₄)₃ + SO₂ + H₂O (t°). Sau khi cân bằng bằng phương pháp thăng bằng electron với hệ số nguyên, tối giản, hệ số của H₂SO₄ là",
+    "terms": [
+      "T-311",
+      "T-312"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "3",
+        "misconception": "M31"
+      },
+      {
+        "key": "B",
+        "text": "4",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "9",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "6",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Al: 0 → +3 (Al là chất khử); S: +6 (H₂SO₄) → +4 (SO₂) (H₂SO₄ là chất oxi hóa).\nBước 2: Quá trình oxi hóa: 2Al⁰ → 2Al⁺³ + 6e (Al₂(SO₄)₃ có 2 nguyên tử Al). Quá trình khử: S⁺⁶ + 2e → S⁺⁴.\nBước 3: × 1 cho quá trình oxi hóa, × 3 cho quá trình khử (6e = 6e).\nBước 4: 2Al, 3SO₂ (3 H₂SO₄ bị khử) + 3 H₂SO₄ tạo Al₂(SO₄)₃ → 6H₂SO₄; H: 12 → 6H₂O. 2Al + 6H₂SO₄ → Al₂(SO₄)₃ + 3SO₂ + 6H₂O. Kiểm tra S: 6 = 3 + 3; O: 24 = 12 + 6 + 6.\nĐáp án: D.\nLưu ý: 3 là chỉ tính phần H₂SO₄ bị khử thành SO₂, quên phần tạo muối (M31).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-006",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Đốt cháy hoàn toàn 2,7 gam aluminium trong khí chlorine dư, thu được AlCl₃. Số mol Cl₂ đã phản ứng là (Al = 27)",
+    "terms": [
+      "T-305",
+      "T-306",
+      "T-307"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "0,30 mol",
+        "misconception": "M31"
+      },
+      {
+        "key": "B",
+        "text": "0,10 mol",
+        "misconception": "M31"
+      },
+      {
+        "key": "C",
+        "text": "0,15 mol",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "0,45 mol",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: n(Al) = 2,7 : 27 = 0,1 mol.\nBước 2: Quá trình oxi hóa: Al⁰ → Al⁺³ + 3e → n(e nhường) = 0,1 × 3 = 0,3 mol.\nBước 3: Quá trình khử: Cl₂⁰ + 2e → 2Cl⁻¹ → n(Cl₂) = 0,3 : 2 = 0,15 mol (phù hợp phương trình 2Al + 3Cl₂ → 2AlCl₃).\nĐáp án: C.\nLưu ý: 0,30 mol là cho mỗi phân tử Cl₂ chỉ nhận 1e (quên Cl₂ có 2 nguyên tử); 0,10 mol là lấy tỉ lệ 1 : 1, không bảo toàn electron (M31).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-007",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Về ý nghĩa của phản ứng oxi hóa – khử trong thực tiễn, mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-315",
+      "T-304",
+      "T-309"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Sự đốt cháy nhiên liệu như than, xăng, gas là phản ứng oxi hóa – khử, cung cấp năng lượng cho đời sống và sản xuất.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Sự gỉ sắt trong không khí ẩm không phải phản ứng oxi hóa – khử vì xảy ra rất chậm.",
+        "answer": false,
+        "misconception": "M32"
+      },
+      {
+        "key": "c",
+        "text": "Trong lò cao, carbon monoxide khử iron(III) oxide thành iron.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Quá trình quang hợp của cây xanh không có sự chuyển electron nên không liên quan đến phản ứng oxi hóa – khử.",
+        "answer": false,
+        "misconception": "M32"
+      }
+    ],
+    "explanation": "a) Đúng: ví dụ C + O₂ → CO₂ (t°), C 0 → +4, O 0 → −2.\nb) Sai: sắt bị oxi hóa (Fe 0 → +2, +3) dù chậm vẫn là phản ứng oxi hóa – khử; tốc độ không phải tiêu chí (M32).\nc) Đúng: Fe₂O₃ + 3CO → 2Fe + 3CO₂ (t°), CO là chất khử.\nd) Sai: quang hợp, hô hấp đều là chuỗi phản ứng oxi hóa – khử (M32).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-008",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Nhiệt phân potassium permanganate dùng để điều chế oxygen trong phòng thí nghiệm: 2KMnO₄ → K₂MnO₄ + MnO₂ + O₂ (t°). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-301",
+      "T-305",
+      "T-306",
+      "T-304"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Số oxi hóa của manganese trong K₂MnO₄ là +6.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "KMnO₄ vừa là chất oxi hóa, vừa là chất khử.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Phản ứng nhiệt phân này không phải phản ứng oxi hóa – khử vì chỉ có một chất tham gia.",
+        "answer": false,
+        "misconception": "M32"
+      },
+      {
+        "key": "d",
+        "text": "Oxygen không thay đổi số oxi hóa trong phản ứng vì oxygen luôn có số oxi hóa −2.",
+        "answer": false,
+        "misconception": "M30"
+      }
+    ],
+    "explanation": "a) Đúng: 2(+1) + x + 4(−2) = 0 → x = +6.\nb) Đúng: Mn +7 → +6 (K₂MnO₄) và +7 → +4 (MnO₂) nhận electron; O −2 → 0 (O₂) nhường electron – cả hai đều thuộc KMnO₄.\nc) Sai: có sự thay đổi số oxi hóa của Mn và O nên là phản ứng oxi hóa – khử (M32).\nd) Sai: trong đơn chất O₂, oxygen có số oxi hóa 0; O tăng từ −2 lên 0 (M30). Kiểm tra electron: Mn nhận 1e + 3e = 4e, 2O⁻² → O₂ nhường 4e.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-009",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "short",
+    "level": "TH",
+    "stem": "Số oxi hóa của nitrogen trong ion ammonium (NH₄⁺) là bao nhiêu? (Nhập số nguyên, có dấu \"-\" nếu âm; số dương không cần dấu \"+\".)",
+    "terms": [
+      "T-301"
+    ],
+    "answer": "-3",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "-4",
+        "misconception": "M29"
+      },
+      {
+        "value": "3",
+        "misconception": "M29"
+      },
+      {
+        "value": "-5",
+        "misconception": "M29"
+      }
+    ],
+    "explanation": "Bước 1: H có số oxi hóa +1; gọi số oxi hóa của N là x.\nBước 2: Trong ion, tổng số oxi hóa bằng điện tích ion: x + 4(+1) = +1 → x = −3.\nĐáp án: -3.\nLưu ý: −4 là cho tổng bằng 0, quên điện tích ion; −5 là lấy nhầm dấu điện tích (tổng = −1); 3 là nhầm số oxi hóa với hóa trị hoặc sai dấu (M29).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B16-010",
+    "chapter": "C4",
+    "lesson": "B16",
+    "type": "short",
+    "level": "VD",
+    "stem": "Lập phương trình hóa học của phản ứng sau theo phương pháp thăng bằng electron: Mg + HNO₃ → Mg(NO₃)₂ + N₂O + H₂O. Hệ số (nguyên, tối giản) của HNO₃ là bao nhiêu?",
+    "terms": [
+      "T-311",
+      "T-312",
+      "T-310"
+    ],
+    "answer": "10",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "2",
+        "misconception": "M31"
+      },
+      {
+        "value": "6",
+        "misconception": "M31"
+      }
+    ],
+    "explanation": "Bước 1: Mg: 0 → +2 (Mg là chất khử); N: +5 (HNO₃) → +1 (N₂O) (HNO₃ là chất oxi hóa).\nBước 2: Quá trình oxi hóa: Mg⁰ → Mg⁺² + 2e. Quá trình khử: 2N⁺⁵ + 8e → 2N⁺¹ (N₂O có 2 nguyên tử N).\nBước 3: × 4 cho quá trình oxi hóa, × 1 cho quá trình khử (8e = 8e).\nBước 4: 4Mg, 1N₂O (2 HNO₃ bị khử) + 8 HNO₃ tạo 4Mg(NO₃)₂ → 10HNO₃; H: 10 → 5H₂O. 4Mg + 10HNO₃ → 4Mg(NO₃)₂ + N₂O + 5H₂O. Kiểm tra O: 30 = 24 + 1 + 5.\nĐáp án: 10.\nLưu ý: 2 là chỉ tính phần HNO₃ bị khử; 6 là quên N₂O có 2 nguyên tử N (cho N⁺⁵ + 4e → N⁺¹ rồi đặt 2Mg), làm số electron nhường (4) khác số electron nhận (8) – M31.",
+    "reviewed": false
+  }
+]

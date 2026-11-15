@@ -1,0 +1,67 @@
+[
+  {
+    "code": "M38",
+    "chapter": "C6",
+    "title": "Tính tốc độ trung bình sai dấu hoặc không chia cho hệ số tỉ lượng",
+    "description": "Học sinh lấy trực tiếp ΔC/Δt của một chất mà không chia cho hệ số tỉ lượng của chất đó (hoặc chia nhầm hệ số của chất khác), quên dấu trừ khi tính theo chất phản ứng (ra tốc độ âm) hoặc thêm dấu trừ khi tính theo sản phẩm; từ đó cũng tính ngược sai lượng chất đã phản ứng.",
+    "lessons": [
+      "B19",
+      "B20"
+    ],
+    "remedy": "Viết đầy đủ v̄ = −(1/a)·ΔC_A/Δt (chất phản ứng) hoặc v̄ = (1/c)·ΔC_C/Δt (sản phẩm) với ΔC = C_sau − C_đầu; tốc độ phản ứng luôn dương và có cùng một giá trị dù tính theo chất nào.",
+    "example_wrong": "Phản ứng N₂ + 3H₂ → 2NH₃: nồng độ H₂ giảm 0,30 mol/L trong 10 s nên tốc độ trung bình của phản ứng là −0,03 mol/(L·s) (hoặc 0,03 mol/(L·s)).",
+    "example_right": "v̄ = −(1/3)·(−0,30)/10 = 0,01 mol/(L·s); tốc độ giảm nồng độ H₂ là 0,03 mol/(L·s), gấp 3 lần tốc độ phản ứng."
+  },
+  {
+    "code": "M39",
+    "chapter": "C6",
+    "title": "Hiểu sai vai trò của chất xúc tác",
+    "description": "Học sinh cho rằng chất xúc tác bị tiêu hao (hoặc biến thành sản phẩm) sau phản ứng, hoặc chất xúc tác làm tăng lượng sản phẩm thu được (tăng thể tích khí tối đa), thay vì chỉ làm phản ứng xảy ra nhanh hơn.",
+    "lessons": [
+      "B19",
+      "B20"
+    ],
+    "remedy": "Chất xúc tác làm tăng tốc độ phản ứng nhưng được bảo toàn về chất và lượng khi phản ứng kết thúc; nó giúp đạt nhanh hơn cùng một lượng sản phẩm, không làm tăng lượng sản phẩm tối đa.",
+    "example_wrong": "Thêm MnO₂ vào dung dịch H₂O₂ thì thu được nhiều O₂ hơn, và sau phản ứng MnO₂ bị hao hụt.",
+    "example_right": "MnO₂ chỉ làm H₂O₂ phân hủy nhanh hơn; thể tích O₂ tối đa phụ thuộc lượng H₂O₂, và khối lượng MnO₂ sau phản ứng không đổi."
+  },
+  {
+    "code": "M40",
+    "chapter": "C6",
+    "title": "Hiểu sai ảnh hưởng của diện tích bề mặt",
+    "description": "Học sinh cho rằng chất rắn ở dạng khối/hạt to phản ứng nhanh hơn dạng bột (nhầm \"kích thước hạt lớn\" với \"diện tích bề mặt lớn\"), cho rằng cùng khối lượng thì tốc độ như nhau bất kể dạng chất rắn, hoặc cho rằng nghiền nhỏ chất rắn làm tăng lượng sản phẩm tối đa.",
+    "lessons": [
+      "B19",
+      "B20"
+    ],
+    "remedy": "Cùng khối lượng, chất rắn càng được chia nhỏ thì tổng diện tích bề mặt tiếp xúc càng lớn nên tốc độ phản ứng càng lớn; lượng sản phẩm tối đa vẫn do lượng chất phản ứng quyết định.",
+    "example_wrong": "Một viên đá vôi to tan trong dung dịch HCl nhanh hơn cùng khối lượng đá vôi dạng bột vì viên to \"nhiều chất hơn\".",
+    "example_right": "Đá vôi dạng bột có diện tích bề mặt lớn hơn nên phản ứng nhanh hơn; nếu HCl dư, thể tích CO₂ thu được ở hai trường hợp bằng nhau."
+  },
+  {
+    "code": "M41",
+    "chapter": "C6",
+    "title": "Tính ảnh hưởng của nhiệt độ theo phép nhân/cộng tuyến tính thay vì lũy thừa γ^(ΔT/10)",
+    "description": "Học sinh tính số lần tăng tốc độ bằng γ·(ΔT/10) hoặc γ·ΔT thay vì γ^((T₂ − T₁)/10), chỉ nhân γ một lần, hoặc hiểu γ là \"lượng tốc độ tăng thêm\" khi nhiệt độ tăng 1 °C.",
+    "lessons": [
+      "B19",
+      "B20"
+    ],
+    "remedy": "Mỗi lần nhiệt độ tăng 10 °C, tốc độ lại nhân thêm γ lần; tăng n lần 10 °C thì tốc độ tăng γⁿ lần: v₂/v₁ = γ^((T₂ − T₁)/10). Thời gian phản ứng giảm đúng bấy nhiêu lần.",
+    "example_wrong": "γ = 2, nhiệt độ tăng từ 20 °C lên 50 °C thì tốc độ tăng 2 × 3 = 6 lần.",
+    "example_right": "v₂/v₁ = 2^((50 − 20)/10) = 2³ = 8 lần."
+  },
+  {
+    "code": "M42",
+    "chapter": "C6",
+    "title": "Áp dụng sai biểu thức tốc độ và ảnh hưởng của nồng độ, áp suất",
+    "description": "Học sinh viết biểu thức tốc độ thiếu số mũ (v = k·C_A·C_B cho 2A + B), nhân hệ số thay vì lũy thừa, đưa nồng độ sản phẩm vào biểu thức; cho rằng hằng số k thay đổi theo nồng độ; cho rằng giảm nồng độ làm tăng tốc độ hoặc bỏ qua ảnh hưởng của nồng độ (coi tốc độ chỉ phụ thuộc lượng chất rắn); hoặc cho rằng áp suất ảnh hưởng đến tốc độ của phản ứng chỉ có chất rắn, chất lỏng (dung dịch).",
+    "lessons": [
+      "B19",
+      "B20"
+    ],
+    "remedy": "Với phản ứng đơn giản aA + bB → sản phẩm: v = k·C_A^a·C_B^b (số mũ bằng hệ số tỉ lượng, chỉ có chất phản ứng). k chỉ phụ thuộc bản chất phản ứng, nhiệt độ, chất xúc tác. Áp suất chỉ ảnh hưởng khi có chất khí tham gia phản ứng.",
+    "example_wrong": "Phản ứng đơn giản 2NO + O₂ → 2NO₂: nồng độ NO tăng 2 lần thì tốc độ tăng 2 lần; tăng áp suất làm Zn tan nhanh hơn trong dung dịch HCl.",
+    "example_right": "v = k·C²_NO·C_O₂ nên C_NO tăng 2 lần thì v tăng 2² = 4 lần; Zn và dung dịch HCl không phải chất khí nên áp suất hầu như không ảnh hưởng."
+  }
+]

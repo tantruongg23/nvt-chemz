@@ -1,0 +1,67 @@
+[
+  {
+    "code": "M33",
+    "chapter": "C5",
+    "title": "Nhầm dấu biến thiên enthalpy với chiều trao đổi nhiệt",
+    "description": "Học sinh cho rằng phản ứng tỏa nhiệt có ΔrH > 0 (vì \"tỏa ra\" nghĩ là \"dương\"), phản ứng thu nhiệt có ΔrH < 0; đọc ngược sơ đồ biến thiên enthalpy (sản phẩm ở mức cao hơn chất đầu mà kết luận tỏa nhiệt); hoặc khi đảo chiều phương trình nhiệt hóa học thì giữ nguyên dấu của ΔrH.",
+    "lessons": [
+      "B17",
+      "B18"
+    ],
+    "remedy": "ΔrH là phần enthalpy của hệ thay đổi: hệ mất nhiệt ra môi trường (tỏa nhiệt) thì ΔrH < 0, hệ nhận nhiệt (thu nhiệt) thì ΔrH > 0. Trên sơ đồ, sản phẩm thấp hơn chất đầu → tỏa nhiệt. Đảo chiều phản ứng thì đổi dấu ΔrH.",
+    "example_wrong": "C(graphite) + O₂(g) → CO₂(g) có ΔrH°₂₉₈ = −393,5 kJ nên là phản ứng thu nhiệt.",
+    "example_right": "ΔrH°₂₉₈ = −393,5 kJ < 0 → phản ứng tỏa nhiệt; đốt cháy 1 mol C(graphite) tỏa ra 393,5 kJ. Phản ứng ngược CO₂(g) → C(graphite) + O₂(g) có ΔrH°₂₉₈ = +393,5 kJ."
+  },
+  {
+    "code": "M34",
+    "chapter": "C5",
+    "title": "Cho rằng phản ứng cần đun nóng để khơi mào thì luôn là phản ứng thu nhiệt",
+    "description": "Học sinh đánh đồng việc \"phải đốt, đun nóng lúc đầu\" với phản ứng thu nhiệt (cho rằng đốt than, đốt cồn, phản ứng nhiệt nhôm là thu nhiệt vì phải mồi lửa), hoặc ngược lại cho rằng phản ứng tỏa nhiệt thì luôn tự xảy ra ở nhiệt độ thường.",
+    "lessons": [
+      "B17",
+      "B18"
+    ],
+    "remedy": "Tỏa hay thu nhiệt được quyết định bởi dấu ΔrH (so sánh enthalpy sản phẩm với chất đầu), không phải bởi việc có cần khơi mào hay không. Phản ứng tỏa nhiệt chỉ cần khơi mào lúc đầu rồi tự duy trì nhờ nhiệt tỏa ra; phản ứng thu nhiệt phải được cung cấp nhiệt liên tục, ngừng cấp nhiệt thì phản ứng dừng.",
+    "example_wrong": "Phải châm lửa thì than mới cháy, vậy phản ứng đốt cháy than là phản ứng thu nhiệt.",
+    "example_right": "Than chỉ cần mồi lửa lúc đầu, sau đó cháy tiếp nhờ nhiệt do chính nó tỏa ra; ΔrH°₂₉₈ = −393,5 kJ < 0 nên đây là phản ứng tỏa nhiệt. Nung đá vôi phải cấp nhiệt liên tục (ΔrH°₂₉₈ > 0) nên là phản ứng thu nhiệt."
+  },
+  {
+    "code": "M35",
+    "chapter": "C5",
+    "title": "Tính sai ΔrH°₂₉₈ từ enthalpy tạo thành chuẩn",
+    "description": "Khi dùng ΔfH°₂₉₈, học sinh lấy tổng của chất đầu trừ tổng của sản phẩm, quên nhân ΔfH° với hệ số trong phương trình, cộng tất cả ΔfH° lại; hiểu sai quy ước ΔfH° = 0 (cho đơn chất bền như O₂, Fe có ΔfH° khác 0, hoặc cho mọi đơn chất kể cả dạng kém bền như O₃, C(diamond) có ΔfH° = 0); hoặc quên nhân/chia ΔrH theo hệ số khi phương trình nhiệt hóa học được nhân, chia.",
+    "lessons": [
+      "B17",
+      "B18"
+    ],
+    "remedy": "Dùng đúng công thức ΔrH°₂₉₈ = Σ ΔfH°₂₉₈(sản phẩm) − Σ ΔfH°₂₉₈(chất đầu), mỗi ΔfH° nhân với hệ số của chất trong phương trình. Chỉ đơn chất bền nhất (O₂(g), N₂(g), H₂(g), C(graphite), Fe(s)…) có ΔfH° = 0. ΔrH tỉ lệ với hệ số của phương trình.",
+    "example_wrong": "2NO(g) + O₂(g) → 2NO₂(g), với ΔfH°₂₉₈: NO(g) +90,3; NO₂(g) +33,2 kJ/mol: ΔrH°₂₉₈ = 90,3 − 33,2 = +57,1 kJ.",
+    "example_right": "ΔrH°₂₉₈ = 2 × (+33,2) − [2 × (+90,3) + 0] = 66,4 − 180,6 = −114,2 kJ (O₂ là đơn chất bền, ΔfH° = 0)."
+  },
+  {
+    "code": "M36",
+    "chapter": "C5",
+    "title": "Tính sai ΔrH°₂₉₈ từ năng lượng liên kết",
+    "description": "Học sinh lấy tổng năng lượng liên kết của sản phẩm trừ chất đầu (nhầm với công thức dùng ΔfH°), đếm thiếu số liên kết trong phân tử hoặc quên nhân hệ số (CH₄ có 4 liên kết C–H, CO₂ có 2 liên kết C=O, 2 mol HCl có 2 mol liên kết H–Cl), hoặc áp dụng cách tính này cho phản ứng có chất rắn, lỏng.",
+    "lessons": [
+      "B17",
+      "B18"
+    ],
+    "remedy": "Phá vỡ liên kết cần năng lượng, tạo liên kết giải phóng năng lượng nên ΔrH°₂₉₈ = Σ Eb(chất đầu) − Σ Eb(sản phẩm) (ngược thứ tự với công thức ΔfH°). Đếm đủ số liên kết trong mỗi phân tử rồi nhân với hệ số. Chỉ áp dụng khi mọi chất trong phản ứng ở thể khí.",
+    "example_wrong": "2H₂(g) + O₂(g) → 2H₂O(g), với Eb: H–H 436; O=O 498; O–H 464 kJ/mol: ΔrH°₂₉₈ = 4 × 464 − (2 × 436 + 498) = +486 kJ, phản ứng thu nhiệt.",
+    "example_right": "ΔrH°₂₉₈ = Σ Eb(cđ) − Σ Eb(sp) = (2 × 436 + 498) − 4 × 464 = 1370 − 1856 = −486 kJ, phản ứng tỏa nhiệt (mỗi H₂O có 2 liên kết O–H)."
+  },
+  {
+    "code": "M37",
+    "chapter": "C5",
+    "title": "Nhầm điều kiện chuẩn",
+    "description": "Học sinh nhầm điều kiện chuẩn với \"điều kiện tiêu chuẩn\" cũ của chất khí (1 atm, 0 °C), cho rằng nhiệt độ chuẩn bắt buộc là 0 °C hoặc chỉ số 298 trong ΔrH°₂₉₈ là 298 °C, hoặc không biết điều kiện nồng độ 1 mol/L áp dụng cho chất tan trong dung dịch.",
+    "lessons": [
+      "B17",
+      "B18"
+    ],
+    "remedy": "Điều kiện chuẩn: áp suất 1 bar (với chất khí), nồng độ 1 mol/L (với chất tan trong dung dịch), nhiệt độ thường chọn là 25 °C (298 K). Kí hiệu ° chỉ điều kiện chuẩn, chỉ số 298 là nhiệt độ 298 K.",
+    "example_wrong": "ΔfH°₂₉₈ được xác định ở áp suất 1 atm và nhiệt độ 0 °C.",
+    "example_right": "ΔfH°₂₉₈ được xác định ở điều kiện chuẩn: 1 bar, 1 mol/L (chất tan), nhiệt độ 298 K (25 °C)."
+  }
+]

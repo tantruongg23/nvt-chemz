@@ -1,0 +1,270 @@
+[
+  {
+    "id": "B21",
+    "number": 21,
+    "chapter": "C7",
+    "kind": "lesson",
+    "title": "Nhóm halogen",
+    "title_en": "The halogens",
+    "objectives": [
+      "Nêu được trạng thái tự nhiên của các nguyên tố halogen.",
+      "Mô tả được trạng thái, màu sắc, nhiệt độ nóng chảy, nhiệt độ sôi của các đơn chất halogen; giải thích được xu hướng biến đổi nhiệt độ nóng chảy, nhiệt độ sôi dựa vào tương tác van der Waals.",
+      "Trình bày được xu hướng biến đổi độ âm điện, bán kính nguyên tử của các nguyên tố halogen; giải thích được tính oxi hóa mạnh của các halogen dựa vào cấu hình electron lớp ngoài cùng.",
+      "Viết được phương trình hóa học chứng minh tính oxi hóa mạnh và xu hướng giảm dần tính oxi hóa từ fluorine đến iodine (phản ứng với kim loại, với hydrogen, với nước, phản ứng thế halogen trong dung dịch muối).",
+      "Viết được phương trình hóa học của phản ứng tự oxi hóa – khử của chlorine với nước, với dung dịch sodium hydroxide ở nhiệt độ thường và khi đun nóng.",
+      "Trình bày được ứng dụng của các đơn chất halogen và phương pháp điều chế chlorine trong phòng thí nghiệm và trong công nghiệp; thực hiện các thao tác an toàn khi làm việc với chlorine."
+    ],
+    "summary": [
+      "Nhóm VIIA (nhóm halogen) gồm fluorine (F), chlorine (Cl), bromine (Br), iodine (I), astatine (At) và tennessine (Ts); At và Ts là nguyên tố phóng xạ. Trong tự nhiên, halogen chỉ tồn tại ở dạng hợp chất.",
+      "Nguyên tử halogen có 7 electron lớp ngoài cùng (ns²np⁵), dễ nhận thêm 1 electron; đơn chất là phân tử hai nguyên tử X₂ (liên kết cộng hóa trị không phân cực).",
+      "Từ F₂ đến I₂: trạng thái chuyển từ khí → lỏng → rắn, màu đậm dần, nhiệt độ nóng chảy và nhiệt độ sôi tăng (tương tác van der Waals tăng).",
+      "Từ F đến I: bán kính nguyên tử tăng, độ âm điện giảm nên tính oxi hóa giảm dần: F₂ > Cl₂ > Br₂ > I₂.",
+      "Halogen phản ứng với kim loại, hydrogen, nước, dung dịch kiềm; halogen mạnh hơn đẩy halogen yếu hơn ra khỏi dung dịch muối.",
+      "Fluorine chỉ có số oxi hóa −1 trong hợp chất; Cl, Br, I có thêm +1, +3, +5, +7. Chlorine phản ứng với nước và kiềm theo kiểu tự oxi hóa – khử.",
+      "Điều chế Cl₂: phòng thí nghiệm dùng HCl đặc + MnO₂ (hoặc KMnO₄); công nghiệp điện phân dung dịch NaCl bão hòa có màng ngăn."
+    ],
+    "sections": [
+      {
+        "heading": "Nhóm halogen: vị trí, cấu tạo nguyên tử và trạng thái tự nhiên",
+        "body_md": "- **Nhóm VIIA** (nhóm halogen) gồm: fluorine (F, Z = 9), chlorine (Cl, Z = 17), bromine (Br, Z = 35), iodine (I, Z = 53), astatine (At) và tennessine (Ts). At và Ts là nguyên tố phóng xạ, chương trình chỉ xét 4 nguyên tố đầu.\n- Cấu hình electron lớp ngoài cùng **ns²np⁵**: có **7 electron lớp ngoài cùng**, chỉ thiếu 1 electron để đạt cấu hình khí hiếm → nguyên tử halogen **dễ nhận thêm 1 electron**: X + 1e → X⁻.\n- Đơn chất halogen là **phân tử hai nguyên tử X₂** (F₂, Cl₂, Br₂, I₂): hai nguyên tử góp chung 1 cặp electron, liên kết cộng hóa trị không phân cực X–X. Viết đơn chất là \"Cl\" là sai.\n- **Số oxi hóa:** fluorine có độ âm điện lớn nhất (3,98) nên trong hợp chất **chỉ có số oxi hóa −1**. Chlorine, bromine, iodine có số oxi hóa −1 trong hợp chất với kim loại, hydrogen; ngoài ra có +1, +3, +5, +7 trong hợp chất với oxygen (ví dụ NaClO: Cl +1; KClO₃: Cl +5).\n- **Trạng thái tự nhiên:** halogen hoạt động hóa học mạnh nên **chỉ tồn tại ở dạng hợp chất**, chủ yếu là muối halide:\n\n| Nguyên tố | Dạng tồn tại chủ yếu |\n|---|---|\n| Fluorine | khoáng vật fluorite (CaF₂), cryolite (Na₃AlF₆); men răng |\n| Chlorine | sodium chloride (NaCl) trong nước biển, mỏ muối; khoáng vật sylvinite (KCl.NaCl) |\n| Bromine | hợp chất trong nước biển (ít hơn chlorine nhiều) |\n| Iodine | rong biển, nước biển; tuyến giáp của người |",
+        "terms": [
+          "T-601",
+          "T-602",
+          "T-603",
+          "T-604",
+          "T-605"
+        ]
+      },
+      {
+        "heading": "Tính chất vật lí và xu hướng biến đổi",
+        "body_md": "| Đơn chất | Trạng thái (điều kiện thường) | Màu | t°nc (°C) | t°s (°C) | Độ âm điện của nguyên tố |\n|---|---|---|---|---|---|\n| F₂ | khí | lục nhạt | −220 | −188 | 3,98 |\n| Cl₂ | khí | vàng lục | −101 | −34 | 3,16 |\n| Br₂ | lỏng | nâu đỏ | −7 | 59 | 2,96 |\n| I₂ | rắn | tím đen | 114 | 184 | 2,66 |\n\n**Xu hướng từ F₂ đến I₂:**\n- Trạng thái: khí → khí → lỏng → rắn; màu sắc **đậm dần**.\n- Nhiệt độ nóng chảy, nhiệt độ sôi **tăng dần**: các phân tử X₂ không phân cực, giữa chúng chỉ có **tương tác van der Waals**; khối lượng và kích thước phân tử tăng nên tương tác này tăng.\n- Bán kính nguyên tử **tăng**, độ âm điện **giảm**.\n- Iodine rắn khi đun nóng **thăng hoa** (chuyển thẳng thành hơi màu tím).\n- Tính tan: Cl₂, Br₂ tan một phần trong nước (nước chlorine, nước bromine); I₂ rất ít tan trong nước nhưng tan nhiều trong ethanol.\n- **An toàn:** các halogen đều độc. Cl₂ có mùi xốc, gây hại đường hô hấp; Br₂ lỏng gây bỏng nặng khi rơi vào da. Làm thí nghiệm trong tủ hút, dùng lượng nhỏ, có bông tẩm dung dịch NaOH để khử khí thoát ra.",
+        "terms": [
+          "T-605",
+          "T-603",
+          "T-604"
+        ]
+      },
+      {
+        "heading": "Tính chất hóa học: tính oxi hóa mạnh, giảm dần từ F₂ đến I₂",
+        "body_md": "Nguyên tử halogen dễ nhận 1 electron nên đơn chất halogen có **tính oxi hóa mạnh**. Từ F đến I, bán kính nguyên tử tăng, độ âm điện giảm, khả năng hút thêm electron giảm → **tính oxi hóa: F₂ > Cl₂ > Br₂ > I₂**.\n\n**1. Tác dụng với kim loại** → muối halide (kim loại lên số oxi hóa cao):\n- 2Na + Cl₂ → 2NaCl\n- 2Fe + 3Cl₂ →(t°) 2FeCl₃ (sắt lên +3, không tạo FeCl₂)\n- 2Al + 3Br₂ → 2AlBr₃; 2Al + 3I₂ →(H₂O xúc tác) 2AlI₃\n\n**2. Tác dụng với hydrogen** → hydrogen halide; điều kiện phản ứng khó dần, thể hiện tính oxi hóa giảm:\n\n| Phản ứng | Điều kiện, mức độ |\n|---|---|\n| H₂ + F₂ → 2HF | nổ mạnh ngay cả trong bóng tối, ở nhiệt độ rất thấp |\n| H₂ + Cl₂ → 2HCl | cần chiếu sáng hoặc đun nóng; hỗn hợp tỉ lệ mol 1 : 1 nổ mạnh khi chiếu sáng trực tiếp |\n| H₂ + Br₂ → 2HBr | cần đun nóng, phản ứng chậm hơn |\n| H₂ + I₂ ⇌ 2HI | đun nóng, có xúc tác; phản ứng thuận nghịch |\n\n**3. Tác dụng với nước:**\n- 2F₂ + 2H₂O → 4HF + O₂ (fluorine oxi hóa mạnh cả nước).\n- Cl₂ + H₂O ⇌ HCl + HClO (phản ứng thuận nghịch). HClO (hypochlorous acid) có tính oxi hóa mạnh nên **nước chlorine** có tính tẩy màu, sát khuẩn.\n- Br₂ phản ứng với nước rất chậm; I₂ hầu như không phản ứng.\n\n**4. Tác dụng với dung dịch kiềm (chlorine):**\n- Nhiệt độ thường: Cl₂ + 2NaOH → NaCl + NaClO + H₂O. Dung dịch NaCl + NaClO là **nước Javel**, dùng tẩy trắng, sát khuẩn.\n- Đun nóng (khoảng 70 °C): 3Cl₂ + 6NaOH → 5NaCl + NaClO₃ + 3H₂O.\n\n**Phản ứng tự oxi hóa – khử:** trong các phản ứng của Cl₂ với H₂O và NaOH, một phần Cl⁰ giảm về −1 (chất oxi hóa), một phần tăng lên +1 hoặc +5 (chất khử): **chlorine vừa là chất oxi hóa, vừa là chất khử**.",
+        "terms": [
+          "T-606",
+          "T-602",
+          "T-611",
+          "T-608"
+        ]
+      },
+      {
+        "heading": "Phản ứng thế halogen trong dung dịch muối",
+        "body_md": "**Halogen có tính oxi hóa mạnh hơn đẩy halogen yếu hơn ra khỏi dung dịch muối halide**:\n- Cl₂ + 2NaBr → 2NaCl + Br₂ (dung dịch chuyển màu vàng nâu)\n- Cl₂ + 2NaI → 2NaCl + I₂\n- Br₂ + 2NaI → 2NaBr + I₂\n\nKhông có chiều ngược lại: Br₂ + NaCl, I₂ + NaCl, I₂ + NaBr **không phản ứng**.\n\n| Dung dịch muối | + nước chlorine | + nước bromine | + nước iodine |\n|---|---|---|---|\n| NaCl | không | không | không |\n| NaBr | có (tạo Br₂) | — | không |\n| NaI | có (tạo I₂) | có (tạo I₂) | — |\n\n- **Nhận biết I₂:** hồ tinh bột gặp I₂ chuyển **màu xanh tím**. Vì vậy, nhỏ nước chlorine vào dung dịch KI có hồ tinh bột thấy dung dịch hóa xanh tím.\n- Fluorine **không** dùng để thế halogen khác trong dung dịch muối vì F₂ phản ứng ngay với nước.\n- Các phản ứng thế này là bằng chứng thực nghiệm cho thứ tự tính oxi hóa F₂ > Cl₂ > Br₂ > I₂.",
+        "terms": [
+          "T-607",
+          "T-606",
+          "T-610"
+        ]
+      },
+      {
+        "heading": "Ứng dụng và điều chế",
+        "body_md": "**Ứng dụng:**\n- Chlorine: khử trùng nước sinh hoạt, nước bể bơi; sản xuất nước Javel, chất tẩy trắng; sản xuất HCl, nhựa PVC, nhiều hóa chất khác.\n- Fluorine: sản xuất chất chống dính (teflon), hợp chất NaF trong kem đánh răng chống sâu răng.\n- Bromine: sản xuất dược phẩm, phẩm nhuộm, chất chống cháy.\n- Iodine: cồn iodine sát khuẩn vết thương; muối iodine (muối ăn có trộn KI hoặc KIO₃) phòng bệnh bướu cổ.\n\n**Điều chế chlorine:**\n- **Trong phòng thí nghiệm:** cho hydrochloric acid đặc tác dụng với chất oxi hóa mạnh như manganese dioxide (đun nóng) hoặc potassium permanganate:\n  - MnO₂ + 4HCl(đặc) →(t°) MnCl₂ + Cl₂ + 2H₂O\n  - 2KMnO₄ + 16HCl(đặc) → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O\n  - Khí Cl₂ lẫn hơi nước và HCl, được làm sạch qua bình dung dịch NaCl rồi bình H₂SO₄ đặc; thu bằng cách đẩy không khí (Cl₂ nặng hơn không khí); bông tẩm dung dịch NaOH ở miệng bình để giữ khí Cl₂ không thoát ra.\n- **Trong công nghiệp:** điện phân dung dịch NaCl bão hòa có màng ngăn:\n  - 2NaCl + 2H₂O →(điện phân, có màng ngăn) 2NaOH + H₂ + Cl₂\n  - Màng ngăn không cho Cl₂ tiếp xúc với NaOH (nếu không sẽ tạo nước Javel).\n\n**Tính thể tích khí (điều kiện chuẩn 25 °C, 1 bar):** V = n × 24,79 (L). Nhớ: 1 mol Cl₂ chứa 2 mol nguyên tử Cl.",
+        "terms": [
+          "T-612",
+          "T-609",
+          "T-608",
+          "T-602"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Tính oxi hóa: F₂ > Cl₂ > Br₂ > I₂",
+      "2Fe + 3Cl₂ →(t°) 2FeCl₃",
+      "H₂ + Cl₂ →(ánh sáng) 2HCl; H₂ + I₂ ⇌ 2HI",
+      "Cl₂ + H₂O ⇌ HCl + HClO",
+      "Cl₂ + 2NaOH → NaCl + NaClO + H₂O (nhiệt độ thường)",
+      "3Cl₂ + 6NaOH →(70 °C) 5NaCl + NaClO₃ + 3H₂O",
+      "Cl₂ + 2NaBr → 2NaCl + Br₂; Br₂ + 2NaI → 2NaBr + I₂",
+      "MnO₂ + 4HCl(đặc) →(t°) MnCl₂ + Cl₂ + 2H₂O",
+      "2KMnO₄ + 16HCl(đặc) → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O",
+      "2NaCl + 2H₂O →(điện phân, có màng ngăn) 2NaOH + H₂ + Cl₂",
+      "V(khí, đkc) = n × 24,79 L"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Viết phương trình hóa học của chlorine với: (a) sodium; (b) nước; (c) dung dịch NaOH ở nhiệt độ thường. Xác định số oxi hóa của chlorine trước và sau phản ứng, cho biết vai trò của chlorine trong mỗi phản ứng.",
+        "solution": "Bước 1: (a) 2Na + Cl₂ → 2NaCl. Cl: 0 → −1, chlorine nhận electron → chỉ là chất oxi hóa.\nBước 2: (b) Cl₂ + H₂O ⇌ HCl + HClO. Cl: 0 → −1 (trong HCl) và 0 → +1 (trong HClO).\nBước 3: (c) Cl₂ + 2NaOH → NaCl + NaClO + H₂O. Cl: 0 → −1 (NaCl) và 0 → +1 (NaClO).\nBước 4: Ở (b) và (c), một nguyên tử Cl nhận electron, một nguyên tử Cl nhường electron → chlorine vừa là chất oxi hóa vừa là chất khử (phản ứng tự oxi hóa – khử).\nLưu ý: cho rằng Cl trong HClO hay NaClO cũng có số oxi hóa −1 là sai (lỗi M45): tính theo tổng số oxi hóa bằng 0, Na +1, O −2 → Cl +1."
+      },
+      {
+        "problem": "Cho 17,4 g manganese dioxide tác dụng hết với dung dịch hydrochloric acid đặc, dư, đun nóng. Tính thể tích khí chlorine thu được ở điều kiện chuẩn (25 °C, 1 bar). Cho Mn = 55, O = 16; 1 mol khí ở đkc chiếm 24,79 L.",
+        "solution": "Bước 1: M(MnO₂) = 55 + 2 × 16 = 87 g/mol → n(MnO₂) = 17,4 : 87 = 0,2 mol.\nBước 2: MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O → n(Cl₂) = n(MnO₂) = 0,2 mol.\nBước 3: V(Cl₂) = 0,2 × 24,79 = 4,958 L ≈ 4,96 L.\nĐáp án: khoảng 4,96 L.\nLưu ý: sản phẩm là phân tử Cl₂, không phải nguyên tử Cl; nếu viết \"2Cl\" sẽ ra 0,4 mol và 9,92 L (lỗi M48)."
+      },
+      {
+        "problem": "Dựa vào điều kiện phản ứng của hydrogen với các halogen, hãy sắp xếp F₂, Cl₂, Br₂, I₂ theo chiều giảm dần tính oxi hóa và giải thích xu hướng đó dựa vào cấu tạo nguyên tử.",
+        "solution": "Bước 1: H₂ + F₂ nổ ngay trong bóng tối, ở nhiệt độ rất thấp; H₂ + Cl₂ cần ánh sáng hoặc đun nóng; H₂ + Br₂ cần đun nóng, phản ứng chậm hơn; H₂ + I₂ cần đun nóng, có xúc tác và là phản ứng thuận nghịch.\nBước 2: Phản ứng càng khó xảy ra thì halogen nhận electron càng kém → tính oxi hóa: F₂ > Cl₂ > Br₂ > I₂.\nBước 3: Giải thích: từ F đến I số lớp electron tăng, bán kính nguyên tử tăng, độ âm điện giảm (3,98 → 2,66) nên lực hút của hạt nhân với electron nhận thêm giảm.\nLưu ý: cho rằng I₂ có tính oxi hóa mạnh nhất vì nguyên tử lớn, nặng nhất là sai (lỗi M43)."
+      }
+    ],
+    "quick_check": [
+      "Q-B21-001",
+      "Q-B21-003",
+      "Q-B21-005"
+    ]
+  },
+  {
+    "id": "B22",
+    "number": 22,
+    "chapter": "C7",
+    "kind": "lesson",
+    "title": "Hydrogen halide. Muối halide",
+    "title_en": "Hydrogen halides and halide salts",
+    "objectives": [
+      "Trình bày được tính chất vật lí của các hydrogen halide; giải thích được sự tăng nhiệt độ sôi từ HCl đến HI dựa vào tương tác van der Waals và sự bất thường về nhiệt độ sôi của HF dựa vào liên kết hydrogen.",
+      "Nêu được xu hướng biến đổi tính acid của dãy hydrohalic acid và giải thích dựa vào độ bền liên kết H–X.",
+      "Trình bày được tính chất hóa học của hydrochloric acid (tác dụng với kim loại, oxide base, base, muối) và phản ứng đặc trưng của HF với SiO₂.",
+      "Trình bày được tính khử của các ion halide (Cl⁻, Br⁻, I⁻) thông qua phản ứng với sulfuric acid đặc.",
+      "Nhận biết được các ion F⁻, Cl⁻, Br⁻, I⁻ bằng dung dịch silver nitrate.",
+      "Nêu được ứng dụng của một số hydrogen halide và muối halide; sử dụng hóa chất an toàn."
+    ],
+    "summary": [
+      "Hydrogen halide HX (HF, HCl, HBr, HI) là chất khí ở điều kiện thường, tan tốt trong nước tạo hydrohalic acid.",
+      "Nhiệt độ sôi: HCl < HBr < HI < HF. Từ HCl đến HI tăng do tương tác van der Waals; HF cao bất thường do liên kết hydrogen.",
+      "Từ HF đến HI, độ dài liên kết H–X tăng, năng lượng liên kết giảm nên tính acid tăng: HF < HCl < HBr < HI. HF là acid yếu; HCl, HBr, HI là acid mạnh.",
+      "HF ăn mòn thủy tinh (SiO₂ + 4HF → SiF₄ + 2H₂O). Hydrochloric acid có đầy đủ tính chất của một acid mạnh.",
+      "Tính khử của ion halide tăng dần: F⁻ < Cl⁻ < Br⁻ < I⁻; NaBr, NaI rắn khử được H₂SO₄ đặc, NaCl thì không.",
+      "Nhận biết ion halide bằng AgNO₃: AgF tan; AgCl trắng; AgBr vàng nhạt; AgI vàng."
+    ],
+    "sections": [
+      {
+        "heading": "Hydrogen halide: cấu tạo và tính chất vật lí",
+        "body_md": "- **Hydrogen halide** có công thức chung **HX**: hydrogen fluoride (HF), hydrogen chloride (HCl), hydrogen bromide (HBr), hydrogen iodide (HI). Phân tử có liên kết cộng hóa trị phân cực H–X, cặp electron chung lệch về phía X.\n- Ở điều kiện thường các hydrogen halide là **chất khí**, không màu, mùi xốc, **tan rất tốt trong nước** tạo dung dịch **hydrohalic acid**.\n\n| HX | t°s (°C, gần đúng) | Độ dài liên kết H–X (nm) | Năng lượng liên kết H–X (kJ/mol) |\n|---|---|---|---|\n| HF | 20 | 0,092 (ngắn nhất) | 565 |\n| HCl | −85 | 0,127 | 431 |\n| HBr | −67 | 0,141 | 364 |\n| HI | −35 | 0,161 (dài nhất) | 297 |\n\n(Số liệu tham khảo, thống nhất với Chương 3 và Chương 5; một số tài liệu chênh 1–2 đơn vị.)\n\n**Nhiệt độ sôi:**\n- Từ HCl đến HI nhiệt độ sôi **tăng** vì khối lượng và kích thước phân tử tăng → tương tác van der Waals tăng.\n- **HF sôi cao bất thường** (khoảng 20 °C, cao nhất dãy) dù khối lượng phân tử nhỏ nhất: giữa các phân tử HF có **liên kết hydrogen** mạnh (H gắn với F có độ âm điện rất lớn).\n- Thứ tự: **HCl < HBr < HI < HF**.",
+        "terms": [
+          "T-613",
+          "T-615"
+        ]
+      },
+      {
+        "heading": "Hydrohalic acid: tính acid và tính chất hóa học",
+        "body_md": "**Tính acid:** từ HF đến HI, độ dài liên kết H–X tăng, năng lượng liên kết giảm → liên kết dễ bị phá vỡ, H⁺ dễ tách ra → **tính acid tăng: HF < HCl < HBr < HI**.\n- Hydrofluoric acid (HF) là **acid yếu**; hydrochloric acid (HCl), hydrobromic acid (HBr), hydroiodic acid (HI) là **acid mạnh**.\n- Không suy luận theo độ âm điện: F có độ âm điện lớn nhất nhưng HF lại là acid yếu nhất.\n\n**Tính chất riêng của HF:** ăn mòn thủy tinh (SiO₂ là thành phần chính):\n- SiO₂ + 4HF → SiF₄ + 2H₂O → dùng khắc chữ, hoa văn lên thủy tinh; HF đựng trong bình nhựa. HF rất độc, gây bỏng sâu.\n\n**Tính chất của hydrochloric acid** (acid mạnh, làm quỳ tím hóa đỏ):\n- Với kim loại đứng trước hydrogen: Fe + 2HCl → FeCl₂ + H₂ (sắt chỉ lên +2); Zn + 2HCl → ZnCl₂ + H₂. Cu, Ag không phản ứng.\n- Với oxide base, base: CuO + 2HCl → CuCl₂ + H₂O; NaOH + HCl → NaCl + H₂O.\n- Với muối: CaCO₃ + 2HCl → CaCl₂ + CO₂ + H₂O; AgNO₃ + HCl → AgCl↓ + HNO₃.\n- HCl đặc còn thể hiện **tính khử** (Cl⁻ bị oxi hóa thành Cl₂) khi tác dụng với MnO₂, KMnO₄ (điều chế Cl₂ – Bài 21).",
+        "terms": [
+          "T-614",
+          "T-616",
+          "T-620"
+        ]
+      },
+      {
+        "heading": "Tính khử của ion halide",
+        "body_md": "Ion halide X⁻ có số oxi hóa thấp nhất (−1) nên chỉ có thể thể hiện **tính khử** (nhường electron: 2X⁻ → X₂ + 2e). Bán kính ion tăng từ F⁻ đến I⁻, electron ngoài cùng bị giữ kém chặt hơn → **tính khử tăng: F⁻ < Cl⁻ < Br⁻ < I⁻**.\n\nThí nghiệm với **sulfuric acid đặc** (muối halide ở thể rắn):\n\n| Muối | Phản ứng với H₂SO₄ đặc | Nhận xét |\n|---|---|---|\n| NaCl | NaCl + H₂SO₄ →(t°) NaHSO₄ + HCl↑ | không phải phản ứng oxi hóa – khử; dùng điều chế HCl |\n| NaBr | 2NaBr + 2H₂SO₄ → Na₂SO₄ + Br₂ + SO₂ + 2H₂O | Br⁻ khử S⁺⁶ xuống S⁺⁴ |\n| NaI | 8NaI + 5H₂SO₄ → 4Na₂SO₄ + 4I₂ + H₂S + 4H₂O | I⁻ khử S⁺⁶ xuống S⁻² (mạnh nhất) |\n\nGhi chú: phương trình của NaCl viết với sản phẩm NaHSO₄ (đun nóng vừa phải, cách làm trong phòng thí nghiệm); ở nhiệt độ cao (trên 400 °C) phản ứng tạo Na₂SO₄: 2NaCl + H₂SO₄ → Na₂SO₄ + 2HCl. Không dùng NaBr, NaI với H₂SO₄ đặc để điều chế HBr, HI vì Br⁻, I⁻ bị oxi hóa.\n\nIon I⁻ khử H₂SO₄ đặc xuống mức sâu nhất (H₂S), Br⁻ chỉ xuống SO₂, Cl⁻ không khử được → khẳng định thứ tự tính khử Cl⁻ < Br⁻ < I⁻.",
+        "terms": [
+          "T-617",
+          "T-613"
+        ]
+      },
+      {
+        "heading": "Muối halide và nhận biết ion halide",
+        "body_md": "**Muối halide** chứa ion F⁻, Cl⁻, Br⁻, I⁻; phần lớn tan tốt trong nước (trừ AgCl, AgBr, AgI, …).\n\n**Nhận biết bằng dung dịch silver nitrate (AgNO₃):** Ag⁺ + X⁻ → AgX\n\n| Ion trong dung dịch | Hiện tượng với AgNO₃ | Phương trình |\n|---|---|---|\n| F⁻ | **không có kết tủa** (AgF tan) | — |\n| Cl⁻ | kết tủa **trắng** AgCl | NaCl + AgNO₃ → AgCl↓ + NaNO₃ |\n| Br⁻ | kết tủa **vàng nhạt** AgBr | NaBr + AgNO₃ → AgBr↓ + NaNO₃ |\n| I⁻ | kết tủa **vàng** AgI | NaI + AgNO₃ → AgI↓ + NaNO₃ |\n\nNhư vậy chỉ một thuốc thử AgNO₃ phân biệt được bốn dung dịch NaF, NaCl, NaBr, NaI.\n\n**Ứng dụng của một số hydrogen halide và muối halide:**\n- NaCl: muối ăn, bảo quản thực phẩm, nước muối sinh lí (0,9%); nguyên liệu sản xuất Cl₂, NaOH, HCl.\n- KCl: phân bón (phân kali).\n- NaF, SnF₂: thành phần kem đánh răng chống sâu răng.\n- KI, KIO₃: trộn vào muối ăn (muối iodine).\n- AgBr: chất nhạy sáng trong phim ảnh.\n- HF: khắc chữ, hoa văn lên thủy tinh.\n- HCl: tẩy gỉ kim loại, chế biến thực phẩm, sản xuất hóa chất.\n\n**Tính khối lượng kết tủa:** n(AgX) = n(X⁻) (với X = Cl, Br, I); M(AgCl) = 143,5; M(AgBr) = 188; M(AgI) = 235 g/mol.",
+        "terms": [
+          "T-618",
+          "T-619",
+          "T-617"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Nhiệt độ sôi: HCl < HBr < HI < HF",
+      "Tính acid: HF < HCl < HBr < HI (HF là acid yếu)",
+      "Tính khử: F⁻ < Cl⁻ < Br⁻ < I⁻",
+      "SiO₂ + 4HF → SiF₄ + 2H₂O",
+      "Fe + 2HCl → FeCl₂ + H₂",
+      "NaCl + H₂SO₄(đặc) →(t°) NaHSO₄ + HCl",
+      "2NaBr + 2H₂SO₄(đặc) → Na₂SO₄ + Br₂ + SO₂ + 2H₂O",
+      "8NaI + 5H₂SO₄(đặc) → 4Na₂SO₄ + 4I₂ + H₂S + 4H₂O",
+      "Ag⁺ + X⁻ → AgX↓: AgCl trắng, AgBr vàng nhạt, AgI vàng; AgF tan",
+      "M(AgCl) = 143,5; M(AgBr) = 188; M(AgI) = 235 g/mol"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Giải thích vì sao: (a) HF có nhiệt độ sôi cao nhất trong dãy hydrogen halide; (b) dung dịch HF lại có tính acid yếu nhất trong dãy hydrohalic acid.",
+        "solution": "Bước 1: (a) Từ HCl đến HI, nhiệt độ sôi tăng theo khối lượng phân tử (tương tác van der Waals tăng).\nBước 2: HF có khối lượng nhỏ nhất nhưng giữa các phân tử HF có liên kết hydrogen mạnh (H gắn với F), cần nhiều năng lượng để tách các phân tử → HF sôi ở khoảng 20 °C, cao nhất dãy.\nBước 3: (b) Tính acid phụ thuộc độ bền liên kết H–X. Liên kết H–F ngắn nhất, bền nhất (khoảng 565 kJ/mol) nên H⁺ khó tách ra nhất → HF là acid yếu.\nBước 4: Từ HF đến HI liên kết dài dần, kém bền dần → tính acid HF < HCl < HBr < HI.\nLưu ý: lập luận \"F âm điện nhất nên HF là acid mạnh nhất\" là sai (lỗi M44); xếp HF sôi thấp nhất vì nhẹ nhất là sai (lỗi M47)."
+      },
+      {
+        "problem": "Cho dung dịch chứa 11,7 g sodium chloride tác dụng với dung dịch silver nitrate dư. Tính khối lượng kết tủa thu được. Cho Na = 23, Cl = 35,5, Ag = 108.",
+        "solution": "Bước 1: M(NaCl) = 23 + 35,5 = 58,5 g/mol → n(NaCl) = 11,7 : 58,5 = 0,2 mol.\nBước 2: NaCl + AgNO₃ → AgCl↓ + NaNO₃ → n(AgCl) = 0,2 mol.\nBước 3: M(AgCl) = 108 + 35,5 = 143,5 g/mol → m(AgCl) = 0,2 × 143,5 = 28,7 g.\nĐáp án: 28,7 g kết tủa trắng AgCl."
+      },
+      {
+        "problem": "Có bốn lọ mất nhãn đựng riêng biệt các dung dịch NaF, NaCl, NaBr, NaI. Chỉ dùng một thuốc thử, hãy nhận biết các dung dịch trên.",
+        "solution": "Bước 1: Lấy mỗi lọ một ít làm mẫu thử, nhỏ dung dịch AgNO₃ vào từng mẫu.\nBước 2: Mẫu không có kết tủa là NaF (AgF tan).\nBước 3: Mẫu có kết tủa trắng là NaCl: NaCl + AgNO₃ → AgCl↓ + NaNO₃.\nBước 4: Mẫu có kết tủa vàng nhạt là NaBr (AgBr); mẫu có kết tủa vàng là NaI (AgI).\nLưu ý: cho rằng NaF tạo kết tủa trắng AgF hoặc nhầm màu AgBr, AgI là lỗi M46."
+      }
+    ],
+    "quick_check": [
+      "Q-B22-001",
+      "Q-B22-002",
+      "Q-B22-004"
+    ]
+  },
+  {
+    "id": "B23",
+    "number": 23,
+    "chapter": "C7",
+    "kind": "review",
+    "title": "Ôn tập chương 7",
+    "title_en": "Chapter 7 review: Group VIIA elements",
+    "objectives": [
+      "Hệ thống hóa kiến thức về nhóm halogen: cấu tạo nguyên tử, trạng thái tự nhiên, tính chất vật lí, tính oxi hóa và xu hướng biến đổi, điều chế và ứng dụng.",
+      "Hệ thống hóa kiến thức về hydrogen halide, hydrohalic acid và muối halide: nhiệt độ sôi, tính acid, tính khử của ion halide, nhận biết ion halide.",
+      "Vận dụng giải các dạng bài: so sánh, sắp xếp theo xu hướng; viết phương trình và xác định vai trò chất; nhận biết; tính khối lượng kết tủa, thể tích khí."
+    ],
+    "summary": [
+      "Halogen: ns²np⁵, đơn chất X₂, chỉ tồn tại trong tự nhiên ở dạng hợp chất; F₂ khí lục nhạt, Cl₂ khí vàng lục, Br₂ lỏng nâu đỏ, I₂ rắn tím đen.",
+      "Tính oxi hóa F₂ > Cl₂ > Br₂ > I₂; halogen mạnh đẩy halogen yếu ra khỏi dung dịch muối.",
+      "Fluorine chỉ có số oxi hóa −1; Cl, Br, I có −1, +1, +3, +5, +7; Cl₂ với H₂O, NaOH là phản ứng tự oxi hóa – khử.",
+      "Hydrogen halide: nhiệt độ sôi HCl < HBr < HI < HF; tính acid HF < HCl < HBr < HI.",
+      "Tính khử ion halide F⁻ < Cl⁻ < Br⁻ < I⁻; nhận biết bằng AgNO₃: AgF tan, AgCl trắng, AgBr vàng nhạt, AgI vàng."
+    ],
+    "sections": [
+      {
+        "heading": "Sơ đồ hệ thống kiến thức",
+        "body_md": "| Tính chất | F | Cl | Br | I | Xu hướng |\n|---|---|---|---|---|---|\n| Đơn chất (điều kiện thường) | F₂ khí, lục nhạt | Cl₂ khí, vàng lục | Br₂ lỏng, nâu đỏ | I₂ rắn, tím đen | màu đậm dần; t°nc, t°s tăng |\n| Độ âm điện | 3,98 | 3,16 | 2,96 | 2,66 | giảm |\n| Tính oxi hóa của X₂ | mạnh nhất | | | yếu nhất | giảm |\n| Số oxi hóa trong hợp chất | chỉ −1 | −1, +1, +3, +5, +7 | −1, +1, +3, +5, +7 | −1, +1, +3, +5, +7 | |\n| Nhiệt độ sôi của HX | 20 °C (cao nhất) | −85 °C | −67 °C | −35 °C | HCl < HBr < HI < HF |\n| Tính acid của dung dịch HX | yếu | mạnh | mạnh | mạnh nhất | tăng |\n| Tính khử của X⁻ | yếu nhất | | | mạnh nhất | tăng |\n| Kết tủa với Ag⁺ | không (AgF tan) | AgCl trắng | AgBr vàng nhạt | AgI vàng | |\n\n**Các dạng bài thường gặp:**\n1. Sắp xếp, so sánh theo xu hướng (tính oxi hóa, nhiệt độ sôi, tính acid, tính khử).\n2. Viết phương trình phản ứng của halogen với kim loại, hydrogen, nước, kiềm; phản ứng thế; xác định số oxi hóa, vai trò chất (Chương 4).\n3. Nhận biết ion halide bằng AgNO₃, nhận biết I₂ bằng hồ tinh bột.\n4. Tính toán theo phương trình: thể tích Cl₂ (V = n × 24,79 L ở đkc), khối lượng kết tủa AgX, tìm nguyên tố halogen.\n\n**Chuỗi phản ứng tiêu biểu:** NaCl →(điện phân dung dịch, màng ngăn) Cl₂ →(+ H₂, ánh sáng) HCl →(+ MnO₂, t°) Cl₂ →(+ NaBr) Br₂ →(+ NaI) I₂.",
+        "terms": [
+          "T-606",
+          "T-614",
+          "T-613",
+          "T-618",
+          "T-607"
+        ]
+      },
+      {
+        "heading": "Bẫy lỗi sai cần tránh",
+        "body_md": "| Mã | Lỗi | Cách tránh |\n|---|---|---|\n| M43 | Tính oxi hóa tăng từ F₂ đến I₂; viết Br₂ + 2NaCl → 2NaBr + Cl₂ | F₂ > Cl₂ > Br₂ > I₂; chỉ halogen mạnh hơn đẩy halogen yếu hơn |\n| M44 | HF là acid mạnh nhất vì F âm điện nhất | Tính acid do độ bền liên kết H–X: HF < HCl < HBr < HI; HF là acid yếu |\n| M45 | Halogen chỉ có số oxi hóa −1; F có số oxi hóa dương | F chỉ −1; Cl, Br, I còn +1, +3, +5, +7 (NaClO: +1; NaClO₃: +5) |\n| M46 | AgF kết tủa; nhầm màu AgCl, AgBr, AgI | AgF tan; AgCl trắng, AgBr vàng nhạt, AgI vàng |\n| M47 | HF sôi thấp nhất vì nhẹ nhất | HF có liên kết hydrogen: HCl < HBr < HI < HF |\n| M48 | Viết Cl, Br thay vì Cl₂, Br₂; nhầm trạng thái, màu | Đơn chất là X₂; 1 mol Cl₂ = 2 mol nguyên tử Cl; Br₂ lỏng nâu đỏ, I₂ rắn tím đen |",
+        "terms": [
+          "T-605",
+          "T-620",
+          "T-619",
+          "T-601",
+          "T-602",
+          "T-603",
+          "T-604"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "Tính oxi hóa: F₂ > Cl₂ > Br₂ > I₂; tính khử: F⁻ < Cl⁻ < Br⁻ < I⁻",
+      "Tính acid: HF < HCl < HBr < HI; nhiệt độ sôi: HCl < HBr < HI < HF",
+      "MnO₂ + 4HCl(đặc) →(t°) MnCl₂ + Cl₂ + 2H₂O",
+      "2Fe + 3Cl₂ →(t°) 2FeCl₃",
+      "Ag⁺ + X⁻ → AgX↓ (X = Cl, Br, I)",
+      "V(khí, đkc) = n × 24,79 L; n(Cl₂) = n(Cl) : 2"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Viết các phương trình hóa học thực hiện chuỗi chuyển hóa: NaCl → Cl₂ → HCl → Cl₂ → NaClO. Ghi rõ điều kiện phản ứng.",
+        "solution": "Bước 1: 2NaCl + 2H₂O →(điện phân dung dịch, có màng ngăn) 2NaOH + H₂ + Cl₂.\nBước 2: H₂ + Cl₂ →(ánh sáng hoặc t°) 2HCl.\nBước 3: MnO₂ + 4HCl(đặc) →(t°) MnCl₂ + Cl₂ + 2H₂O.\nBước 4: Cl₂ + 2NaOH → NaCl + NaClO + H₂O (nhiệt độ thường).\nLưu ý: ở bước 4 nếu đun nóng khoảng 70 °C sẽ tạo NaClO₃ thay vì NaClO."
+      },
+      {
+        "problem": "Cho 26,1 g manganese dioxide tác dụng hết với dung dịch HCl đặc, dư, đun nóng. Toàn bộ khí chlorine sinh ra phản ứng vừa đủ với sắt nung nóng. Tính khối lượng muối iron(III) chloride thu được. Cho Mn = 55, O = 16, Fe = 56, Cl = 35,5.",
+        "solution": "Bước 1: n(MnO₂) = 26,1 : 87 = 0,3 mol → n(Cl₂) = 0,3 mol (MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O).\nBước 2: 2Fe + 3Cl₂ → 2FeCl₃ → n(FeCl₃) = 0,3 × 2 : 3 = 0,2 mol.\nBước 3: M(FeCl₃) = 56 + 3 × 35,5 = 162,5 g/mol → m = 0,2 × 162,5 = 32,5 g.\nĐáp án: 32,5 g FeCl₃.\nLưu ý: sắt tác dụng với Cl₂ tạo FeCl₃ (không phải FeCl₂ như khi tác dụng với HCl)."
+      }
+    ],
+    "quick_check": [
+      "Q-B23-001",
+      "Q-B23-002",
+      "Q-B23-003"
+    ]
+  }
+]

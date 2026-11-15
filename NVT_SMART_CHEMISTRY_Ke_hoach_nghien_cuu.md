@@ -1,4 +1,4 @@
-| M26 | So sánh nhiệt độ sôi chỉ dựa vào khối lượng phân tử, bỏ qua liên kết hydrogen || M25 | Nhầm liên kết hydrogen với liên kết cộng hóa trị trong phân tử, hoặc cho rằng mọi chất chứa H đều có liên kết hydrogen || M24 | Nhầm lẫn liên kết σ và π (cách hình thành, số lượng, độ bền) || M23 | Viết sai công thức Lewis (sai tổng số electron hóa trị, bỏ sót cặp electron không liên kết) || M22 | Phân loại liên kết chỉ theo "kim loại – phi kim", không dựa vào hiệu độ âm điện || M21 | Hiểu sai bản chất liên kết ion và hợp chất ion || M20 | Viết sai điện tích ion hoặc cấu hình electron của ion || M19 | Xác định sai chiều nhường – nhận electron khi nguyên tử tạo ion || M18 | Cho rằng các nguyên tố cùng chu kì có tính chất hóa học tương tự nhau || M17 | Xác định sai chiều biến đổi tính acid – base của oxide và hydroxide trong một chu kì || M16 | Nhầm hóa trị cao nhất với oxygen và hóa trị trong hợp chất khí với hydrogen || M15 | Xác định sai chiều biến đổi tính kim loại, tính phi kim || M14 | Xác định sai chiều biến đổi độ âm điện trong chu kì và trong nhóm || M13 | Xác định sai chiều biến đổi bán kính nguyên tử (cho rằng bán kính tăng theo điện tích hạt nhân trong một chu kì hoặc giảm trong một nhóm) || M12 | Nhầm lẫn nhóm A – nhóm B: xác định nhóm của nguyên tố d chỉ theo electron lớp ngoài cùng (hoặc chỉ theo electron phân lớp d), hay xếp nguyên tố s, p vào nhóm B || M11 | Xác định sai chu kì, nhóm A từ cấu hình electron (nhầm chu kì với nhóm, đếm sai electron lớp ngoài cùng) |# KẾ HOẠCH NGHIÊN CỨU – CUỘC THI KHOA HỌC KỸ THUẬT CẤP TRƯỜNG
+| M48 | Viết đơn chất halogen ở dạng nguyên tử hoặc nhầm trạng thái, màu sắc của đơn chất || M47 | So sánh sai nhiệt độ sôi của các hydrogen halide (bỏ qua liên kết hydrogen của HF) || M46 | Nhận biết sai ion halide bằng dung dịch AgNO₃ || M45 | Cho rằng halogen chỉ có số oxi hóa −1, hoặc fluorine có số oxi hóa dương || M44 | Cho rằng HF là acid mạnh nhất trong dãy hydrohalic acid || M43 | Cho rằng tính oxi hóa của các halogen tăng dần từ fluorine đến iodine || M42 | Áp dụng sai biểu thức tốc độ và ảnh hưởng của nồng độ, áp suất || M41 | Tính ảnh hưởng của nhiệt độ theo phép nhân/cộng tuyến tính thay vì lũy thừa γ^(ΔT/10) || M40 | Hiểu sai ảnh hưởng của diện tích bề mặt || M39 | Hiểu sai vai trò của chất xúc tác || M38 | Tính tốc độ trung bình sai dấu hoặc không chia cho hệ số tỉ lượng || M37 | Nhầm điều kiện chuẩn || M36 | Tính sai ΔrH°₂₉₈ từ năng lượng liên kết || M35 | Tính sai ΔrH°₂₉₈ từ enthalpy tạo thành chuẩn || M34 | Cho rằng phản ứng cần đun nóng để khơi mào thì luôn là phản ứng thu nhiệt || M33 | Nhầm dấu biến thiên enthalpy với chiều trao đổi nhiệt || M32 | Nhận diện sai phản ứng oxi hóa – khử || M31 | Cân bằng sai: không bảo toàn electron, bỏ qua chỉ số nguyên tử hoặc phần chất làm môi trường || M30 | Áp dụng máy móc H = +1, O = −2 trong mọi trường hợp || M29 | Tính sai số oxi hóa: quên quy tắc tổng, quên chỉ số hoặc nhầm với hóa trị, điện tích || M28 | Nhầm quá trình oxi hóa với quá trình khử || M27 | Nhầm chất khử với chất bị khử, chất oxi hóa với chất bị oxi hóa || M26 | So sánh nhiệt độ sôi chỉ dựa vào khối lượng phân tử, bỏ qua liên kết hydrogen || M25 | Nhầm liên kết hydrogen với liên kết cộng hóa trị trong phân tử, hoặc cho rằng mọi chất chứa H đều có liên kết hydrogen || M24 | Nhầm lẫn liên kết σ và π (cách hình thành, số lượng, độ bền) || M23 | Viết sai công thức Lewis (sai tổng số electron hóa trị, bỏ sót cặp electron không liên kết) || M22 | Phân loại liên kết chỉ theo "kim loại – phi kim", không dựa vào hiệu độ âm điện || M21 | Hiểu sai bản chất liên kết ion và hợp chất ion || M20 | Viết sai điện tích ion hoặc cấu hình electron của ion || M19 | Xác định sai chiều nhường – nhận electron khi nguyên tử tạo ion || M18 | Cho rằng các nguyên tố cùng chu kì có tính chất hóa học tương tự nhau || M17 | Xác định sai chiều biến đổi tính acid – base của oxide và hydroxide trong một chu kì || M16 | Nhầm hóa trị cao nhất với oxygen và hóa trị trong hợp chất khí với hydrogen || M15 | Xác định sai chiều biến đổi tính kim loại, tính phi kim || M14 | Xác định sai chiều biến đổi độ âm điện trong chu kì và trong nhóm || M13 | Xác định sai chiều biến đổi bán kính nguyên tử (cho rằng bán kính tăng theo điện tích hạt nhân trong một chu kì hoặc giảm trong một nhóm) || M12 | Nhầm lẫn nhóm A – nhóm B: xác định nhóm của nguyên tố d chỉ theo electron lớp ngoài cùng (hoặc chỉ theo electron phân lớp d), hay xếp nguyên tố s, p vào nhóm B || M11 | Xác định sai chu kì, nhóm A từ cấu hình electron (nhầm chu kì với nhóm, đếm sai electron lớp ngoài cùng) |# KẾ HOẠCH NGHIÊN CỨU – CUỘC THI KHOA HỌC KỸ THUẬT CẤP TRƯỜNG
 
 **Trường THPT Nguyễn Văn Thoại – Năm học 2026–2027**
 
@@ -138,7 +138,7 @@ Danh mục Chương 1 dùng cho thực nghiệm, sẽ được giáo viên chố
 | M25 | Nhầm liên kết hydrogen với liên kết cộng hóa trị O–H trong phân tử |
 | M26 | So sánh nhiệt độ sôi chỉ dựa vào khối lượng phân tử, bỏ qua liên kết hydrogen |
 
-**Chương 4 – Phản ứng oxi hóa – khử (dự thảo)**
+**Chương 4 – Phản ứng oxi hóa – khử (chuyên gia AI đã rà soát, chờ GV chốt)**
 
 | Mã | Lỗi sai |
 |---|---|
@@ -149,7 +149,7 @@ Danh mục Chương 1 dùng cho thực nghiệm, sẽ được giáo viên chố
 | M31 | Cân bằng phản ứng không bảo toàn electron hoặc quên số nguyên tử trong phân tử (Cl₂, Fe₂O₃…) |
 | M32 | Nhận diện sai phản ứng oxi hóa – khử (cho rằng mọi phản ứng đều là oxi hóa – khử, hoặc bỏ sót phản ứng có đơn chất) |
 
-**Chương 5 – Năng lượng hóa học (dự thảo)**
+**Chương 5 – Năng lượng hóa học (chuyên gia AI đã rà soát, chờ GV chốt)**
 
 | Mã | Lỗi sai |
 |---|---|
@@ -159,7 +159,7 @@ Danh mục Chương 1 dùng cho thực nghiệm, sẽ được giáo viên chố
 | M36 | Tính ΔrH°₂₉₈ từ năng lượng liên kết: lấy sản phẩm trừ chất đầu |
 | M37 | Nhầm điều kiện chuẩn (áp suất 1 bar, nồng độ 1 mol/L, nhiệt độ thường chọn 25 °C) |
 
-**Chương 6 – Tốc độ phản ứng (dự thảo)**
+**Chương 6 – Tốc độ phản ứng (chuyên gia AI đã rà soát, chờ GV chốt)**
 
 | Mã | Lỗi sai |
 |---|---|
@@ -169,7 +169,7 @@ Danh mục Chương 1 dùng cho thực nghiệm, sẽ được giáo viên chố
 | M41 | Tính ảnh hưởng của nhiệt độ theo phép cộng thay vì theo hệ số nhiệt độ Van't Hoff (γ^(ΔT/10)) |
 | M42 | Áp dụng sai biểu thức tốc độ (quên số mũ nồng độ, cho rằng áp suất ảnh hưởng đến phản ứng chỉ có chất rắn, chất lỏng) |
 
-**Chương 7 – Nguyên tố nhóm VIIA (dự thảo)**
+**Chương 7 – Nguyên tố nhóm VIIA (chuyên gia AI đã rà soát, chờ GV chốt)**
 
 | Mã | Lỗi sai |
 |---|---|

@@ -1,0 +1,1406 @@
+[
+  {
+    "id": "Q-B21-001",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Ở điều kiện thường, đơn chất halogen nào sau đây là chất lỏng màu nâu đỏ?",
+    "terms": [
+      "T-603",
+      "T-605"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cl₂",
+        "misconception": "M48"
+      },
+      {
+        "key": "B",
+        "text": "Br₂",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "I₂",
+        "misconception": "M48"
+      },
+      {
+        "key": "D",
+        "text": "F₂",
+        "misconception": "M48"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Ở điều kiện thường: F₂ là khí màu lục nhạt, Cl₂ là khí màu vàng lục, Br₂ là chất lỏng màu nâu đỏ, I₂ là chất rắn màu tím đen.\nĐáp án: B.\nLưu ý: chọn Cl₂ hoặc F₂ là nhầm trạng thái khí với lỏng; chọn I₂ là nhầm I₂ rắn tím đen thành lỏng (M48).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-002",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong tự nhiên, nguyên tố chlorine tồn tại chủ yếu ở dạng",
+    "terms": [
+      "T-602",
+      "T-617"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "đơn chất Cl₂ có trong không khí.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "nguyên tử Cl tự do trong nước biển.",
+        "misconception": "M48"
+      },
+      {
+        "key": "C",
+        "text": "hợp chất, chủ yếu là sodium chloride trong nước biển và mỏ muối.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "đơn chất Cl₂ hòa tan trong nước biển.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Halogen hoạt động hóa học mạnh nên trong tự nhiên chỉ tồn tại ở dạng hợp chất.\nBước 2: Chlorine có nhiều nhất trong sodium chloride (NaCl) của nước biển và mỏ muối.\nĐáp án: C.\nLưu ý: halogen không tồn tại ở dạng đơn chất trong tự nhiên; viết \"nguyên tử Cl tự do\" còn sai ở chỗ đơn chất chlorine là phân tử Cl₂ (M48).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-003",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Dãy nào sau đây sắp xếp các đơn chất halogen theo chiều tính oxi hóa giảm dần?",
+    "terms": [
+      "T-606",
+      "T-601",
+      "T-604"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "F₂ > Cl₂ > Br₂ > I₂",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "I₂ > Br₂ > Cl₂ > F₂",
+        "misconception": "M43"
+      },
+      {
+        "key": "C",
+        "text": "Cl₂ > F₂ > Br₂ > I₂",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "F₂ > Cl₂ > I₂ > Br₂",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Từ F đến I, bán kính nguyên tử tăng, độ âm điện giảm nên khả năng nhận electron giảm.\nBước 2: Tính oxi hóa giảm dần: F₂ > Cl₂ > Br₂ > I₂.\nĐáp án: A.\nLưu ý: phương án B đảo ngược xu hướng, cho rằng nguyên tử lớn hơn thì oxi hóa mạnh hơn (M43).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-004",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong các hợp chất, nguyên tố fluorine chỉ có số oxi hóa",
+    "terms": [
+      "T-601"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "+1",
+        "misconception": "M45"
+      },
+      {
+        "key": "B",
+        "text": "+7",
+        "misconception": "M45"
+      },
+      {
+        "key": "C",
+        "text": "−1, +1, +3, +5 hoặc +7 giống chlorine",
+        "misconception": "M45"
+      },
+      {
+        "key": "D",
+        "text": "−1",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Fluorine có độ âm điện lớn nhất (3,98), trong mọi hợp chất luôn hút cặp electron chung về phía mình.\nBước 2: Vì vậy fluorine chỉ có số oxi hóa −1 trong hợp chất.\nĐáp án: D.\nLưu ý: các số oxi hóa dương +1, +3, +5, +7 chỉ có ở Cl, Br, I khi liên kết với oxygen, không áp dụng cho fluorine (M45).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-005",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phản ứng nào sau đây xảy ra được?",
+    "terms": [
+      "T-607",
+      "T-606"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Br₂ + 2NaCl → 2NaBr + Cl₂",
+        "misconception": "M43"
+      },
+      {
+        "key": "B",
+        "text": "I₂ + 2KBr → 2KI + Br₂",
+        "misconception": "M43"
+      },
+      {
+        "key": "C",
+        "text": "Cl₂ + 2NaBr → 2NaCl + Br₂",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "I₂ + 2NaCl → 2NaI + Cl₂",
+        "misconception": "M43"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Halogen có tính oxi hóa mạnh hơn đẩy halogen yếu hơn ra khỏi dung dịch muối; thứ tự F₂ > Cl₂ > Br₂ > I₂.\nBước 2: Cl₂ mạnh hơn Br₂ nên Cl₂ + 2NaBr → 2NaCl + Br₂ xảy ra.\nBước 3: Các phương án A, B, D đều là halogen yếu hơn \"đẩy\" halogen mạnh hơn → không xảy ra.\nĐáp án: C.\nLưu ý: chọn A, B hoặc D là cho rằng tính oxi hóa tăng từ F₂ đến I₂ (M43).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-006",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phản ứng: Cl₂ + 2KOH → KCl + KClO + H₂O (ở nhiệt độ thường). Trong phản ứng này, chlorine",
+    "terms": [
+      "T-602",
+      "T-606"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "vừa là chất oxi hóa, vừa là chất khử.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "chỉ là chất oxi hóa, vì halogen luôn có số oxi hóa −1 trong hợp chất.",
+        "misconception": "M45"
+      },
+      {
+        "key": "C",
+        "text": "chỉ là chất khử.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "không thay đổi số oxi hóa.",
+        "misconception": "M45"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Số oxi hóa của Cl: trong Cl₂ là 0; trong KCl là −1; trong KClO: (+1) + x + (−2) = 0 → x = +1.\nBước 2: Một nguyên tử Cl giảm từ 0 xuống −1 (nhận e, chất oxi hóa), một nguyên tử Cl tăng từ 0 lên +1 (nhường e, chất khử).\nĐáp án: A.\nLưu ý: phương án B và D bỏ qua số oxi hóa +1 của Cl trong KClO, coi halogen chỉ có số oxi hóa −1 (M45). Phản ứng này tương tự phản ứng của Cl₂ với dung dịch NaOH ở nhiệt độ thường.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-007",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Đốt nóng dây sắt trong khí chlorine dư, sản phẩm thu được là",
+    "terms": [
+      "T-602"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "FeCl₂",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "FeCl₃",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "hỗn hợp FeCl₂ và FeCl₃ theo tỉ lệ mol 1 : 1",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "không có sản phẩm, vì sắt không phản ứng với chlorine",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Chlorine có tính oxi hóa mạnh, đưa kim loại lên số oxi hóa cao.\nBước 2: 2Fe + 3Cl₂ →(t°) 2FeCl₃ (iron(III) chloride).\nĐáp án: B.\nLưu ý: FeCl₂ là sản phẩm khi sắt tác dụng với hydrochloric acid, không phải với khí chlorine.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-008",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Trong phòng thí nghiệm, khí chlorine thường được điều chế bằng cách",
+    "terms": [
+      "T-602",
+      "T-612"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "điện phân dung dịch NaCl bão hòa có màng ngăn.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "nhiệt phân muối sodium chloride.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "cho dung dịch NaCl tác dụng với dung dịch H₂SO₄ loãng.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "cho dung dịch HCl đặc tác dụng với MnO₂ (đun nóng) hoặc KMnO₄.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Trong phòng thí nghiệm, oxi hóa ion Cl⁻ của HCl đặc bằng chất oxi hóa mạnh: MnO₂ + 4HCl(đặc) →(t°) MnCl₂ + Cl₂ + 2H₂O; hoặc 2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O.\nBước 2: Điện phân dung dịch NaCl có màng ngăn là phương pháp sản xuất chlorine trong công nghiệp.\nĐáp án: D.\nLưu ý: NaCl không bị nhiệt phân thành Cl₂; NaCl với H₂SO₄ loãng không tạo Cl₂.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-009",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Nhỏ vài giọt nước chlorine vào ống nghiệm chứa dung dịch potassium iodide (KI) có sẵn vài giọt hồ tinh bột. Hiện tượng quan sát được là",
+    "terms": [
+      "T-611",
+      "T-610",
+      "T-607"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "dung dịch chuyển sang màu xanh tím.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "xuất hiện kết tủa màu trắng.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "không có hiện tượng gì, vì chlorine không đẩy được iodine ra khỏi muối.",
+        "misconception": "M43"
+      },
+      {
+        "key": "D",
+        "text": "có khí màu vàng lục thoát ra khỏi dung dịch.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Cl₂ có tính oxi hóa mạnh hơn I₂ nên xảy ra phản ứng thế: Cl₂ + 2KI → 2KCl + I₂.\nBước 2: I₂ sinh ra gặp hồ tinh bột tạo màu xanh tím.\nĐáp án: A.\nLưu ý: cho rằng Cl₂ không đẩy được I₂ là nhầm chiều xu hướng tính oxi hóa (M43).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-010",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho phản ứng: 3Cl₂ + 6NaOH →(t°) 5NaCl + NaClO₃ + 3H₂O. Tỉ lệ giữa số nguyên tử chlorine đóng vai trò chất khử và số nguyên tử chlorine đóng vai trò chất oxi hóa là",
+    "terms": [
+      "T-602",
+      "T-606"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "5 : 1",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "1 : 5",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "1 : 1",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "0, vì chlorine chỉ đóng vai trò chất oxi hóa",
+        "misconception": "M45"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Số oxi hóa của Cl: Cl₂ (0); NaCl (−1); NaClO₃: (+1) + x + 3 × (−2) = 0 → x = +5.\nBước 2: 6 nguyên tử Cl trong 3Cl₂: 5 nguyên tử về −1 trong 5NaCl (nhận e → chất oxi hóa); 1 nguyên tử lên +5 trong NaClO₃ (nhường e → chất khử).\nBước 3: Tỉ lệ chất khử : chất oxi hóa = 1 : 5.\nĐáp án: B.\nLưu ý: phương án A đảo tỉ lệ; phương án D cho rằng chlorine trong hợp chất chỉ có số oxi hóa −1 (M45).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-011",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Xét tính chất vật lí của các đơn chất halogen F₂, Cl₂, Br₂, I₂. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-605",
+      "T-602",
+      "T-603",
+      "T-604"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Ở điều kiện thường, fluorine và chlorine là chất khí.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Đơn chất chlorine có công thức phân tử là Cl.",
+        "answer": false,
+        "misconception": "M48"
+      },
+      {
+        "key": "c",
+        "text": "Ở điều kiện thường, bromine là chất khí màu vàng lục.",
+        "answer": false,
+        "misconception": "M48"
+      },
+      {
+        "key": "d",
+        "text": "Nhiệt độ nóng chảy và nhiệt độ sôi tăng dần từ F₂ đến I₂ vì khối lượng phân tử tăng, tương tác van der Waals giữa các phân tử tăng.",
+        "answer": true,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Đúng: F₂ là khí màu lục nhạt, Cl₂ là khí màu vàng lục.\nb) Sai: đơn chất halogen là phân tử hai nguyên tử, chlorine là Cl₂ (M48).\nc) Sai: bromine là chất lỏng màu nâu đỏ; khí màu vàng lục là chlorine (M48).\nd) Đúng: các phân tử X₂ không phân cực, chỉ có tương tác van der Waals, tăng theo khối lượng và kích thước phân tử.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-012",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Xét tính oxi hóa của các halogen. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-606",
+      "T-601",
+      "T-604"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Nguyên tử halogen có 7 electron lớp ngoài cùng nên dễ nhận thêm 1 electron.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Tính oxi hóa của các halogen tăng dần từ F₂ đến I₂ vì bán kính nguyên tử tăng dần.",
+        "answer": false,
+        "misconception": "M43"
+      },
+      {
+        "key": "c",
+        "text": "Hydrogen phản ứng với fluorine gây nổ ngay cả trong bóng tối, còn phản ứng của hydrogen với iodine cần đun nóng và là phản ứng thuận nghịch.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Trong mọi hợp chất, các nguyên tố halogen đều chỉ có số oxi hóa −1.",
+        "answer": false,
+        "misconception": "M45"
+      }
+    ],
+    "explanation": "a) Đúng: cấu hình lớp ngoài cùng ns²np⁵, nhận 1 e để đạt cấu hình khí hiếm.\nb) Sai: bán kính tăng làm hạt nhân hút electron yếu hơn nên tính oxi hóa giảm dần F₂ > Cl₂ > Br₂ > I₂ (M43).\nc) Đúng: điều kiện phản ứng với H₂ khó dần từ F₂ đến I₂, phù hợp với tính oxi hóa giảm dần.\nd) Sai: chỉ fluorine luôn có số oxi hóa −1; Cl, Br, I còn có +1, +3, +5, +7, ví dụ Cl trong NaClO là +1 (M45).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-013",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Dẫn khí chlorine vào nước thu được nước chlorine; dẫn khí chlorine vào dung dịch NaOH ở nhiệt độ thường thu được nước Javel. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-611",
+      "T-608",
+      "T-609"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Phản ứng Cl₂ + H₂O ⇌ HCl + HClO là phản ứng thuận nghịch.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Trong phản ứng của chlorine với nước, chlorine chỉ đóng vai trò chất oxi hóa.",
+        "answer": false,
+        "misconception": "M45"
+      },
+      {
+        "key": "c",
+        "text": "Nước Javel (chứa NaCl và NaClO) có tính tẩy màu và sát khuẩn.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Dẫn 2,479 L khí chlorine (đkc: 25 °C, 1 bar; 1 mol khí chiếm 24,79 L) vào dung dịch NaOH dư ở nhiệt độ thường, thu được 0,2 mol NaClO.",
+        "answer": false,
+        "misconception": "M48"
+      }
+    ],
+    "explanation": "a) Đúng: chlorine phản ứng một phần với nước, phản ứng thuận nghịch.\nb) Sai: Cl⁰ → Cl⁻¹ (HCl) và Cl⁰ → Cl⁺¹ (HClO): chlorine vừa là chất oxi hóa vừa là chất khử (M45).\nc) Đúng: NaClO có tính oxi hóa mạnh nên nước Javel tẩy màu, sát khuẩn.\nd) Sai: n(Cl₂) = 2,479 : 24,79 = 0,1 mol; Cl₂ + 2NaOH → NaCl + NaClO + H₂O → n(NaClO) = n(Cl₂) = 0,1 mol. Ra 0,2 mol là lấy số mol nguyên tử Cl (0,2 mol) thay cho số mol phân tử Cl₂ (M48).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-014",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Có ba ống nghiệm lần lượt chứa dung dịch NaCl, NaBr và NaI. Nhỏ vài giọt nước bromine vào mỗi ống, lắc đều. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-607",
+      "T-603",
+      "T-610"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Ở ống chứa NaI xảy ra phản ứng Br₂ + 2NaI → 2NaBr + I₂; thêm hồ tinh bột vào ống này thấy màu xanh tím.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Ở ống chứa NaCl xảy ra phản ứng Br₂ + 2NaCl → 2NaBr + Cl₂.",
+        "answer": false,
+        "misconception": "M43"
+      },
+      {
+        "key": "c",
+        "text": "Thí nghiệm cho thấy tính oxi hóa của Br₂ mạnh hơn I₂ nhưng yếu hơn Cl₂.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Nếu dẫn khí fluorine vào dung dịch NaCl thì xảy ra phản ứng F₂ + 2NaCl → 2NaF + Cl₂.",
+        "answer": false,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Đúng: Br₂ mạnh hơn I₂ nên đẩy được I₂; I₂ làm hồ tinh bột hóa xanh tím.\nb) Sai: Br₂ yếu hơn Cl₂ nên không đẩy được Cl₂ ra khỏi NaCl (M43).\nc) Đúng: Br₂ đẩy được I₂ nhưng không đẩy được Cl₂ → Cl₂ > Br₂ > I₂.\nd) Sai: F₂ phản ứng ngay với nước trong dung dịch (2F₂ + 2H₂O → 4HF + O₂) nên không dùng để đẩy Cl₂ ra khỏi dung dịch muối.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-015",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "short",
+    "level": "TH",
+    "stem": "Xác định số oxi hóa của chlorine trong hợp chất sodium chlorate NaClO₃ (chỉ ghi số, ví dụ: −1 ghi là -1, +5 ghi là 5).",
+    "terms": [
+      "T-602"
+    ],
+    "answer": "5",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "-1",
+        "misconception": "M45"
+      }
+    ],
+    "explanation": "Bước 1: Trong NaClO₃: Na có số oxi hóa +1, O có số oxi hóa −2.\nBước 2: Tổng số oxi hóa bằng 0: (+1) + x + 3 × (−2) = 0 → x = +5.\nĐáp án: 5 (tức +5).\nLưu ý: ghi −1 là cho rằng halogen chỉ có số oxi hóa −1 trong hợp chất (M45); số oxi hóa −1 chỉ đúng khi Cl liên kết với nguyên tố kém âm điện hơn như Na, H.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B21-016",
+    "chapter": "C7",
+    "lesson": "B21",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho 3,16 g potassium permanganate (KMnO₄) tác dụng hết với dung dịch hydrochloric acid đặc, dư. Tính thể tích khí chlorine thu được ở điều kiện chuẩn (25 °C, 1 bar; 1 mol khí chiếm 24,79 L). Cho K = 39, Mn = 55, O = 16. Đơn vị: lít, làm tròn đến hàng phần trăm.",
+    "terms": [
+      "T-602"
+    ],
+    "answer": "1.24",
+    "tolerance": 0.01,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "2.48",
+        "misconception": "M48"
+      }
+    ],
+    "explanation": "Bước 1: M(KMnO₄) = 39 + 55 + 4 × 16 = 158 g/mol → n(KMnO₄) = 3,16 : 158 = 0,02 mol.\nBước 2: 2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O → n(Cl₂) = 0,02 × 5 : 2 = 0,05 mol.\nBước 3: V(Cl₂) = 0,05 × 24,79 = 1,2395 L ≈ 1,24 L.\nĐáp án: 1,24.\nLưu ý: viết sản phẩm là \"10Cl\" (nguyên tử) thay vì 5Cl₂ sẽ ra 0,1 mol và 2,48 L (M48). Nếu lấy tỉ lệ KMnO₄ : Cl₂ = 1 : 1 sẽ ra 0,50 L – sai do không cân bằng phương trình.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-001",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Dãy hydrohalic acid nào sau đây được sắp xếp theo chiều tính acid tăng dần?",
+    "terms": [
+      "T-614",
+      "T-620"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "HI < HBr < HCl < HF",
+        "misconception": "M44"
+      },
+      {
+        "key": "B",
+        "text": "HCl < HBr < HI < HF",
+        "misconception": "M44"
+      },
+      {
+        "key": "C",
+        "text": "HF < HCl < HBr < HI",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "HF < HI < HBr < HCl",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Từ HF đến HI, độ dài liên kết H–X tăng, năng lượng liên kết giảm nên H⁺ tách ra dễ dần.\nBước 2: Tính acid tăng dần: HF < HCl < HBr < HI.\nĐáp án: C.\nLưu ý: A và B đặt HF mạnh nhất do suy luận theo độ âm điện của F (M44).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-002",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Nhỏ dung dịch silver nitrate (AgNO₃) vào dung dịch sodium bromide (NaBr). Hiện tượng quan sát được là",
+    "terms": [
+      "T-618",
+      "T-619"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "xuất hiện kết tủa màu trắng.",
+        "misconception": "M46"
+      },
+      {
+        "key": "B",
+        "text": "xuất hiện kết tủa màu tím đen.",
+        "misconception": "M46"
+      },
+      {
+        "key": "C",
+        "text": "không có hiện tượng gì.",
+        "misconception": "M46"
+      },
+      {
+        "key": "D",
+        "text": "xuất hiện kết tủa màu vàng nhạt.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: NaBr + AgNO₃ → AgBr↓ + NaNO₃.\nBước 2: AgBr là kết tủa màu vàng nhạt.\nĐáp án: D.\nLưu ý: kết tủa trắng là AgCl; không có kết tủa là trường hợp ion F⁻; tím đen là màu của I₂ rắn (M46).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-003",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Acid nào sau đây được dùng để khắc chữ, vẽ hoa văn lên thủy tinh?",
+    "terms": [
+      "T-614"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "HF, vì HF phản ứng được với SiO₂ có trong thủy tinh.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "HCl, vì HCl là acid mạnh.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "HF, vì HF là acid mạnh nhất trong dãy hydrohalic acid.",
+        "misconception": "M44"
+      },
+      {
+        "key": "D",
+        "text": "HI, vì HI là acid mạnh nhất.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Thủy tinh có thành phần chính SiO₂; chỉ HF phản ứng được: SiO₂ + 4HF → SiF₄ + 2H₂O.\nBước 2: HF lại là acid yếu; khả năng khắc thủy tinh là tính chất riêng, không do độ mạnh của acid.\nĐáp án: A.\nLưu ý: phương án C đúng chất nhưng sai lí do – HF là acid yếu nhất dãy (M44); HCl, HI dù là acid mạnh nhưng không ăn mòn thủy tinh.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-004",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Trong dãy hydrogen halide HF, HCl, HBr, HI, chất có nhiệt độ sôi cao nhất là",
+    "terms": [
+      "T-613"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "HI",
+        "misconception": "M47"
+      },
+      {
+        "key": "B",
+        "text": "HF",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "HCl",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "HBr",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Từ HCl đến HI, nhiệt độ sôi tăng theo khối lượng phân tử (tương tác van der Waals): HCl (−85 °C) < HBr (−67 °C) < HI (−35 °C).\nBước 2: Giữa các phân tử HF có liên kết hydrogen mạnh nên HF sôi ở khoảng 20 °C, cao nhất dãy.\nĐáp án: B.\nLưu ý: chọn HI là chỉ dựa vào khối lượng phân tử, bỏ qua liên kết hydrogen của HF (M47).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-005",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Ion halide nào sau đây có tính khử mạnh nhất?",
+    "terms": [
+      "T-617"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "F⁻",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Cl⁻",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "I⁻",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Br⁻",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Từ F⁻ đến I⁻, bán kính ion tăng, electron ngoài cùng bị hạt nhân giữ kém chặt nên dễ nhường hơn.\nBước 2: Tính khử tăng dần: F⁻ < Cl⁻ < Br⁻ < I⁻.\nĐáp án: C.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-006",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phương trình hóa học nào sau đây viết đúng?",
+    "terms": [
+      "T-616"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "2Fe + 6HCl → 2FeCl₃ + 3H₂",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Fe + 2HCl → FeCl₂ + H₂",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "Cu + 2HCl → CuCl₂ + H₂",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "2Ag + 2HCl → 2AgCl + H₂",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Hydrochloric acid tác dụng với kim loại đứng trước hydrogen trong dãy hoạt động hóa học, giải phóng H₂.\nBước 2: Ion H⁺ chỉ oxi hóa sắt lên +2: Fe + 2HCl → FeCl₂ + H₂.\nBước 3: Cu, Ag đứng sau hydrogen nên không phản ứng với dung dịch HCl.\nĐáp án: B.\nLưu ý: FeCl₃ tạo ra khi sắt tác dụng với khí Cl₂, không phải với dung dịch HCl.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-007",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Có bốn dung dịch riêng biệt: NaF, NaCl, NaBr, NaI. Nhỏ dung dịch AgNO₃ dư vào từng dung dịch. Số dung dịch tạo kết tủa là",
+    "terms": [
+      "T-618",
+      "T-619",
+      "T-617"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "4",
+        "misconception": "M46"
+      },
+      {
+        "key": "B",
+        "text": "2",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "3",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "1",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: AgF tan trong nước nên dung dịch NaF không tạo kết tủa.\nBước 2: NaCl → AgCl (trắng); NaBr → AgBr (vàng nhạt); NaI → AgI (vàng).\nĐáp án: C (3 dung dịch).\nLưu ý: chọn 4 là cho rằng AgF cũng kết tủa (M46).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-008",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phản ứng: 2NaBr(rắn) + 2H₂SO₄(đặc) → Na₂SO₄ + Br₂ + SO₂ + 2H₂O. Nhận xét nào sau đây đúng?",
+    "terms": [
+      "T-617"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "NaBr đóng vai trò chất oxi hóa.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Bromine có số oxi hóa −1 trong cả NaBr và Br₂ nên không thay đổi số oxi hóa.",
+        "misconception": "M45"
+      },
+      {
+        "key": "C",
+        "text": "H₂SO₄ chỉ đóng vai trò môi trường, không bị khử.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Ion Br⁻ thể hiện tính khử, bị oxi hóa thành Br₂.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Số oxi hóa: Br trong NaBr là −1, trong Br₂ là 0 → Br⁻ nhường electron, bị oxi hóa → NaBr là chất khử.\nBước 2: S trong H₂SO₄ là +6, trong SO₂ là +4 → H₂SO₄ nhận electron, là chất oxi hóa.\nĐáp án: D.\nLưu ý: phương án B nhầm số oxi hóa của đơn chất Br₂ (bằng 0) với −1, coi halogen luôn có số oxi hóa −1 (M45).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-009",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Xét dãy hydrogen halide HF, HCl, HBr, HI. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-613",
+      "T-614",
+      "T-620"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Các hydrogen halide tan tốt trong nước, tạo thành dung dịch hydrohalic acid.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "HF có nhiệt độ sôi thấp nhất trong dãy vì có khối lượng phân tử nhỏ nhất.",
+        "answer": false,
+        "misconception": "M47"
+      },
+      {
+        "key": "c",
+        "text": "Năng lượng liên kết H–X giảm dần từ HF đến HI.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Vì fluorine có độ âm điện lớn nhất nên dung dịch HF có tính acid mạnh nhất trong dãy.",
+        "answer": false,
+        "misconception": "M44"
+      }
+    ],
+    "explanation": "a) Đúng: HX tan tốt trong nước tạo hydrofluoric, hydrochloric, hydrobromic, hydroiodic acid.\nb) Sai: HF có liên kết hydrogen giữa các phân tử nên sôi cao nhất dãy, khoảng 20 °C (M47).\nc) Đúng: liên kết H–X dài dần, năng lượng liên kết giảm từ khoảng 565 (H–F) đến 297 kJ/mol (H–I).\nd) Sai: liên kết H–F bền nhất nên HF là acid yếu; tính acid HF < HCl < HBr < HI (M44).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-010",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Dùng dung dịch AgNO₃ để nhận biết các ion halide. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-618",
+      "T-619",
+      "T-617"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Dung dịch NaCl tác dụng với AgNO₃ tạo kết tủa trắng AgCl.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Dung dịch NaF tác dụng với AgNO₃ tạo kết tủa trắng AgF.",
+        "answer": false,
+        "misconception": "M46"
+      },
+      {
+        "key": "c",
+        "text": "Kết tủa AgI có màu vàng.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "AgBr là kết tủa màu trắng giống AgCl nên không phân biệt được dung dịch NaCl và NaBr bằng AgNO₃.",
+        "answer": false,
+        "misconception": "M46"
+      }
+    ],
+    "explanation": "a) Đúng: NaCl + AgNO₃ → AgCl↓ (trắng) + NaNO₃.\nb) Sai: AgF tan trong nước, không có kết tủa (M46).\nc) Đúng: NaI + AgNO₃ → AgI↓ (vàng) + NaNO₃.\nd) Sai: AgBr kết tủa vàng nhạt, khác AgCl trắng, nên phân biệt được (M46).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-011",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho các muối NaCl, NaBr, NaI ở thể rắn lần lượt tác dụng với dung dịch H₂SO₄ đặc, đun nóng. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-617",
+      "T-613"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Tính khử của các ion halide tăng dần theo thứ tự F⁻ < Cl⁻ < Br⁻ < I⁻.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Phản ứng NaCl + H₂SO₄ →(t°) NaHSO₄ + HCl không phải phản ứng oxi hóa – khử và được dùng để điều chế hydrogen chloride.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Trong phản ứng 8NaI + 5H₂SO₄ → 4Na₂SO₄ + 4I₂ + H₂S + 4H₂O, ion I⁻ đóng vai trò chất oxi hóa.",
+        "answer": false,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Tương tự NaCl, có thể cho NaI rắn tác dụng với H₂SO₄ đặc, đun nóng để điều chế hydrogen iodide.",
+        "answer": false,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Đúng: bán kính ion tăng, electron ngoài cùng dễ nhường hơn.\nb) Đúng: số oxi hóa các nguyên tố không đổi; Cl⁻ không khử được H₂SO₄ đặc.\nc) Sai: I⁻ (−1) lên I₂ (0) là nhường electron → I⁻ là chất khử; S⁺⁶ xuống S⁻² là chất oxi hóa.\nd) Sai: I⁻ có tính khử mạnh, khử H₂SO₄ đặc thành H₂S và bị oxi hóa thành I₂ (8NaI + 5H₂SO₄ → 4Na₂SO₄ + 4I₂ + H₂S + 4H₂O) nên không thu được HI; chỉ Cl⁻ (tính khử yếu) mới cho phản ứng trao đổi tạo HCl.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-012",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "short",
+    "level": "VD",
+    "stem": "Dung dịch X chứa 0,84 g NaF và 1,17 g NaCl. Thêm dung dịch AgNO₃ dư vào X. Tính khối lượng kết tủa thu được. Cho Na = 23, F = 19, Cl = 35,5, Ag = 108. Đơn vị: gam, làm tròn đến hàng phần trăm.",
+    "terms": [
+      "T-618",
+      "T-619",
+      "T-617"
+    ],
+    "answer": "2.87",
+    "tolerance": 0.01,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "5.41",
+        "misconception": "M46"
+      }
+    ],
+    "explanation": "Bước 1: n(NaF) = 0,84 : 42 = 0,02 mol; n(NaCl) = 1,17 : 58,5 = 0,02 mol.\nBước 2: AgF tan nên NaF không tạo kết tủa; chỉ có NaCl + AgNO₃ → AgCl↓ + NaNO₃ → n(AgCl) = 0,02 mol.\nBước 3: m(AgCl) = 0,02 × 143,5 = 2,87 g.\nĐáp án: 2,87.\nLưu ý: cộng thêm 0,02 × 127 = 2,54 g \"AgF\" sẽ ra 5,41 g – sai vì AgF không kết tủa (M46).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-013",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "short",
+    "level": "TH",
+    "stem": "Trong các dung dịch HF, HCl, HBr, HI, có bao nhiêu dung dịch là acid mạnh?",
+    "terms": [
+      "T-614",
+      "T-620"
+    ],
+    "answer": "3",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "4",
+        "misconception": "M44"
+      }
+    ],
+    "explanation": "Bước 1: Liên kết H–F rất bền nên HF phân li ít → hydrofluoric acid là acid yếu.\nBước 2: HCl, HBr, HI là các acid mạnh.\nĐáp án: 3.\nLưu ý: trả lời 4 là cho rằng HF cũng là acid mạnh (thậm chí mạnh nhất) do F có độ âm điện lớn nhất (M44).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B22-014",
+    "chapter": "C7",
+    "lesson": "B22",
+    "type": "short",
+    "level": "VD",
+    "stem": "Trộn 200 mL dung dịch AgNO₃ 0,5 M với 100 mL dung dịch NaI 0,8 M, phản ứng xảy ra hoàn toàn. Tính khối lượng kết tủa thu được. Cho Ag = 108, I = 127. Đơn vị: gam, làm tròn đến hàng phần mười.",
+    "terms": [
+      "T-618",
+      "T-619"
+    ],
+    "answer": "18.8",
+    "tolerance": 0.05,
+    "unit": "",
+    "misconception_hints": [],
+    "explanation": "Bước 1: n(AgNO₃) = 0,2 × 0,5 = 0,1 mol; n(NaI) = 0,1 × 0,8 = 0,08 mol.\nBước 2: AgNO₃ + NaI → AgI↓ + NaNO₃; tỉ lệ 1 : 1, NaI hết (0,08 < 0,1), AgNO₃ dư.\nBước 3: n(AgI) = 0,08 mol; M(AgI) = 108 + 127 = 235 g/mol → m = 0,08 × 235 = 18,8 g.\nĐáp án: 18,8.\nLưu ý: tính theo AgNO₃ (0,1 mol) sẽ ra 23,5 g – sai vì không xét chất hết.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-001",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Ở điều kiện thường, đơn chất halogen nào sau đây là chất rắn, màu tím đen?",
+    "terms": [
+      "T-604",
+      "T-605"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "I₂",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Br₂",
+        "misconception": "M48"
+      },
+      {
+        "key": "C",
+        "text": "Cl₂",
+        "misconception": "M48"
+      },
+      {
+        "key": "D",
+        "text": "F₂",
+        "misconception": "M48"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: F₂, Cl₂ là chất khí; Br₂ là chất lỏng nâu đỏ; I₂ là chất rắn tím đen, dễ thăng hoa.\nĐáp án: A.\nLưu ý: chọn Br₂, Cl₂ hoặc F₂ là nhầm trạng thái, màu sắc của đơn chất halogen (M48).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-002",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Dãy nào sau đây sắp xếp các hydrogen halide theo chiều nhiệt độ sôi tăng dần?",
+    "terms": [
+      "T-613"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "HF < HCl < HBr < HI",
+        "misconception": "M47"
+      },
+      {
+        "key": "B",
+        "text": "HI < HBr < HCl < HF",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "HF < HI < HBr < HCl",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "HCl < HBr < HI < HF",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: HCl, HBr, HI chỉ có tương tác van der Waals, tăng theo khối lượng phân tử: HCl (−85 °C) < HBr (−67 °C) < HI (−35 °C).\nBước 2: HF có liên kết hydrogen giữa các phân tử nên sôi cao nhất (khoảng 20 °C).\nĐáp án: D.\nLưu ý: phương án A xếp HF thấp nhất vì nhẹ nhất, bỏ qua liên kết hydrogen (M47).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-003",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-601",
+      "T-606"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Fluorine chỉ có số oxi hóa −1 trong hợp chất vì có độ âm điện lớn nhất.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Trong hợp chất OF₂, fluorine có số oxi hóa +1.",
+        "misconception": "M45"
+      },
+      {
+        "key": "C",
+        "text": "Chlorine chỉ có số oxi hóa −1 trong mọi hợp chất.",
+        "misconception": "M45"
+      },
+      {
+        "key": "D",
+        "text": "Iodine có tính oxi hóa mạnh hơn chlorine.",
+        "misconception": "M43"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Fluorine có độ âm điện lớn nhất nên luôn có số oxi hóa −1 trong hợp chất; trong OF₂: O là +2, F là −1.\nBước 2: Chlorine có thể có +1, +3, +5, +7 (NaClO, NaClO₃…); tính oxi hóa I₂ < Cl₂.\nĐáp án: A.\nLưu ý: B gán số oxi hóa dương cho F, C coi halogen chỉ có −1 (M45); D đảo xu hướng tính oxi hóa (M43).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-004",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Dung dịch muối X tác dụng với dung dịch AgNO₃ tạo kết tủa màu vàng. Mặt khác, sục khí chlorine vào dung dịch X rồi thêm hồ tinh bột thấy xuất hiện màu xanh tím. Muối X là",
+    "terms": [
+      "T-618",
+      "T-610",
+      "T-607"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "NaCl",
+        "misconception": "M46"
+      },
+      {
+        "key": "B",
+        "text": "NaBr",
+        "misconception": "M46"
+      },
+      {
+        "key": "C",
+        "text": "NaI",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "NaF",
+        "misconception": "M46"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Cl₂ + 2NaI → 2NaCl + I₂; I₂ làm hồ tinh bột hóa xanh tím → X chứa I⁻.\nBước 2: Kiểm tra: NaI + AgNO₃ → AgI↓ vàng, phù hợp.\nĐáp án: C.\nLưu ý: NaCl cho kết tủa trắng, NaBr cho kết tủa vàng nhạt, NaF không tạo kết tủa (M46).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-005",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho 15,8 g KMnO₄ tác dụng hết với dung dịch HCl đặc, dư. Số mol HCl bị oxi hóa (đóng vai trò chất khử) là (cho K = 39, Mn = 55, O = 16)",
+    "terms": [
+      "T-616",
+      "T-602"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "0,8 mol",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "0,5 mol",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "0,25 mol",
+        "misconception": "M48"
+      },
+      {
+        "key": "D",
+        "text": "0,3 mol",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: n(KMnO₄) = 15,8 : 158 = 0,1 mol.\nBước 2: 2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O → n(Cl₂) = 0,1 × 5 : 2 = 0,25 mol.\nBước 3: Mỗi phân tử Cl₂ tạo từ 2 ion Cl⁻ bị oxi hóa → n(HCl bị oxi hóa) = 2 × 0,25 = 0,5 mol.\nĐáp án: B.\nLưu ý: 0,8 mol là tổng HCl phản ứng; 0,3 mol là phần HCl tạo muối (KCl, MnCl₂); 0,25 mol là đồng nhất số mol Cl₂ với số mol nguyên tử Cl (M48).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-006",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phát biểu nào sau đây về nhận biết ion halide bằng dung dịch AgNO₃ là đúng?",
+    "terms": [
+      "T-618",
+      "T-619"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "AgNO₃ tạo kết tủa trắng với cả dung dịch NaF và dung dịch NaCl.",
+        "misconception": "M46"
+      },
+      {
+        "key": "B",
+        "text": "Không phân biệt được NaCl và NaBr bằng AgNO₃ vì cả hai đều cho kết tủa trắng.",
+        "misconception": "M46"
+      },
+      {
+        "key": "C",
+        "text": "Kết tủa AgI có màu trắng.",
+        "misconception": "M46"
+      },
+      {
+        "key": "D",
+        "text": "Dung dịch NaF không tạo kết tủa với AgNO₃, còn dung dịch KI tạo kết tủa vàng.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: AgF tan nên NaF không cho kết tủa.\nBước 2: AgCl trắng, AgBr vàng nhạt, AgI vàng.\nĐáp án: D.\nLưu ý: A cho rằng AgF kết tủa; B, C nhầm màu của AgBr, AgI (M46).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-007",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Xét việc điều chế và tính chất của chlorine. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-602",
+      "T-612",
+      "T-607"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Trong phòng thí nghiệm, có thể điều chế chlorine bằng cách đun nóng dung dịch HCl đặc với MnO₂.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Trong công nghiệp, chlorine được sản xuất bằng cách điện phân dung dịch NaCl bão hòa có màng ngăn.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Chlorine là chất khí không màu, không mùi, không độc.",
+        "answer": false,
+        "misconception": "M48"
+      },
+      {
+        "key": "d",
+        "text": "Có thể dùng nước bromine để đẩy chlorine ra khỏi dung dịch NaCl.",
+        "answer": false,
+        "misconception": "M43"
+      }
+    ],
+    "explanation": "a) Đúng: MnO₂ + 4HCl(đặc) →(t°) MnCl₂ + Cl₂ + 2H₂O.\nb) Đúng: 2NaCl + 2H₂O →(điện phân, màng ngăn) 2NaOH + H₂ + Cl₂.\nc) Sai: chlorine là khí màu vàng lục, mùi xốc, rất độc (M48).\nd) Sai: Br₂ có tính oxi hóa yếu hơn Cl₂ nên không đẩy được Cl₂ (M43).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-008",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Xét các hydrohalic acid và phản ứng nhận biết (cho Ag = 108, F = 19, Br = 80). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-614",
+      "T-620",
+      "T-618"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Dung dịch HCl, HBr, HI đều là acid mạnh.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "HF có nhiệt độ sôi cao hơn HCl vì giữa các phân tử HF có liên kết hydrogen.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Dung dịch HF có tính acid mạnh hơn dung dịch HCl vì liên kết H–F phân cực mạnh nhất.",
+        "answer": false,
+        "misconception": "M44"
+      },
+      {
+        "key": "d",
+        "text": "Cho dung dịch chứa 0,01 mol HF và 0,01 mol HBr tác dụng với dung dịch AgNO₃ dư, thu được 3,15 g kết tủa.",
+        "answer": false,
+        "misconception": "M46"
+      }
+    ],
+    "explanation": "a) Đúng: chỉ HF là acid yếu trong dãy.\nb) Đúng: liên kết hydrogen làm HF sôi ở khoảng 20 °C, còn HCl sôi ở khoảng −85 °C.\nc) Sai: tính acid do độ bền liên kết quyết định; H–F bền nhất nên HF là acid yếu, HF < HCl (M44).\nd) Sai: AgF tan trong nước nên chỉ có HBr + AgNO₃ → AgBr↓ + HNO₃ → m(AgBr) = 0,01 × 188 = 1,88 g. Ra 3,15 g là cộng thêm 0,01 × 127 = 1,27 g \"AgF\" (M46).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-009",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "short",
+    "level": "VD",
+    "stem": "Đốt cháy hoàn toàn 5,6 g iron trong khí chlorine (vừa đủ). Tính thể tích khí chlorine đã phản ứng ở điều kiện chuẩn (25 °C, 1 bar; 1 mol khí chiếm 24,79 L). Cho Fe = 56. Đơn vị: lít, làm tròn đến hàng phần trăm.",
+    "terms": [
+      "T-602",
+      "T-605"
+    ],
+    "answer": "3.72",
+    "tolerance": 0.01,
+    "unit": "",
+    "misconception_hints": [
+      {
+        "value": "7.44",
+        "misconception": "M48"
+      }
+    ],
+    "explanation": "Bước 1: n(Fe) = 5,6 : 56 = 0,1 mol.\nBước 2: 2Fe + 3Cl₂ →(t°) 2FeCl₃ → n(Cl₂) = 0,1 × 3 : 2 = 0,15 mol.\nBước 3: V(Cl₂) = 0,15 × 24,79 = 3,7185 L ≈ 3,72 L.\nĐáp án: 3,72.\nLưu ý: viết 2Fe + 6Cl → 2FeCl₃ rồi lấy 0,3 mol \"Cl\" làm số mol khí sẽ ra 7,44 L (M48). Nếu cho sản phẩm là FeCl₂ sẽ ra 2,48 L – sai vì Cl₂ đưa sắt lên +3.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B23-010",
+    "chapter": "C7",
+    "lesson": "B23",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho dung dịch chứa 2,06 g muối NaX (X là halogen) tác dụng với dung dịch AgNO₃ dư, thu được 3,76 g kết tủa AgX. Tính nguyên tử khối của X. Cho Na = 23, Ag = 108. Ghi số nguyên.",
+    "terms": [
+      "T-617",
+      "T-618",
+      "T-619"
+    ],
+    "answer": "80",
+    "tolerance": 0,
+    "unit": "",
+    "misconception_hints": [],
+    "explanation": "Bước 1: NaX + AgNO₃ → AgX↓ + NaNO₃ → n(AgX) = n(NaX) = n.\nBước 2: Khối lượng tăng do Ag (108) thay Na (23): n = (3,76 − 2,06) : (108 − 23) = 1,70 : 85 = 0,02 mol.\nBước 3: M(NaX) = 2,06 : 0,02 = 103 → X = 103 − 23 = 80 (bromine).\nĐáp án: 80.\nKiểm tra: m(AgBr) = 0,02 × 188 = 3,76 g, đúng đề bài. X không thể là fluorine vì AgF không kết tủa.",
+    "reviewed": false
+  }
+]

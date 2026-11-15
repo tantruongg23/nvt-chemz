@@ -1,0 +1,1089 @@
+[
+  {
+    "id": "Q-B19-001",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Tốc độ phản ứng là đại lượng đặc trưng cho",
+    "terms": [
+      "T-501",
+      "T-505"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "lượng sản phẩm thu được sau khi phản ứng kết thúc.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "sự biến thiên nồng độ của một chất phản ứng hoặc sản phẩm trong một đơn vị thời gian.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "nhiệt lượng tỏa ra hay thu vào của phản ứng.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "sự biến thiên khối lượng chất xúc tác trong một đơn vị thời gian.",
+        "misconception": "M39"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Theo SGK, tốc độ phản ứng là đại lượng đặc trưng cho sự biến thiên nồng độ của một trong các chất phản ứng hoặc sản phẩm phản ứng trong một đơn vị thời gian.\nBước 2: A nói về lượng sản phẩm (không liên quan thời gian); C là biến thiên enthalpy (Chương 5).\nĐáp án: B.\nLưu ý: D sai vì chất xúc tác được bảo toàn về chất và lượng, khối lượng của nó không biến thiên theo phản ứng (M39).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-002",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Khi nồng độ tính theo mol/L và thời gian tính theo giây, tốc độ phản ứng có đơn vị là",
+    "terms": [
+      "T-501",
+      "T-505",
+      "T-504"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "mol/(L·s).",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "mol/L.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "L/(mol·s).",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "mol·s/L.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Tốc độ = biến thiên nồng độ / khoảng thời gian.\nBước 2: Đơn vị = (mol/L) : s = mol/(L·s) (còn viết M/s). Nếu thời gian tính theo phút, giờ thì đơn vị là mol/(L·min), mol/(L·h).\nĐáp án: A.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-003",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Cho đá vôi (CaCO₃) tác dụng với dung dịch HCl. Biện pháp nào sau đây làm tăng tốc độ phản ứng?",
+    "terms": [
+      "T-501",
+      "T-509",
+      "T-511"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Thay đá vôi dạng bột bằng cùng khối lượng đá vôi dạng khối lớn.",
+        "misconception": "M40"
+      },
+      {
+        "key": "B",
+        "text": "Thay dung dịch HCl 1 M bằng dung dịch HCl 0,5 M.",
+        "misconception": "M42"
+      },
+      {
+        "key": "C",
+        "text": "Đun nóng nhẹ hỗn hợp phản ứng.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Ngâm cốc phản ứng vào nước đá.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Tăng nhiệt độ làm các hạt chuyển động nhanh hơn, số va chạm hiệu quả tăng → tốc độ tăng.\nBước 2: Ngâm vào nước đá là giảm nhiệt độ → tốc độ giảm.\nĐáp án: C.\nLưu ý: A làm giảm diện tích bề mặt nên tốc độ giảm (M40); B làm giảm nồng độ HCl nên tốc độ giảm (M42).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-004",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Phát biểu nào sau đây đúng về chất xúc tác?",
+    "terms": [
+      "T-512"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Chất xúc tác làm tăng lượng sản phẩm thu được của phản ứng.",
+        "misconception": "M39"
+      },
+      {
+        "key": "B",
+        "text": "Chất xúc tác bị tiêu hao dần trong quá trình phản ứng.",
+        "misconception": "M39"
+      },
+      {
+        "key": "C",
+        "text": "Chất xúc tác tham gia phản ứng và trở thành một phần của sản phẩm.",
+        "misconception": "M39"
+      },
+      {
+        "key": "D",
+        "text": "Chất xúc tác làm tăng tốc độ phản ứng nhưng vẫn được bảo toàn về chất và lượng khi phản ứng kết thúc.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Định nghĩa: chất xúc tác là chất làm tăng tốc độ phản ứng nhưng vẫn được bảo toàn về chất và lượng khi kết thúc phản ứng.\nĐáp án: D.\nLưu ý: chất xúc tác không làm tăng lượng sản phẩm tối đa (A), không bị tiêu hao (B) và không trở thành sản phẩm (C) – cả ba là biểu hiện của lỗi M39.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-005",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phản ứng đơn giản: 2NO(g) + O₂(g) → 2NO₂(g). Theo định luật tác dụng khối lượng, biểu thức tốc độ của phản ứng là",
+    "terms": [
+      "T-506",
+      "T-507",
+      "T-505"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "v = k·C_NO·C_O₂",
+        "misconception": "M42"
+      },
+      {
+        "key": "B",
+        "text": "v = k·C²_NO·C_O₂",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "v = k·2C_NO·C_O₂",
+        "misconception": "M42"
+      },
+      {
+        "key": "D",
+        "text": "v = k·C²_NO₂",
+        "misconception": "M42"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Với phản ứng đơn giản aA + bB → sản phẩm: v = k·C_A^a·C_B^b, số mũ bằng hệ số tỉ lượng của chất phản ứng.\nBước 2: NO có hệ số 2, O₂ có hệ số 1 → v = k·C²_NO·C_O₂.\nĐáp án: B.\nLưu ý: A quên số mũ 2; C nhân hệ số thay vì lấy lũy thừa; D đưa sản phẩm vào biểu thức – đều là lỗi M42.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-006",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Hệ số nhiệt độ Van't Hoff (γ) cho biết",
+    "terms": [
+      "T-510",
+      "T-509"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "tốc độ phản ứng tăng thêm γ mol/(L·s) khi nhiệt độ tăng 1 °C.",
+        "misconception": "M41"
+      },
+      {
+        "key": "B",
+        "text": "tốc độ phản ứng tăng γ lần khi nhiệt độ tăng 1 °C.",
+        "misconception": "M41"
+      },
+      {
+        "key": "C",
+        "text": "tốc độ phản ứng tăng γ lần khi nhiệt độ tăng 10 °C.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "nồng độ chất phản ứng tăng γ lần khi nhiệt độ tăng 10 °C.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Theo quy tắc Van't Hoff, khi nhiệt độ tăng 10 °C, tốc độ của nhiều phản ứng tăng từ 2 đến 4 lần; số lần tăng đó là hệ số nhiệt độ γ.\nĐáp án: C.\nLưu ý: γ là \"số lần\", không phải lượng cộng thêm (A), và ứng với mỗi 10 °C chứ không phải 1 °C (B) – lỗi M41. Nhiệt độ không làm thay đổi nồng độ chất phản ứng (D).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-007",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho cùng một khối lượng kẽm vào các cốc chứa cùng thể tích dung dịch HCl 1 M (dư) ở cùng nhiệt độ. Ở cốc nào phản ứng xảy ra nhanh nhất?",
+    "terms": [
+      "T-511",
+      "T-501"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cốc chứa kẽm dạng bột.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Cốc chứa một viên kẽm to.",
+        "misconception": "M40"
+      },
+      {
+        "key": "C",
+        "text": "Cốc chứa vài hạt kẽm to bằng hạt đậu.",
+        "misconception": "M40"
+      },
+      {
+        "key": "D",
+        "text": "Tốc độ ở các cốc như nhau vì khối lượng kẽm bằng nhau.",
+        "misconception": "M40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Cùng khối lượng, chất rắn càng được chia nhỏ thì tổng diện tích bề mặt tiếp xúc với dung dịch càng lớn.\nBước 2: Diện tích tiếp xúc lớn → nhiều va chạm hiệu quả hơn → tốc độ lớn hơn. Kẽm bột có diện tích bề mặt lớn nhất.\nĐáp án: A.\nLưu ý: chọn viên to, hạt to hoặc \"như nhau\" là hiểu sai ảnh hưởng của diện tích bề mặt (M40).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-008",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "short",
+    "level": "TH",
+    "stem": "Cho phản ứng: 2N₂O₅(g) → 4NO₂(g) + O₂(g). Trong 40 giây đầu, nồng độ NO₂ tăng từ 0 lên 0,32 mol/L. Tính tốc độ trung bình của phản ứng trong khoảng thời gian này (đơn vị mol/(L·s), làm tròn đến hàng phần nghìn).",
+    "terms": [
+      "T-502",
+      "T-503",
+      "T-504"
+    ],
+    "answer": "0.002",
+    "tolerance": 0.0002,
+    "unit": "mol/(L·s)",
+    "misconception_hints": [
+      {
+        "value": "0.008",
+        "misconception": "M38"
+      },
+      {
+        "value": "0.004",
+        "misconception": "M38"
+      },
+      {
+        "value": "-0.002",
+        "misconception": "M38"
+      }
+    ],
+    "explanation": "Bước 1: Tính theo sản phẩm NO₂ (hệ số 4): v̄ = (1/4)·ΔC_NO₂/Δt.\nBước 2: ΔC_NO₂ = 0,32 − 0 = 0,32 mol/L; Δt = 40 s.\nBước 3: v̄ = (1/4) × 0,32/40 = (1/4) × 0,008 = 0,002 mol/(L·s).\nĐáp án: 0,002 mol/(L·s).\nLưu ý: 0,008 là quên chia hệ số 4; 0,004 là chia nhầm hệ số 2 của N₂O₅; −0,002 là đặt dấu trừ khi tính theo sản phẩm (đều là M38).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-009",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "short",
+    "level": "VD",
+    "stem": "Phản ứng 2SO₂(g) + O₂(g) → 2SO₃(g) xảy ra trong bình kín có thể tích không đổi. Trong 60 giây, tốc độ trung bình của phản ứng là 0,0010 mol/(L·s). Nồng độ SO₂ đã giảm bao nhiêu mol/L trong 60 giây đó? (Làm tròn đến hàng phần trăm.)",
+    "terms": [
+      "T-502",
+      "T-503",
+      "T-505"
+    ],
+    "answer": "0.12",
+    "tolerance": 0.005,
+    "unit": "mol/L",
+    "misconception_hints": [
+      {
+        "value": "0.06",
+        "misconception": "M38"
+      },
+      {
+        "value": "0.03",
+        "misconception": "M38"
+      }
+    ],
+    "explanation": "Bước 1: v̄ = −(1/2)·ΔC_SO₂/Δt → độ giảm nồng độ SO₂ = 2·v̄·Δt.\nBước 2: Độ giảm C_SO₂ = 2 × 0,0010 × 60 = 0,12 mol/L.\nĐáp án: 0,12 mol/L.\nLưu ý: 0,06 là quên nhân hệ số tỉ lượng 2 của SO₂ (coi tốc độ phản ứng bằng tốc độ giảm nồng độ SO₂); 0,03 là chia cho 2 thay vì nhân (M38).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-010",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Một phản ứng có hệ số nhiệt độ Van't Hoff γ = 2. Khi tăng nhiệt độ từ 20 °C lên 50 °C, tốc độ phản ứng tăng",
+    "terms": [
+      "T-510",
+      "T-509"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "6 lần.",
+        "misconception": "M41"
+      },
+      {
+        "key": "B",
+        "text": "3 lần.",
+        "misconception": "M41"
+      },
+      {
+        "key": "C",
+        "text": "60 lần.",
+        "misconception": "M41"
+      },
+      {
+        "key": "D",
+        "text": "8 lần.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: v₂/v₁ = γ^((T₂ − T₁)/10) = 2^((50 − 20)/10) = 2³.\nBước 2: 2³ = 8.\nĐáp án: D.\nLưu ý: 6 lần là tính 2 × 3 (nhân thay vì lũy thừa); 3 lần là chỉ lấy ΔT/10; 60 lần là 2 × 30 – đều là lỗi M41.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-011",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "short",
+    "level": "VD",
+    "stem": "Ở 30 °C, một phản ứng kết thúc sau 54 phút. Biết hệ số nhiệt độ Van't Hoff của phản ứng là γ = 3. Nếu thực hiện phản ứng ở 60 °C (các điều kiện khác không đổi) thì phản ứng kết thúc sau bao nhiêu phút? (Kết quả là số nguyên.)",
+    "terms": [
+      "T-510",
+      "T-509"
+    ],
+    "answer": "2",
+    "tolerance": 0,
+    "unit": "phút",
+    "misconception_hints": [
+      {
+        "value": "6",
+        "misconception": "M41"
+      },
+      {
+        "value": "18",
+        "misconception": "M41"
+      }
+    ],
+    "explanation": "Bước 1: v₆₀/v₃₀ = 3^((60 − 30)/10) = 3³ = 27.\nBước 2: Tốc độ tăng 27 lần thì thời gian phản ứng giảm 27 lần: t = 54 : 27 = 2 phút.\nĐáp án: 2 phút.\nLưu ý: 6 phút là tính 3 × 3 = 9 lần (nhân thay vì lũy thừa); 18 phút là chỉ nhân γ một lần – đều là lỗi M41.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-012",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phản ứng đơn giản: A(g) + 2B(g) → C(g), có biểu thức tốc độ v = k·C_A·C²_B. Giữ nguyên nồng độ A và nhiệt độ, tăng nồng độ B lên 3 lần thì tốc độ phản ứng",
+    "terms": [
+      "T-506",
+      "T-505",
+      "T-507"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "tăng 9 lần.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "tăng 3 lần.",
+        "misconception": "M42"
+      },
+      {
+        "key": "C",
+        "text": "tăng 6 lần.",
+        "misconception": "M42"
+      },
+      {
+        "key": "D",
+        "text": "tăng 27 lần.",
+        "misconception": "M42"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: v₁ = k·C_A·C²_B; v₂ = k·C_A·(3C_B)² = 9·k·C_A·C²_B.\nBước 2: v₂/v₁ = 9; k không đổi vì nhiệt độ không đổi.\nĐáp án: A.\nLưu ý: 3 lần là quên số mũ 2; 6 lần là nhân hệ số 2 × 3; 27 lần là lấy lũy thừa theo tổng hệ số (3³) – đều là lỗi M42.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-013",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Cho lá kẽm vào dung dịch HCl ở 25 °C: Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-505",
+      "T-508",
+      "T-511",
+      "T-510"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Dùng dung dịch HCl có nồng độ lớn hơn thì tốc độ phản ứng tăng.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Tăng áp suất chung của hệ làm tốc độ phản ứng giữa lá kẽm và dung dịch HCl tăng đáng kể.",
+        "answer": false,
+        "misconception": "M42"
+      },
+      {
+        "key": "c",
+        "text": "Thay lá kẽm bằng kẽm bột có cùng khối lượng thì tốc độ phản ứng giảm vì các hạt bột nhỏ hơn.",
+        "answer": false,
+        "misconception": "M40"
+      },
+      {
+        "key": "d",
+        "text": "Nếu hệ số nhiệt độ của phản ứng là 2 thì khi đun từ 25 °C lên 45 °C, tốc độ phản ứng tăng 4 lần.",
+        "answer": true,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Đúng: nồng độ HCl lớn → số va chạm hiệu quả tăng → tốc độ tăng.\nb) Sai: chất phản ứng là chất rắn (Zn) và dung dịch (HCl), không có chất khí tham gia phản ứng nên áp suất hầu như không ảnh hưởng (M42).\nc) Sai: kẽm bột có tổng diện tích bề mặt lớn hơn nên tốc độ tăng (M40).\nd) Đúng: v₂/v₁ = 2^((45 − 25)/10) = 2² = 4.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-014",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Cho một ít bột MnO₂ vào dung dịch H₂O₂, thấy khí thoát ra rất nhanh: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-512",
+      "T-515",
+      "T-501"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "MnO₂ là chất xúc tác, làm tăng tốc độ phân hủy H₂O₂.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Sau khi phản ứng kết thúc, khối lượng MnO₂ giảm vì một phần MnO₂ đã chuyển thành O₂.",
+        "answer": false,
+        "misconception": "M39"
+      },
+      {
+        "key": "c",
+        "text": "Với cùng một lượng H₂O₂, khi có MnO₂ thì thể tích O₂ thu được tối đa lớn hơn khi không có MnO₂.",
+        "answer": false,
+        "misconception": "M39"
+      },
+      {
+        "key": "d",
+        "text": "Chất xúc tác làm tăng tốc độ phản ứng vì tạo ra con đường phản ứng có năng lượng hoạt hóa thấp hơn.",
+        "answer": true,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Đúng: MnO₂ làm H₂O₂ phân hủy nhanh hơn và không có mặt trong phương trình tổng.\nb) Sai: chất xúc tác được bảo toàn về chất và lượng sau phản ứng; O₂ sinh ra từ H₂O₂ (M39).\nc) Sai: lượng O₂ tối đa chỉ phụ thuộc lượng H₂O₂; xúc tác chỉ giúp thu được nhanh hơn (M39).\nd) Đúng: chất xúc tác làm giảm năng lượng hoạt hóa, nên nhiều va chạm trở thành va chạm hiệu quả hơn.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-015",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Người ta đóng than thành viên than tổ ong có nhiều lỗ rỗng thay vì đóng thành khối đặc. Mục đích chính của việc này là",
+    "terms": [
+      "T-511",
+      "T-501"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "giảm lượng than tiêu hao vì các lỗ rỗng đóng vai trò chất xúc tác.",
+        "misconception": "M39"
+      },
+      {
+        "key": "B",
+        "text": "tăng nhiệt độ của than trước khi đốt.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "tăng diện tích bề mặt tiếp xúc giữa than và oxygen trong không khí, giúp than cháy nhanh và đều hơn.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "giảm diện tích bề mặt để than cháy chậm, giữ lửa lâu hơn.",
+        "misconception": "M40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Các lỗ rỗng làm tăng diện tích bề mặt tiếp xúc giữa than và không khí, đồng thời giúp không khí lưu thông.\nBước 2: Diện tích bề mặt lớn → tốc độ phản ứng cháy tăng, than cháy hết và đều hơn.\nĐáp án: C.\nLưu ý: lỗ rỗng không phải chất xúc tác (A, M39); lỗ rỗng làm tăng chứ không làm giảm diện tích bề mặt (D, M40).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-016",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Khi tăng nhiệt độ của một phản ứng từ 25 °C lên 55 °C thì tốc độ phản ứng tăng 27 lần. Hệ số nhiệt độ Van't Hoff của phản ứng là",
+    "terms": [
+      "T-510",
+      "T-509"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "9.",
+        "misconception": "M41"
+      },
+      {
+        "key": "B",
+        "text": "3.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "0,9.",
+        "misconception": "M41"
+      },
+      {
+        "key": "D",
+        "text": "2,7.",
+        "misconception": "M41"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: v₂/v₁ = γ^((55 − 25)/10) = γ³ = 27.\nBước 2: γ = ∛27 = 3.\nĐáp án: B.\nLưu ý: 9 là tính 27 : 3 (coi 27 = γ × 3); 0,9 là 27 : 30; 2,7 là 27 : 10 – đều coi ảnh hưởng nhiệt độ là tuyến tính (M41).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-017",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho phản ứng đơn giản: 2A(g) + B(g) → 2C(g). Giữ nhiệt độ không đổi, tăng nồng độ A lên 3 lần và giảm nồng độ B đi 2 lần. Tốc độ phản ứng tăng bao nhiêu lần? (Làm tròn đến hàng phần mười.)",
+    "terms": [
+      "T-506",
+      "T-505",
+      "T-507"
+    ],
+    "answer": "4.5",
+    "tolerance": 0.05,
+    "unit": "lần",
+    "misconception_hints": [
+      {
+        "value": "1.5",
+        "misconception": "M42"
+      },
+      {
+        "value": "3",
+        "misconception": "M42"
+      }
+    ],
+    "explanation": "Bước 1: Theo định luật tác dụng khối lượng: v = k·C²_A·C_B.\nBước 2: v₂ = k·(3C_A)²·(C_B/2) = (9/2)·k·C²_A·C_B.\nBước 3: v₂/v₁ = 9/2 = 4,5.\nĐáp án: 4,5 lần.\nLưu ý: 1,5 là quên số mũ 2 của C_A (3 × 1/2); 3 là nhân hệ số thay vì lấy lũy thừa (2 × 3 × 1/2) – đều là lỗi M42.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-018",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Ở nhiệt độ không đổi, tăng áp suất chung của hệ (bằng cách nén) làm tăng tốc độ của phản ứng nào sau đây?",
+    "terms": [
+      "T-508",
+      "T-505"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "2SO₂(g) + O₂(g) → 2SO₃(g)",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)",
+        "misconception": "M42"
+      },
+      {
+        "key": "C",
+        "text": "NaOH(aq) + HCl(aq) → NaCl(aq) + H₂O(l)",
+        "misconception": "M42"
+      },
+      {
+        "key": "D",
+        "text": "CaO(s) + H₂O(l) → Ca(OH)₂(s)",
+        "misconception": "M42"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Áp suất chỉ ảnh hưởng đến tốc độ phản ứng có chất khí tham gia: nén khí làm tăng nồng độ chất khí.\nBước 2: Chỉ phản ứng A có chất phản ứng ở thể khí (SO₂, O₂).\nĐáp án: A.\nLưu ý: B, C, D chỉ có chất rắn, chất lỏng hoặc dung dịch tham gia, áp suất hầu như không ảnh hưởng (M42).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-019",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phản ứng: 2SO₂(g) + O₂(g) → 2SO₃(g). Trong một khoảng thời gian, nồng độ SO₃ tăng với tốc độ 0,040 mol/(L·min). Tốc độ trung bình của phản ứng trong khoảng thời gian đó là",
+    "terms": [
+      "T-502",
+      "T-503"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "0,040 mol/(L·min).",
+        "misconception": "M38"
+      },
+      {
+        "key": "B",
+        "text": "0,080 mol/(L·min).",
+        "misconception": "M38"
+      },
+      {
+        "key": "C",
+        "text": "−0,020 mol/(L·min).",
+        "misconception": "M38"
+      },
+      {
+        "key": "D",
+        "text": "0,020 mol/(L·min).",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: v̄ = (1/2)·ΔC_SO₃/Δt (SO₃ có hệ số 2).\nBước 2: v̄ = (1/2) × 0,040 = 0,020 mol/(L·min).\nĐáp án: D.\nLưu ý: 0,040 là quên chia hệ số 2; 0,080 là nhân thay vì chia; −0,020 là đặt dấu trừ cho sản phẩm – đều là lỗi M38.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-020",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Một nhóm học sinh làm ba thí nghiệm, mỗi thí nghiệm cho 1,0 g CaCO₃ vào 50 mL dung dịch HCl (HCl luôn dư):\n- TN1: CaCO₃ dạng viên, HCl 1 M, 25 °C.\n- TN2: CaCO₃ dạng bột, HCl 1 M, 25 °C.\n- TN3: CaCO₃ dạng viên, HCl 2 M, 25 °C.\nMỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-511",
+      "T-505",
+      "T-510",
+      "T-501"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Khí CO₂ thoát ra ở TN2 nhanh hơn ở TN1.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Tốc độ phản ứng ở TN3 bằng ở TN1 vì khối lượng CaCO₃ như nhau.",
+        "answer": false,
+        "misconception": "M42"
+      },
+      {
+        "key": "c",
+        "text": "Nếu thực hiện TN1 ở 45 °C và hệ số nhiệt độ của phản ứng là 3 thì tốc độ phản ứng tăng 6 lần so với ở 25 °C.",
+        "answer": false,
+        "misconception": "M41"
+      },
+      {
+        "key": "d",
+        "text": "Thể tích khí CO₂ thu được khi phản ứng kết thúc ở TN2 lớn hơn ở TN1.",
+        "answer": false,
+        "misconception": "M40"
+      }
+    ],
+    "explanation": "a) Đúng: CaCO₃ dạng bột có diện tích bề mặt lớn hơn → tốc độ lớn hơn.\nb) Sai: TN3 dùng HCl nồng độ lớn hơn nên tốc độ lớn hơn TN1 (M42).\nc) Sai: v₂/v₁ = 3^((45 − 25)/10) = 3² = 9 lần; 6 lần là tính 3 × 2 (M41).\nd) Sai: n(CaCO₃) = 1,0/100 = 0,01 mol, HCl dư (0,05 mol hoặc 0,1 mol) nên ở cả hai thí nghiệm đều thu được 0,01 mol CO₂; dạng bột chỉ làm phản ứng nhanh hơn, không làm tăng lượng sản phẩm (M40).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B19-021",
+    "chapter": "C6",
+    "lesson": "B19",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho bột MnO₂ vào 0,50 L dung dịch H₂O₂: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Sau 20 giây thu được 0,4958 L khí O₂ (đkc, 24,79 L/mol). Coi thể tích dung dịch không đổi. Tính tốc độ trung bình của phản ứng trong 20 giây đó (đơn vị mol/(L·s), làm tròn đến hàng phần nghìn).",
+    "terms": [
+      "T-502",
+      "T-503",
+      "T-512"
+    ],
+    "answer": "0.002",
+    "tolerance": 0.0002,
+    "unit": "mol/(L·s)",
+    "misconception_hints": [
+      {
+        "value": "0.004",
+        "misconception": "M38"
+      },
+      {
+        "value": "-0.002",
+        "misconception": "M38"
+      }
+    ],
+    "explanation": "Bước 1: n(O₂) = 0,4958 : 24,79 = 0,02 mol.\nBước 2: n(H₂O₂) phản ứng = 2 × 0,02 = 0,04 mol → ΔC(H₂O₂) = −0,04 : 0,50 = −0,08 mol/L.\nBước 3: v̄ = −(1/2) × (−0,08)/20 = 0,002 mol/(L·s). (Kiểm tra theo O₂: 0,02 : 0,50 = 0,04 mol/L; v̄ = 0,04/20 = 0,002.)\nĐáp án: 0,002 mol/(L·s).\nLưu ý: 0,004 là lấy 0,08/20 mà quên chia hệ số 2 của H₂O₂; −0,002 là quên dấu trừ trong công thức theo chất phản ứng (M38).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-001",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Phát biểu nào sau đây đúng về hằng số tốc độ k trong biểu thức v = k·C_A^a·C_B^b?",
+    "terms": [
+      "T-507",
+      "T-506"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "k thay đổi khi nồng độ các chất phản ứng thay đổi.",
+        "misconception": "M42"
+      },
+      {
+        "key": "B",
+        "text": "k là tốc độ phản ứng khi nồng độ mỗi chất phản ứng bằng 1 mol/L.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "k không phụ thuộc vào nhiệt độ.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "k luôn bằng 1 với mọi phản ứng.",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Khi C_A = C_B = 1 mol/L thì v = k, nên k còn gọi là tốc độ riêng của phản ứng.\nBước 2: k chỉ phụ thuộc bản chất chất phản ứng, nhiệt độ (và chất xúc tác), không phụ thuộc nồng độ.\nĐáp án: B.\nLưu ý: A sai vì nồng độ thay đổi thì v thay đổi, còn k giữ nguyên (M42); C sai vì k tăng khi tăng nhiệt độ; D sai vì mỗi phản ứng có k riêng.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-002",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Nấu thực phẩm bằng nồi áp suất nhanh chín hơn nấu bằng nồi thường, chủ yếu là vì",
+    "terms": [
+      "T-509",
+      "T-508"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "áp suất cao làm tăng nồng độ của thực phẩm rắn.",
+        "misconception": "M42"
+      },
+      {
+        "key": "B",
+        "text": "trong nồi áp suất có chất xúc tác.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "nước trong nồi áp suất sôi ở nhiệt độ cao hơn 100 °C, nhiệt độ cao làm tăng tốc độ các phản ứng làm chín thực phẩm.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "áp suất cao làm tăng tốc độ của mọi phản ứng, kể cả phản ứng chỉ có chất rắn và chất lỏng.",
+        "misconception": "M42"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Trong nồi kín, áp suất hơi tăng làm nhiệt độ sôi của nước cao hơn 100 °C.\nBước 2: Nhiệt độ cao hơn → tốc độ các quá trình làm chín thực phẩm tăng.\nĐáp án: C.\nLưu ý: áp suất chỉ ảnh hưởng trực tiếp tới tốc độ phản ứng có chất khí tham gia; với chất rắn, chất lỏng, vai trò của nồi áp suất là nâng nhiệt độ (A, D – M42).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-003",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Mỗi phát biểu sau về ứng dụng của các yếu tố ảnh hưởng đến tốc độ phản ứng trong đời sống là đúng hay sai?",
+    "terms": [
+      "T-511",
+      "T-513",
+      "T-505",
+      "T-512"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Nhai kĩ thức ăn giúp tiêu hóa nhanh hơn vì làm tăng diện tích bề mặt tiếp xúc của thức ăn với enzyme.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Enzyme là chất xúc tác sinh học bị tiêu hao hết sau mỗi phản ứng nên cơ thể phải liên tục tạo enzyme mới cho từng phản ứng.",
+        "answer": false,
+        "misconception": "M39"
+      },
+      {
+        "key": "c",
+        "text": "Dùng khí oxygen nguyên chất thay cho không khí trong đèn xì (hàn, cắt kim loại) làm phản ứng cháy xảy ra nhanh hơn vì nồng độ O₂ lớn hơn.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Một khúc củi to cháy nhanh hơn cùng khối lượng củi đã chẻ nhỏ.",
+        "answer": false,
+        "misconception": "M40"
+      }
+    ],
+    "explanation": "a) Đúng: thức ăn được chia nhỏ → diện tích tiếp xúc với enzyme tiêu hóa lớn → phản ứng nhanh hơn.\nb) Sai: enzyme là chất xúc tác nên được bảo toàn sau phản ứng và dùng lại được (M39).\nc) Đúng: không khí chỉ chứa khoảng 21% O₂ theo thể tích; dùng oxygen nguyên chất làm tăng nồng độ chất phản ứng (O₂) → tốc độ cháy tăng.\nd) Sai: củi chẻ nhỏ có diện tích bề mặt tiếp xúc với không khí lớn hơn nên cháy nhanh hơn (M40).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-004",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong công thức tính tốc độ trung bình theo chất phản ứng A: v̄ = −(1/a)·ΔC_A/Δt, dấu trừ được đặt vì",
+    "terms": [
+      "T-502",
+      "T-505"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "tốc độ phản ứng luôn có giá trị âm.",
+        "misconception": "M38"
+      },
+      {
+        "key": "B",
+        "text": "nồng độ sản phẩm giảm dần theo thời gian.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "chất A đóng vai trò chất xúc tác.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "nồng độ chất phản ứng giảm nên ΔC_A < 0, dấu trừ làm tốc độ có giá trị dương.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: ΔC_A = C_sau − C_đầu < 0 vì chất phản ứng bị tiêu hao.\nBước 2: Đặt dấu trừ để v̄ > 0 (tốc độ phản ứng luôn dương).\nĐáp án: D.\nLưu ý: A sai – tốc độ luôn dương, kết quả âm là dấu hiệu tính sai dấu (M38); B sai vì nồng độ sản phẩm tăng.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-005",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Một phản ứng có hệ số nhiệt độ γ = 2,5. Khi tăng nhiệt độ từ 20 °C lên 40 °C thì tốc độ phản ứng tăng",
+    "terms": [
+      "T-510",
+      "T-509"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "5 lần.",
+        "misconception": "M41"
+      },
+      {
+        "key": "B",
+        "text": "6,25 lần.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "2,5 lần.",
+        "misconception": "M41"
+      },
+      {
+        "key": "D",
+        "text": "50 lần.",
+        "misconception": "M41"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: v₂/v₁ = 2,5^((40 − 20)/10) = 2,5².\nBước 2: 2,5² = 6,25.\nĐáp án: B.\nLưu ý: 5 lần là tính 2,5 × 2; 2,5 lần là chỉ nhân γ một lần; 50 lần là 2,5 × 20 – đều là lỗi M41.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-006",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Cho phản ứng đơn giản: X(g) + 2Y(g) → Z(g), thực hiện trong bình kín có thể tích không đổi ở nhiệt độ không đổi. Nồng độ Y đo được: t = 0 s: 0,80 M; t = 20 s: 0,60 M; t = 40 s: 0,48 M. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-502",
+      "T-503",
+      "T-506",
+      "T-505"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Tốc độ trung bình của phản ứng trong 20 giây đầu là 0,005 mol/(L·s).",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Trong 20 giây đầu, nồng độ X đã giảm 0,20 mol/L.",
+        "answer": false,
+        "misconception": "M38"
+      },
+      {
+        "key": "c",
+        "text": "Tốc độ trung bình của phản ứng trong khoảng từ 20 s đến 40 s nhỏ hơn trong 20 giây đầu.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Biểu thức tốc độ của phản ứng là v = k·C_X·C_Y.",
+        "answer": false,
+        "misconception": "M42"
+      }
+    ],
+    "explanation": "a) Đúng: v̄ = −(1/2) × (0,60 − 0,80)/20 = (1/2) × 0,010 = 0,005 mol/(L·s).\nb) Sai: X có hệ số 1, Y có hệ số 2 nên nồng độ X giảm bằng một nửa nồng độ Y: (0,80 − 0,60)/2 = 0,10 mol/L; lấy 0,20 là quên tỉ lệ hệ số tỉ lượng (M38).\nc) Đúng: v̄ (20–40 s) = −(1/2) × (0,48 − 0,60)/20 = 0,003 mol/(L·s) < 0,005; nồng độ chất phản ứng giảm dần nên tốc độ giảm dần.\nd) Sai: theo định luật tác dụng khối lượng v = k·C_X·C²_Y (M42).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-007",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho phản ứng đơn giản: 2NO(g) + O₂(g) → 2NO₂(g). Giữ nhiệt độ không đổi, nén hỗn hợp để thể tích bình giảm một nửa (nồng độ mỗi khí tăng 2 lần). Tốc độ phản ứng tăng",
+    "terms": [
+      "T-506",
+      "T-508",
+      "T-505"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "2 lần.",
+        "misconception": "M42"
+      },
+      {
+        "key": "B",
+        "text": "4 lần.",
+        "misconception": "M42"
+      },
+      {
+        "key": "C",
+        "text": "8 lần.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "6 lần.",
+        "misconception": "M42"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: v = k·C²_NO·C_O₂.\nBước 2: v₂ = k·(2C_NO)²·(2C_O₂) = 4 × 2 × k·C²_NO·C_O₂ = 8v₁.\nĐáp án: C.\nLưu ý: 4 lần là quên số mũ 2 của C_NO (2 × 2); 2 lần là chỉ xét một chất; 6 lần là cộng các thừa số (2² + 2) thay vì nhân – đều là lỗi M42.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-008",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "short",
+    "level": "VD",
+    "stem": "Ở 40 °C, một phản ứng kết thúc sau 64 phút. Hệ số nhiệt độ Van't Hoff của phản ứng là γ = 2. Cần thực hiện phản ứng ở nhiệt độ bao nhiêu °C để phản ứng kết thúc sau 4 phút (các điều kiện khác không đổi)? (Kết quả là số nguyên.)",
+    "terms": [
+      "T-510",
+      "T-509"
+    ],
+    "answer": "80",
+    "tolerance": 0,
+    "unit": "°C",
+    "misconception_hints": [
+      {
+        "value": "120",
+        "misconception": "M41"
+      }
+    ],
+    "explanation": "Bước 1: Thời gian giảm 64 : 4 = 16 lần → tốc độ tăng 16 lần.\nBước 2: 2^((T − 40)/10) = 16 = 2⁴ → (T − 40)/10 = 4 → T = 80 °C.\nĐáp án: 80 °C.\nLưu ý: 120 °C là giải 2 × (T − 40)/10 = 16 (nhân thay vì lũy thừa) – lỗi M41.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B20-009",
+    "chapter": "C6",
+    "lesson": "B20",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Trong công nghiệp, SO₃ được sản xuất theo phản ứng 2SO₂(g) + O₂(g) → 2SO₃(g), dùng chất xúc tác V₂O₅ ở khoảng 450 °C. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-512",
+      "T-508",
+      "T-502",
+      "T-503"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "V₂O₅ làm tăng tốc độ phản ứng giữa SO₂ và O₂.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Lượng V₂O₅ giảm dần theo lượng SO₃ tạo thành nên phải bổ sung V₂O₅ theo tỉ lệ mol với SO₂.",
+        "answer": false,
+        "misconception": "M39"
+      },
+      {
+        "key": "c",
+        "text": "Tăng áp suất của hỗn hợp khí làm tăng tốc độ phản ứng vì các chất phản ứng đều ở thể khí.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Nếu tốc độ tăng nồng độ SO₃ là 0,060 mol/(L·min) thì tốc độ trung bình của phản ứng là 0,060 mol/(L·min).",
+        "answer": false,
+        "misconception": "M38"
+      }
+    ],
+    "explanation": "a) Đúng: V₂O₅ là chất xúc tác của phản ứng.\nb) Sai: chất xúc tác được bảo toàn về chất và lượng sau phản ứng, không tính theo tỉ lệ mol như chất phản ứng (M39).\nc) Đúng: SO₂ và O₂ là chất khí; tăng áp suất làm tăng nồng độ của chúng → tốc độ tăng.\nd) Sai: v̄ = (1/2) × 0,060 = 0,030 mol/(L·min) vì SO₃ có hệ số 2 (M38).",
+    "reviewed": false
+  }
+]

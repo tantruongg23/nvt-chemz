@@ -1,0 +1,1118 @@
+[
+  {
+    "id": "Q-B17-001",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Phản ứng nào sau đây là phản ứng thu nhiệt?",
+    "terms": [
+      "T-404",
+      "T-403",
+      "T-412"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Đốt cháy than trong không khí.",
+        "misconception": "M34"
+      },
+      {
+        "key": "B",
+        "text": "Đốt cháy cồn (ethanol) trong đèn cồn.",
+        "misconception": "M34"
+      },
+      {
+        "key": "C",
+        "text": "Nung đá vôi (CaCO₃) để sản xuất vôi sống (CaO).",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Cho vôi sống (CaO) vào nước.",
+        "misconception": null
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Phản ứng thu nhiệt hấp thụ nhiệt từ môi trường; muốn phản ứng tiếp tục phải cấp nhiệt liên tục.\nBước 2: Nung đá vôi CaCO₃(s) → CaO(s) + CO₂(g) phải cấp nhiệt liên tục, ngừng nung thì phản ứng dừng → thu nhiệt.\nBước 3: Đốt than, đốt cồn chỉ cần mồi lửa lúc đầu rồi tự cháy, tỏa nhiều nhiệt → tỏa nhiệt. CaO tác dụng với nước làm hỗn hợp nóng lên → tỏa nhiệt.\nĐáp án: C.\nLưu ý: chọn A hoặc B là cho rằng phải châm lửa thì là thu nhiệt (M34).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-002",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Điều kiện chuẩn dùng để xác định biến thiên enthalpy chuẩn của phản ứng là",
+    "terms": [
+      "T-405",
+      "T-407"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "áp suất 1 bar (với chất khí), nồng độ 1 mol/L (với chất tan trong dung dịch), nhiệt độ thường chọn là 25 °C (298 K).",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "áp suất 1 atm, nhiệt độ 0 °C (273 K).",
+        "misconception": "M37"
+      },
+      {
+        "key": "C",
+        "text": "áp suất 1 bar, nồng độ 1 mol/L, nhiệt độ bắt buộc là 0 °C.",
+        "misconception": "M37"
+      },
+      {
+        "key": "D",
+        "text": "áp suất 1 bar, nồng độ 0,1 mol/L, nhiệt độ 100 °C.",
+        "misconception": "M37"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Điều kiện chuẩn gồm: áp suất 1 bar đối với chất khí, nồng độ 1 mol/L đối với chất tan trong dung dịch, nhiệt độ thường chọn là 25 °C (298 K).\nĐáp án: A.\nLưu ý: 1 atm và 0 °C là \"điều kiện tiêu chuẩn\" (đktc) của chất khí dùng trong tài liệu cũ, không phải điều kiện chuẩn khi xét biến thiên enthalpy (M37).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-003",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Cho phương trình nhiệt hóa học: C(graphite) + O₂(g) → CO₂(g)   ΔrH°₂₉₈ = −393,5 kJ. Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-409",
+      "T-403",
+      "T-407"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Phản ứng thu nhiệt vì ΔrH°₂₉₈ có giá trị âm.",
+        "misconception": "M33"
+      },
+      {
+        "key": "B",
+        "text": "Khi 1 mol C(graphite) phản ứng hết, hệ hấp thụ 393,5 kJ nhiệt từ môi trường.",
+        "misconception": "M33"
+      },
+      {
+        "key": "C",
+        "text": "Phản ứng thu nhiệt vì phải đốt nóng than thì than mới cháy.",
+        "misconception": "M34"
+      },
+      {
+        "key": "D",
+        "text": "Phản ứng tỏa nhiệt; khi 1 mol C(graphite) phản ứng hết tỏa ra 393,5 kJ.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: ΔrH°₂₉₈ = −393,5 kJ < 0 → phản ứng tỏa nhiệt.\nBước 2: Giá trị ΔrH ứng với số mol ghi trong phương trình: 1 mol C(graphite) cháy hết tỏa ra 393,5 kJ.\nĐáp án: D.\nLưu ý: ΔrH âm là tỏa nhiệt, không phải thu nhiệt (A, B – M33); việc phải mồi lửa không quyết định phản ứng thu nhiệt (C – M34).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-004",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Ở điều kiện chuẩn, chất nào sau đây có enthalpy tạo thành chuẩn (ΔfH°₂₉₈) bằng 0?",
+    "terms": [
+      "T-408",
+      "T-406"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "H₂O(l)",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "O₂(g)",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "O₃(g)",
+        "misconception": "M35"
+      },
+      {
+        "key": "D",
+        "text": "CO₂(g)",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Chỉ đơn chất ở dạng bền nhất (trạng thái chuẩn) mới có ΔfH°₂₉₈ = 0.\nBước 2: O₂(g) là dạng bền nhất của oxygen → ΔfH°₂₉₈ = 0. H₂O(l) và CO₂(g) là hợp chất nên ΔfH°₂₉₈ khác 0.\nĐáp án: B.\nLưu ý: O₃(g) cũng là đơn chất nhưng kém bền hơn O₂, ΔfH°₂₉₈(O₃) ≈ +142,7 kJ/mol; cho rằng mọi đơn chất đều có ΔfH° = 0 là hiểu sai quy ước (M35).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-005",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Trên sơ đồ biến thiên enthalpy của một phản ứng, vạch biểu diễn sản phẩm nằm cao hơn vạch biểu diễn chất đầu và mũi tên ΔrH hướng lên. Kết luận nào sau đây đúng?",
+    "terms": [
+      "T-410",
+      "T-404",
+      "T-413",
+      "T-414"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Phản ứng thu nhiệt, ΔrH > 0.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Phản ứng tỏa nhiệt, ΔrH > 0.",
+        "misconception": "M33"
+      },
+      {
+        "key": "C",
+        "text": "Phản ứng tỏa nhiệt, ΔrH < 0.",
+        "misconception": "M33"
+      },
+      {
+        "key": "D",
+        "text": "Phản ứng thu nhiệt, ΔrH < 0.",
+        "misconception": "M33"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: ΔrH = H(sản phẩm) − H(chất đầu). Sản phẩm cao hơn chất đầu → ΔrH > 0.\nBước 2: ΔrH > 0 → hệ nhận nhiệt từ môi trường → phản ứng thu nhiệt.\nĐáp án: A.\nLưu ý: mũi tên hướng lên là dương, tương ứng thu nhiệt; ghép \"tỏa nhiệt\" với ΔrH > 0 hoặc \"thu nhiệt\" với ΔrH < 0 là nhầm dấu (M33).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-006",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Cho hai phương trình nhiệt hóa học:\n(1) CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)   ΔrH°₂₉₈ = −890,2 kJ\n(2) CaCO₃(s) → CaO(s) + CO₂(g)   ΔrH°₂₉₈ = +178,4 kJ\nMỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-409",
+      "T-403",
+      "T-404",
+      "T-410"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Phản ứng (1) là phản ứng tỏa nhiệt.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Phản ứng (1) phải châm lửa thì khí methane mới cháy, nên đây là phản ứng thu nhiệt.",
+        "answer": false,
+        "misconception": "M34"
+      },
+      {
+        "key": "c",
+        "text": "Trên sơ đồ biến thiên enthalpy của phản ứng (2), vạch CaO(s) + CO₂(g) nằm thấp hơn vạch CaCO₃(s).",
+        "answer": false,
+        "misconception": "M33"
+      },
+      {
+        "key": "d",
+        "text": "Để phản ứng (2) tiếp tục xảy ra, phải cung cấp nhiệt liên tục cho đá vôi.",
+        "answer": true,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Đúng: ΔrH°₂₉₈ = −890,2 kJ < 0 → tỏa nhiệt.\nb) Sai: châm lửa chỉ để khơi mào; sau đó methane tự cháy nhờ nhiệt tỏa ra. Dấu ΔrH âm cho thấy phản ứng tỏa nhiệt (M34).\nc) Sai: ΔrH°₂₉₈ = +178,4 kJ > 0 → sản phẩm có enthalpy lớn hơn, vạch sản phẩm nằm cao hơn chất đầu (M33).\nd) Đúng: phản ứng (2) thu nhiệt nên cần cấp nhiệt liên tục; ngừng nung thì phản ứng dừng.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-007",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phương trình nhiệt hóa học: 2H₂(g) + O₂(g) → 2H₂O(l)   ΔrH°₂₉₈ = −571,6 kJ. Biến thiên enthalpy chuẩn của phản ứng H₂O(l) → H₂(g) + ½O₂(g) là",
+    "terms": [
+      "T-409",
+      "T-407"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "−285,8 kJ",
+        "misconception": "M33"
+      },
+      {
+        "key": "B",
+        "text": "+571,6 kJ",
+        "misconception": "M35"
+      },
+      {
+        "key": "C",
+        "text": "+285,8 kJ",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "−571,6 kJ",
+        "misconception": "M33"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Chia phương trình cho 2: H₂(g) + ½O₂(g) → H₂O(l) có ΔrH°₂₉₈ = −571,6 : 2 = −285,8 kJ.\nBước 2: Đảo chiều phản ứng thì đổi dấu: H₂O(l) → H₂(g) + ½O₂(g) có ΔrH°₂₉₈ = +285,8 kJ.\nĐáp án: C.\nLưu ý: A là quên đổi dấu khi đảo chiều (M33); B là đổi dấu nhưng quên chia hệ số (M35); D là giữ nguyên cả dấu và hệ số.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-008",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Enthalpy tạo thành chuẩn (ΔfH°₂₉₈) của một chất là",
+    "terms": [
+      "T-408",
+      "T-405",
+      "T-406"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "nhiệt lượng tỏa ra khi đốt cháy hoàn toàn 1 mol chất đó trong oxygen.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "biến thiên enthalpy khi tạo thành 1 mol chất đó từ các đơn chất ở áp suất 1 atm và nhiệt độ 0 °C.",
+        "misconception": "M37"
+      },
+      {
+        "key": "C",
+        "text": "biến thiên enthalpy khi phân hủy 1 mol chất đó thành các đơn chất bền nhất ở điều kiện chuẩn.",
+        "misconception": "M33"
+      },
+      {
+        "key": "D",
+        "text": "biến thiên enthalpy của phản ứng tạo thành 1 mol chất đó từ các đơn chất bền nhất ở điều kiện chuẩn.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Theo định nghĩa, ΔfH°₂₉₈ là biến thiên enthalpy của phản ứng tạo thành 1 mol chất từ các đơn chất bền nhất, ở điều kiện chuẩn (1 bar, 298 K).\nĐáp án: D.\nLưu ý: B dùng sai điều kiện (1 atm, 0 °C – M37); C là phản ứng ngược chiều nên có dấu ngược lại (M33); A là nhiệt đốt cháy, khác với nhiệt tạo thành.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-009",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "short",
+    "level": "TH",
+    "stem": "Cho phản ứng: 2SO₂(g) + O₂(g) → 2SO₃(g). Biết ΔfH°₂₉₈ (kJ/mol): SO₂(g) −296,8; SO₃(g) −395,7. Tính biến thiên enthalpy chuẩn ΔrH°₂₉₈ của phản ứng (đơn vị kJ, làm tròn đến hàng phần mười).",
+    "terms": [
+      "T-407",
+      "T-408"
+    ],
+    "answer": "-197.8",
+    "tolerance": 0.05,
+    "unit": "kJ",
+    "misconception_hints": [
+      {
+        "value": "197.8",
+        "misconception": "M35"
+      },
+      {
+        "value": "-98.9",
+        "misconception": "M35"
+      },
+      {
+        "value": "98.9",
+        "misconception": "M35"
+      }
+    ],
+    "explanation": "Bước 1: O₂(g) là đơn chất bền → ΔfH°₂₉₈(O₂) = 0.\nBước 2: Σ ΔfH°(sp) = 2 × (−395,7) = −791,4 kJ; Σ ΔfH°(cđ) = 2 × (−296,8) + 0 = −593,6 kJ.\nBước 3: ΔrH°₂₉₈ = −791,4 − (−593,6) = −197,8 kJ (tỏa nhiệt).\nĐáp án: −197,8.\nLưu ý: +197,8 là lấy chất đầu trừ sản phẩm; −98,9 là quên nhân hệ số 2; +98,9 là mắc cả hai lỗi (M35).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-010",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "short",
+    "level": "TH",
+    "stem": "Cho phản ứng: H₂(g) + Cl₂(g) → 2HCl(g). Biết năng lượng liên kết Eb (kJ/mol): H–H 436; Cl–Cl 243; H–Cl 431. Tính ΔrH°₂₉₈ của phản ứng (đơn vị kJ, làm tròn đến hàng đơn vị).",
+    "terms": [
+      "T-407",
+      "T-415"
+    ],
+    "answer": "-183",
+    "tolerance": 0,
+    "unit": "kJ",
+    "misconception_hints": [
+      {
+        "value": "183",
+        "misconception": "M36"
+      },
+      {
+        "value": "248",
+        "misconception": "M36"
+      },
+      {
+        "value": "-248",
+        "misconception": "M36"
+      }
+    ],
+    "explanation": "Bước 1: Các chất đều ở thể khí → dùng ΔrH°₂₉₈ = Σ Eb(cđ) − Σ Eb(sp).\nBước 2: Σ Eb(cđ) = 436 + 243 = 679 kJ.\nBước 3: 2 phân tử HCl có 2 liên kết H–Cl → Σ Eb(sp) = 2 × 431 = 862 kJ.\nBước 4: ΔrH°₂₉₈ = 679 − 862 = −183 kJ (tỏa nhiệt).\nĐáp án: −183.\nLưu ý: +183 là lấy sản phẩm trừ chất đầu; +248 là quên hệ số 2 của HCl (679 − 431); −248 là mắc cả hai lỗi (M36).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-011",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Có thể tính gần đúng biến thiên enthalpy của phản ứng nào sau đây dựa vào bảng năng lượng liên kết?",
+    "terms": [
+      "T-407",
+      "T-415"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l)",
+        "misconception": "M36"
+      },
+      {
+        "key": "B",
+        "text": "H₂(g) + Cl₂(g) → 2HCl(g)",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "CaCO₃(s) → CaO(s) + CO₂(g)",
+        "misconception": "M36"
+      },
+      {
+        "key": "D",
+        "text": "2H₂(g) + O₂(g) → 2H₂O(l)",
+        "misconception": "M36"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: Cách tính ΔrH°₂₉₈ = Σ Eb(cđ) − Σ Eb(sp) chỉ áp dụng khi mọi chất trong phản ứng đều ở thể khí (năng lượng liên kết được xác định cho phân tử ở thể khí).\nBước 2: Chỉ phản ứng B có tất cả các chất ở thể khí.\nĐáp án: B.\nLưu ý: A và D có chất lỏng (C₂H₅OH(l), H₂O(l)), C có chất rắn và hợp chất ion; dùng năng lượng liên kết cho các phản ứng này là sai (M36). Với các phản ứng đó dùng ΔfH°₂₉₈.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-012",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "true_false",
+    "level": "TH",
+    "stem": "Cho enthalpy tạo thành chuẩn ΔfH°₂₉₈ (kJ/mol) của một số chất: NO(g) +90,3; CO₂(g) −393,5; H₂O(l) −285,8. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-408",
+      "T-405",
+      "T-403",
+      "T-404"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Enthalpy tạo thành chuẩn của O₂(g) bằng 0.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Phản ứng tạo thành NO(g) từ N₂(g) và O₂(g) là phản ứng tỏa nhiệt.",
+        "answer": false,
+        "misconception": "M33"
+      },
+      {
+        "key": "c",
+        "text": "Ở điều kiện chuẩn, khi tạo thành 1 mol CO₂(g) từ C(graphite) và O₂(g) tỏa ra 393,5 kJ.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "d",
+        "text": "Giá trị ΔfH°₂₉₈ của H₂O(l) là −285,8 kJ/mol được xác định ở áp suất 1 atm và nhiệt độ 0 °C.",
+        "answer": false,
+        "misconception": "M37"
+      }
+    ],
+    "explanation": "a) Đúng: O₂(g) là đơn chất bền nhất của oxygen → ΔfH°₂₉₈ = 0.\nb) Sai: ΔfH°₂₉₈(NO) = +90,3 kJ/mol > 0 → phản ứng tạo thành NO thu nhiệt (M33).\nc) Đúng: ΔfH°₂₉₈(CO₂) = −393,5 kJ/mol nghĩa là tạo 1 mol CO₂ từ đơn chất bền tỏa ra 393,5 kJ.\nd) Sai: chỉ số 298 và kí hiệu ° cho biết điều kiện chuẩn: 1 bar, 298 K (25 °C), không phải 1 atm, 0 °C (M37).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-013",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho phương trình nhiệt hóa học: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)   ΔrH°₂₉₈ = −890,2 kJ. Đốt cháy hoàn toàn 4,0 g CH₄ ở điều kiện chuẩn thì (C = 12, H = 1)",
+    "terms": [
+      "T-409",
+      "T-412",
+      "T-403"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "tỏa ra 222,55 kJ.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "thu vào 222,55 kJ.",
+        "misconception": "M33"
+      },
+      {
+        "key": "C",
+        "text": "tỏa ra 890,2 kJ.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "tỏa ra 445,1 kJ.",
+        "misconception": null
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: M(CH₄) = 12 + 4 × 1 = 16 g/mol → n(CH₄) = 4,0 : 16 = 0,25 mol.\nBước 2: Theo phương trình, 1 mol CH₄ cháy tỏa ra 890,2 kJ (ΔrH < 0).\nBước 3: 0,25 mol CH₄ tỏa ra 0,25 × 890,2 = 222,55 kJ.\nĐáp án: A.\nLưu ý: B nhầm dấu âm là thu nhiệt (M33); C quên đổi khối lượng ra số mol; D lấy nhầm số mol O₂ (0,5 mol) để tính.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-014",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho phản ứng oxi hóa ammonia: 4NH₃(g) + 5O₂(g) → 4NO(g) + 6H₂O(g). Biết ΔfH°₂₉₈ (kJ/mol): NH₃(g) −45,9; NO(g) +90,3; H₂O(g) −241,8. Tính ΔrH°₂₉₈ của phản ứng (đơn vị kJ, làm tròn đến hàng phần mười).",
+    "terms": [
+      "T-407",
+      "T-408",
+      "T-413",
+      "T-414"
+    ],
+    "answer": "-906.0",
+    "tolerance": 0.05,
+    "unit": "kJ",
+    "misconception_hints": [
+      {
+        "value": "906",
+        "misconception": "M35"
+      },
+      {
+        "value": "-105.6",
+        "misconception": "M35"
+      },
+      {
+        "value": "105.6",
+        "misconception": "M35"
+      }
+    ],
+    "explanation": "Bước 1: O₂(g) là đơn chất bền → ΔfH°₂₉₈(O₂) = 0.\nBước 2: Σ ΔfH°(sp) = 4 × (+90,3) + 6 × (−241,8) = 361,2 − 1450,8 = −1089,6 kJ.\nBước 3: Σ ΔfH°(cđ) = 4 × (−45,9) + 5 × 0 = −183,6 kJ.\nBước 4: ΔrH°₂₉₈ = −1089,6 − (−183,6) = −906,0 kJ (tỏa nhiệt).\nĐáp án: −906,0.\nLưu ý: +906,0 là lấy chất đầu trừ sản phẩm; −105,6 là quên nhân hệ số (90,3 − 241,8 + 45,9); +105,6 là mắc cả hai lỗi (M35).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-015",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho phản ứng đốt cháy methane ở thể khí: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g). Biết năng lượng liên kết Eb (kJ/mol): C–H 414; O=O 498; C=O (trong CO₂) 799; O–H 464. Tính ΔrH°₂₉₈ của phản ứng dựa vào năng lượng liên kết (đơn vị kJ, làm tròn đến hàng đơn vị).",
+    "terms": [
+      "T-407",
+      "T-415",
+      "T-412"
+    ],
+    "answer": "-802",
+    "tolerance": 0,
+    "unit": "kJ",
+    "misconception_hints": [
+      {
+        "value": "802",
+        "misconception": "M36"
+      },
+      {
+        "value": "-372",
+        "misconception": "M36"
+      },
+      {
+        "value": "-3",
+        "misconception": "M36"
+      }
+    ],
+    "explanation": "Bước 1: Mọi chất đều ở thể khí → ΔrH°₂₉₈ = Σ Eb(cđ) − Σ Eb(sp).\nBước 2: Chất đầu: CH₄ có 4 liên kết C–H; 2 phân tử O₂ có 2 liên kết O=O → Σ Eb(cđ) = 4 × 414 + 2 × 498 = 1656 + 996 = 2652 kJ.\nBước 3: Sản phẩm: CO₂ (O=C=O) có 2 liên kết C=O; 2 phân tử H₂O có 4 liên kết O–H → Σ Eb(sp) = 2 × 799 + 4 × 464 = 1598 + 1856 = 3454 kJ.\nBước 4: ΔrH°₂₉₈ = 2652 − 3454 = −802 kJ (tỏa nhiệt).\nĐáp án: −802.\nLưu ý: +802 là lấy sản phẩm trừ chất đầu; −372 là quên hệ số 2 của O₂ và H₂O (1656 + 498 − 799 × 2 − 464 × 2); −3 là đếm CO₂ chỉ có 1 liên kết C=O (M36).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-016",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho phương trình nhiệt hóa học: N₂(g) + 3H₂(g) → 2NH₃(g)   ΔrH°₂₉₈ = −91,8 kJ. Khi tạo thành 3,4 g NH₃ ở điều kiện chuẩn thì (N = 14, H = 1)",
+    "terms": [
+      "T-409",
+      "T-403",
+      "T-414"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "tỏa ra 18,36 kJ.",
+        "misconception": "M35"
+      },
+      {
+        "key": "B",
+        "text": "tỏa ra 9,18 kJ.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "thu vào 9,18 kJ.",
+        "misconception": "M33"
+      },
+      {
+        "key": "D",
+        "text": "tỏa ra 91,8 kJ.",
+        "misconception": null
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: M(NH₃) = 14 + 3 = 17 g/mol → n(NH₃) = 3,4 : 17 = 0,2 mol.\nBước 2: Theo phương trình, tạo 2 mol NH₃ tỏa ra 91,8 kJ → tạo 1 mol NH₃ tỏa ra 45,9 kJ.\nBước 3: Tạo 0,2 mol NH₃ tỏa ra 0,2 × 45,9 = 9,18 kJ.\nĐáp án: B.\nLưu ý: A dùng 91,8 kJ cho 1 mol NH₃, quên hệ số 2 trong phương trình (M35); C nhầm dấu (M33); D quên đổi khối lượng ra số mol.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-017",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-403",
+      "T-404",
+      "T-412"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Mọi phản ứng phải đun nóng lúc đầu mới xảy ra đều là phản ứng thu nhiệt.",
+        "misconception": "M34"
+      },
+      {
+        "key": "B",
+        "text": "Phản ứng tỏa nhiệt luôn tự xảy ra ở nhiệt độ thường, không cần khơi mào.",
+        "misconception": "M34"
+      },
+      {
+        "key": "C",
+        "text": "Phản ứng đốt cháy nhiên liệu cần khơi mào lúc đầu, sau đó tự duy trì nhờ nhiệt tỏa ra; đây là phản ứng tỏa nhiệt.",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "Phản ứng thu nhiệt có biến thiên enthalpy ΔrH°₂₉₈ < 0.",
+        "misconception": "M33"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Tỏa nhiệt hay thu nhiệt được quyết định bởi dấu ΔrH, không phải bởi việc có cần khơi mào.\nBước 2: Đốt nhiên liệu (than, gas, cồn) cần mồi lửa, sau đó nhiệt tỏa ra làm phản ứng tự duy trì; ΔrH < 0 → tỏa nhiệt.\nĐáp án: C.\nLưu ý: A và B gắn sai việc khơi mào với loại phản ứng (M34); phản ứng thu nhiệt có ΔrH > 0, không phải < 0 (D – M33).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-018",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Xét phản ứng tổng hợp ammonia: N₂(g) + 3H₂(g) → 2NH₃(g). Cho năng lượng liên kết Eb (kJ/mol): N≡N 945; H–H 436; N–H 391. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-415",
+      "T-407",
+      "T-413",
+      "T-414"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Mỗi phân tử NH₃ có 3 liên kết N–H.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Tổng năng lượng cần để phá vỡ các liên kết trong chất đầu là 945 + 436 = 1381 kJ.",
+        "answer": false,
+        "misconception": "M36"
+      },
+      {
+        "key": "c",
+        "text": "ΔrH°₂₉₈ = Σ Eb(sản phẩm) − Σ Eb(chất đầu) = +93 kJ, phản ứng thu nhiệt.",
+        "answer": false,
+        "misconception": "M36"
+      },
+      {
+        "key": "d",
+        "text": "Phản ứng tạo thành 2 mol NH₃(g) tỏa nhiệt, ΔrH°₂₉₈ ≈ −93 kJ.",
+        "answer": true,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Đúng: N có 3 electron độc thân, liên kết với 3 nguyên tử H bằng 3 liên kết đơn N–H.\nb) Sai: có 3 phân tử H₂ nên Σ Eb(cđ) = 945 + 3 × 436 = 2253 kJ; bỏ hệ số 3 là đếm thiếu liên kết (M36).\nc) Sai: công thức đúng là Σ Eb(cđ) − Σ Eb(sp); lấy sản phẩm trừ chất đầu làm sai dấu (M36).\nd) Đúng: Σ Eb(sp) = 2 × 3 × 391 = 2346 kJ; ΔrH°₂₉₈ = 2253 − 2346 = −93 kJ < 0 → tỏa nhiệt. (Tính từ ΔfH°₂₉₈(NH₃) = −45,9 kJ/mol được −91,8 kJ; hai kết quả gần bằng nhau vì Eb là giá trị trung bình.)",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-019",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Trên sơ đồ biến thiên enthalpy, vạch H₂(g) + ½O₂(g) nằm cao hơn vạch H₂O(l) một khoảng 285,8 kJ. Phương trình nhiệt hóa học nào sau đây biểu diễn đúng sơ đồ này?",
+    "terms": [
+      "T-409",
+      "T-410"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "H₂(g) + ½O₂(g) → H₂O(l)   ΔrH°₂₉₈ = +285,8 kJ",
+        "misconception": "M33"
+      },
+      {
+        "key": "B",
+        "text": "H₂(g) + ½O₂(g) → H₂O(g)   ΔrH°₂₉₈ = −285,8 kJ",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "H₂(g) + ½O₂(g) → H₂O(l)   ΔrH°₂₉₈ = −285,8 kJ",
+        "misconception": null
+      },
+      {
+        "key": "D",
+        "text": "2H₂(g) + O₂(g) → 2H₂O(l)   ΔrH°₂₉₈ = −285,8 kJ",
+        "misconception": "M35"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Bước 1: Sản phẩm H₂O(l) thấp hơn chất đầu 285,8 kJ → ΔrH°₂₉₈ = −285,8 kJ (tỏa nhiệt), ứng với tạo 1 mol H₂O ở thể lỏng.\nBước 2: Phương trình nhiệt hóa học phải ghi đúng trạng thái các chất và ΔrH ứng với đúng hệ số trong phương trình.\nĐáp án: C.\nLưu ý: A sai dấu (M33); B ghi sai trạng thái của nước – sơ đồ cho H₂O(l), mà ΔrH phụ thuộc trạng thái (tạo H₂O(g) chỉ tỏa khoảng 241,8 kJ); D nhân đôi hệ số nhưng không nhân đôi ΔrH (phải là −571,6 kJ – M35).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-020",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "mcq",
+    "level": "VD",
+    "stem": "Cho năng lượng liên kết Eb (kJ/mol): H–H 436; F–F 159; Cl–Cl 243; Br–Br 193; H–F 565; H–Cl 431; H–Br 364. Xét các phản ứng ở thể khí: H₂(g) + X₂(g) → 2HX(g) với X là F, Cl, Br. Kết luận nào sau đây đúng?",
+    "terms": [
+      "T-415",
+      "T-407",
+      "T-403"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Phản ứng với F₂ tỏa nhiều nhiệt nhất, ΔrH°₂₉₈ = −535 kJ.",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "Phản ứng với Br₂ thu nhiệt, ΔrH°₂₉₈ = +99 kJ.",
+        "misconception": "M36"
+      },
+      {
+        "key": "C",
+        "text": "Phản ứng với Cl₂ thu nhiệt, ΔrH°₂₉₈ = +183 kJ.",
+        "misconception": "M36"
+      },
+      {
+        "key": "D",
+        "text": "Phản ứng với F₂ thu nhiều nhiệt nhất, ΔrH°₂₉₈ = +535 kJ.",
+        "misconception": "M36"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: ΔrH°₂₉₈ = Eb(H–H) + Eb(X–X) − 2 × Eb(H–X).\nBước 2: X = F: 436 + 159 − 2 × 565 = 595 − 1130 = −535 kJ.\nBước 3: X = Cl: 436 + 243 − 2 × 431 = 679 − 862 = −183 kJ.\nBước 4: X = Br: 436 + 193 − 2 × 364 = 629 − 728 = −99 kJ.\nBước 5: Cả ba phản ứng đều tỏa nhiệt; phản ứng với F₂ có ΔrH°₂₉₈ âm nhất nên tỏa nhiều nhiệt nhất.\nĐáp án: A.\nLưu ý: B, C, D đều là kết quả khi lấy sản phẩm trừ chất đầu, làm đổi dấu ΔrH (M36).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B17-021",
+    "chapter": "C5",
+    "lesson": "B17",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Phản ứng nhiệt nhôm dùng để hàn đường ray: Fe₂O₃(s) + 2Al(s) → Al₂O₃(s) + 2Fe(s). Phản ứng được khơi mào bằng cách đốt dây magnesium. Cho ΔfH°₂₉₈ (kJ/mol): Fe₂O₃(s) −824,2; Al₂O₃(s) −1675,7. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-408",
+      "T-407",
+      "T-403"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "ΔfH°₂₉₈ của Al(s) và Fe(s) đều bằng 0.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "ΔrH°₂₉₈ của phản ứng bằng −851,5 kJ.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "ΔrH°₂₉₈ = (−824,2) − (−1675,7) = +851,5 kJ, nên phản ứng thu nhiệt.",
+        "answer": false,
+        "misconception": "M35"
+      },
+      {
+        "key": "d",
+        "text": "Phản ứng phải đốt mồi bằng dây magnesium nên là phản ứng thu nhiệt.",
+        "answer": false,
+        "misconception": "M34"
+      }
+    ],
+    "explanation": "a) Đúng: Al(s) và Fe(s) là đơn chất ở dạng bền nhất → ΔfH°₂₉₈ = 0.\nb) Đúng: ΔrH°₂₉₈ = [(−1675,7) + 2 × 0] − [(−824,2) + 2 × 0] = −851,5 kJ.\nc) Sai: đây là lấy chất đầu trừ sản phẩm, làm đổi dấu kết quả (M35).\nd) Sai: dây magnesium chỉ khơi mào; sau đó phản ứng tỏa nhiệt rất mạnh (ΔrH°₂₉₈ = −851,5 kJ), đủ làm nóng chảy sắt (M34).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-001",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Trong kí hiệu biến thiên enthalpy chuẩn ΔrH°₂₉₈, chỉ số 298 cho biết",
+    "terms": [
+      "T-407",
+      "T-405"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "phản ứng được xét ở nhiệt độ 298 K (25 °C).",
+        "misconception": null
+      },
+      {
+        "key": "B",
+        "text": "phản ứng được xét ở áp suất 298 kPa.",
+        "misconception": "M37"
+      },
+      {
+        "key": "C",
+        "text": "phản ứng được xét ở nhiệt độ 298 °C.",
+        "misconception": "M37"
+      },
+      {
+        "key": "D",
+        "text": "phản ứng được xét ở nhiệt độ 0 °C và áp suất 1 atm.",
+        "misconception": "M37"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bước 1: Kí hiệu ° chỉ điều kiện chuẩn (1 bar, 1 mol/L); chỉ số 298 chỉ nhiệt độ 298 K.\nBước 2: 298 K = 298 − 273 = 25 °C.\nĐáp án: A.\nLưu ý: 298 là nhiệt độ theo kelvin, không phải °C hay kPa; 0 °C, 1 atm là điều kiện tiêu chuẩn cũ của chất khí (M37).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-002",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "mcq",
+    "level": "NB",
+    "stem": "Phản ứng tỏa nhiệt là phản ứng",
+    "terms": [
+      "T-403",
+      "T-402"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "có biến thiên enthalpy ΔrH > 0.",
+        "misconception": "M33"
+      },
+      {
+        "key": "B",
+        "text": "hấp thụ năng lượng dưới dạng nhiệt từ môi trường.",
+        "misconception": "M33"
+      },
+      {
+        "key": "C",
+        "text": "phải được đun nóng liên tục trong suốt quá trình phản ứng.",
+        "misconception": "M34"
+      },
+      {
+        "key": "D",
+        "text": "giải phóng năng lượng dưới dạng nhiệt ra môi trường, có ΔrH < 0.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Phản ứng tỏa nhiệt giải phóng năng lượng dưới dạng nhiệt ra môi trường; enthalpy của hệ giảm nên ΔrH < 0.\nĐáp án: D.\nLưu ý: A và B là đặc điểm của phản ứng thu nhiệt (nhầm dấu – M33); cần đun nóng liên tục là dấu hiệu của phản ứng thu nhiệt, không phải tỏa nhiệt (M34).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-003",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "true_false",
+    "level": "NB",
+    "stem": "Mỗi phát biểu sau về năng lượng hóa học đúng hay sai?",
+    "terms": [
+      "T-404",
+      "T-408",
+      "T-405",
+      "T-406"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Trong phản ứng thu nhiệt, tổng enthalpy của sản phẩm lớn hơn tổng enthalpy của chất đầu.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "b",
+        "text": "Các đơn chất bền O₂(g), N₂(g), C(graphite) có enthalpy tạo thành chuẩn bằng 0.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "Phản ứng có ΔrH°₂₉₈ > 0 là phản ứng tỏa nhiệt.",
+        "answer": false,
+        "misconception": "M33"
+      },
+      {
+        "key": "d",
+        "text": "Điều kiện chuẩn quy định áp suất 1 atm và nhiệt độ 0 °C.",
+        "answer": false,
+        "misconception": "M37"
+      }
+    ],
+    "explanation": "a) Đúng: thu nhiệt thì ΔrH = H(sp) − H(cđ) > 0 → H(sp) > H(cđ).\nb) Đúng: đơn chất ở dạng bền nhất có ΔfH°₂₉₈ = 0.\nc) Sai: ΔrH°₂₉₈ > 0 là phản ứng thu nhiệt (M33).\nd) Sai: điều kiện chuẩn là 1 bar (khí), 1 mol/L (chất tan), nhiệt độ thường chọn 25 °C (298 K) (M37).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-004",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-403",
+      "T-404",
+      "T-412"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "Than phải mồi lửa mới cháy nên phản ứng đốt cháy than là phản ứng thu nhiệt.",
+        "misconception": "M34"
+      },
+      {
+        "key": "B",
+        "text": "Phản ứng tỏa nhiệt nào cũng xảy ra ngay khi trộn các chất ở nhiệt độ thường.",
+        "misconception": "M34"
+      },
+      {
+        "key": "C",
+        "text": "Phản ứng đốt cháy cồn có ΔrH°₂₉₈ > 0 vì nhiệt từ ngọn lửa đi ra môi trường.",
+        "misconception": "M33"
+      },
+      {
+        "key": "D",
+        "text": "Nung đá vôi phải cung cấp nhiệt liên tục, ngừng nung thì phản ứng dừng lại; đây là phản ứng thu nhiệt.",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: Phản ứng thu nhiệt cần nhận nhiệt liên tục từ bên ngoài; nung đá vôi (ΔrH°₂₉₈ ≈ +178,4 kJ) đúng là như vậy.\nBước 2: Phản ứng tỏa nhiệt có thể cần khơi mào nhưng sau đó tự duy trì.\nĐáp án: D.\nLưu ý: A và B gắn sai việc khơi mào với loại phản ứng (M34); nhiệt đi ra môi trường nghĩa là hệ mất nhiệt, ΔrH < 0 chứ không phải > 0 (C – M33).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-005",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Cho phương trình nhiệt hóa học: C(graphite) → C(diamond)   ΔrH°₂₉₈ = +1,9 kJ. Phát biểu nào sau đây đúng?",
+    "terms": [
+      "T-408",
+      "T-406",
+      "T-409"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "ΔfH°₂₉₈ của C(diamond) bằng 0 vì diamond là đơn chất.",
+        "misconception": "M35"
+      },
+      {
+        "key": "B",
+        "text": "ΔfH°₂₉₈ của C(diamond) bằng +1,9 kJ/mol; graphite là dạng bền hơn của carbon.",
+        "misconception": null
+      },
+      {
+        "key": "C",
+        "text": "ΔfH°₂₉₈ của C(diamond) bằng −1,9 kJ/mol.",
+        "misconception": "M33"
+      },
+      {
+        "key": "D",
+        "text": "Chuyển graphite thành diamond là quá trình tỏa nhiệt.",
+        "misconception": "M33"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bước 1: C(graphite) là dạng bền nhất của carbon → ΔfH°₂₉₈(graphite) = 0.\nBước 2: Phương trình đã cho chính là phản ứng tạo thành 1 mol C(diamond) từ đơn chất bền nhất → ΔfH°₂₉₈(diamond) = +1,9 kJ/mol > 0.\nBước 3: ΔrH > 0 → quá trình thu nhiệt; diamond có enthalpy cao hơn nên kém bền hơn graphite.\nĐáp án: B.\nLưu ý: chỉ đơn chất bền nhất mới có ΔfH° = 0 (A – M35); C và D nhầm dấu (M33).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-006",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "short",
+    "level": "TH",
+    "stem": "Khi tôi vôi, vôi sống tác dụng với nước: CaO(s) + H₂O(l) → Ca(OH)₂(s). Biết ΔfH°₂₉₈ (kJ/mol): CaO(s) −635,1; H₂O(l) −285,8; Ca(OH)₂(s) −985,2. Tính ΔrH°₂₉₈ của phản ứng (đơn vị kJ, làm tròn đến hàng phần mười).",
+    "terms": [
+      "T-407",
+      "T-408",
+      "T-403"
+    ],
+    "answer": "-64.3",
+    "tolerance": 0.05,
+    "unit": "kJ",
+    "misconception_hints": [
+      {
+        "value": "64.3",
+        "misconception": "M35"
+      },
+      {
+        "value": "-1906.1",
+        "misconception": "M35"
+      }
+    ],
+    "explanation": "Bước 1: Σ ΔfH°(sp) = −985,2 kJ.\nBước 2: Σ ΔfH°(cđ) = (−635,1) + (−285,8) = −920,9 kJ.\nBước 3: ΔrH°₂₉₈ = −985,2 − (−920,9) = −64,3 kJ < 0 → phản ứng tỏa nhiệt (đúng với hiện tượng hỗn hợp nóng lên, có thể sôi khi tôi vôi).\nĐáp án: −64,3.\nLưu ý: +64,3 là lấy chất đầu trừ sản phẩm; −1906,1 là cộng tất cả các giá trị ΔfH° lại thay vì lấy hiệu (M35).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-007",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "mcq",
+    "level": "TH",
+    "stem": "Xét phản ứng C₂H₄(g) + H₂(g) → C₂H₆(g) (C₂H₄ có công thức cấu tạo H₂C=CH₂). Cho Eb (kJ/mol): C=C 614; C–H 414; H–H 436. Tổng năng lượng liên kết của các chất đầu là",
+    "terms": [
+      "T-415",
+      "T-413"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "text": "1464 kJ",
+        "misconception": "M36"
+      },
+      {
+        "key": "B",
+        "text": "2270 kJ",
+        "misconception": "M36"
+      },
+      {
+        "key": "C",
+        "text": "2831 kJ",
+        "misconception": "M36"
+      },
+      {
+        "key": "D",
+        "text": "2706 kJ",
+        "misconception": null
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bước 1: C₂H₄ (H₂C=CH₂) có 1 liên kết C=C và 4 liên kết C–H; H₂ có 1 liên kết H–H.\nBước 2: Σ Eb(cđ) = 614 + 4 × 414 + 436 = 614 + 1656 + 436 = 2706 kJ.\nĐáp án: D.\nLưu ý: A chỉ tính 1 liên kết C–H (614 + 414 + 436), đếm thiếu liên kết (M36); B quên liên kết H–H của H₂, cũng là đếm thiếu liên kết (M36); C là tổng năng lượng liên kết của sản phẩm C₂H₆ (347 + 6 × 414), nhầm chất đầu với sản phẩm (M36).",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-008",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "short",
+    "level": "VD",
+    "stem": "Cho phản ứng C₂H₄(g) + H₂(g) → C₂H₆(g). Biết C₂H₄ có cấu tạo H₂C=CH₂, C₂H₆ có cấu tạo H₃C–CH₃ và năng lượng liên kết Eb (kJ/mol): C=C 614; C–C 347; C–H 414; H–H 436. Tính ΔrH°₂₉₈ của phản ứng dựa vào năng lượng liên kết (đơn vị kJ, làm tròn đến hàng đơn vị).",
+    "terms": [
+      "T-407",
+      "T-415",
+      "T-413",
+      "T-414"
+    ],
+    "answer": "-125",
+    "tolerance": 0,
+    "unit": "kJ",
+    "misconception_hints": [
+      {
+        "value": "125",
+        "misconception": "M36"
+      },
+      {
+        "value": "-561",
+        "misconception": "M36"
+      },
+      {
+        "value": "-1367",
+        "misconception": "M36"
+      }
+    ],
+    "explanation": "Bước 1: Mọi chất đều ở thể khí → ΔrH°₂₉₈ = Σ Eb(cđ) − Σ Eb(sp).\nBước 2: Σ Eb(cđ) = Eb(C=C) + 4 Eb(C–H) + Eb(H–H) = 614 + 1656 + 436 = 2706 kJ.\nBước 3: C₂H₆ có 1 liên kết C–C và 6 liên kết C–H → Σ Eb(sp) = 347 + 6 × 414 = 347 + 2484 = 2831 kJ.\nBước 4: ΔrH°₂₉₈ = 2706 − 2831 = −125 kJ (tỏa nhiệt).\nĐáp án: −125.\nLưu ý: +125 là lấy sản phẩm trừ chất đầu; −561 là quên liên kết H–H của H₂ (2270 − 2831); −1367 là chỉ tính 1 liên kết C–H trong C₂H₄ (1464 − 2831) (M36). Tính từ ΔfH° (C₂H₆ −84,0; C₂H₄ +52,5) được −136,5 kJ; năng lượng liên kết chỉ cho kết quả gần đúng.",
+    "reviewed": false
+  },
+  {
+    "id": "Q-B18-009",
+    "chapter": "C5",
+    "lesson": "B18",
+    "type": "true_false",
+    "level": "VD",
+    "stem": "Khí propane (C₃H₈) là thành phần chính của khí gas dùng trong đun nấu. Phản ứng đốt cháy: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l). Cho ΔfH°₂₉₈ (kJ/mol): C₃H₈(g) −103,8; CO₂(g) −393,5; H₂O(l) −285,8; C = 12, H = 1. Mỗi phát biểu sau đúng hay sai?",
+    "terms": [
+      "T-412",
+      "T-407",
+      "T-408",
+      "T-403"
+    ],
+    "statements": [
+      {
+        "key": "a",
+        "text": "Có thể dùng bảng năng lượng liên kết để tính ΔrH°₂₉₈ của chính phản ứng trên vì các chất đều có liên kết cộng hóa trị.",
+        "answer": false,
+        "misconception": "M36"
+      },
+      {
+        "key": "b",
+        "text": "ΔrH°₂₉₈ của phản ứng bằng −2219,9 kJ.",
+        "answer": true,
+        "misconception": null
+      },
+      {
+        "key": "c",
+        "text": "ΔrH°₂₉₈ = 3 × (−393,5) + (−285,8) − (−103,8) = −1362,5 kJ.",
+        "answer": false,
+        "misconception": "M35"
+      },
+      {
+        "key": "d",
+        "text": "Đốt cháy hoàn toàn 4,4 g propane ở điều kiện chuẩn tỏa ra khoảng 222,0 kJ.",
+        "answer": true,
+        "misconception": null
+      }
+    ],
+    "explanation": "a) Sai: sản phẩm có H₂O ở thể lỏng; năng lượng liên kết chỉ dùng khi mọi chất ở thể khí (M36).\nb) Đúng: ΔrH°₂₉₈ = [3 × (−393,5) + 4 × (−285,8)] − [(−103,8) + 5 × 0] = (−1180,5 − 1143,2) + 103,8 = −2219,9 kJ.\nc) Sai: quên nhân hệ số 4 của H₂O (M35).\nd) Đúng: M(C₃H₈) = 3 × 12 + 8 = 44 g/mol → n = 4,4 : 44 = 0,1 mol; nhiệt tỏa ra = 0,1 × 2219,9 = 221,99 ≈ 222,0 kJ.",
+    "reviewed": false
+  }
+]

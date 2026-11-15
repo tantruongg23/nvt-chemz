@@ -1,0 +1,80 @@
+[
+  {
+    "code": "M27",
+    "chapter": "C4",
+    "title": "Nhầm chất khử với chất bị khử, chất oxi hóa với chất bị oxi hóa",
+    "description": "Học sinh suy luận theo tên gọi: \"chất khử\" là chất bị khử, \"chất oxi hóa\" là chất bị oxi hóa; từ đó gán chất nhận electron (số oxi hóa giảm) là chất khử và chất nhường electron (số oxi hóa tăng) là chất oxi hóa. Một số em còn xác định vai trò theo việc \"lấy oxygen\" (H₂, CO lấy oxygen nên là chất oxi hóa) thay vì theo sự thay đổi số oxi hóa.",
+    "lessons": [
+      "B15",
+      "B16"
+    ],
+    "remedy": "Mẹo ghi nhớ \"khử cho – O nhận\" (không phải câu trong SGK): chất khử nhường electron, số oxi hóa tăng, nên nó là chất bị oxi hóa; chất oxi hóa nhận electron, số oxi hóa giảm, nên nó là chất bị khử. Luôn xác định vai trò bằng sự thay đổi số oxi hóa.",
+    "example_wrong": "Trong phản ứng Fe₂O₃ + 3CO → 2Fe + 3CO₂, Fe₂O₃ là chất khử vì nó bị khử thành Fe.",
+    "example_right": "Fe⁺³ nhận electron (số oxi hóa giảm từ +3 về 0) nên Fe₂O₃ là chất oxi hóa (chất bị khử); C⁺² nhường electron lên C⁺⁴ nên CO là chất khử (chất bị oxi hóa)."
+  },
+  {
+    "code": "M28",
+    "chapter": "C4",
+    "title": "Nhầm quá trình oxi hóa với quá trình khử",
+    "description": "Học sinh cho rằng quá trình oxi hóa là quá trình nhận electron (hoặc làm giảm số oxi hóa) và quá trình khử là quá trình nhường electron; hoặc gọi tên quá trình theo chất oxi hóa (quá trình xảy ra ở chất oxi hóa là \"quá trình oxi hóa\").",
+    "lessons": [
+      "B15",
+      "B16"
+    ],
+    "remedy": "Quá trình oxi hóa (sự oxi hóa) là quá trình nhường electron, số oxi hóa tăng, xảy ra ở chất khử. Quá trình khử (sự khử) là quá trình nhận electron, số oxi hóa giảm, xảy ra ở chất oxi hóa. Electron đứng bên phải mũi tên → quá trình oxi hóa; bên trái → quá trình khử.",
+    "example_wrong": "Cu⁺² + 2e → Cu⁰ là quá trình oxi hóa vì CuSO₄ là chất oxi hóa.",
+    "example_right": "Cu⁺² + 2e → Cu⁰ là quá trình khử (nhận electron, số oxi hóa giảm); Zn⁰ → Zn⁺² + 2e là quá trình oxi hóa."
+  },
+  {
+    "code": "M29",
+    "chapter": "C4",
+    "title": "Tính sai số oxi hóa: quên quy tắc tổng, quên chỉ số hoặc nhầm với hóa trị, điện tích",
+    "description": "Học sinh cho tổng số oxi hóa trong ion đa nguyên tử bằng 0 (quên phải bằng điện tích ion), quên nhân số oxi hóa với chỉ số nguyên tử (K₂Cr₂O₇, Al₂O₃), lấy điện tích của cả ion làm số oxi hóa của nguyên tử trung tâm, hoặc nhầm số oxi hóa với hóa trị (N trong N₂ là +3, N trong NH₃ là +3).",
+    "lessons": [
+      "B15",
+      "B16"
+    ],
+    "remedy": "Đặt ẩn x cho nguyên tố cần tìm, nhân mỗi số oxi hóa với chỉ số của nó rồi lập phương trình: tổng = 0 (phân tử) hoặc tổng = điện tích (ion). Đơn chất luôn có số oxi hóa 0; số oxi hóa có dấu, hóa trị thì không.",
+    "example_wrong": "Trong ion CO₃²⁻: x + 3(−2) = 0 → số oxi hóa của C là +6.",
+    "example_right": "Trong ion CO₃²⁻: x + 3(−2) = −2 → x = +4."
+  },
+  {
+    "code": "M30",
+    "chapter": "C4",
+    "title": "Áp dụng máy móc H = +1, O = −2 trong mọi trường hợp",
+    "description": "Học sinh gán H = +1 và O = −2 cho mọi chất, kể cả hydride kim loại (NaH, CaH₂: H = −1), peroxide (H₂O₂, Na₂O₂: O = −1) và đơn chất H₂, O₂ (số oxi hóa 0); từ đó tính sai số oxi hóa của nguyên tố còn lại hoặc kết luận sai rằng H, O không thay đổi số oxi hóa trong phản ứng.",
+    "lessons": [
+      "B15",
+      "B16"
+    ],
+    "remedy": "Ưu tiên quy tắc chắc chắn trước: đơn chất = 0; kim loại nhóm IA = +1, IIA = +2, Al = +3. Sau đó mới dùng \"H thường +1, O thường −2\" và kiểm tra tổng; nếu chất là hydride kim loại hoặc peroxide thì H = −1, O = −1.",
+    "example_wrong": "Trong CaH₂, H có số oxi hóa +1 nên Ca có số oxi hóa −2.",
+    "example_right": "Ca (nhóm IIA) có số oxi hóa +2 → 2 + 2x = 0 → H có số oxi hóa −1 (hydride kim loại)."
+  },
+  {
+    "code": "M31",
+    "chapter": "C4",
+    "title": "Cân bằng sai: không bảo toàn electron, bỏ qua chỉ số nguyên tử hoặc phần chất làm môi trường",
+    "description": "Khi cân bằng theo phương pháp thăng bằng electron, học sinh không làm cho tổng số electron nhường bằng tổng số electron nhận, quên số nguyên tử trong phân tử (một Cl₂ nhận 2e, một O₂ nhận 4e, một Fe₂O₃ nhận 6e), hoặc đặt hệ số của chất vừa là chất oxi hóa vừa là môi trường (HNO₃, H₂SO₄ đặc, HCl) chỉ bằng phần bị khử/bị oxi hóa mà không kiểm tra lại số nguyên tử ở hai vế.",
+    "lessons": [
+      "B15",
+      "B16"
+    ],
+    "remedy": "Viết quá trình theo cả phân tử (O₂ + 4e → 2O⁻²; 2Cl⁻ → Cl₂ + 2e), nhân hệ số để số electron nhường = số electron nhận. Đặt hệ số cho chất oxi hóa, chất khử trước, sau đó cộng thêm phần chất tạo muối (môi trường) và kiểm tra lại từng nguyên tố ở hai vế.",
+    "example_wrong": "Al + HNO₃ → Al(NO₃)₃ + NO + H₂O: Al nhường 3e, N⁺⁵ nhận 3e nên đặt hệ số HNO₃ là 1 (chỉ tính phần bị khử).",
+    "example_right": "Al + 4HNO₃ → Al(NO₃)₃ + NO + 2H₂O: 1 HNO₃ bị khử thành NO, 3 HNO₃ tạo muối Al(NO₃)₃; N: 4 = 3 + 1, O: 12 = 9 + 1 + 2."
+  },
+  {
+    "code": "M32",
+    "chapter": "C4",
+    "title": "Nhận diện sai phản ứng oxi hóa – khử",
+    "description": "Học sinh cho rằng mọi phản ứng (phân hủy, trung hòa, trao đổi, có oxygen tham gia, có khí thoát ra) đều là phản ứng oxi hóa – khử, hoặc ngược lại bỏ sót phản ứng oxi hóa – khử có đơn chất tham gia/tạo thành, phản ứng nhiệt phân (KClO₃, KMnO₄, H₂O₂) và các quá trình thực tiễn như sự cháy, sự gỉ sắt, hô hấp, quang hợp.",
+    "lessons": [
+      "B15",
+      "B16"
+    ],
+    "remedy": "Chỉ dựa vào một tiêu chí: có nguyên tố thay đổi số oxi hóa (có sự chuyển electron) hay không. Xác định số oxi hóa ở hai vế trước khi kết luận; phản ứng có đơn chất tham gia hoặc tạo thành là phản ứng oxi hóa – khử (trừ phản ứng chỉ chuyển đổi dạng thù hình như 3O₂ → 2O₃).",
+    "example_wrong": "CaCO₃ → CaO + CO₂ là phản ứng oxi hóa – khử vì có khí thoát ra; 2KClO₃ → 2KCl + 3O₂ không phải vì chỉ có một chất tham gia.",
+    "example_right": "CaCO₃ → CaO + CO₂: Ca (+2), C (+4), O (−2) giữ nguyên → không phải phản ứng oxi hóa – khử. 2KClO₃ → 2KCl + 3O₂: Cl từ +5 về −1, O từ −2 lên 0 → là phản ứng oxi hóa – khử."
+  }
+]

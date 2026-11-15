@@ -103,10 +103,10 @@ Mỗi chương là một "story nội dung" (US-C1…US-C7 trong BACKLOG) đi qu
 | C1 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 61/60 | 0/61 (chuyên gia AI đã rà 61/61) | ⬜ | 🟦 chờ GV duyệt |
 | C2 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 50/50 | 0/50 (chuyên gia AI đã rà 50/50) | ⬜ | 🟦 chờ GV duyệt |
 | C3 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 50/50 | 0/50 (chuyên gia AI đã rà 50/50) | ⬜ | 🟦 chờ GV duyệt |
-| C4 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/35 | 0 | ⬜ | ⬜ |
-| C5 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/30 | 0 | ⬜ | ⬜ |
-| C6 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/30 | 0 | ⬜ | ⬜ |
-| C7 | 🟨 dự thảo lỗi | ⬜ | ⬜ | 0/40 | 0 | ⬜ | ⬜ |
+| C4 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 35/35 | 0/35 (chuyên gia AI đã rà 35/35) | ⬜ | 🟦 chờ GV duyệt |
+| C5 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 30/30 | 0/30 (chuyên gia AI đã rà 30/30) | ⬜ | 🟦 chờ GV duyệt |
+| C6 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 30/30 | 0/30 (chuyên gia AI đã rà 30/30) | ⬜ | 🟦 chờ GV duyệt |
+| C7 | ✅ | 🟦 chuyên gia AI chốt, chờ GV | ✅ | 40/40 | 0/40 (chuyên gia AI đã rà 40/40) | ⬜ | 🟦 chờ GV duyệt |
 
 ## 5. Chi tiết từng sprint
 

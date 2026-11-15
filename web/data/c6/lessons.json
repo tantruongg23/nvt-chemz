@@ -1,0 +1,189 @@
+[
+  {
+    "id": "B19",
+    "number": 19,
+    "chapter": "C6",
+    "kind": "lesson",
+    "title": "Tốc độ phản ứng",
+    "title_en": "Reaction rate",
+    "objectives": [
+      "Trình bày được khái niệm tốc độ phản ứng hóa học và cách tính tốc độ trung bình của phản ứng.",
+      "Viết được biểu thức tốc độ phản ứng theo hằng số tốc độ phản ứng và nồng độ (định luật tác dụng khối lượng, cho phản ứng đơn giản); nêu được ý nghĩa của hằng số tốc độ phản ứng.",
+      "Thực hiện được một số thí nghiệm nghiên cứu các yếu tố ảnh hưởng tới tốc độ phản ứng: nồng độ, nhiệt độ, áp suất, diện tích bề mặt, chất xúc tác.",
+      "Giải thích được ảnh hưởng của các yếu tố nồng độ, nhiệt độ, áp suất, diện tích bề mặt, chất xúc tác đến tốc độ phản ứng.",
+      "Nêu được ý nghĩa của hệ số nhiệt độ Van't Hoff (γ).",
+      "Vận dụng được kiến thức về tốc độ phản ứng để giải thích một số vấn đề trong cuộc sống và sản xuất."
+    ],
+    "summary": [
+      "Tốc độ phản ứng là đại lượng đặc trưng cho sự biến thiên nồng độ của một chất phản ứng hoặc sản phẩm trong một đơn vị thời gian; đơn vị thường dùng mol/(L·s).",
+      "Với phản ứng aA + bB → cC + dD: v̄ = −(1/a)·ΔC_A/Δt = −(1/b)·ΔC_B/Δt = (1/c)·ΔC_C/Δt = (1/d)·ΔC_D/Δt; tốc độ phản ứng luôn dương và có cùng một giá trị dù tính theo chất nào.",
+      "Định luật tác dụng khối lượng (phản ứng đơn giản aA + bB → sản phẩm): v = k·C_A^a·C_B^b; k là hằng số tốc độ, bằng tốc độ phản ứng khi nồng độ mỗi chất phản ứng là 1 mol/L, chỉ phụ thuộc bản chất phản ứng, nhiệt độ (và chất xúc tác).",
+      "Tăng nồng độ, áp suất (với chất khí), nhiệt độ, diện tích bề mặt (chất rắn) hoặc dùng chất xúc tác đều làm tăng tốc độ phản ứng.",
+      "Quy tắc Van't Hoff: v₂/v₁ = γ^((T₂ − T₁)/10), γ thường từ 2 đến 4.",
+      "Chất xúc tác làm tăng tốc độ phản ứng nhưng được bảo toàn về chất và lượng; nó không làm tăng lượng sản phẩm tối đa."
+    ],
+    "sections": [
+      {
+        "heading": "Phản ứng nhanh, phản ứng chậm và khái niệm tốc độ phản ứng",
+        "body_md": "- Các phản ứng hóa học xảy ra **nhanh, chậm khác nhau**: đốt khí gas, pháo hoa nổ xảy ra gần như tức thời; sắt gỉ, thức ăn bị ôi thiu xảy ra trong nhiều ngày; sự hình thành thạch nhũ trong hang động kéo dài hàng nghìn năm.\n- Trong quá trình phản ứng, **nồng độ chất phản ứng giảm dần**, **nồng độ sản phẩm tăng dần**.\n- **Tốc độ phản ứng** là đại lượng đặc trưng cho **sự biến thiên nồng độ** của một trong các chất phản ứng hoặc sản phẩm **trong một đơn vị thời gian**.\n- Đơn vị: (đơn vị nồng độ)/(đơn vị thời gian), thường là **mol/(L·s)** (còn viết M/s); có thể dùng mol/(L·min), mol/(L·h).",
+        "terms": [
+          "T-501",
+          "T-505"
+        ]
+      },
+      {
+        "heading": "Tốc độ trung bình của phản ứng",
+        "body_md": "Tốc độ tính trong một khoảng thời gian Δt = t₂ − t₁ là **tốc độ trung bình** (v̄). Với phản ứng tổng quát **aA + bB → cC + dD**:\n\nv̄ = −(1/a)·ΔC_A/Δt = −(1/b)·ΔC_B/Δt = (1/c)·ΔC_C/Δt = (1/d)·ΔC_D/Δt\n\n- ΔC = C₂ − C₁ = nồng độ **sau** − nồng độ **đầu**.\n- Chất phản ứng có ΔC < 0 nên phải đặt **dấu trừ**; sản phẩm có ΔC > 0, **không** có dấu trừ. Tốc độ phản ứng **luôn dương**.\n- Phải **chia cho hệ số tỉ lượng** của chất đang xét để tốc độ phản ứng có cùng một giá trị dù tính theo chất nào.\n\n**Ví dụ:** N₂ + 3H₂ → 2NH₃. Nếu tốc độ phản ứng là 0,01 mol/(L·s) thì nồng độ N₂ giảm 0,01 mol/(L·s), H₂ giảm 0,03 mol/(L·s), NH₃ tăng 0,02 mol/(L·s).\n\n| Chất | Hệ số | Tốc độ biến thiên nồng độ | Tốc độ phản ứng |\n|---|---|---|---|\n| N₂ | 1 | giảm 0,01 | 0,01/1 = 0,01 |\n| H₂ | 3 | giảm 0,03 | 0,03/3 = 0,01 |\n| NH₃ | 2 | tăng 0,02 | 0,02/2 = 0,01 |\n\n- Theo thời gian, nồng độ chất phản ứng giảm nên tốc độ phản ứng thường **giảm dần**.",
+        "terms": [
+          "T-502",
+          "T-503",
+          "T-504"
+        ]
+      },
+      {
+        "heading": "Biểu thức tốc độ – định luật tác dụng khối lượng",
+        "body_md": "- **Định luật tác dụng khối lượng:** ở nhiệt độ không đổi, tốc độ phản ứng tỉ lệ với tích nồng độ các chất phản ứng, mỗi nồng độ có **số mũ bằng hệ số tỉ lượng** tương ứng.\n- Với **phản ứng đơn giản** aA + bB → sản phẩm: **v = k·C_A^a·C_B^b**.\n  - Ví dụ (coi là phản ứng đơn giản): H₂(g) + I₂(g) → 2HI(g): v = k·C_H₂·C_I₂; 2NO(g) + O₂(g) → 2NO₂(g): v = k·C²_NO·C_O₂.\n  - **Chú ý:** chỉ được lấy số mũ bằng hệ số tỉ lượng khi phản ứng là **phản ứng đơn giản** (xảy ra qua một giai đoạn). Nhiều phản ứng thực tế xảy ra qua nhiều giai đoạn, biểu thức tốc độ phải xác định bằng thực nghiệm (không học ở lớp 10). Trong bài tập, đề sẽ ghi rõ \"phản ứng đơn giản\" hoặc cho sẵn biểu thức tốc độ.\n- **k là hằng số tốc độ**. Khi C_A = C_B = 1 mol/L thì **v = k** (tốc độ riêng của phản ứng). Đơn vị của k phụ thuộc vào dạng biểu thức tốc độ (ví dụ với v = k·C_H₂·C_I₂ thì k có đơn vị L/(mol·s)); không cần ghi nhớ đơn vị của k.\n- k **chỉ phụ thuộc** bản chất chất phản ứng và nhiệt độ (và chất xúc tác), **không phụ thuộc nồng độ**.\n- Chỉ ghi nồng độ **chất phản ứng**, không ghi sản phẩm. Số mũ áp dụng cho chất **khí** hoặc chất **tan** trong dung dịch.\n\n**Hệ quả:** với v = k·C²_NO·C_O₂, nếu C_NO tăng 2 lần thì v tăng 2² = **4 lần** (không phải 2 lần).",
+        "terms": [
+          "T-506",
+          "T-507",
+          "T-505"
+        ]
+      },
+      {
+        "heading": "Ảnh hưởng của nồng độ và áp suất",
+        "body_md": "- Phản ứng xảy ra khi các hạt chất phản ứng **va chạm hiệu quả** (va chạm có đủ năng lượng và dẫn đến phản ứng).\n- **Nồng độ:** tăng nồng độ chất phản ứng → số hạt trong một đơn vị thể tích tăng → số va chạm hiệu quả tăng → **tốc độ tăng**.\n  - Thí nghiệm: cùng một lượng Zn, cho vào dung dịch HCl 1 M thì khí H₂ thoát ra nhanh hơn trong dung dịch HCl 0,5 M.\n- **Áp suất:** chỉ ảnh hưởng đến phản ứng **có chất khí tham gia**. Tăng áp suất (nén khí) làm nồng độ chất khí tăng → tốc độ tăng.\n  - Phản ứng chỉ có chất rắn, chất lỏng, dung dịch (Zn + dung dịch CuSO₄, NaOH + HCl) thì áp suất **hầu như không ảnh hưởng**.",
+        "terms": [
+          "T-505",
+          "T-508",
+          "T-514"
+        ]
+      },
+      {
+        "heading": "Ảnh hưởng của nhiệt độ – hệ số nhiệt độ Van't Hoff",
+        "body_md": "- Tăng nhiệt độ → các hạt chuyển động nhanh hơn, số va chạm và **tỉ lệ va chạm hiệu quả** tăng → **tốc độ tăng**.\n  - Thí nghiệm: Na₂S₂O₃ + H₂SO₄ → Na₂SO₄ + S↓ + SO₂ + H₂O. Dùng cùng thể tích, cùng nồng độ hai dung dịch ở hai nhiệt độ khác nhau, đo thời gian đến khi dung dịch vẩn đục (kết tủa S màu vàng nhạt): ở nhiệt độ cao hơn, vẩn đục xuất hiện sớm hơn. (Khí SO₂ độc, mùi hắc – làm thí nghiệm với lượng nhỏ, nơi thoáng khí, dưới sự hướng dẫn của giáo viên.)\n- **Quy tắc Van't Hoff:** khi nhiệt độ tăng thêm **10 °C**, tốc độ của nhiều phản ứng tăng từ **2 đến 4 lần**. Số lần tăng đó là **hệ số nhiệt độ γ**:\n\nv₂/v₁ = γ^((T₂ − T₁)/10)\n\n- Đây là **lũy thừa**, không phải phép nhân: γ = 2, tăng 30 °C → 2³ = **8 lần** (không phải 2 × 3 = 6 lần).\n- Tốc độ tăng bao nhiêu lần thì **thời gian** phản ứng (với cùng lượng chất, các điều kiện khác như nhau) giảm bấy nhiêu lần.\n- Ý nghĩa: γ càng lớn, tốc độ phản ứng càng nhạy với sự thay đổi nhiệt độ.",
+        "terms": [
+          "T-509",
+          "T-510",
+          "T-514"
+        ]
+      },
+      {
+        "heading": "Ảnh hưởng của diện tích bề mặt",
+        "body_md": "- Với phản ứng có **chất rắn** tham gia, phản ứng xảy ra trên bề mặt chất rắn.\n- Cùng khối lượng, chất rắn **càng được chia nhỏ** thì **tổng diện tích bề mặt** càng lớn → số va chạm hiệu quả tăng → **tốc độ tăng**.\n  - Thí nghiệm: cùng khối lượng CaCO₃, dạng bột tan trong dung dịch HCl nhanh hơn dạng viên.\n- **Chú ý:** chia nhỏ chất rắn chỉ làm phản ứng **nhanh hơn**; lượng sản phẩm tối đa vẫn do lượng chất phản ứng quyết định.",
+        "terms": [
+          "T-511"
+        ]
+      },
+      {
+        "heading": "Ảnh hưởng của chất xúc tác",
+        "body_md": "- **Chất xúc tác** là chất làm **tăng tốc độ phản ứng** nhưng vẫn **được bảo toàn về chất và lượng** khi phản ứng kết thúc.\n  - Thí nghiệm: H₂O₂ phân hủy rất chậm ở nhiệt độ thường; thêm một ít MnO₂ thì khí O₂ thoát ra mạnh: 2H₂O₂ → 2H₂O + O₂ (MnO₂ xúc tác).\n- **Năng lượng hoạt hóa** là năng lượng tối thiểu mà các hạt cần có để va chạm trở thành va chạm hiệu quả. Chất xúc tác giúp phản ứng đi theo con đường có **năng lượng hoạt hóa thấp hơn**, nên nhiều va chạm trở thành hiệu quả hơn và tốc độ tăng. (Ở lớp 10 chỉ cần hiểu định tính, không tính toán với năng lượng hoạt hóa.)\n- Chất xúc tác **không** làm tăng lượng sản phẩm tối đa, **không** bị tiêu hao, **không** có trong sản phẩm.\n- **Enzyme** là chất xúc tác sinh học, giúp các phản ứng trong cơ thể xảy ra nhanh ở nhiệt độ cơ thể (ví dụ enzyme amylase trong nước bọt).",
+        "terms": [
+          "T-512",
+          "T-513",
+          "T-515"
+        ]
+      },
+      {
+        "heading": "Ứng dụng trong đời sống và sản xuất",
+        "body_md": "| Hiện tượng / biện pháp | Yếu tố | Tác dụng |\n|---|---|---|\n| Thổi không khí vào lò than, lò rèn | nồng độ O₂ | tăng tốc độ cháy |\n| Bảo quản thực phẩm trong tủ lạnh | nhiệt độ thấp | làm chậm sự ôi thiu |\n| Nấu bằng nồi áp suất | nhiệt độ cao (nước sôi > 100 °C) | thực phẩm nhanh chín |\n| Than tổ ong có nhiều lỗ; chẻ nhỏ củi; nhai kĩ thức ăn | diện tích bề mặt | tăng tốc độ phản ứng |\n| Nén hỗn hợp khí trong sản xuất SO₃, NH₃ | áp suất | tăng tốc độ phản ứng khí |\n| Dùng V₂O₅ khi sản xuất SO₃; bộ chuyển đổi xúc tác trên ô tô; men (enzyme) khi ủ rượu, làm bánh | chất xúc tác | tăng tốc độ phản ứng |\n\nTrong thực tế, người ta thường **phối hợp nhiều yếu tố** để phản ứng có lợi xảy ra nhanh và phản ứng có hại (gỉ sắt, ôi thiu) xảy ra chậm.",
+        "terms": [
+          "T-501",
+          "T-512",
+          "T-513",
+          "T-511"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "aA + bB → cC + dD: v̄ = −(1/a)·ΔC_A/Δt = −(1/b)·ΔC_B/Δt = (1/c)·ΔC_C/Δt = (1/d)·ΔC_D/Δt",
+      "ΔC = C₂ − C₁ (nồng độ sau − nồng độ đầu); Δt = t₂ − t₁; đơn vị tốc độ mol/(L·s)",
+      "Phản ứng đơn giản aA + bB → sản phẩm: v = k·C_A^a·C_B^b (khi C_A = C_B = 1 mol/L thì v = k)",
+      "Hệ số nhiệt độ Van't Hoff: v₂/v₁ = γ^((T₂ − T₁)/10), γ thường từ 2 đến 4",
+      "t₁/t₂ = v₂/v₁ (tốc độ tăng bao nhiêu lần thì thời gian phản ứng giảm bấy nhiêu lần)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Cho phản ứng: N₂(g) + 3H₂(g) → 2NH₃(g). Trong 10 giây đầu, nồng độ NH₃ tăng từ 0 lên 0,10 mol/L. (a) Tính tốc độ trung bình của phản ứng. (b) Trong khoảng thời gian đó, nồng độ H₂ giảm với tốc độ bao nhiêu?",
+        "solution": "Bước 1: Tính theo NH₃ (hệ số 2): v̄ = (1/2)·ΔC_NH₃/Δt = (1/2) × (0,10 − 0)/10 = 0,005 mol/(L·s).\nBước 2: Theo H₂ (hệ số 3): v̄ = −(1/3)·ΔC_H₂/Δt → tốc độ giảm nồng độ H₂ = 3 × 0,005 = 0,015 mol/(L·s).\nĐáp án: (a) 0,005 mol/(L·s); (b) 0,015 mol/(L·s).\nLưu ý: lấy 0,10/10 = 0,010 làm tốc độ phản ứng là quên chia hệ số 2 (M38)."
+      },
+      {
+        "problem": "Cho phản ứng đơn giản: H₂(g) + I₂(g) → 2HI(g) có hằng số tốc độ k = 0,4 L/(mol·s) ở nhiệt độ T. (a) Viết biểu thức tốc độ và tính tốc độ phản ứng khi C_H₂ = 0,10 M, C_I₂ = 0,20 M. (b) Nếu nồng độ H₂ tăng gấp đôi (giữ nguyên C_I₂ và nhiệt độ) thì tốc độ phản ứng bằng bao nhiêu?",
+        "solution": "Bước 1: Theo định luật tác dụng khối lượng: v = k·C_H₂·C_I₂ (số mũ đều bằng 1).\nBước 2: v = 0,4 × 0,10 × 0,20 = 0,008 mol/(L·s).\nBước 3: C_H₂ = 0,20 M: v = 0,4 × 0,20 × 0,20 = 0,016 mol/(L·s), tức tăng 2 lần; k không đổi vì nhiệt độ không đổi.\nĐáp án: (a) v = k·C_H₂·C_I₂ = 0,008 mol/(L·s); (b) 0,016 mol/(L·s)."
+      },
+      {
+        "problem": "Một phản ứng có hệ số nhiệt độ γ = 4. Ở 30 °C, phản ứng kết thúc sau 32 phút. Tính số lần tăng tốc độ và thời gian phản ứng khi thực hiện ở 50 °C.",
+        "solution": "Bước 1: v₅₀/v₃₀ = 4^((50 − 30)/10) = 4² = 16 lần.\nBước 2: Thời gian giảm 16 lần: t = 32 : 16 = 2 phút.\nĐáp án: tốc độ tăng 16 lần; phản ứng kết thúc sau 2 phút.\nLưu ý: tính 4 × 2 = 8 lần (rồi ra 4 phút) là nhân thay vì lũy thừa (M41)."
+      }
+    ],
+    "quick_check": [
+      "Q-B19-001",
+      "Q-B19-004",
+      "Q-B19-007"
+    ]
+  },
+  {
+    "id": "B20",
+    "number": 20,
+    "chapter": "C6",
+    "kind": "review",
+    "title": "Ôn tập chương 6",
+    "title_en": "Chapter 6 review: Reaction rate",
+    "objectives": [
+      "Hệ thống hóa kiến thức về tốc độ phản ứng, tốc độ trung bình, định luật tác dụng khối lượng và các yếu tố ảnh hưởng đến tốc độ phản ứng.",
+      "Vận dụng giải các dạng bài: tính tốc độ trung bình theo các chất; viết biểu thức tốc độ và tính sự thay đổi tốc độ khi đổi nồng độ, áp suất; tính theo hệ số nhiệt độ Van't Hoff.",
+      "Giải thích được các biện pháp điều chỉnh tốc độ phản ứng trong đời sống và sản xuất."
+    ],
+    "summary": [
+      "Tốc độ phản ứng: biến thiên nồng độ chất phản ứng hoặc sản phẩm trong một đơn vị thời gian, luôn dương, đơn vị mol/(L·s).",
+      "Tốc độ trung bình: chia ΔC/Δt cho hệ số tỉ lượng; đặt dấu trừ khi tính theo chất phản ứng.",
+      "Phản ứng đơn giản aA + bB → sản phẩm: v = k·C_A^a·C_B^b; k chỉ phụ thuộc bản chất phản ứng, nhiệt độ, chất xúc tác.",
+      "Tăng nồng độ, áp suất (chất khí), nhiệt độ, diện tích bề mặt, dùng chất xúc tác → tốc độ tăng.",
+      "v₂/v₁ = γ^((T₂ − T₁)/10): lũy thừa, không phải phép nhân."
+    ],
+    "sections": [
+      {
+        "heading": "Sơ đồ hệ thống kiến thức",
+        "body_md": "| Yếu tố | Tăng yếu tố thì tốc độ | Giải thích | Lưu ý |\n|---|---|---|---|\n| Nồng độ | tăng | nhiều hạt hơn trong một đơn vị thể tích → nhiều va chạm hiệu quả | v = k·C_A^a·C_B^b |\n| Áp suất | tăng | nồng độ chất khí tăng | chỉ với phản ứng có chất khí |\n| Nhiệt độ | tăng | hạt chuyển động nhanh, tỉ lệ va chạm hiệu quả tăng | v₂/v₁ = γ^(ΔT/10) |\n| Diện tích bề mặt | tăng | chất rắn chia nhỏ, tiếp xúc nhiều hơn | không tăng lượng sản phẩm |\n| Chất xúc tác | tăng | giảm năng lượng hoạt hóa | bảo toàn về chất và lượng |\n\n**Các dạng bài thường gặp:**\n1. Tính tốc độ trung bình theo một chất; suy ra tốc độ biến thiên nồng độ của chất khác (nhân/chia hệ số tỉ lượng).\n2. Tính ngược lượng chất đã phản ứng từ tốc độ trung bình: |ΔC_A| = a·v̄·Δt.\n3. Viết biểu thức v = k·C_A^a·C_B^b; tính số lần thay đổi tốc độ khi đổi nồng độ hoặc nén/giãn khí.\n4. Bài toán Van't Hoff: tìm số lần tăng tốc độ, tìm γ, tìm nhiệt độ hoặc thời gian phản ứng.\n5. Giải thích hiện tượng thực tiễn theo từng yếu tố.",
+        "terms": [
+          "T-501",
+          "T-502",
+          "T-506",
+          "T-510",
+          "T-512"
+        ]
+      },
+      {
+        "heading": "Bẫy lỗi sai cần tránh",
+        "body_md": "| Mã | Lỗi | Cách tránh |\n|---|---|---|\n| M38 | Quên chia hệ số tỉ lượng; tốc độ ra số âm | v̄ = ∓(1/hệ số)·ΔC/Δt; tốc độ luôn dương |\n| M39 | Chất xúc tác bị tiêu hao, làm tăng lượng sản phẩm | Xúc tác chỉ làm nhanh hơn, được bảo toàn |\n| M40 | Hạt to phản ứng nhanh hơn bột | Chia nhỏ → diện tích bề mặt lớn → nhanh hơn |\n| M41 | γ = 2, tăng 30 °C → tăng 6 lần | Lũy thừa: 2³ = 8 lần |\n| M42 | Quên số mũ; áp suất ảnh hưởng phản ứng không có khí; k đổi theo nồng độ | Số mũ = hệ số; áp suất chỉ với chất khí; k chỉ đổi theo nhiệt độ, xúc tác |\n\n**Mẹo kiểm tra:** tính lại tốc độ theo một chất khác trong phương trình – nếu không ra cùng một giá trị thì đã quên chia hệ số.",
+        "terms": [
+          "T-503",
+          "T-507",
+          "T-508",
+          "T-511",
+          "T-509"
+        ]
+      }
+    ],
+    "key_formulas": [
+      "v̄ = −(1/a)·ΔC_A/Δt = (1/c)·ΔC_C/Δt",
+      "Phản ứng đơn giản: v = k·C_A^a·C_B^b",
+      "v₂/v₁ = γ^((T₂ − T₁)/10)",
+      "Nén khí làm thể tích giảm n lần → nồng độ mỗi khí tăng n lần"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Cho phản ứng đơn giản: 2NO(g) + Cl₂(g) → 2NOCl(g). (a) Viết biểu thức tốc độ phản ứng. (b) Trong 40 giây, nồng độ NO giảm từ 0,50 M xuống 0,30 M. Tính tốc độ trung bình của phản ứng. (c) Giữ nguyên nhiệt độ, tăng nồng độ NO lên 3 lần và nồng độ Cl₂ lên 2 lần thì tốc độ phản ứng tăng bao nhiêu lần?",
+        "solution": "Bước 1: v = k·C²_NO·C_Cl₂.\nBước 2: v̄ = −(1/2) × (0,30 − 0,50)/40 = (1/2) × 0,005 = 0,0025 mol/(L·s).\nBước 3: v₂/v₁ = 3² × 2 = 18.\nĐáp án: (a) v = k·C²_NO·C_Cl₂; (b) 0,0025 mol/(L·s); (c) 18 lần.\nLưu ý: ra 0,005 là quên chia hệ số 2 (M38); ra 6 lần là quên số mũ 2 của C_NO (M42)."
+      },
+      {
+        "problem": "Giải thích các hiện tượng sau theo yếu tố ảnh hưởng đến tốc độ phản ứng: (a) Người ta ủ men (chứa enzyme) khi làm bánh mì; (b) Muốn bếp than cháy to, người ta dùng quạt thổi vào bếp; (c) Thức ăn để trong ngăn mát tủ lạnh lâu hỏng hơn để ngoài.",
+        "solution": "Bước 1: (a) Enzyme trong men là chất xúc tác sinh học, làm tăng tốc độ quá trình lên men bột; enzyme không bị tiêu hao.\nBước 2: (b) Quạt thổi đưa thêm không khí, làm tăng nồng độ O₂ ở bề mặt than → tốc độ cháy tăng.\nBước 3: (c) Nhiệt độ thấp làm giảm tốc độ các phản ứng gây ôi thiu (theo quy tắc Van't Hoff, giảm 10 °C thì tốc độ giảm γ lần).\nĐáp án: (a) chất xúc tác; (b) nồng độ; (c) nhiệt độ."
+      }
+    ],
+    "quick_check": [
+      "Q-B20-001",
+      "Q-B20-002",
+      "Q-B20-003"
+    ]
+  }
+]

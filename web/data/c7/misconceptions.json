@@ -1,0 +1,81 @@
+[
+  {
+    "code": "M43",
+    "chapter": "C7",
+    "title": "Cho rằng tính oxi hóa của các halogen tăng dần từ fluorine đến iodine",
+    "description": "Học sinh suy luận \"nguyên tử càng lớn, càng nặng thì càng mạnh\" nên cho rằng tính oxi hóa tăng từ F₂ đến I₂; từ đó viết các phản ứng thế ngược chiều (Br₂ + 2NaCl → 2NaBr + Cl₂, I₂ + 2KBr → 2KI + Br₂) hoặc cho rằng chlorine không đẩy được iodine ra khỏi dung dịch muối iodide.",
+    "lessons": [
+      "B21",
+      "B23"
+    ],
+    "remedy": "Từ F đến I, bán kính nguyên tử tăng, độ âm điện giảm nên khả năng nhận thêm 1 electron giảm: tính oxi hóa F₂ > Cl₂ > Br₂ > I₂. Halogen mạnh hơn mới đẩy được halogen yếu hơn ra khỏi dung dịch muối của nó, không có chiều ngược lại.",
+    "example_wrong": "Br₂ + 2NaCl → 2NaBr + Cl₂ vì bromine có nguyên tử khối lớn hơn chlorine.",
+    "example_right": "Cl₂ + 2NaBr → 2NaCl + Br₂; còn Br₂ không phản ứng với dung dịch NaCl vì tính oxi hóa của Br₂ yếu hơn Cl₂."
+  },
+  {
+    "code": "M44",
+    "chapter": "C7",
+    "title": "Cho rằng HF là acid mạnh nhất trong dãy hydrohalic acid",
+    "description": "Học sinh lập luận \"fluorine có độ âm điện lớn nhất, liên kết H–F phân cực nhất nên HF phân li mạnh nhất\", từ đó sắp xếp tính acid giảm dần HF > HCl > HBr > HI, hoặc cho rằng dùng HF để khắc thủy tinh vì HF là acid mạnh nhất.",
+    "lessons": [
+      "B22",
+      "B23"
+    ],
+    "remedy": "Tính acid của dãy hydrohalic acid do độ bền liên kết H–X quyết định: từ HF đến HI, độ dài liên kết tăng, năng lượng liên kết giảm nên H⁺ tách ra dễ hơn. Thứ tự: HF < HCl < HBr < HI; HF là acid yếu, HCl, HBr, HI là acid mạnh. HF khắc được thủy tinh vì phản ứng với SiO₂, không phải vì có tính acid mạnh.",
+    "example_wrong": "Dung dịch HF có tính acid mạnh nhất vì F có độ âm điện lớn nhất.",
+    "example_right": "Dung dịch HF là acid yếu; tính acid tăng dần HF < HCl < HBr < HI vì liên kết H–X kém bền dần."
+  },
+  {
+    "code": "M45",
+    "chapter": "C7",
+    "title": "Cho rằng halogen chỉ có số oxi hóa −1, hoặc fluorine có số oxi hóa dương",
+    "description": "Học sinh cho rằng trong mọi hợp chất các halogen đều có số oxi hóa −1 (nên xác định sai số oxi hóa của Cl trong NaClO, NaClO₃; không nhận ra chlorine vừa là chất oxi hóa vừa là chất khử khi phản ứng với nước hoặc dung dịch kiềm), hoặc ngược lại áp dụng các số oxi hóa dương +1, +3, +5, +7 cho cả fluorine.",
+    "lessons": [
+      "B21",
+      "B22",
+      "B23"
+    ],
+    "remedy": "Fluorine có độ âm điện lớn nhất nên trong hợp chất chỉ có số oxi hóa −1. Chlorine, bromine, iodine có số oxi hóa −1 khi liên kết với nguyên tố kém âm điện hơn, và có thể có +1, +3, +5, +7 khi liên kết với oxygen (NaClO: +1; NaClO₃: +5). Luôn tính số oxi hóa theo quy tắc tổng số oxi hóa bằng 0.",
+    "example_wrong": "Trong phản ứng Cl₂ + 2NaOH → NaCl + NaClO + H₂O, chlorine chỉ là chất oxi hóa vì halogen luôn có số oxi hóa −1 trong hợp chất.",
+    "example_right": "Trong phản ứng đó, Cl⁰ → Cl⁻¹ (trong NaCl) và Cl⁰ → Cl⁺¹ (trong NaClO): chlorine vừa là chất oxi hóa vừa là chất khử (phản ứng tự oxi hóa – khử)."
+  },
+  {
+    "code": "M46",
+    "chapter": "C7",
+    "title": "Nhận biết sai ion halide bằng dung dịch AgNO₃",
+    "description": "Học sinh cho rằng ion F⁻ cũng tạo kết tủa với Ag⁺ (AgF kết tủa trắng), hoặc nhầm màu kết tủa: AgCl màu vàng, AgBr màu trắng, AgI màu trắng…; từ đó nhận biết sai các dung dịch muối halide và tính sai khối lượng kết tủa (cộng cả AgF).",
+    "lessons": [
+      "B22",
+      "B23"
+    ],
+    "remedy": "Ghi nhớ: AgF tan trong nước (không có kết tủa); AgCl kết tủa trắng, AgBr kết tủa vàng nhạt, AgI kết tủa vàng. Khi tính khối lượng kết tủa từ hỗn hợp có ion F⁻, bỏ phần F⁻ ra.",
+    "example_wrong": "Nhỏ AgNO₃ vào dung dịch NaF thấy kết tủa trắng AgF; dung dịch NaBr cho kết tủa trắng như NaCl.",
+    "example_right": "Dung dịch NaF không tạo kết tủa với AgNO₃; NaCl cho AgCl trắng, NaBr cho AgBr vàng nhạt, NaI cho AgI vàng."
+  },
+  {
+    "code": "M47",
+    "chapter": "C7",
+    "title": "So sánh sai nhiệt độ sôi của các hydrogen halide (bỏ qua liên kết hydrogen của HF)",
+    "description": "Học sinh áp dụng máy móc quy luật \"khối lượng phân tử tăng thì nhiệt độ sôi tăng\" cho cả dãy, cho rằng HF có nhiệt độ sôi thấp nhất (HF < HCl < HBr < HI), bỏ qua liên kết hydrogen giữa các phân tử HF.",
+    "lessons": [
+      "B22",
+      "B23"
+    ],
+    "remedy": "Từ HCl đến HI nhiệt độ sôi tăng do tương tác van der Waals tăng theo khối lượng và kích thước phân tử. Riêng HF có liên kết hydrogen mạnh giữa các phân tử nên sôi ở khoảng 20 °C, cao bất thường và cao nhất dãy: HCl < HBr < HI < HF.",
+    "example_wrong": "HF có khối lượng phân tử nhỏ nhất nên có nhiệt độ sôi thấp nhất trong dãy hydrogen halide.",
+    "example_right": "Nhiệt độ sôi: HCl (−85 °C) < HBr (−67 °C) < HI (−35 °C) < HF (20 °C); HF sôi cao bất thường do liên kết hydrogen."
+  },
+  {
+    "code": "M48",
+    "chapter": "C7",
+    "title": "Viết đơn chất halogen ở dạng nguyên tử hoặc nhầm trạng thái, màu sắc của đơn chất",
+    "description": "Học sinh viết đơn chất halogen là Cl, Br, I (thay vì phân tử hai nguyên tử Cl₂, Br₂, I₂), dẫn tới cân bằng phương trình và tính số mol khí sai (lấy số mol nguyên tử Cl làm số mol Cl₂); hoặc nhầm trạng thái, màu của đơn chất (bromine là khí vàng lục, iodine là chất lỏng, chlorine không màu…).",
+    "lessons": [
+      "B21",
+      "B23"
+    ],
+    "remedy": "Đơn chất halogen là phân tử hai nguyên tử X₂: F₂ (khí, lục nhạt), Cl₂ (khí, vàng lục), Br₂ (lỏng, nâu đỏ), I₂ (rắn, tím đen). Khi tính toán, số mol Cl₂ bằng một nửa số mol nguyên tử Cl.",
+    "example_wrong": "2Na + 2Cl → 2NaCl; bromine là chất khí màu vàng lục.",
+    "example_right": "2Na + Cl₂ → 2NaCl; bromine là chất lỏng màu nâu đỏ, chlorine mới là chất khí màu vàng lục."
+  }
+]
