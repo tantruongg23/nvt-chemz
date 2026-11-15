@@ -1,0 +1,13 @@
+# Bí mật – KHÔNG BAO GIỜ commit
+.env
+.env.*
+supabase/.temp/
+supabase/.branches/
+**/secrets*
+
+# Hệ thống / công cụ
+node_modules/
+.DS_Store
+Thumbs.db
+~$*.docx
+*.log

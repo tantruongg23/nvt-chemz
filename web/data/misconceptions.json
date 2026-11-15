@@ -1,0 +1,92 @@
+[
+  {
+    "code": "M1",
+    "title": "Nhầm số khối (A) với nguyên tử khối",
+    "description": "Học sinh coi số khối A (tổng số proton và neutron, luôn là số nguyên) là nguyên tử khối (khối lượng tương đối của nguyên tử), hoặc coi nguyên tử khối trung bình (có thể lẻ, ví dụ 35,5) là số khối của một nguyên tử cụ thể.",
+    "lessons": ["B2", "B4"],
+    "remedy": "Số khối là số đếm hạt nên luôn là số nguyên; nguyên tử khối là khối lượng tương đối, chỉ xấp xỉ bằng A. Giá trị lẻ như 35,5 là nguyên tử khối trung bình của hỗn hợp đồng vị, không phải số khối.",
+    "example_wrong": "Chlorine có số khối là 35,5.",
+    "example_right": "Chlorine có hai đồng vị ³⁵Cl (A = 35) và ³⁷Cl (A = 37); 35,5 là nguyên tử khối trung bình của chlorine."
+  },
+  {
+    "code": "M2",
+    "title": "Cho rằng electron đóng góp đáng kể vào khối lượng nguyên tử",
+    "description": "Học sinh nghĩ electron nặng xấp xỉ proton, hoặc cho rằng khối lượng nguyên tử phân bố đều giữa hạt nhân và lớp vỏ, nên cộng cả electron khi ước lượng khối lượng nguyên tử.",
+    "lessons": ["B1", "B4"],
+    "remedy": "Khối lượng electron chỉ khoảng 0,00055 amu (nhỏ hơn proton khoảng 1836 lần), nên khối lượng nguyên tử tập trung gần như hoàn toàn ở hạt nhân.",
+    "example_wrong": "Nguyên tử ²³Na nặng khoảng 34 amu vì có 11 proton, 12 neutron và 11 electron, mỗi hạt khoảng 1 amu.",
+    "example_right": "Nguyên tử ²³Na nặng khoảng 23 amu; 11 electron chỉ nặng khoảng 11 × 0,00055 ≈ 0,006 amu, không đáng kể."
+  },
+  {
+    "code": "M3",
+    "title": "Tính sai số nơtron (ví dụ N = A + Z, hoặc nhầm Z với N)",
+    "description": "Học sinh dùng sai công thức A = Z + N (ví dụ tính N = A + Z), hoặc đọc nhầm vị trí số hiệu nguyên tử và số khối trong kí hiệu nguyên tử, dẫn tới nhầm số proton với số neutron (SGK KNTT viết là neutron).",
+    "lessons": ["B1", "B2", "B4"],
+    "remedy": "Trong kí hiệu nguyên tử, số khối A ghi ở góc trên bên trái, số hiệu nguyên tử Z ghi ở góc dưới bên trái kí hiệu (ví dụ ⁵⁶₂₆Fe). Số neutron N = A − Z.",
+    "example_wrong": "Nguyên tử ⁵⁶₂₆Fe có N = 56 + 26 = 82 neutron.",
+    "example_right": "Nguyên tử ⁵⁶₂₆Fe có N = 56 − 26 = 30 neutron."
+  },
+  {
+    "code": "M4",
+    "title": "Cho rằng các đồng vị khác nhau về số proton",
+    "description": "Học sinh nghĩ các đồng vị khác nhau về số proton (hoặc có cùng số khối), từ đó không nhận ra đồng vị là các nguyên tử của cùng một nguyên tố, hoặc chọn nhầm cặp nguyên tử cùng số khối/cùng số neutron là đồng vị.",
+    "lessons": ["B2", "B4"],
+    "remedy": "Đồng vị: cùng số proton (cùng Z, cùng nguyên tố), khác số neutron nên khác số khối A. Kiểm tra Z trước: khác Z thì không phải đồng vị.",
+    "example_wrong": "¹⁴₆C và ¹⁴₇N là hai đồng vị vì có cùng số khối 14.",
+    "example_right": "¹²₆C và ¹⁴₆C là hai đồng vị của carbon vì cùng có 6 proton, khác số neutron (6 và 8)."
+  },
+  {
+    "code": "M5",
+    "title": "Tính nguyên tử khối trung bình bằng trung bình cộng, không theo tỉ lệ phần trăm",
+    "description": "Học sinh lấy trung bình cộng các số khối của đồng vị mà không nhân với phần trăm số nguyên tử (độ phong phú), hoặc ghép nhầm phần trăm với đồng vị.",
+    "lessons": ["B2", "B4"],
+    "remedy": "Dùng công thức trung bình có trọng số: A̅ = (a·A₁ + b·A₂ + …) / 100, trong đó a, b là phần trăm số nguyên tử của từng đồng vị. Kết quả luôn gần với đồng vị chiếm phần trăm lớn hơn.",
+    "example_wrong": "Chlorine gồm ³⁵Cl (75%) và ³⁷Cl (25%) nên A̅ = (35 + 37) / 2 = 36.",
+    "example_right": "A̅ = (35 × 75 + 37 × 25) / 100 = 35,5."
+  },
+  {
+    "code": "M6",
+    "title": "Hiểu orbital là quỹ đạo chuyển động xác định (theo mô hình hành tinh)",
+    "description": "Học sinh hình dung electron chạy trên đường tròn hoặc elip cố định quanh hạt nhân như hành tinh quanh Mặt Trời, coi orbital là một đường đi.",
+    "lessons": ["B3", "B4"],
+    "remedy": "Theo mô hình hiện đại, electron chuyển động rất nhanh, không theo quỹ đạo xác định. Orbital là vùng không gian quanh hạt nhân mà xác suất tìm thấy electron lớn nhất (khoảng 90%).",
+    "example_wrong": "Orbital 1s là đường tròn mà electron chạy quanh hạt nhân.",
+    "example_right": "Orbital 1s là vùng không gian hình cầu bao quanh hạt nhân, nơi xác suất có mặt electron lớn nhất."
+  },
+  {
+    "code": "M7",
+    "title": "Điền electron theo thứ tự lớp thay vì theo mức năng lượng (ví dụ điền 3d trước 4s)",
+    "description": "Học sinh điền electron lần lượt theo số thứ tự lớp (lấp đầy lớp 3 gồm 3s, 3p, 3d rồi mới sang lớp 4), bỏ qua việc phân lớp 4s có mức năng lượng thấp hơn 3d.",
+    "lessons": ["B3", "B4"],
+    "remedy": "Điền electron theo thứ tự mức năng lượng: 1s 2s 2p 3s 3p 4s 3d 4p 5s… Sau khi điền xong mới sắp xếp lại theo từng lớp khi viết cấu hình (ví dụ Fe: …3d⁶4s²).",
+    "example_wrong": "K (Z = 19): 1s²2s²2p⁶3s²3p⁶3d¹.",
+    "example_right": "K (Z = 19): 1s²2s²2p⁶3s²3p⁶4s¹ (4s có mức năng lượng thấp hơn 3d nên được điền trước)."
+  },
+  {
+    "code": "M8",
+    "title": "Sai số electron tối đa của lớp hoặc phân lớp",
+    "description": "Học sinh nhớ sai số electron tối đa: cho rằng mọi lớp chứa tối đa 8 electron, nhầm số orbital với số electron (ví dụ phân lớp p chứa 3 electron), hoặc viết phân lớp vượt quá giới hạn (như 3p⁷, 2p⁸).",
+    "lessons": ["B3", "B4"],
+    "remedy": "Mỗi orbital chứa tối đa 2 electron. Phân lớp s, p, d, f có 1, 3, 5, 7 orbital nên chứa tối đa 2, 6, 10, 14 electron. Lớp thứ n chứa tối đa 2n² electron (n ≤ 4): K 2, L 8, M 18, N 32.",
+    "example_wrong": "Lớp M (n = 3) chứa tối đa 8 electron.",
+    "example_right": "Lớp M (n = 3) chứa tối đa 2 × 3² = 18 electron (3s² 3p⁶ 3d¹⁰)."
+  },
+  {
+    "code": "M9",
+    "title": "Cho rằng số proton thay đổi khi nguyên tử tạo thành ion",
+    "description": "Học sinh nghĩ khi nguyên tử nhường hay nhận electron để tạo ion thì số proton cũng thay đổi theo (hoặc ion vẫn có số electron bằng số proton).",
+    "lessons": ["B1", "B2", "B4"],
+    "remedy": "Khi tạo ion, chỉ số electron thay đổi; hạt nhân (số proton, số neutron) giữ nguyên. Cation Xⁿ⁺: số e = Z − n; anion Xⁿ⁻: số e = Z + n.",
+    "example_wrong": "Ion Na⁺ có 10 proton và 10 electron.",
+    "example_right": "Ion Na⁺ có 11 proton và 10 electron (nguyên tử Na đã nhường 1 electron)."
+  },
+  {
+    "code": "M10",
+    "title": "Xác định sai tính kim loại hoặc phi kim dựa trên số electron lớp ngoài cùng",
+    "description": "Học sinh áp dụng sai quy tắc số electron lớp ngoài cùng: quên các ngoại lệ H, He, B; cho rằng nhiều electron lớp ngoài cùng thì là kim loại; hoặc khẳng định nguyên tử có 4 electron lớp ngoài cùng chắc chắn là kim loại hay phi kim.",
+    "lessons": ["B3", "B4"],
+    "remedy": "1, 2, 3 electron lớp ngoài cùng → thường là kim loại (trừ H, He, B); 5, 6, 7 → thường là phi kim; 8 → khí hiếm (He có 2 electron cũng là khí hiếm); 4 → có thể là kim loại hoặc phi kim.",
+    "example_wrong": "Chlorine (2, 8, 7) có nhiều electron lớp ngoài cùng nên là kim loại.",
+    "example_right": "Chlorine có 7 electron lớp ngoài cùng nên là phi kim; sodium (2, 8, 1) có 1 electron lớp ngoài cùng nên là kim loại."
+  }
+]
