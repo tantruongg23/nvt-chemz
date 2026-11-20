@@ -54,7 +54,7 @@ create table if not exists public.attempts (
   id                  uuid primary key default gen_random_uuid(),
   anon_id             text not null references public.students (anon_id) on delete cascade,
   question_id         text not null check (question_id ~ '^[A-Za-z0-9_-]{1,40}$'),
-  lesson              text not null check (lesson ~ '^B([1-9]|1[0-9]|2[0-3])$')  -- B1–B23 (7 chương Hóa 10 KNTT),
+  lesson              text not null check (lesson ~ '^B([1-9]|1[0-9]|2[0-3])$'),  -- B1–B23 (7 chương Hóa 10 KNTT)
   answer              jsonb check (answer is null or pg_column_size(answer) <= 2000),
   is_correct          boolean not null,
   misconception_codes text[] not null default '{}'
