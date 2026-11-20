@@ -1,4 +1,4 @@
-# NVT SMART CHEMISTRY
+# NVT CHEMZ
 
 ## Tóm tắt dự án nghiên cứu khoa học kỹ thuật cấp trường
 
@@ -7,7 +7,7 @@
 Hóa học song ngữ Việt -- Anh và trợ lý trí tuệ nhân tạo nhằm hỗ trợ tự
 học cho học sinh Trường THPT Nguyễn Văn Thoại.*
 
-**Tên sản phẩm:** NVT SMART CHEMISTRY
+**Tên sản phẩm:** NVT CHEMZ
 
 > Đây là tên và định hướng đề xuất ban đầu. Cần điều chỉnh theo thể lệ
 > cuộc thi KHKT của trường và kết quả khảo sát thực tế.
@@ -16,7 +16,7 @@ học cho học sinh Trường THPT Nguyễn Văn Thoại.*
 
 ## 1. Ý tưởng và định hướng
 
-NVT SMART CHEMISTRY là nền tảng học tập trực tuyến hỗ trợ học sinh học
+NVT CHEMZ là nền tảng học tập trực tuyến hỗ trợ học sinh học
 Hóa học, tiếp cận thuật ngữ Hóa học bằng tiếng Anh và tự học với sự hỗ
 trợ của trí tuệ nhân tạo (AI).
 
@@ -112,7 +112,7 @@ nghiệm.
 
 ## 6. Giả thuyết nghiên cứu
 
-Nếu học sinh được sử dụng nền tảng NVT SMART CHEMISTRY với học liệu Hóa
+Nếu học sinh được sử dụng nền tảng NVT CHEMZ với học liệu Hóa
 học song ngữ Việt -- Anh, bài tập đánh giá và trợ lý AI có định hướng,
 thì nền tảng có thể hỗ trợ các em chủ động hơn trong quá trình tự học,
 tiếp cận thuật ngữ Hóa học tiếng Anh tốt hơn và nhận diện được nội dung
@@ -268,7 +268,7 @@ tại trường.
 
 ## 12. Hồ sơ và minh chứng sản phẩm dự thi
 
-1.  Website NVT SMART CHEMISTRY có thể truy cập và trình diễn.
+1.  Website NVT CHEMZ có thể truy cập và trình diễn.
 2.  Bộ học liệu Hóa học song ngữ Việt -- Anh.
 3.  Trợ lý AI và tài liệu mô tả cách hoạt động, giới hạn.
 4.  Ngân hàng câu hỏi và hệ thống đánh giá.
@@ -338,7 +338,7 @@ quan.
 
 ## Kết luận định hướng
 
-NVT SMART CHEMISTRY hướng đến một môi trường học tập số kết hợp Hóa học,
+NVT CHEMZ hướng đến một môi trường học tập số kết hợp Hóa học,
 tiếng Anh khoa học và trí tuệ nhân tạo. Dự án bắt đầu với phạm vi nhỏ,
 có thể kiểm chứng, tập trung vào nhu cầu thực tế của học sinh Trường
 THPT Nguyễn Văn Thoại.

@@ -1,4 +1,4 @@
-# Design system – NVT Smart Chemistry
+# Design system – NVT ChemZ
 
 Tài liệu này mô tả giao diện của website ôn tập Hóa 10 (Chương 1 – Cấu tạo nguyên tử). Mã nguồn tương ứng: `web/css/style.css` (token + component), `web/js/ui.js` (component dùng chung), `web/js/atom.js` (mô hình nguyên tử).
 

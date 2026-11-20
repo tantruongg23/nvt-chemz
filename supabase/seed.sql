@@ -1,5 +1,5 @@
 -- =====================================================================
--- NVT SMART CHEMISTRY – Dữ liệu mẫu (chạy SAU schema.sql)
+-- NVT CHEMZ – Dữ liệu mẫu (chạy SAU schema.sql)
 -- 2 lớp demo để thử website và dashboard giáo viên trước khi thực nghiệm thật.
 -- ⚠ PIN demo là công khai. KHÔNG dùng lại cho lớp thật.
 -- =====================================================================

@@ -112,3 +112,11 @@
 - [ ] Duyệt phiếu khảo sát, phiếu đồng ý, đề pre/post-test; xin phép nhà trường.
 - [ ] Kiểm tra thể lệ về số học sinh / mức độ AI được phép.
 
+
+---
+
+## 20/11/2026 – Đổi tên thương hiệu – Người ghi: AI (Claude), theo yêu cầu của nhóm
+
+**Quyết định:** đổi tên dự án **NVT Smart Chemistry → NVT ChemZ** để gần gũi với học sinh Gen Z. Logo mới: chữ Z nét đậm kèm bong bóng phản ứng (cùng bảng màu indigo–teal). Địa chỉ triển khai mới: `nvt-chemz.vercel.app`.
+
+**Đã làm:** đổi tên trong web, hàm Supabase `hint`, tài liệu; thay `logo.svg`, `favicon.svg`, logo trong `ui.js`. Giữ nguyên khóa localStorage `nvt.*` để không mất dữ liệu đang lưu trên máy học sinh. Các mục nhật ký cũ giữ nguyên tên gốc.

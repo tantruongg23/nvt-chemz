@@ -5,7 +5,7 @@
 ---
 
 **TRƯỜNG THPT NGUYỄN VĂN THOẠI**
-**DỰ ÁN KHOA HỌC KĨ THUẬT: NVT SMART CHEMISTRY**
+**DỰ ÁN KHOA HỌC KĨ THUẬT: NVT CHEMZ**
 
 ## PHIẾU THÔNG TIN VÀ ĐỒNG Ý THAM GIA
 

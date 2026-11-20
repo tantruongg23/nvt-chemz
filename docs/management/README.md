@@ -1,11 +1,11 @@
-# 📁 Tài liệu quản lý dự án – NVT SMART CHEMISTRY
+# 📁 Tài liệu quản lý dự án – NVT CHEMZ
 
 > Thư mục này là "bảng điều khiển" của cả nhóm: làm gì, ai làm, khi nào xong, và làm sao chứng minh được mình hiểu những gì mình làm.
 > Quy ước chung (cấu trúc thư mục, định dạng dữ liệu, API) nằm ở [`../CONTRACT.md`](../CONTRACT.md) – **bắt buộc tuân theo**.
 
 ## 💡 Dự án trong một đoạn
 
-**NVT SMART CHEMISTRY** là website ôn tập và tự học trước **Hóa học 10 – cả 7 chương, 23 bài** (SGK Kết nối tri thức). Khác với đề trắc nghiệm thông thường chỉ báo "đúng/sai", mỗi phương án sai trong ngân hàng câu hỏi được gắn với một **lỗi sai thường gặp (M1–M48)**, nên khi em chọn sai, hệ thống cho biết *em đang hiểu nhầm điều gì* và nên xem lại phần nào. Khi bí, em được **trợ lý AI gợi ý theo 3 mức** – từ câu hỏi gợi mở đến lời giải – thay vì nhận ngay đáp án. Thuật ngữ **Việt – Anh** có phát âm được lồng ngay trong bài. Giáo viên xem **thống kê theo lớp và theo lỗi sai** để biết cần dạy lại gì. Nhóm sẽ kiểm chứng hiệu quả bằng thực nghiệm **trên Chương 1** với 2 lớp 10 (có lớp đối chứng), đánh giá việc dùng các chương còn lại qua dữ liệu sử dụng, và báo cáo kết quả trung thực, dù kết quả thế nào.
+**NVT CHEMZ** là website ôn tập và tự học trước **Hóa học 10 – cả 7 chương, 23 bài** (SGK Kết nối tri thức). Khác với đề trắc nghiệm thông thường chỉ báo "đúng/sai", mỗi phương án sai trong ngân hàng câu hỏi được gắn với một **lỗi sai thường gặp (M1–M48)**, nên khi em chọn sai, hệ thống cho biết *em đang hiểu nhầm điều gì* và nên xem lại phần nào. Khi bí, em được **trợ lý AI gợi ý theo 3 mức** – từ câu hỏi gợi mở đến lời giải – thay vì nhận ngay đáp án. Thuật ngữ **Việt – Anh** có phát âm được lồng ngay trong bài. Giáo viên xem **thống kê theo lớp và theo lỗi sai** để biết cần dạy lại gì. Nhóm sẽ kiểm chứng hiệu quả bằng thực nghiệm **trên Chương 1** với 2 lớp 10 (có lớp đối chứng), đánh giá việc dùng các chương còn lại qua dữ liệu sử dụng, và báo cáo kết quả trung thực, dù kết quả thế nào.
 
 ## 🗂️ Mục lục
 

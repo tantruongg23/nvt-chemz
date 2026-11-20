@@ -50,7 +50,7 @@ export function icon(name, cls = '') {
   return `<svg class="ic ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="${P[name] || ''}"/></svg>`;
 }
 
-export const LOGO = `<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><defs><linearGradient id="nvtLogoG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4338CA"/><stop offset="1" stop-color="#0F766E"/></linearGradient></defs><rect x="4" y="4" width="56" height="56" rx="14" fill="url(#nvtLogoG)"/><ellipse cx="32" cy="32" rx="25" ry="10" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2.2" transform="rotate(-32 32 32)"/><path d="M22 44V20h3.6l13 17.2V20H42v24h-3.6L25.4 26.8V44z" fill="#fff"/><circle cx="53.2" cy="18.8" r="4.2" fill="#FB923C" stroke="#fff" stroke-width="1.6"/></svg>`;
+export const LOGO = `<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><defs><linearGradient id="nvtLogoG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4338CA"/><stop offset="1" stop-color="#0F766E"/></linearGradient></defs><rect x="4" y="4" width="56" height="56" rx="16" fill="url(#nvtLogoG)"/><path d="M20 21H44L20 43H44" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="48" cy="14" r="4.2" fill="#FB923C" stroke="#fff" stroke-width="1.6"/><circle cx="16" cy="49" r="2.4" fill="#fff" fill-opacity=".7"/></svg>`;
 
 /* ---------------- theme ---------------- */
 const THEME_KEY = 'nvt.theme';
@@ -94,8 +94,8 @@ export function mountShell(pageKey) {
   header.className = 'site-header';
   header.innerHTML = `
     <div class="container">
-      <a class="brand" href="index.html" aria-label="NVT Smart Chemistry – Trang chủ">${LOGO}
-        <span class="brand__name">NVT Smart<span>Chemistry · Hóa 10</span></span></a>
+      <a class="brand" href="index.html" aria-label="NVT ChemZ – Trang chủ">${LOGO}
+        <span class="brand__name">NVT ChemZ<span>Hóa 10 · học vui, hiểu sâu</span></span></a>
       <nav class="nav-desktop" aria-label="Điều hướng chính">
         ${NAV.map((n) => `<a href="${n.href}" ${n.key === pageKey ? 'aria-current="page"' : ''}>${n.label}</a>`).join('')}
       </nav>
@@ -119,7 +119,7 @@ export function mountShell(pageKey) {
   const footer = document.createElement('footer');
   footer.className = 'site-footer';
   footer.innerHTML = `<div class="container">
-      <span>© 2026 NVT Smart Chemistry · Dự án KHKT – THPT Nguyễn Văn Thoại</span>
+      <span>© 2026 NVT ChemZ · Dự án KHKT – THPT Nguyễn Văn Thoại</span>
       <span>Hóa học 10 (KNTT) · Không thu thập họ tên học sinh · <a href="teacher.html">Dành cho giáo viên</a></span>
     </div>`;
   document.body.append(footer);

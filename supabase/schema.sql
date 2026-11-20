@@ -1,5 +1,5 @@
 -- =====================================================================
--- NVT SMART CHEMISTRY – Lược đồ cơ sở dữ liệu (Supabase / PostgreSQL 15+)
+-- NVT CHEMZ – Lược đồ cơ sở dữ liệu (Supabase / PostgreSQL 15+)
 -- Cách chạy: Supabase Dashboard → SQL Editor → dán toàn bộ file → Run.
 -- File chạy lại nhiều lần được (idempotent). Sau đó chạy supabase/seed.sql.
 -- Tài liệu giải thích: docs/architecture/DATA_MODEL.md

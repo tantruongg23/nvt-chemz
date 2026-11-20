@@ -1,4 +1,4 @@
-# Hướng dẫn viết mã – NVT SMART CHEMISTRY
+# Hướng dẫn viết mã – NVT CHEMZ
 
 Dành cho 3 thành viên nhóm. Mục tiêu: mã **đơn giản, dễ đọc, ai cũng tự giải thích được** trước giám khảo. Khi dùng AI hỗ trợ viết mã, đọc hiểu từng dòng trước khi dán, và ghi vào `docs/management/AI_USAGE_LOG.md`.
 

@@ -1,4 +1,4 @@
-# Kiến trúc kỹ thuật – NVT SMART CHEMISTRY
+# Kiến trúc kỹ thuật – NVT CHEMZ
 
 > Tài liệu ràng buộc chung: `docs/CONTRACT.md`. Nếu tài liệu này mâu thuẫn với CONTRACT, CONTRACT thắng và phải sửa tài liệu này.
 > Tài liệu liên quan: [DATA_MODEL.md](DATA_MODEL.md) · [AI_TUTOR_DESIGN.md](AI_TUTOR_DESIGN.md) · [CODING_GUIDE.md](CODING_GUIDE.md)
@@ -243,7 +243,7 @@ Khuyến nghị: chạy bộ kiểm thử 30 câu (`ai_test_cases.md`) trên **c
 ## 6. Triển khai từng bước (cho người mới)
 
 **Bước 1 – Tạo dự án Supabase** (≈ 10 phút)
-1. Vào <https://supabase.com> → đăng nhập bằng GitHub → **New project**. Đặt tên `nvt-smart-chemistry`, chọn vùng **Southeast Asia (Singapore)**, lưu mật khẩu CSDL vào nơi an toàn.
+1. Vào <https://supabase.com> → đăng nhập bằng GitHub → **New project**. Đặt tên `nvt-chemz`, chọn vùng **Southeast Asia (Singapore)**, lưu mật khẩu CSDL vào nơi an toàn.
 2. **SQL Editor** → **New query** → dán toàn bộ `supabase/schema.sql` → **Run**. Lặp lại với `supabase/seed.sql`.
 3. **Project Settings → API**: chép **Project URL** và **anon public key** vào `web/js/config.js`.
 

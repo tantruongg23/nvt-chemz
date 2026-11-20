@@ -13,14 +13,14 @@ const id = (qs('id') || '').toUpperCase();
 const lesson = content.index.lesson.get(id);
 
 if (!lesson) {
-  document.title = 'Bài học · NVT Smart Chemistry';
+  document.title = 'Bài học · NVT ChemZ';
   app.innerHTML = `${contentErrorNotice(content)}
     <p class="eyebrow">Hóa học 10 · Kết nối tri thức</p><h1>Chọn bài để học</h1>
     ${id ? `<div class="notice notice--warn" role="status">${icon('warn')}Không tìm thấy bài “${esc(id)}”.</div>` : ''}
     ${content.chapters.filter((ch) => content.lessons.some((l) => l.chapter === ch.id)).map((ch) => `<h2 style="margin-top:22px">Chương ${ch.number} · ${esc(ch.title)}</h2>
     <div class="tile-grid" style="margin-top:10px">${content.lessons.filter((l) => l.chapter === ch.id).map((l, i) => lessonTile(l, i, byLesson[l.id], qCount(l.id))).join('')}</div>`).join('')}`;
 } else {
-  document.title = `${lesson.id} – ${lesson.title} · NVT Smart Chemistry`;
+  document.title = `${lesson.id} – ${lesson.title} · NVT ChemZ`;
   const idx = content.lessons.indexOf(lesson);
   const num = lesson.number || idx + 1;
   const ch = chapterOfLesson(content, lesson.id);

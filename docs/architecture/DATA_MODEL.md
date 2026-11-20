@@ -1,4 +1,4 @@
-# Mô hình dữ liệu – NVT SMART CHEMISTRY
+# Mô hình dữ liệu – NVT CHEMZ
 
 Mã nguồn: [`supabase/schema.sql`](../../supabase/schema.sql) (cấu trúc + bảo mật) và [`supabase/seed.sql`](../../supabase/seed.sql) (dữ liệu mẫu). File `schema.sql` là bản gốc; tài liệu này giải thích.
 
@@ -19,7 +19,7 @@ Edge Function `hint` cần đọc đề, đáp án và `explanation` theo `quest
 | B. Đóng gói bản sao `questions.json` vào thư mục Edge Function | Không phụ thuộc website | Mỗi lần sửa câu hỏi phải nhớ chép file **và** deploy lại hàm – dễ quên |
 | **C. Edge Function tải `questions.json` từ địa chỉ website** ✅ | **Một nguồn duy nhất**; sửa JSON → deploy website → AI tự cập nhật sau ≤ 10 phút | Cần website đang chạy; thêm 1 lượt tải mỗi 10 phút |
 
-Chọn **C**. Địa chỉ đặt bằng biến `CONTENT_BASE_URL` (ví dụ `https://nvt-smart-chemistry.netlify.app/data`); hàm tải `questions.json`, `lessons.json`, `misconceptions.json`, `terms.json` và giữ trong bộ nhớ 10 phút. Địa chỉ do máy chủ cấu hình, trình duyệt không thể đổi ⇒ học sinh không thể đưa đề giả cho AI. Thống kê theo câu hỏi chỉ cần `question_id` và `lesson` (đã lưu trong `attempts`); tên câu và tên lỗi sai được giao diện ghép từ JSON.
+Chọn **C**. Địa chỉ đặt bằng biến `CONTENT_BASE_URL` (ví dụ `https://nvt-chemz.vercel.app/data`); hàm tải `questions.json`, `lessons.json`, `misconceptions.json`, `terms.json` và giữ trong bộ nhớ 10 phút. Địa chỉ do máy chủ cấu hình, trình duyệt không thể đổi ⇒ học sinh không thể đưa đề giả cho AI. Thống kê theo câu hỏi chỉ cần `question_id` và `lesson` (đã lưu trong `attempts`); tên câu và tên lỗi sai được giao diện ghép từ JSON.
 
 ## 2. Sơ đồ quan hệ
 

@@ -76,7 +76,7 @@ app.innerHTML = `
     <a class="qlink" href="results.html"><span class="qlink__icon" style="background:var(--accent-ink)">${icon('target')}</span><span><b>Lỗi sai của em</b><span>Biết mình hay nhầm ở đâu để ôn lại</span></span></a>
   </div>
 
-  <div class="section-head"><h2>Cách NVT Smart Chemistry giúp em</h2></div>
+  <div class="section-head"><h2>Cách NVT ChemZ giúp em</h2></div>
   <div class="grid grid-2" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
     <div class="card"><p class="eyebrow">Bước 1</p><h3>Làm câu chẩn đoán</h3><p class="muted small">Mỗi phương án nhiễu gắn với một lỗi sai thường gặp (M1–M${nM || 10}).</p></div>
     <div class="card"><p class="eyebrow">Bước 2</p><h3>Gợi ý 3 mức</h3><p class="muted small">Gợi mở → Gợi ý trọng tâm → Lời giải. Em tự nghĩ trước, AI chỉ dẫn đường.</p></div>

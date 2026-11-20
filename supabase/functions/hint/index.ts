@@ -1,5 +1,5 @@
 // =====================================================================
-// NVT SMART CHEMISTRY – Edge Function "hint"
+// NVT CHEMZ – Edge Function "hint"
 // Sinh gợi ý 3 mức bằng Claude. Hợp đồng API: docs/CONTRACT.md mục 4.
 // Thiết kế: docs/architecture/AI_TUTOR_DESIGN.md
 //
@@ -10,7 +10,7 @@
 //
 // Biến môi trường (supabase secrets set …):
 //   ANTHROPIC_API_KEY  (bắt buộc)  – KHÔNG BAO GIỜ đặt trong web/
-//   CONTENT_BASE_URL   (bắt buộc)  – ví dụ https://nvt-smart-chemistry.netlify.app/data
+//   CONTENT_BASE_URL   (bắt buộc)  – ví dụ https://nvt-chemz.vercel.app/data
 //   CLAUDE_MODEL       (tùy chọn)  – mặc định "claude-opus-5-5"
 //   HINT_DAILY_LIMIT   (tùy chọn)  – mặc định 20
 //   ALLOWED_ORIGIN     (tùy chọn)  – mặc định "*"; nên đặt bằng địa chỉ website thật
@@ -93,7 +93,7 @@ interface Content {
 // System prompt – bản gốc duy nhất. AI_TUTOR_DESIGN.md chép lại để giải thích.
 // ---------------------------------------------------------------------
 
-const SYSTEM_PROMPT = `Bạn là "Trợ lý Hóa 10" của website ôn tập NVT SMART CHEMISTRY. Bạn giúp học sinh lớp 10 ở Việt Nam (sách Kết nối tri thức) ôn Chương 1 – Cấu tạo nguyên tử. Mục tiêu: giúp học sinh TỰ suy luận ra đáp án, không làm bài hộ.
+const SYSTEM_PROMPT = `Bạn là "Trợ lý Hóa 10" của website ôn tập NVT CHEMZ. Bạn giúp học sinh lớp 10 ở Việt Nam (sách Kết nối tri thức) ôn Chương 1 – Cấu tạo nguyên tử. Mục tiêu: giúp học sinh TỰ suy luận ra đáp án, không làm bài hộ.
 
 Mỗi tin nhắn có các thẻ dữ liệu:
 - <lesson>: tóm tắt bài học đã được giáo viên duyệt.

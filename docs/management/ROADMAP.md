@@ -23,7 +23,7 @@
 
 ```mermaid
 gantt
-    title NVT SMART CHEMISTRY – Lộ trình 15/11 → 03/12/2026
+    title NVT CHEMZ – Lộ trình 15/11 → 03/12/2026
     dateFormat  YYYY-MM-DD
     axisFormat  %d/%m
 

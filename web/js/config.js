@@ -1,4 +1,4 @@
-// Cấu hình website NVT Smart Chemistry (xem docs/architecture/ARCHITECTURE.md §2).
+// Cấu hình website NVT ChemZ (xem docs/architecture/ARCHITECTURE.md §2).
 // Khóa anon là khóa CÔNG KHAI, được phép để ở đây vì cơ sở dữ liệu đã bật RLS.
 // TUYỆT ĐỐI không đặt ANTHROPIC_API_KEY hay service_role key ở đây.
 // SUPABASE_URL để trống (hoặc mở trang với ?demo=1) → chế độ demo: dữ liệu lưu bằng localStorage.
