@@ -3,8 +3,8 @@
 // TUYỆT ĐỐI không đặt ANTHROPIC_API_KEY hay service_role key ở đây.
 // SUPABASE_URL để trống (hoặc mở trang với ?demo=1) → chế độ demo: dữ liệu lưu bằng localStorage.
 export const CONFIG = {
-  SUPABASE_URL: '',        // ví dụ "https://abcd1234.supabase.co"; để trống = chế độ demo
-  SUPABASE_ANON_KEY: '',   // Project Settings → API → anon / publishable key
+  SUPABASE_URL: 'https://qnfvjpqkisvitmrpdxbw.supabase.co',  // để trống = chế độ demo
+  SUPABASE_ANON_KEY: 'sb_publishable_iuK0fjKwryyfJ8R8O3BQ6A_2Eahp57K',  // khóa publishable: công khai, an toàn vì CSDL bật RLS
   HINT_DAILY_LIMIT: 20,    // chỉ dùng để hiển thị và cho chế độ demo
 };
 
