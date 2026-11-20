@@ -18,8 +18,8 @@ Hàm này nhận yêu cầu gợi ý từ website, đọc câu hỏi phía máy 
 
 ```bash
 npx supabase secrets set ANTHROPIC_API_KEY=sk-ant-xxxxxxxx
-npx supabase secrets set CONTENT_BASE_URL=https://<ten-website>.netlify.app/data
-npx supabase secrets set ALLOWED_ORIGIN=https://<ten-website>.netlify.app
+npx supabase secrets set CONTENT_BASE_URL=https://nvt-chemz.vercel.app/data
+npx supabase secrets set ALLOWED_ORIGIN=https://nvt-chemz.vercel.app
 # Tùy chọn:
 npx supabase secrets set HINT_DAILY_LIMIT=20
 npx supabase secrets set CLAUDE_MODEL=claude-opus-5-5
