@@ -74,6 +74,15 @@ export function questionMisconceptions(q) {
   return [...set];
 }
 
+/** Mã băm 8 ký tự hex của nội dung câu hỏi (bỏ qua reviewed/chapter và các trường do giao diện thêm). Đổi nội dung ⇒ đổi mã. */
+export function questionHash(q) {
+  const skip = new Set(['reviewed', 'chapter', 'review_status', 'review_note', 'content_hash']);
+  const str = JSON.stringify(q, (k, v) => (skip.has(k) ? undefined : v));
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return (h >>> 0).toString(16).padStart(8, '0');
+}
+
 export function parseNumber(v) {
   if (v == null) return NaN;
   const s = String(v).trim().replace(/\s/g, '').replace(',', '.');

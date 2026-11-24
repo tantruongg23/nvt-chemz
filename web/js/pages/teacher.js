@@ -1,5 +1,5 @@
-import { mountShell, $, $$, esc, icon, pct, mbadge, misHue, contentErrorNotice, toast, unreviewedBadge, isDemo } from '../ui.js';
-import { loadContent, getClassStats, getClassExport } from '../store.js';
+import { mountShell, $, $$, esc, icon, pct, mbadge, misHue, contentErrorNotice, toast, unreviewedBadge, isDemo, rich, LEVEL_LABEL, TYPE_LABEL } from '../ui.js';
+import { loadContent, getClassStats, getClassExport, getContentReviews, setContentReview } from '../store.js';
 import { DEMO } from '../config.js';
 
 mountShell('teacher');
@@ -10,6 +10,7 @@ const MODES = [[null, 'Tất cả'], ['practice', 'Luyện tập'], ['pretest', 
 const MODE_LABEL = { practice: 'Luyện tập', pretest: 'Kiểm tra trước', posttest: 'Kiểm tra sau' };
 let auth = null;
 let mode = null;
+let rv = { chapter: '', status: 'todo' }; // bộ lọc màn duyệt nội dung
 try { auth = JSON.parse(sessionStorage.getItem(SS_KEY) || 'null'); } catch { /* ignore */ }
 
 
@@ -118,6 +119,7 @@ function renderDashboard(stats, rows, allRows) {
       <span class="badge">${cls.group === 'control' ? 'Nhóm đối chứng' : 'Nhóm thực nghiệm'}</span>
       ${isDemo() ? '<span class="badge badge-demo">Có dữ liệu minh họa</span>' : ''}
       <span class="spacer"></span>
+      <button class="btn btn-sm btn-primary" id="goReview">${icon('check')} Duyệt nội dung</button>
       <button class="btn btn-sm" id="csvAttempts">${icon('download')} CSV lượt làm</button>
       <button class="btn btn-sm" id="csvMis">${icon('download')} CSV lỗi sai</button>
       <button class="btn btn-sm btn-ghost" id="tLogout">${icon('logout')} Thoát</button>
@@ -176,8 +178,109 @@ function renderDashboard(stats, rows, allRows) {
     $(`[data-mode="${mode ?? ''}"]`)?.focus();
   }));
   $('#tLogout').addEventListener('click', () => { try { sessionStorage.removeItem(SS_KEY); } catch { /* ignore */ } auth = null; mode = null; renderLogin(); });
+  $('#goReview').addEventListener('click', () => openReview());
   $('#csvAttempts').addEventListener('click', () => exportAttempts(cls.code, allRows));
   $('#csvMis').addEventListener('click', () => exportMis(cls.code, stats, rows));
+}
+
+/* ---------- duyệt nội dung ---------- */
+const RV_LABEL = { pending: 'Chưa duyệt', approved: 'Đã duyệt', needs_fix: 'Cần sửa', stale: 'Đã sửa sau khi duyệt' };
+const RV_DONE = { approved: 'đã duyệt', needs_fix: 'đã đánh dấu cần sửa', pending: 'đã bỏ dấu duyệt' };
+const RV_FILTERS = [['todo', 'Cần xử lý'], ['needs_fix', 'Cần sửa'], ['approved', 'Đã duyệt'], ['all', 'Tất cả']];
+const rvStatusOf = (q) => q.review_status || (q.reviewed ? 'approved' : 'pending');
+const rvMatch = (q) => {
+  const st = rvStatusOf(q);
+  return rv.status === 'all' || (rv.status === 'todo' ? st === 'pending' || st === 'stale' : st === rv.status);
+};
+
+async function openReview() {
+  // lấy kèm ghi chú (chỉ giáo viên có PIN mới đọc được)
+  const r = await getContentReviews(auth.cls, auth.pin);
+  if (!r.ok) { toast(r.message); return; }
+  r.data.forEach((x) => { const q = content.index.question.get(x.question_id); if (q) q.review_note = x.note ?? null; });
+  renderReview();
+}
+
+function rvBody(q) {
+  const key = (k) => `<b>${esc(k)}.</b>`;
+  const mis = (c) => (c ? ` ${mbadge(c)}` : '');
+  let body = '';
+  if (q.type === 'mcq') {
+    body = `<ul class="rv-opts">${(q.options || []).map((o) => `<li class="${o.key === q.answer ? 'is-ans' : ''}">${key(o.key)} ${rich(o.text)}${o.key === q.answer ? ` <span class="badge">${icon('check')}Đáp án</span>` : mis(o.misconception)}</li>`).join('')}</ul>`;
+  } else if (q.type === 'true_false') {
+    body = `<ul class="rv-opts">${(q.statements || []).map((o) => `<li class="${o.answer ? 'is-ans' : ''}">${key(o.key)} ${rich(o.text)} <span class="badge">${o.answer ? 'Đúng' : 'Sai'}</span>${o.answer ? '' : mis(o.misconception)}</li>`).join('')}</ul>`;
+  } else {
+    body = `<p><b>Đáp án:</b> <span class="num">${esc(q.answer)}</span>${q.tolerance ? ` <span class="muted small">(sai số ±${esc(q.tolerance)})</span>` : ''}</p>
+      ${(q.misconception_hints || []).length ? `<p class="small muted" style="margin:0">Giá trị sai đặc trưng: ${q.misconception_hints.map((h) => `<span class="num">${esc(h.value)}</span>${mis(h.misconception)}`).join(' · ')}</p>` : ''}`;
+  }
+  return `<p class="rv-stem">${rich(q.stem)}</p>${body}
+    <details style="margin-top:8px"><summary>Lời giải</summary><p class="small" style="margin:8px 0 0">${rich(q.explanation || '(chưa có lời giải)')}</p></details>`;
+}
+
+function rvCard(q) {
+  const st = rvStatusOf(q);
+  const tone = st === 'approved' ? 'success' : st === 'needs_fix' ? 'error' : 'warning';
+  return `<article class="card rv-card" data-q="${esc(q.id)}" style="margin-top:12px">
+    <div class="row" style="gap:8px;flex-wrap:wrap;align-items:center">
+      <b class="num">${esc(q.id)}</b>
+      <span class="badge">${esc(LEVEL_LABEL[q.level] || q.level)}</span><span class="badge">${esc(TYPE_LABEL[q.type] || q.type)}</span>
+      <span class="spacer"></span>
+      <span class="badge" style="color:var(--${tone});border-color:color-mix(in srgb, var(--${tone}) 40%, transparent)">${esc(RV_LABEL[st] || st)}</span>
+    </div>
+    ${rvBody(q)}
+    ${st === 'stale' ? '<p class="small" style="color:var(--warning);margin:8px 0 0">Nội dung câu này đã thay đổi sau lần duyệt trước nên dấu duyệt cũ không còn hiệu lực.</p>' : ''}
+    <div class="field" style="margin-top:12px"><label for="rn-${esc(q.id)}">Ghi chú cho nhóm học sinh <span class="muted">(bắt buộc nếu chọn “Cần sửa”)</span></label>
+      <textarea class="input" id="rn-${esc(q.id)}" rows="2" maxlength="500" placeholder="Ví dụ: đáp án B sai vì…">${esc(q.review_note || '')}</textarea></div>
+    <div class="row" style="gap:8px;margin-top:10px;flex-wrap:wrap">
+      <button class="btn btn-sm btn-primary" data-act="approved">${icon('check')} Duyệt</button>
+      <button class="btn btn-sm" data-act="needs_fix">${icon('warn')} Cần sửa</button>
+      ${st === 'pending' ? '' : '<button class="btn btn-sm btn-ghost" data-act="pending">Bỏ dấu duyệt</button>'}
+    </div>
+  </article>`;
+}
+
+function renderReview() {
+  const qs = content.questions.filter((q) => !rv.chapter || q.chapter === rv.chapter);
+  const n = (st) => qs.filter((q) => rvStatusOf(q) === st).length;
+  const done = n('approved');
+  const list = qs.filter(rvMatch);
+  const shown = list.slice(0, 20);
+  app.innerHTML = `${contentErrorNotice(content)}
+    <p class="eyebrow">Dashboard giáo viên</p>
+    <div class="row" style="align-items:end"><h1 style="margin:0">Duyệt nội dung</h1><span class="spacer"></span>
+      <button class="btn btn-sm btn-ghost" id="rvBack">← Về thống kê</button></div>
+    <p class="muted">Câu chưa duyệt hiện nhãn “Chưa duyệt” với học sinh. Nếu sau này nội dung câu bị sửa, dấu duyệt tự mất hiệu lực để thầy/cô duyệt lại.</p>
+    <div class="kpis" style="margin-top:12px">
+      <div class="kpi"><div class="kpi__label">Đã duyệt</div><div class="kpi__val">${done}<small class="muted">/${qs.length}</small></div><div class="kpi__sub">${qs.length ? pct(done / qs.length) : '—'}</div></div>
+      <div class="kpi"><div class="kpi__label">Cần sửa</div><div class="kpi__val">${n('needs_fix')}</div><div class="kpi__sub">đang chờ nhóm HS</div></div>
+      <div class="kpi"><div class="kpi__label">Chưa duyệt</div><div class="kpi__val">${n('pending') + n('stale')}</div><div class="kpi__sub">${n('stale') ? `trong đó ${n('stale')} câu đã sửa` : 'chưa xem'}</div></div>
+    </div>
+    <div class="row" style="gap:10px;margin-top:14px;flex-wrap:wrap;align-items:center">
+      <select class="input" id="rvChap" aria-label="Chương" style="width:auto"><option value="">Tất cả chương</option>${content.chapters.filter((c) => c.dir != null).map((c) => `<option value="${esc(c.id)}" ${c.id === rv.chapter ? 'selected' : ''}>Chương ${c.number}: ${esc(c.title)}</option>`).join('')}</select>
+      <div class="seg" role="group" aria-label="Lọc theo trạng thái">${RV_FILTERS.map(([k, label]) => `<button type="button" data-rvf="${k}" aria-pressed="${k === rv.status}">${label}</button>`).join('')}</div>
+    </div>
+    ${shown.length ? shown.map(rvCard).join('') : `<div class="card empty" style="margin-top:14px">${icon('check')}<p>Không có câu nào ở bộ lọc này.</p></div>`}
+    ${list.length > shown.length ? `<p class="small muted" style="margin-top:12px">Đang hiện ${shown.length}/${list.length} câu. Duyệt xong các câu trên, danh sách sẽ tự nạp câu tiếp theo.</p>` : ''}`;
+
+  $('#rvBack').addEventListener('click', () => openDashboard(auth.cls, auth.pin));
+  $('#rvChap').addEventListener('change', (e) => { rv.chapter = e.target.value; renderReview(); });
+  $$('[data-rvf]').forEach((b) => b.addEventListener('click', () => { rv.status = b.dataset.rvf; renderReview(); $(`[data-rvf="${rv.status}"]`)?.focus(); }));
+  $$('.rv-card [data-act]').forEach((b) => b.addEventListener('click', async () => {
+    const card = b.closest('.rv-card');
+    const q = content.index.question.get(card.dataset.q);
+    const note = card.querySelector('textarea').value;
+    const btns = card.querySelectorAll('button'); btns.forEach((x) => { x.disabled = true; });
+    const r = await setContentReview(auth.cls, auth.pin, q, b.dataset.act, note);
+    if (!r.ok) {
+      btns.forEach((x) => { x.disabled = false; });
+      toast(r.message);
+      if (r.error === 'INVALID_INPUT') card.querySelector('textarea').focus();
+      return;
+    }
+    toast(`${q.id}: ${RV_DONE[b.dataset.act]}`);
+    const y = window.scrollY;
+    renderReview(); window.scrollTo(0, y);
+  }));
 }
 
 /* ---------- CSV ---------- */

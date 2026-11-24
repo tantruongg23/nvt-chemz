@@ -617,3 +617,10 @@ main { flex: 1; padding: 20px 0 40px; }
   .site-header, .tabbar, .site-footer, .cta-bar, .btn { display: none !important; }
   body { background: #fff; }
 }
+
+/* ---------- duyệt nội dung (teacher.js) ---------- */
+.rv-stem { margin: 10px 0 6px; font-weight: 600; }
+.rv-opts { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.rv-opts li { padding: 6px 10px; border-radius: var(--r-md); background: var(--surface-2); font-size: var(--fs-sm); }
+.rv-opts li.is-ans { background: var(--success-soft); }
+textarea.input { resize: vertical; min-height: 60px; font: inherit; }

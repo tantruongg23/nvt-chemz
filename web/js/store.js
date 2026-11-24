@@ -11,14 +11,14 @@
 //   getClassExport(classCode, teacherPin)      → mảng dòng bài làm ẩn danh
 //   requestHint(questionId, level, studentAnswer) → { level, hint, remaining_today, disclaimer }
 //   getHintsRemaining()                        → number
+//   getContentReviews(classCode?, teacherPin?) → [{ question_id, status, note?, content_hash, reviewed_at }]
+//   setContentReview(classCode, teacherPin, question, status, note) → duyệt / cần sửa / bỏ duyệt (status: approved|needs_fix|pending)
 // Nội dung tĩnh: xem content.js (loadContent được re-export ở đây cho tiện).
 // =====================================================================
 import { CONFIG, DEMO } from './config.js';
-import { loadContent, grade, parseNumber } from './content.js';
+import { loadContent as loadStaticContent, grade, parseNumber, questionHash } from './content.js';
 
-export { loadContent };
-
-const K = { session: 'nvt.session', attempts: 'nvt.attempts', pending: 'nvt.pending', hints: 'nvt.hints', demo: 'nvt.demo' };
+const K = { session: 'nvt.session', attempts: 'nvt.attempts', pending: 'nvt.pending', hints: 'nvt.hints', demo: 'nvt.demo', reviews: 'nvt.reviews' };
 const DISCLAIMER = 'AI có thể sai. Hãy đối chiếu với SGK và lời giải đã được giáo viên duyệt.';
 const MODES = ['practice', 'pretest', 'posttest'];
 const SUPABASE_ESM = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/+esm';
@@ -61,6 +61,7 @@ function supabase() {
 function rpcError(error) {
   const msg = String(error?.message || '');
   if (/INVALID_PIN/.test(msg)) return fail('INVALID_PIN', 'PIN không đúng.');
+  if (/INVALID_INPUT/.test(msg)) return fail('INVALID_INPUT', 'Dữ liệu gửi lên không hợp lệ.');
   if (/UNKNOWN_STUDENT/.test(msg)) return fail('UNKNOWN_STUDENT', 'Mã lớp hoặc mã học sinh không đúng.');
   if (/fetch|network|Failed/i.test(msg)) return fail('NETWORK', 'Mất kết nối mạng. Hãy thử lại.');
   return fail('SERVER_ERROR', 'Máy chủ gặp lỗi, hãy thử lại sau.');
@@ -175,6 +176,78 @@ export async function flushPendingAttempts() {
   return ok({ sent, remaining: remaining.length });
 }
 try { window.addEventListener('online', () => flushPendingAttempts()); } catch { /* ignore */ }
+
+/* ---------------- duyệt nội dung (giáo viên) ---------------- */
+// Nội dung câu hỏi nằm trong JSON tĩnh; dấu duyệt nằm ở Supabase (demo: localStorage) và được
+// trộn vào câu hỏi khi tải: q.reviewed = true chỉ khi dấu "approved" khớp mã băm nội dung hiện tại.
+// q.review_status: 'pending' | 'approved' | 'needs_fix' | 'stale' (đã duyệt nhưng nội dung bị sửa sau đó).
+export const REVIEW_STATUSES = ['approved', 'needs_fix', 'pending'];
+
+export async function getContentReviews(classCode = null, teacherPin = null) {
+  if (isOnline()) {
+    try {
+      const sb = await supabase();
+      const { data, error } = await sb.rpc('get_content_reviews', { p_class_code: classCode ? up(classCode) : null, p_teacher_pin: teacherPin == null ? null : String(teacherPin) });
+      return error ? rpcError(error) : ok(data || []);
+    } catch { return fail('NETWORK', 'Mất kết nối mạng. Hãy thử lại.'); }
+  }
+  if (teacherPin != null && String(teacherPin).trim() !== DEMO.TEACHER_PIN) return fail('INVALID_PIN', 'PIN không đúng.');
+  return ok(Object.values(lsGet(K.reviews, {})));
+}
+
+function applyReviews(content, reviews) {
+  const by = new Map((reviews || []).map((r) => [r.question_id, r]));
+  content.questions.forEach((q) => {
+    if (q.review_status) return;
+    const hash = questionHash(q);
+    const r = by.get(q.id);
+    const approved = r?.status === 'approved' && r.content_hash === hash;
+    q.content_hash = hash;
+    q.review_note = r?.note ?? null;
+    q.review_status = approved ? 'approved' : r?.status === 'approved' ? 'stale' : (r?.status || 'pending');
+    if (approved) q.reviewed = true;
+    else if (r) q.reviewed = false; // đã có dấu duyệt nhưng hết hiệu lực / cần sửa ⇒ coi như chưa duyệt
+  });
+}
+
+let contentPromise = null;
+/** Như content.loadContent nhưng đã trộn dấu duyệt của giáo viên. Lỗi tải dấu duyệt ⇒ giữ nguyên giá trị trong JSON. */
+export function loadContent() {
+  if (!contentPromise) {
+    contentPromise = (async () => {
+      const [content, rv] = await Promise.all([loadStaticContent(), getContentReviews()]);
+      applyReviews(content, rv.ok ? rv.data : []);
+      return content;
+    })();
+  }
+  return contentPromise;
+}
+
+/** question: câu hỏi đã qua loadContent (cần content_hash). status: approved | needs_fix | pending */
+export async function setContentReview(classCode, teacherPin, question, status, note = '') {
+  if (!REVIEW_STATUSES.includes(status) || !question?.id) return fail('INVALID_INPUT', 'Yêu cầu duyệt không hợp lệ.');
+  const cleanNote = String(note || '').trim().slice(0, 500);
+  if (status === 'needs_fix' && !cleanNote) return fail('INVALID_INPUT', 'Hãy ghi chú điều cần sửa.');
+  const hash = question.content_hash || questionHash(question);
+  if (isOnline()) {
+    try {
+      const sb = await supabase();
+      const { error } = await sb.rpc('set_content_review', { p_class_code: up(classCode), p_teacher_pin: String(teacherPin ?? ''), p_question_id: question.id, p_status: status, p_note: cleanNote || null, p_content_hash: hash });
+      if (error) return rpcError(error);
+    } catch { return fail('NETWORK', 'Mất kết nối mạng. Hãy thử lại.'); }
+  } else {
+    if (String(teacherPin ?? '').trim() !== DEMO.TEACHER_PIN) return fail('INVALID_PIN', 'PIN không đúng.');
+    const all = lsGet(K.reviews, {});
+    if (status === 'pending') delete all[question.id];
+    else all[question.id] = { question_id: question.id, status, note: cleanNote || null, content_hash: hash, reviewed_at: new Date().toISOString() };
+    lsSet(K.reviews, all);
+  }
+  // cập nhật ngay bản trong bộ nhớ để giao diện phản ánh liền
+  question.review_status = status;
+  question.review_note = status === 'pending' ? null : cleanNote || null;
+  question.reviewed = status === 'approved' ? true : false;
+  return ok({ question_id: question.id, status });
+}
 
 /* ---------------- thống kê ---------------- */
 function lessonAgg(rows) {
