@@ -43,8 +43,9 @@ function welcomeCard() {
         <p class="muted small" style="margin:4px 0 0">${esc(user.class_name || user.class_code)} · <b class="num">${total}</b> lượt làm · Độ chính xác <b class="num">${pct(stats?.accuracy)}</b>${top ? ` · Lỗi hay gặp nhất: <b>${esc(top.code)}</b>` : ''}</p>
       </div>
     </div>
-    <div class="row" style="margin-top:16px">
-      ${next ? `<a class="btn btn-primary btn-lg" href="practice.html?lesson=${encodeURIComponent(next.id)}">${icon('flask')} Luyện ${esc(next.id)} – ${esc(next.title)}</a>` : ''}
+    ${next ? `<p class="small muted" style="margin:14px 0 0">Bài gợi ý tiếp theo: <b>${esc(next.id)} – ${esc(next.title)}</b></p>` : ''}
+    <div class="row" style="margin-top:10px">
+      <a class="btn btn-primary btn-lg" href="${next ? `practice.html?lesson=${encodeURIComponent(next.id)}` : 'practice.html'}">${icon('flask')} Vào luyện tập</a>
       <a class="btn" href="results.html">${icon('chart')} Xem kết quả</a>
     </div>
   </section>`;
