@@ -115,16 +115,19 @@ function renderDashboard(stats, rows, allRows) {
 
   app.innerHTML = `${contentErrorNotice(content)}
     <p class="eyebrow">Dashboard giáo viên</p>
-    <div class="row" style="align-items:end">
-      <h1 style="margin:0">${esc(cls.name || cls.code)}</h1>
-      <span class="badge">${cls.group === 'control' ? 'Nhóm đối chứng' : 'Nhóm thực nghiệm'}</span>
-      ${isDemo() ? '<span class="badge badge-demo">Có dữ liệu minh họa</span>' : ''}
-      <span class="spacer"></span>
-      <button class="btn btn-sm btn-primary" id="goReview">${icon('check')} Duyệt nội dung</button>
-      <button class="btn btn-sm" id="csvAttempts">${icon('download')} CSV lượt làm</button>
-      <button class="btn btn-sm" id="csvMis">${icon('download')} CSV lỗi sai</button>
-      <a class="btn btn-sm" href="admin.html" title="Cần mã quản trị">${icon('users')} Quản lý lớp và mã</a>
-      <button class="btn btn-sm btn-ghost" id="tLogout">${icon('logout')} Thoát</button>
+    <div class="t-head">
+      <div class="t-head__title">
+        <h1 style="margin:0">${esc(cls.name || cls.code)}</h1>
+        <span class="badge">${cls.group === 'control' ? 'Nhóm đối chứng' : 'Nhóm thực nghiệm'}</span>
+        ${isDemo() ? '<span class="badge badge-demo">Có dữ liệu minh họa</span>' : ''}
+      </div>
+      <div class="t-head__actions">
+        <button class="btn btn-sm btn-primary" id="goReview">${icon('check')} Duyệt nội dung</button>
+        <a class="btn btn-sm" href="admin.html" title="Cần mã quản trị">${icon('users')} Quản lý lớp và mã</a>
+        <button class="btn btn-sm" id="csvAttempts">${icon('download')} CSV lượt làm</button>
+        <button class="btn btn-sm" id="csvMis">${icon('download')} CSV lỗi sai</button>
+        <button class="btn btn-sm btn-ghost" id="tLogout">${icon('logout')} Thoát</button>
+      </div>
     </div>
     ${isDemo() ? `<p class="small muted" style="margin:8px 0 0">Chế độ demo: dữ liệu minh họa sinh tự động + ${stats.demo_real_attempts ?? 0} lượt làm thật trên trình duyệt này.</p>` : ''}
     <div class="seg" role="group" aria-label="Lọc theo hình thức" style="margin-top:14px">
