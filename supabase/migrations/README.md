@@ -22,6 +22,7 @@ Project: `qnfvjpqkisvitmrpdxbw`. Lịch sử đã áp dụng được CLI ghi �
 | `20261101000000_baseline.sql` | Nguyên văn `schema.sql` ban đầu (trước tính năng duyệt nội dung). CSDL thật đã chạy nội dung này từ trước nên **đánh dấu đã áp dụng, không chạy lại** (bước 3 bên dưới). |
 | `20261124000000_content_reviews.sql` | Bảng `content_reviews` + RPC `get_content_reviews`, `set_content_review`. |
 | `20261124100000_admin_console.sql` | Bảng `admin_config`, hàm `admin_set_code`, `_require_admin`, `manage_*` cho trang `admin.html` (US-29). Sau khi push, chạy trong SQL Editor: `select public.admin_set_code('<mã ≥ 12 ký tự>');` |
+| `20261124200000_closed_tests.sql` | Đề kiểm tra trước/sau kín (US-12): bảng `test_items`, `test_settings`, `test_submissions`; RPC `get_test_status`, `start_test`, `submit_test`, `set_test_open`, `get_test_overview`; **siết chính sách INSERT của `attempts`** (chỉ `mode = practice`). Nội dung đề nạp riêng bằng `supabase/seed_closed_tests.sql` (sinh bằng `docs/content/build_closed_tests.js --sql`, Git bỏ qua). |
 
 ## Thiết lập lần đầu (làm một lần)
 

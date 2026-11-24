@@ -11,6 +11,9 @@
 //   getClassExport(classCode, teacherPin)      → mảng dòng bài làm ẩn danh
 //   requestHint(questionId, level, studentAnswer) → { level, hint, remaining_today, disclaimer }
 //   getHintsRemaining()                        → number
+//   getTestStatus()                            → [{ test_type: 'pre'|'post', available, is_open, started, submitted, score?, max_score }]
+//   startTest(type) / submitTest(type, answers) → đề kín: câu hỏi KHÔNG kèm đáp án; máy chủ chấm, mỗi mã nộp 1 lần
+//   getTestOverview(classCode, teacherPin) / setTestOpen(classCode, teacherPin, type, open) → giáo viên bật/tắt bài
 //   getContentReviews(classCode?, teacherPin?) → [{ question_id, status, note?, content_hash, reviewed_at }]
 //   setContentReview(classCode, teacherPin, question, status, note) → duyệt / cần sửa / bỏ duyệt (status: approved|needs_fix|pending)
 // Nội dung tĩnh: xem content.js (loadContent được re-export ở đây cho tiện).
@@ -65,6 +68,10 @@ function rpcError(error) {
   const detail = msg.match(/INVALID_INPUT:\s*(.+)/);
   if (detail) return fail('INVALID_INPUT', `Dữ liệu không hợp lệ: ${detail[1]}.`);
   if (/INVALID_INPUT/.test(msg)) return fail('INVALID_INPUT', 'Dữ liệu gửi lên không hợp lệ.');
+  if (/TEST_CLOSED/.test(msg)) return fail('TEST_CLOSED', 'Giáo viên chưa mở bài kiểm tra này.');
+  if (/TEST_ALREADY_SUBMITTED/.test(msg)) return fail('TEST_ALREADY_SUBMITTED', 'Mã của em đã nộp bài kiểm tra này rồi, không làm lại được.');
+  if (/TEST_NOT_STARTED/.test(msg)) return fail('TEST_NOT_STARTED', 'Em chưa bắt đầu bài kiểm tra này.');
+  if (/TEST_UNAVAILABLE/.test(msg)) return fail('TEST_UNAVAILABLE', 'Đề kiểm tra chưa được nạp lên máy chủ.');
   if (/UNKNOWN_STUDENT/.test(msg)) return fail('UNKNOWN_STUDENT', 'Mã lớp hoặc mã học sinh không đúng.');
   if (/fetch|network|Failed/i.test(msg)) return fail('NETWORK', 'Mất kết nối mạng. Hãy thử lại.');
   return fail('SERVER_ERROR', 'Máy chủ gặp lỗi, hãy thử lại sau.');
@@ -143,6 +150,7 @@ function validateAttempt(a) {
   const h = Number(a.hint_level_used || 0);
   if (!Number.isInteger(h) || h < 0 || h > 3) return 'hint_level_used';
   if (mode !== 'practice' && h !== 0) return 'hint_level_used phải bằng 0 ở pretest/posttest';
+  if (mode !== 'practice' && isOnline()) return 'bài kiểm tra chỉ nộp qua submitTest (đề kín)';
   return null;
 }
 
@@ -511,3 +519,36 @@ function demoHint(q, level, studentAnswer, content) {
   const f = (lesson?.key_formulas || []).slice(0, 2);
   return f.length ? `Hãy áp dụng kiến thức trọng tâm của ${lesson.id}: ${f.join('; ')}.` : `Hãy xem lại phần ý chính của bài ${q.lesson}.`;
 }
+
+/* ---------------- đề kiểm tra trước / sau KÍN (US-12) ---------------- */
+// Đề, đáp án và mã lỗi chỉ nằm ở máy chủ (bảng test_items, học sinh không đọc được). Không có chế độ demo cho đề kín.
+const TEST_TYPES = ['pre', 'post'];
+async function testRpc(fn, params) {
+  if (!isOnline()) return fail('DEMO', 'Bài kiểm tra kín cần kết nối máy chủ (không dùng được ở chế độ demo).');
+  try {
+    const sb = await supabase();
+    const { data, error } = await sb.rpc(fn, params);
+    return error ? rpcError(error) : ok(data);
+  } catch { return fail('NETWORK', 'Mất kết nối mạng. Hãy thử lại.'); }
+}
+export function getTestStatus() {
+  const s = getSession();
+  if (!s) return Promise.resolve(fail('NOT_LOGGED_IN', 'Em cần đăng nhập.'));
+  return testRpc('get_test_status', { p_class_code: s.class_code, p_anon_id: s.anon_id });
+}
+export function startTest(type) {
+  const s = getSession();
+  if (!s) return Promise.resolve(fail('NOT_LOGGED_IN', 'Em cần đăng nhập.'));
+  if (!TEST_TYPES.includes(type)) return Promise.resolve(fail('INVALID_INPUT', 'Loại bài kiểm tra không hợp lệ.'));
+  return testRpc('start_test', { p_class_code: s.class_code, p_anon_id: s.anon_id, p_test_type: type });
+}
+/** answers: { 'TA-01': 'B', ... } — câu bỏ trống thì không có khóa. Trả { score, max_score, correct, total }. */
+export function submitTest(type, answers) {
+  const s = getSession();
+  if (!s) return Promise.resolve(fail('NOT_LOGGED_IN', 'Em cần đăng nhập.'));
+  if (!TEST_TYPES.includes(type)) return Promise.resolve(fail('INVALID_INPUT', 'Loại bài kiểm tra không hợp lệ.'));
+  return testRpc('submit_test', { p_class_code: s.class_code, p_anon_id: s.anon_id, p_test_type: type, p_answers: answers || {} });
+}
+export const getTestOverview = (classCode, teacherPin) => testRpc('get_test_overview', { p_class_code: up(classCode), p_teacher_pin: String(teacherPin ?? '') });
+export const setTestOpen = (classCode, teacherPin, type, open) =>
+  testRpc('set_test_open', { p_class_code: up(classCode), p_teacher_pin: String(teacherPin ?? ''), p_test_type: type, p_open: Boolean(open) });

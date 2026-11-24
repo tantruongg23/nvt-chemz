@@ -1,5 +1,5 @@
 import { mountShell, $, $$, esc, icon, pct, mbadge, misHue, contentErrorNotice, toast, unreviewedBadge, isDemo, rich, LEVEL_LABEL, TYPE_LABEL } from '../ui.js';
-import { loadContent, getClassStats, getClassExport, getContentReviews, setContentReview } from '../store.js';
+import { loadContent, getClassStats, getClassExport, getContentReviews, setContentReview, getTestOverview, setTestOpen } from '../store.js';
 import { DEMO } from '../config.js';
 
 mountShell('teacher');
@@ -130,6 +130,8 @@ function renderDashboard(stats, rows, allRows) {
       </div>
     </div>
     ${isDemo() ? `<p class="small muted" style="margin:8px 0 0">Chế độ demo: dữ liệu minh họa sinh tự động + ${stats.demo_real_attempts ?? 0} lượt làm thật trên trình duyệt này.</p>` : ''}
+    <section class="card" style="margin-top:14px" aria-labelledby="tp"><h2 id="tp" style="margin-top:0">Bài kiểm tra trước / sau (đề kín)</h2>
+      <div id="testPanel" class="small muted">Đang tải…</div></section>
     <div class="seg" role="group" aria-label="Lọc theo hình thức" style="margin-top:14px">
       ${MODES.map(([m, label]) => `<button type="button" data-mode="${m ?? ''}" aria-pressed="${m === mode}">${label}</button>`).join('')}
     </div>
@@ -184,6 +186,7 @@ function renderDashboard(stats, rows, allRows) {
   }));
   $('#tLogout').addEventListener('click', () => { try { sessionStorage.removeItem(SS_KEY); } catch { /* ignore */ } auth = null; mode = null; renderLogin(); });
   $('#goReview').addEventListener('click', () => openReview());
+  loadTestPanel();
   $('#csvAttempts').addEventListener('click', () => exportAttempts(cls.code, allRows));
   $('#csvMis').addEventListener('click', () => exportMis(cls.code, stats, rows));
 }
@@ -288,6 +291,28 @@ function renderReview() {
   }));
 }
 
+/* ---------- bài kiểm tra kín: bật/tắt cho lớp ---------- */
+const TEST_NAME = { pre: 'Kiểm tra trước (Đề A)', post: 'Kiểm tra sau (Đề B)' };
+async function loadTestPanel() {
+  const box = $('#testPanel');
+  if (!box) return;
+  const r = await getTestOverview(auth.cls, auth.pin);
+  if (!r.ok) { box.textContent = r.error === 'DEMO' ? 'Đề kín chỉ có khi kết nối máy chủ (không dùng ở chế độ demo).' : r.message; return; }
+  const link = `${location.origin}${location.pathname.replace(/[^/]*$/, '')}test.html`;
+  box.innerHTML = `<div class="grid grid-2">${r.data.map((t) => `<div class="card" style="box-shadow:none">
+      <b>${TEST_NAME[t.test_type]}</b>
+      <p class="small muted" style="margin:6px 0">${t.available ? `${t.submitted}/${t.students} em đã nộp · ${t.started - t.submitted} đang làm${t.avg_score != null ? ` · điểm TB ${String(t.avg_score).replace('.', ',')}/10` : ''}` : 'Chưa nạp đề lên máy chủ'}</p>
+      <button class="btn btn-sm ${t.is_open ? '' : 'btn-primary'}" data-open="${t.test_type}" data-to="${t.is_open ? 0 : 1}" ${t.available ? '' : 'disabled'}>${t.is_open ? 'Đóng bài (học sinh chưa bắt đầu sẽ không vào được)' : 'Mở bài cho lớp'}</button>
+      <span class="badge" style="margin-left:6px">${t.is_open ? 'Đang mở' : 'Đang đóng'}</span></div>`).join('')}</div>
+    <p class="small muted" style="margin:10px 0 0">Mỗi mã nộp một lần; đáp án và lời giải không hiện cho học sinh. Đường dẫn cho học sinh: <code>${esc(link)}</code></p>`;
+  $$('[data-open]', box).forEach((b) => b.addEventListener('click', async () => {
+    b.disabled = true;
+    const x = await setTestOpen(auth.cls, auth.pin, b.dataset.open, b.dataset.to === '1');
+    if (!x.ok) toast(x.message);
+    loadTestPanel();
+  }));
+}
+
 /* ---------- CSV ---------- */
 function csvCell(v) { const s = v == null ? '' : String(v); return /[",\n;]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; }
 function download(name, rows) {
@@ -301,8 +326,8 @@ function download(name, rows) {
 function exportAttempts(code, rows) {
   if (!rows.length) { toast('Không có dữ liệu để xuất.'); return; }
   // Cột theo BACKLOG US-11 (thêm class, type) + các cột của get_class_export
-  const out = [['anon_id', 'class', 'question_id', 'lesson', 'type', 'is_correct', 'misconception_codes', 'hint_level_used', 'duration_ms', 'mode', 'created_at']];
-  rows.forEach((a) => out.push([a.anon_id, code, a.question_id, a.lesson, content.index.question.get(a.question_id)?.type || '', a.is_correct ? 1 : 0, (a.misconception_codes || []).join(' '), a.hint_level_used, a.duration_ms, a.mode, a.created_at]));
+  const out = [['anon_id', 'class', 'question_id', 'lesson', 'type', 'is_correct', 'misconception_codes', 'hint_level_used', 'duration_ms', 'mode', 'test_type', 'created_at']];
+  rows.forEach((a) => out.push([a.anon_id, code, a.question_id, a.lesson, content.index.question.get(a.question_id)?.type || '', a.is_correct ? 1 : 0, (a.misconception_codes || []).join(' '), a.hint_level_used, a.duration_ms, a.mode, a.mode === 'pretest' ? 'pre' : a.mode === 'posttest' ? 'post' : '', a.created_at]));
   download(`nvt_${code}_luot_lam.csv`, out);
 }
 function exportMis(code, stats, rows) {

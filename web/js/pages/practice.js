@@ -6,6 +6,11 @@ import { loadContent, getSession, saveAttempt, requestHint } from '../store.js';
 import { grade, questionMisconceptions } from '../content.js';
 import { isDemo } from '../ui.js';
 
+// Bài kiểm tra trước/sau nay là đề kín ở máy chủ → chuyển sang test.html (link cũ vẫn dùng được)
+{
+  const m = new URLSearchParams(location.search).get('mode');
+  if (m === 'pretest' || m === 'posttest') { location.replace(`test.html?type=${m === 'pretest' ? 'pre' : 'post'}`); throw new Error('redirect'); }
+}
 mountShell('practice');
 const app = $('#app');
 const content = await loadContent();
