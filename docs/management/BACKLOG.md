@@ -19,15 +19,15 @@
 
 | ID | Story (rút gọn) | Ưu tiên | Người làm | Sprint | Ước lượng | Trạng thái |
 |---|---|---|---|---|---|---|
-| US-01 | Vào app bằng mã lớp + mã ẩn danh | Must | HS2, HS3 | S1 | M | 🟦 |
+| US-01 | Vào app bằng mã lớp + mã ẩn danh | Must | HS2, HS3 | S1 | M | 🟦 đăng nhập đúng/sai OK trên Vercel |
 | US-02 | Đọc bài học (23 bài, có ví dụ mẫu) | Must | HS1, HS2 | S1 | M | 🟦 |
 | US-03 | Tra thuật ngữ Việt – Anh, nghe phát âm | Must | HS1, HS2 | S1 | M | 🟦 |
 | US-04 | Luyện tập theo bài/chương với 3 dạng câu hỏi | Must | HS2 | S1 | L | 🟦 |
 | US-05 | Chẩn đoán ngay lỗi sai khi trả lời sai | Must | HS2, HS1 | S1 | M | 🟦 |
 | US-06 | Ngân hàng C1 ≥ 60 câu gắn nhãn lỗi sai | Must | HS1, GV | S1 | L | 🟦 61/60 câu, 0 duyệt |
 | US-07 | Thang gợi ý 3 mức (bản soạn sẵn) | Must | HS2 | S1 | M | 🟦 |
-| US-08 | Gợi ý mức 1–2 do AI sinh qua Edge Function | Should | HS3 | S1–S2 | L | 🟦 hàm hint (Gemini) đã triển khai, gọi thử OK |
-| US-09 | Xem điểm yếu của bản thân và bài nên ôn lại | Must | HS2 | S1 | M | 🟦 |
+| US-08 | Gợi ý mức 1–2 do AI sinh qua Edge Function | Should | HS3 | S1–S2 | L | 🟦 AI thật chạy trên Vercel (Gemini); chưa chạy US-18 |
+| US-09 | Xem điểm yếu của bản thân và bài nên ôn lại | Must | HS2 | S1 | M | 🟦 trang Kết quả hiện đúng số liệu thật |
 | US-10 | Dashboard giáo viên theo lớp và theo lỗi sai | Should | HS2, HS3 | S2 | M | 🟦 |
 | US-11 | Xuất CSV để phân tích | Must | HS3 | S2 | S | 🟦 |
 | US-12 | Chế độ kiểm tra trước / sau (pre/post-test) | Should | HS2, HS3 | S2 | M | 🟨 có chế độ, chưa có đề kín |
@@ -35,7 +35,7 @@
 | US-14 | Nhãn "Chưa duyệt" cho nội dung chưa được GV duyệt | Must | HS2, GV | S1 | S | 🟦 |
 | US-15 | Giới hạn số lượt hỏi AI mỗi ngày | Should* | HS3 | S2 | S | 🟦 đã thấy remaining_today giảm (16/20) |
 | US-16 | Thông báo quyền riêng tư | Must | HS1, HS2 | S1 | S | 🟨 |
-| US-17 | Ghi nhận mỗi lượt làm bài và mức gợi ý đã dùng | Must | HS3, HS2 | S1 | M | 🟦 |
+| US-17 | Ghi nhận mỗi lượt làm bài và mức gợi ý đã dùng | Must | HS3, HS2 | S1 | M | ✅ thử Vercel: làm 3 câu → 3 dòng |
 | US-18 | Kiểm thử AI: 30 câu C1 + 5 câu/chương C2–C7 | Should* | HS3, GV | S2, S4 | M | ⬜ |
 | US-19 | Khảo sát thực trạng | Must | HS1, GV | S0 | S | 🟨 chưa phát phiếu |
 | US-20 | Chuyển chế độ sáng/tối | Could | HS2 | S2 | S | 🟦 |
@@ -66,6 +66,7 @@
 > - **US-12:** `practice.html?mode=pretest|posttest` đã có (tắt gợi ý, không phản hồi từng câu, lưu `mode`). Còn thiếu: dùng đề kín thay vì ngân hàng luyện tập, giới hạn nộp 1 lần/mã, giáo viên bật/tắt.
 > - **US-14:** giáo viên duyệt ngay trên trang giáo viên (Đã duyệt / Cần sửa / Chưa duyệt, tự đánh dấu "stale" khi nội dung bị sửa), lưu trong bảng `content_reviews`. Chưa có bộ lọc chỉ lấy câu đã duyệt.
 > - **US-29 (24/11): ✅** migration đã áp lên Supabase thật, mã quản trị đã đặt. Đã thử trên bản Vercel bằng trình duyệt: đăng nhập sai/đúng, tạo lớp, sinh mã, tải CSV, xóa mã, xóa lớp (lớp thử không còn trong CSDL).
+> - **Thử luồng học sinh trên Vercel (24/11, lớp tạm đã xóa):** đăng nhập sai báo lỗi, đúng vào được; làm 3 câu → đúng 3 dòng trong CSDL; gợi ý AI mức 1 trả về tiếng Việt, đếm lượt đúng; trang Kết quả hiện 3 lượt, 33%. Đã sửa lỗi "còn 20 lượt" (không trừ lượt đã dùng). Lưu ý: mức gợi ý chỉ ghi vào lượt làm khi mở **trước** khi bấm Kiểm tra.
 > - Chưa thấy trong code: nút "Xóa dữ liệu demo" (US-13), liên kết "Quyền riêng tư" ở chân trang (US-16), cột `chapter` trong CSV (US-11/23), dữ liệu C1 trong `data/c1/` (US-23), `mode=learn` (US-25), nút "Báo lỗi" (US-26), PWA (US-22).
 
 \* **US-15** và **US-18** bắt buộc phải xong **nếu** US-08 (AI thật) được bật trong thực nghiệm. Nếu không bật AI, hai story này không cần.
