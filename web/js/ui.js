@@ -101,8 +101,9 @@ export function mountShell(pageKey) {
       </nav>
       <div class="header-actions">
         ${isDemo() ? `<span class="demo-ribbon" title="Dữ liệu chỉ lưu trên trình duyệt này">${icon('info')}<span>Demo</span><span class="long">&nbsp;· lưu trên máy</span></span>` : ''}
-        ${user ? `<span class="user-pill" aria-label="Đang đăng nhập với mã ${esc(user.anon_id)}">${esc(user.anon_id)}<button type="button" id="logoutBtn" aria-label="Đăng xuất">Thoát</button></span>` : ''}
+        ${user ? `<span class="user-pill" aria-label="Đang đăng nhập với mã ${esc(user.anon_id)}">${esc(user.anon_id)}</span>` : ''}
         <button type="button" class="icon-btn" id="themeBtn"></button>
+        ${user ? `<button type="button" class="icon-btn icon-btn--logout" id="logoutBtn" aria-label="Đăng xuất (Thoát)" title="Thoát">${icon('logout')}</button>` : ''}
       </div>
     </div>`;
   const skip = document.createElement('a');

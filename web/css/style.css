@@ -183,11 +183,12 @@ main { flex: 1; padding: 20px 0 40px; }
 @media (min-width: 1024px) { .nav-desktop { display: flex; } }
 .nav-desktop a, .user-pill, .brand__name { white-space: nowrap; }
 .header-actions { margin-left: auto; display: flex; align-items: center; gap: 8px; }
-.user-pill { display: inline-flex; align-items: center; gap: 6px; font-size: var(--fs-sm); font-weight: 700; padding: 4px 4px 4px 12px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); font-variant-numeric: tabular-nums; }
+.user-pill { display: inline-flex; align-items: center; gap: 6px; font-size: var(--fs-sm); font-weight: 700; padding: 6px 12px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); font-variant-numeric: tabular-nums; }
 .user-pill button { border: 0; background: var(--surface); color: var(--text-muted); border-radius: 999px; padding: 4px 10px; font: inherit; font-weight: 600; font-size: var(--fs-xs); cursor: pointer; }
 .user-pill button:hover { color: var(--error); }
 .icon-btn { width: 40px; height: 40px; display: inline-grid; place-items: center; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer; }
 .icon-btn:hover { background: var(--surface-2); }
+.icon-btn--logout:hover { color: var(--error); }
 .icon-btn svg { width: 20px; height: 20px; }
 
 .tabbar {
