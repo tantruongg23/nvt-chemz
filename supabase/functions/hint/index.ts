@@ -1,6 +1,6 @@
 // =====================================================================
 // NVT CHEMZ – Edge Function "hint"
-// Sinh gợi ý 3 mức bằng Claude. Hợp đồng API: docs/CONTRACT.md mục 4.
+// Sinh gợi ý 3 mức bằng Gemini (chỉ dùng mô hình có bậc miễn phí, không bật thanh toán). Hợp đồng API: docs/CONTRACT.md mục 4.
 // Thiết kế: docs/architecture/AI_TUTOR_DESIGN.md
 //
 // POST /functions/v1/hint
@@ -9,26 +9,24 @@
 //   lỗi : { error: "MÃ_LỖI", message: "…" }  (xem bảng mã lỗi trong ARCHITECTURE.md)
 //
 // Biến môi trường (supabase secrets set …):
-//   ANTHROPIC_API_KEY  (bắt buộc)  – KHÔNG BAO GIỜ đặt trong web/
+//   GEMINI_API_KEY     (bắt buộc)  – KHÔNG BAO GIỜ đặt trong web/. Khóa của dự án Google chưa bật thanh toán.
 //   CONTENT_BASE_URL   (bắt buộc)  – ví dụ https://nvt-chemz.vercel.app/data
-//   CLAUDE_MODEL       (tùy chọn)  – mặc định "claude-opus-5-5"
+//   GEMINI_MODEL       (tùy chọn)  – mặc định "gemini-3.5-flash-lite" (có bậc miễn phí)
 //   HINT_DAILY_LIMIT   (tùy chọn)  – mặc định 20
 //   ALLOWED_ORIGIN     (tùy chọn)  – mặc định "*"; nên đặt bằng địa chỉ website thật
 //   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY – Supabase tự cung cấp, không cần đặt.
 // =====================================================================
 
-import Anthropic from "npm:@anthropic-ai/sdk";
 import { createClient } from "npm:@supabase/supabase-js@2";
 
 // ---------------------------------------------------------------------
 // Cấu hình
 // ---------------------------------------------------------------------
 
-// Mô hình mặc định: Claude Opus 5.5 ($4 / $20 cho mỗi 1 triệu token vào/ra).
-// Lựa chọn rẻ hơn rất nhiều: "claude-haiku-5-5" ($0.10 / $0.50 mỗi triệu token).
-// Nhóm nên chạy bộ kiểm thử 30 câu (docs/architecture/ai_test_cases.md) với cả hai
-// rồi mới quyết định. Không thêm hậu tố ngày vào tên mô hình.
-const MODEL = Deno.env.get("CLAUDE_MODEL") ?? "claude-opus-5-5";
+// Mô hình mặc định: gemini-3.5-flash-lite (bậc miễn phí, Google giới hạn lượt/phút và lượt/ngày).
+// Hết hạn mức sẽ nhận lỗi 429 → web tự dùng gợi ý soạn sẵn. Chỉ chọn mô hình có bậc miễn phí.
+const MODEL = Deno.env.get("GEMINI_MODEL") ?? "gemini-3.5-flash-lite";
+const GEMINI_API_KEY = Deno.env.get("GEMINI_API_KEY") ?? "";
 const DAILY_LIMIT = clampInt(Number(Deno.env.get("HINT_DAILY_LIMIT") ?? "20"), 1, 200, 20);
 const ALLOWED_ORIGIN = Deno.env.get("ALLOWED_ORIGIN") ?? "*";
 const CONTENT_BASE_URL = (Deno.env.get("CONTENT_BASE_URL") ?? "").replace(/\/+$/, "");
@@ -38,12 +36,6 @@ const DISCLAIMER = "AI có thể sai. Hãy đối chiếu với lời giải chu
 const DISCLAIMER_UNREVIEWED = " Lời giải của câu này chưa được giáo viên duyệt.";
 const REFUSAL_MESSAGE =
   "Xin lỗi em, trợ lý chưa thể gợi ý cho câu này. Em hãy xem lời giải chuẩn hoặc hỏi thầy cô nhé.";
-
-const anthropic = new Anthropic({
-  apiKey: Deno.env.get("ANTHROPIC_API_KEY"),
-  maxRetries: 1,
-  timeout: 30_000, // mili giây
-});
 
 const db = createClient(
   Deno.env.get("SUPABASE_URL") ?? "",
@@ -226,7 +218,7 @@ function parseRequest(body: unknown): HintRequest | string {
 }
 
 // ---------------------------------------------------------------------
-// Ghép ngữ cảnh cho Claude
+// Ghép ngữ cảnh cho mô hình AI
 // ---------------------------------------------------------------------
 
 function parseNumber(s: string): number {
@@ -360,45 +352,54 @@ function safeFallbackHint(q: Question, level: Level, codes: string[], content: C
 }
 
 // ---------------------------------------------------------------------
-// Gọi Claude
+// Gọi Gemini (REST, không cần SDK)
 // ---------------------------------------------------------------------
 
-type ClaudeResult = { kind: "text"; text: string } | { kind: "refusal" };
+type AiResult = { kind: "text"; text: string } | { kind: "refusal" };
 
-async function askClaude(userMessage: string): Promise<ClaudeResult> {
-  const response = await anthropic.beta.messages.create({
-    model: MODEL,
-    // Opus 5.5 luôn suy nghĩ (thinking) và phần suy nghĩ tính vào max_tokens ⇒ để dư chỗ, tránh cắt cụt gợi ý.
-    max_tokens: 4096,
-    // Nếu mô hình chính từ chối (refusal), máy chủ Anthropic tự chuyển sang mô hình dự phòng.
-    // Ghi chú: Claude Haiku 5.5 KHÔNG hỗ trợ fallback phía máy chủ – nếu đổi CLAUDE_MODEL
-    // sang "claude-haiku-5-5", hãy xóa hai dòng `betas` và `fallbacks` bên dưới.
-    betas: ["server-side-fallback-2026-07-01"],
-    fallbacks: "default",
-    // Gợi ý ngắn, không cần suy nghĩ sâu ⇒ effort thấp để nhanh và rẻ.
-    // Không gửi temperature/top_p/top_k hay thinking.disabled: mô hình này sẽ báo lỗi 400.
-    output_config: { effort: "low" },
-    system: SYSTEM_PROMPT,
-    messages: [{ role: "user", content: userMessage }],
-  });
+class AiHttpError extends Error {
+  constructor(public status: number, message: string) { super(message); }
+}
 
-  // Luôn kiểm tra refusal TRƯỚC khi đọc nội dung.
-  if (response.stop_reason === "refusal") return { kind: "refusal" };
+async function askAI(userMessage: string): Promise<AiResult> {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 30_000);
+  let res: Response;
+  try {
+    res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "x-goog-api-key": GEMINI_API_KEY },
+        body: JSON.stringify({
+          systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
+          contents: [{ role: "user", parts: [{ text: userMessage }] }],
+          generationConfig: { maxOutputTokens: 1024, temperature: 0.3 },
+        }),
+        signal: ctrl.signal,
+      },
+    );
+  } catch (err) {
+    throw new AiHttpError(0, String(err));
+  } finally {
+    clearTimeout(timer);
+  }
+  if (!res.ok) throw new AiHttpError(res.status, (await res.text()).slice(0, 200));
 
-  const text = response.content
-    .flatMap((block) => (block.type === "text" ? [block.text] : []))
-    .join("\n")
-    .trim();
+  const data = await res.json();
+  if (data.promptFeedback?.blockReason) return { kind: "refusal" };
+  const cand = data.candidates?.[0];
+  if (!cand || cand.finishReason === "SAFETY" || cand.finishReason === "PROHIBITED_CONTENT") return { kind: "refusal" };
+  const text = (cand.content?.parts ?? []).map((p: { text?: string }) => p.text ?? "").join("\n").trim();
 
   // Chỉ ghi số liệu kỹ thuật, KHÔNG ghi mã học sinh hay câu trả lời.
   console.log(JSON.stringify({
-    event: "claude_ok",
-    model: response.model,
-    stop_reason: response.stop_reason,
-    input_tokens: response.usage.input_tokens,
-    output_tokens: response.usage.output_tokens,
+    event: "ai_ok",
+    model: MODEL,
+    finish_reason: cand.finishReason,
+    input_tokens: data.usageMetadata?.promptTokenCount,
+    output_tokens: data.usageMetadata?.candidatesTokenCount,
   }));
-
   return text ? { kind: "text", text } : { kind: "refusal" };
 }
 
@@ -461,24 +462,24 @@ Deno.serve(async (req: Request): Promise<Response> => {
     if (error) console.error(JSON.stringify({ event: "db_error", step: "refund_hint", code: error.code }));
   };
 
-  // 5. Gọi Claude
+  // 5. Gọi Gemini
   const codes = detectMisconceptions(question, hintReq.studentAnswer);
   const userMessage = buildUserMessage(question, hintReq, content, codes);
   const started = Date.now();
-  let result: ClaudeResult;
+  let result: AiResult;
   try {
-    result = await askClaude(userMessage);
+    result = await askAI(userMessage);
   } catch (err) {
     await refund();
     // Bắt lỗi từ cụ thể đến tổng quát.
-    if (err instanceof Anthropic.RateLimitError) {
-      console.error(JSON.stringify({ event: "claude_rate_limited", status: err.status }));
+    if (err instanceof AiHttpError && err.status === 429) {
+      console.error(JSON.stringify({ event: "ai_rate_limited", status: err.status }));
       return fail(503, "AI_BUSY", "Trợ lý đang quá tải, em đợi một chút rồi thử lại nhé.", {
         remaining_today: remaining + 1,
       });
     }
-    if (err instanceof Anthropic.APIError) {
-      console.error(JSON.stringify({ event: "claude_api_error", status: err.status, message: err.message }));
+    if (err instanceof AiHttpError) {
+      console.error(JSON.stringify({ event: "ai_api_error", status: err.status, message: err.message }));
       return fail(502, "AI_UNAVAILABLE", "Trợ lý tạm thời không hoạt động, em xem lời giải chuẩn nhé.", {
         remaining_today: remaining + 1,
       });

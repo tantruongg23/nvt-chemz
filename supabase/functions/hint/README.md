@@ -1,6 +1,6 @@
 # Edge Function `hint` – Hướng dẫn triển khai
 
-Hàm này nhận yêu cầu gợi ý từ website, đọc câu hỏi phía máy chủ, gọi Claude và trả về gợi ý theo 3 mức. Hợp đồng API: `docs/CONTRACT.md` mục 4. Thiết kế chi tiết: `docs/architecture/AI_TUTOR_DESIGN.md`.
+Hàm này nhận yêu cầu gợi ý từ website, đọc câu hỏi phía máy chủ, gọi Gemini (bậc miễn phí) và trả về gợi ý theo 3 mức. Hợp đồng API: `docs/CONTRACT.md` mục 4. Thiết kế chi tiết: `docs/architecture/AI_TUTOR_DESIGN.md`.
 
 ## 1. Chuẩn bị (làm một lần)
 
@@ -12,20 +12,23 @@ Hàm này nhận yêu cầu gợi ý từ website, đọc câu hỏi phía máy 
    npx supabase link --project-ref <PROJECT_REF>
    ```
    `<PROJECT_REF>` là chuỗi trong địa chỉ `https://<PROJECT_REF>.supabase.co` (Dashboard → Project Settings → General).
-3. Tạo API key Claude tại <https://platform.claude.com> → API Keys. Đặt hạn mức chi tiêu (spend limit) cho workspace, ví dụ 10 USD/tháng.
+3. Tạo API key Gemini tại <https://aistudio.google.com/apikey> trong dự án Google **không bật thanh toán** (chỉ dùng bậc miễn phí, hết hạn mức sẽ nhận 429 và web tự dùng gợi ý soạn sẵn).
 
 ## 2. Đặt biến bí mật (secrets)
 
 ```bash
-npx supabase secrets set ANTHROPIC_API_KEY=sk-ant-xxxxxxxx
+# Cách nhanh: nạp cả file supabase/.env (đã gitignore)
+npx supabase secrets set --env-file supabase/.env
+# Hoặc từng biến:
+npx supabase secrets set GEMINI_API_KEY=xxxxxxxx
 npx supabase secrets set CONTENT_BASE_URL=https://nvt-chemz.vercel.app/data
 npx supabase secrets set ALLOWED_ORIGIN=https://nvt-chemz.vercel.app
 # Tùy chọn:
 npx supabase secrets set HINT_DAILY_LIMIT=20
-npx supabase secrets set CLAUDE_MODEL=claude-opus-5-5
+npx supabase secrets set GEMINI_MODEL=gemini-3.5-flash-lite
 ```
 
-> ⚠ **Không bao giờ** dán `ANTHROPIC_API_KEY` vào bất kỳ file nào trong `web/`, không gửi qua Zalo/Messenger, không commit lên GitHub. Nếu lỡ lộ: vào platform.claude.com xóa key cũ, tạo key mới, chạy lại lệnh `secrets set`.
+> ⚠ **Không bao giờ** dán `GEMINI_API_KEY` vào bất kỳ file nào trong `web/`, không gửi qua Zalo/Messenger, không commit lên GitHub. Nếu lỡ lộ: vào Google AI Studio xóa key cũ, tạo key mới, chạy lại lệnh `secrets set`.
 
 `SUPABASE_URL` và `SUPABASE_SERVICE_ROLE_KEY` được Supabase tự cung cấp cho hàm, không cần đặt.
 
@@ -60,7 +63,7 @@ Kết quả mong đợi: `{"level":1,"hint":"…","remaining_today":19,"disclaim
 
 ```bash
 # Tạo file supabase/.env.local (KHÔNG commit) với các dòng:
-#   ANTHROPIC_API_KEY=sk-ant-…
+#   GEMINI_API_KEY=…
 #   CONTENT_BASE_URL=http://host.docker.internal:3000/data
 npx supabase start
 npx serve web -l 3000            # ở cửa sổ terminal khác
@@ -72,12 +75,12 @@ npx supabase functions serve hint --no-verify-jwt --env-file supabase/.env.local
 ## 6. Xem nhật ký và chi phí
 
 - Nhật ký: Dashboard → Edge Functions → `hint` → Logs. Nhật ký chỉ có `question_id`, mức gợi ý, số token, thời gian – **không** có mã học sinh hay câu trả lời.
-- Chi phí: platform.claude.com → Usage.
+- Hạn mức: Google AI Studio → Usage (bậc miễn phí, không phát sinh chi phí).
 
-## 7. Đổi sang mô hình rẻ hơn
+## 7. Đổi mô hình
 
 ```bash
-npx supabase secrets set CLAUDE_MODEL=claude-haiku-5-5
+npx supabase secrets set GEMINI_MODEL=<tên mô hình có bậc miễn phí>
 ```
 
-Sau đó **xóa hai dòng `betas` và `fallbacks`** trong `index.ts` (Haiku 5.5 không hỗ trợ fallback phía máy chủ) và deploy lại. Chạy lại bộ kiểm thử AI trước khi dùng với học sinh.
+Chỉ chọn mô hình có bậc miễn phí. Chạy lại bộ kiểm thử AI (`docs/architecture/ai_test_cases.md`) trước khi dùng với học sinh.

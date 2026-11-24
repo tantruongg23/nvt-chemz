@@ -19,44 +19,54 @@
 
 | ID | Story (rút gọn) | Ưu tiên | Người làm | Sprint | Ước lượng | Trạng thái |
 |---|---|---|---|---|---|---|
-| US-01 | Vào app bằng mã lớp + mã ẩn danh | Must | HS2, HS3 | S1 | M | ⬜ |
-| US-02 | Đọc bài học (23 bài, có ví dụ mẫu) | Must | HS1, HS2 | S1 | M | ⬜ |
-| US-03 | Tra thuật ngữ Việt – Anh, nghe phát âm | Must | HS1, HS2 | S1 | M | ⬜ |
-| US-04 | Luyện tập theo bài/chương với 3 dạng câu hỏi | Must | HS2 | S1 | L | ⬜ |
-| US-05 | Chẩn đoán ngay lỗi sai khi trả lời sai | Must | HS2, HS1 | S1 | M | ⬜ |
-| US-06 | Ngân hàng C1 ≥ 60 câu gắn nhãn lỗi sai | Must | HS1, GV | S1 | L | 🟨 40/60 |
-| US-07 | Thang gợi ý 3 mức (bản soạn sẵn) | Must | HS2 | S1 | M | ⬜ |
-| US-08 | Gợi ý mức 1–2 do AI sinh qua Edge Function | Should | HS3 | S1–S2 | L | ⬜ |
-| US-09 | Xem điểm yếu của bản thân và bài nên ôn lại | Must | HS2 | S1 | M | ⬜ |
-| US-10 | Dashboard giáo viên theo lớp và theo lỗi sai | Should | HS2, HS3 | S2 | M | ⬜ |
-| US-11 | Xuất CSV để phân tích | Must | HS3 | S2 | S | ⬜ |
-| US-12 | Chế độ kiểm tra trước / sau (pre/post-test) | Should | HS2, HS3 | S2 | M | ⬜ |
-| US-13 | Chế độ demo không cần backend | Must | HS2, HS3 | S1 | S | ⬜ |
-| US-14 | Nhãn "Chưa duyệt" cho nội dung chưa được GV duyệt | Must | HS2, GV | S1 | S | ⬜ |
-| US-15 | Giới hạn số lượt hỏi AI mỗi ngày | Should* | HS3 | S2 | S | ⬜ |
-| US-16 | Thông báo quyền riêng tư | Must | HS1, HS2 | S1 | S | ⬜ |
-| US-17 | Ghi nhận mỗi lượt làm bài và mức gợi ý đã dùng | Must | HS3, HS2 | S1 | M | ⬜ |
+| US-01 | Vào app bằng mã lớp + mã ẩn danh | Must | HS2, HS3 | S1 | M | 🟦 |
+| US-02 | Đọc bài học (23 bài, có ví dụ mẫu) | Must | HS1, HS2 | S1 | M | 🟦 |
+| US-03 | Tra thuật ngữ Việt – Anh, nghe phát âm | Must | HS1, HS2 | S1 | M | 🟦 |
+| US-04 | Luyện tập theo bài/chương với 3 dạng câu hỏi | Must | HS2 | S1 | L | 🟦 |
+| US-05 | Chẩn đoán ngay lỗi sai khi trả lời sai | Must | HS2, HS1 | S1 | M | 🟦 |
+| US-06 | Ngân hàng C1 ≥ 60 câu gắn nhãn lỗi sai | Must | HS1, GV | S1 | L | 🟦 61/60 câu, 0 duyệt |
+| US-07 | Thang gợi ý 3 mức (bản soạn sẵn) | Must | HS2 | S1 | M | 🟦 |
+| US-08 | Gợi ý mức 1–2 do AI sinh qua Edge Function | Should | HS3 | S1–S2 | L | 🟦 đã triển khai (Gemini), đã thử bằng curl |
+| US-09 | Xem điểm yếu của bản thân và bài nên ôn lại | Must | HS2 | S1 | M | 🟦 |
+| US-10 | Dashboard giáo viên theo lớp và theo lỗi sai | Should | HS2, HS3 | S2 | M | 🟦 |
+| US-11 | Xuất CSV để phân tích | Must | HS3 | S2 | S | 🟦 |
+| US-12 | Chế độ kiểm tra trước / sau (pre/post-test) | Should | HS2, HS3 | S2 | M | 🟨 có chế độ, chưa có đề kín |
+| US-13 | Chế độ demo không cần backend | Must | HS2, HS3 | S1 | S | 🟦 |
+| US-14 | Nhãn "Chưa duyệt" cho nội dung chưa được GV duyệt | Must | HS2, GV | S1 | S | 🟦 |
+| US-15 | Giới hạn số lượt hỏi AI mỗi ngày | Should* | HS3 | S2 | S | 🟦 đếm lượt chạy, chưa thử đủ 21 lần |
+| US-16 | Thông báo quyền riêng tư | Must | HS1, HS2 | S1 | S | 🟨 |
+| US-17 | Ghi nhận mỗi lượt làm bài và mức gợi ý đã dùng | Must | HS3, HS2 | S1 | M | 🟦 |
 | US-18 | Kiểm thử AI: 30 câu C1 + 5 câu/chương C2–C7 | Should* | HS3, GV | S2, S4 | M | ⬜ |
-| US-19 | Khảo sát thực trạng | Must | HS1, GV | S0 | S | ⬜ |
-| US-20 | Chuyển chế độ sáng/tối | Could | HS2 | S2 | S | ⬜ |
+| US-19 | Khảo sát thực trạng | Must | HS1, GV | S0 | S | 🟨 chưa phát phiếu |
+| US-20 | Chuyển chế độ sáng/tối | Could | HS2 | S2 | S | 🟦 |
 | US-21 | Thẻ ghi nhớ (flashcard) luyện thuật ngữ | Could | HS1, HS2 | S2 | M | ⬜ |
 | US-22 | Hoạt động offline hoàn toàn (PWA) | Could | HS2 | S4 | M | ⬜ |
-| US-23 | Dữ liệu tách theo chương, tải theo chương | Must | HS3 | S1 | M | ⬜ |
-| US-24 | Trang chủ chọn chương + tiến độ theo chương | Must | HS2 | S1 | M | ⬜ |
-| US-25 | Chế độ "Học trước": bài → kiểm tra nhanh → luyện tập | Should | HS2, HS1 | S1–S2 | M | ⬜ |
+| US-23 | Dữ liệu tách theo chương, tải theo chương | Must | HS3 | S1 | M | 🟦 |
+| US-24 | Trang chủ chọn chương + tiến độ theo chương | Must | HS2 | S1 | M | 🟦 |
+| US-25 | Chế độ "Học trước": bài → kiểm tra nhanh → luyện tập | Should | HS2, HS1 | S1–S2 | M | 🟨 thiếu mode=learn |
 | US-26 | Báo lỗi nội dung trên từng câu | Should | HS2 | S2 | S | ⬜ |
 | US-27 | Luyện tập tổng hợp nhiều chương | Could | HS2 | S4 | S | ⬜ |
-| US-28 | Trợ lý AI dùng được cho mọi chương | Should | HS3 | S2 | S | ⬜ |
-| US-C1 | Nội dung Chương 1 hoàn thiện (4 bài, 30 thuật ngữ, 60 câu) | Must | HS1, GV | S1–S2 | L | 🟨 |
-| US-C2 | Nội dung Chương 2 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | ⬜ |
-| US-C3 | Nội dung Chương 3 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | ⬜ |
-| US-C4 | Nội dung Chương 4 hoàn thiện (2 bài, 15 thuật ngữ, 35 câu) | Should | HS3, GV | S2–S3 | L | ⬜ |
-| US-C5 | Nội dung Chương 5 hoàn thiện (2 bài, 15 thuật ngữ, 30 câu) | Should | HS3, GV | S2–S3 | L | ⬜ |
-| US-C6 | Nội dung Chương 6 hoàn thiện (2 bài, 15 thuật ngữ, 30 câu) | Should | HS2, GV | S3–S4 | L | ⬜ |
-| US-C7 | Nội dung Chương 7 hoàn thiện (3 bài, 20 thuật ngữ, 40 câu) | Should | HS2, GV | S3–S4 | L | ⬜ |
+| US-28 | Trợ lý AI dùng được cho mọi chương | Should | HS3 | S2 | S | 🟦 chưa thử C2–C7 |
+| US-29 | Trang quản trị lớp và mã học sinh (mã quản trị) | Should | HS3, HS2 | S2 | M | 🟦 code xong, chờ chạy migration |
+| US-C1 | Nội dung Chương 1 hoàn thiện (4 bài, 30 thuật ngữ, 60 câu) | Must | HS1, GV | S1–S2 | L | 🟦 61 câu, 0 duyệt |
+| US-C2 | Nội dung Chương 2 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | 🟦 chưa duyệt |
+| US-C3 | Nội dung Chương 3 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | 🟦 chưa duyệt |
+| US-C4 | Nội dung Chương 4 hoàn thiện (2 bài, 15 thuật ngữ, 35 câu) | Should | HS3, GV | S2–S3 | L | 🟦 chưa duyệt |
+| US-C5 | Nội dung Chương 5 hoàn thiện (2 bài, 15 thuật ngữ, 30 câu) | Should | HS3, GV | S2–S3 | L | 🟦 chưa duyệt |
+| US-C6 | Nội dung Chương 6 hoàn thiện (2 bài, 15 thuật ngữ, 30 câu) | Should | HS2, GV | S3–S4 | L | 🟦 chưa duyệt |
+| US-C7 | Nội dung Chương 7 hoàn thiện (3 bài, 20 thuật ngữ, 40 câu) | Should | HS2, GV | S3–S4 | L | 🟦 chưa duyệt |
 | — | Bảng xếp hạng điểm giữa học sinh | Won't | — | — | — | — |
 | — | Chat tự do với AI về mọi chủ đề | Won't | — | — | — | — |
 | — | Đăng nhập bằng họ tên / email / Google | Won't | — | — | — | — |
+
+> **Rà soát 24/11/2026 (đối chiếu với mã nguồn, chưa chạy thử từng chức năng trên trình duyệt):**
+> - 🟦 = code đã có, đang chờ kiểm tra thực tế theo tiêu chí nghiệm thu. Chưa dòng nào được đánh ✅ vì chưa ai bấm thử đủ tiêu chí.
+> - `validate.js` báo ALL CHECKS PASSED: 296 câu, 7 chương (C1 = 61 câu). Tất cả `reviewed: false`.
+> - Supabase đã nối: schema và RPC đã tạo, bảng bị RLS chặn đúng. **Edge Function `hint` đã triển khai 24/11/2026** (Gemini, bậc miễn phí). Đã thử bằng curl: TN-01 nhận gợi ý mức 1–3, DC-01 bị `HINTS_DISABLED`, mã lạ `UNKNOWN_STUDENT`, câu lạ 404, level sai 400. Chưa thử giới hạn 20 lượt, chưa thử trên giao diện web, chưa chạy bộ kiểm thử AI (US-18).
+> - **US-12:** `practice.html?mode=pretest|posttest` đã có (tắt gợi ý, không phản hồi từng câu, lưu `mode`). Còn thiếu: dùng đề kín thay vì ngân hàng luyện tập, giới hạn nộp 1 lần/mã, giáo viên bật/tắt.
+> - **US-14:** giáo viên duyệt ngay trên trang giáo viên (Đã duyệt / Cần sửa / Chưa duyệt, tự đánh dấu "stale" khi nội dung bị sửa), lưu trong bảng `content_reviews`. Chưa có bộ lọc chỉ lấy câu đã duyệt.
+> - **US-29 (mới, 24/11):** đã viết migration, hàm `manage_*` và `admin.html`; giao diện đã thử trên trình duyệt với máy chủ giả lập (đăng nhập sai/đúng, tạo lớp, xem mã). **Chưa chạy SQL trên Postgres thật** và chưa áp migration lên Supabase.
+> - Chưa thấy trong code: nút "Xóa dữ liệu demo" (US-13), liên kết "Quyền riêng tư" ở chân trang (US-16), cột `chapter` trong CSV (US-11/23), dữ liệu C1 trong `data/c1/` (US-23), `mode=learn` (US-25), nút "Báo lỗi" (US-26), PWA (US-22).
 
 \* **US-15** và **US-18** bắt buộc phải xong **nếu** US-08 (AI thật) được bật trong thực nghiệm. Nếu không bật AI, hai story này không cần.
 
@@ -303,6 +313,18 @@ Should · HS3 · S2 · S
 - [ ] Hướng dẫn hệ thống (system prompt) trong `supabase/functions/hint/index.ts` lấy tên chương/bài từ dữ liệu, không viết cứng "Chương 1".
 - [ ] Hàm tìm câu hỏi theo mã ở đúng file chương (qua `chapters.json`), có bộ nhớ đệm.
 - [ ] Có danh sách chương được bật AI (chỉ chương đã đạt kiểm thử US-18).
+
+### US-29 · Trang quản trị lớp và mã học sinh
+**Là quản trị viên (giáo viên phụ trách), tôi muốn** tạo lớp, đặt PIN giáo viên, sinh và xóa mã ẩn danh ngay trên website **để** không phải chạy SQL tay trong Supabase.
+Should · HS3, HS2 · S2 · M
+
+- [ ] `admin.html` yêu cầu **mã quản trị** (khác PIN giáo viên, ≥ 12 ký tự), kiểm ở máy chủ; sai mã chờ 1 giây rồi báo lỗi. Mã chỉ giữ trong sessionStorage.
+- [ ] Thêm/sửa lớp: mã lớp, tên, nhóm thực nghiệm/đối chứng, PIN giáo viên (≥ 8 ký tự; để trống khi sửa = giữ nguyên).
+- [ ] Sinh hàng loạt mã `PREFIX-01…NN` (1–200); mã đã có thì bỏ qua, không ghi đè; tải danh sách mã ra CSV.
+- [ ] Xóa một mã hoặc cả lớp (kèm bài làm) chỉ sau khi xác nhận; xóa lớp phải gõ lại mã lớp.
+- [ ] Không có ô họ tên/email; bảng đối chiếu mã với tên do giáo viên giữ ngoài hệ thống.
+- [ ] Chỉ dùng được ở chế độ online; chế độ demo hiện thông báo. Trang không có trong thanh điều hướng.
+- [ ] Đã chạy migration `20261124100000_admin_console.sql` và đặt mã quản trị bằng `select public.admin_set_code(...)`.
 
 ### US-C1 … US-C7 · Nội dung từng chương
 **Là học sinh, em muốn** mỗi chương có đủ bài học, thuật ngữ và câu hỏi đã được GV duyệt **để** ôn tập và học trước một cách tin cậy.
