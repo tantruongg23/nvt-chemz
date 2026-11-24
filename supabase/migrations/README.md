@@ -21,6 +21,7 @@ Project: `qnfvjpqkisvitmrpdxbw`. Lịch sử đã áp dụng được CLI ghi �
 |---|---|
 | `20261101000000_baseline.sql` | Nguyên văn `schema.sql` ban đầu (trước tính năng duyệt nội dung). CSDL thật đã chạy nội dung này từ trước nên **đánh dấu đã áp dụng, không chạy lại** (bước 3 bên dưới). |
 | `20261124000000_content_reviews.sql` | Bảng `content_reviews` + RPC `get_content_reviews`, `set_content_review`. |
+| `20261124100000_admin_console.sql` | Bảng `admin_config`, hàm `admin_set_code`, `_require_admin`, `manage_*` cho trang `admin.html` (US-29). Sau khi push, chạy trong SQL Editor: `select public.admin_set_code('<mã ≥ 12 ký tự>');` |
 
 ## Thiết lập lần đầu (làm một lần)
 
