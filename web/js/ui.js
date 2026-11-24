@@ -120,7 +120,7 @@ export function mountShell(pageKey) {
   const footer = document.createElement('footer');
   footer.className = 'site-footer';
   footer.innerHTML = `<div class="container">
-      <span>© 2026 NVT ChemZ · Dự án KHKT – THPT Nguyễn Văn Thoại</span>
+      <span>© 2026 NVT ChemZ · Dự án KHKT</span>
       <span>Hóa học 10 (KNTT) · Không thu thập họ tên học sinh · <a href="teacher.html">Dành cho giáo viên</a></span>
     </div>`;
   document.body.append(footer);
