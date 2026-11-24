@@ -245,6 +245,7 @@ Khuyến nghị: chạy bộ kiểm thử 30 câu (`ai_test_cases.md`) trên **c
 **Bước 1 – Tạo dự án Supabase** (≈ 10 phút)
 1. Vào <https://supabase.com> → đăng nhập bằng GitHub → **New project**. Đặt tên `nvt-chemz`, chọn vùng **Southeast Asia (Singapore)**, lưu mật khẩu CSDL vào nơi an toàn.
 2. **SQL Editor** → **New query** → dán toàn bộ `supabase/schema.sql` → **Run**. Lặp lại với `supabase/seed.sql`.
+   *CSDL đã chạy từ trước và chỉ cần nâng cấp?* Đừng dán lại `schema.sql`; chạy các file trong `supabase/migrations/` chưa áp dụng, theo thứ tự tên file (mỗi file chạy lại được, chỉ thêm mới, không đụng dữ liệu).
 3. **Project Settings → API**: chép **Project URL** và **anon public key** vào `web/js/config.js`.
 
 **Bước 2 – Tạo lớp thật** (giáo viên cùng làm, trong SQL Editor)
