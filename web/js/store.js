@@ -449,7 +449,12 @@ function demoCounter(anon) {
 export async function getHintsRemaining() {
   const s = getSession();
   if (!s) return fail('NOT_LOGGED_IN', 'Em cần đăng nhập.');
-  if (isOnline()) return ok(lastRemaining ?? CONFIG.HINT_DAILY_LIMIT);
+  if (isOnline()) {
+    if (lastRemaining != null) return ok(lastRemaining);
+    // Chưa hỏi gợi ý trong phiên trang này (ví dụ vừa mở trang Kết quả): tính từ số lượt máy chủ đã ghi hôm nay.
+    const st = await getMyStats();
+    return ok(st.ok ? Math.max(0, CONFIG.HINT_DAILY_LIMIT - (st.data.hints_today || 0)) : CONFIG.HINT_DAILY_LIMIT);
+  }
   return ok(Math.max(0, CONFIG.HINT_DAILY_LIMIT - demoCounter(s.anon_id).used));
 }
 
