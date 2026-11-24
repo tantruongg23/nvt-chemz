@@ -1,10 +1,8 @@
 -- =====================================================================
--- Migration 20261124000000: duyệt nội dung của giáo viên
+-- 20261124000000: duyệt nội dung của giáo viên
 -- Thêm bảng content_reviews + 2 hàm RPC get_content_reviews / set_content_review.
--- Chỉ THÊM mới, không đụng dữ liệu hiện có. Chạy lại nhiều lần được (idempotent).
--- Áp dụng: SQL Editor → dán file này → Run   (hoặc: supabase db push)
--- DB tạo mới từ đầu: chỉ cần schema.sql (đã gồm sẵn nội dung của file này).
--- Điều kiện: schema.sql bản trước đó đã chạy (cần bảng classes, hàm _require_teacher_pin).
+-- Chỉ THÊM mới, không đụng dữ liệu hiện có. Quy tắc: xem migrations/README.md
+-- (file đã áp dụng thì KHÔNG sửa; thay đổi tiếp theo là một file mới).
 -- =====================================================================
 
 -- Kết quả duyệt nội dung của giáo viên. Nội dung câu hỏi nằm trong web/data/*.json

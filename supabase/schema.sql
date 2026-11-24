@@ -3,7 +3,7 @@
 -- Cách chạy: Supabase Dashboard → SQL Editor → dán toàn bộ file → Run.
 -- File chạy lại nhiều lần được (idempotent). Sau đó chạy supabase/seed.sql.
 -- Đây là bản ĐẦY ĐỦ cho CSDL mới. CSDL đã có dữ liệu thì nâng cấp bằng các file
--- trong supabase/migrations/ (theo thứ tự tên file); khi thêm migration mới, nhớ
+-- trong supabase/migrations/ (xem migrations/README.md); khi thêm migration mới, nhớ
 -- cập nhật cả file này để hai đường cho ra cùng một lược đồ.
 -- Tài liệu giải thích: docs/architecture/DATA_MODEL.md
 -- =====================================================================

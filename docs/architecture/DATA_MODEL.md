@@ -133,7 +133,7 @@ Khi supabase-js gọi RPC bị `raise exception 'INVALID_PIN'`, lỗi trả về
 
 ## 6. Đã kiểm thử
 
-Nâng cấp CSDL đang chạy dùng migration trong `supabase/migrations/` (hiện có `20261124000000_content_reviews.sql`: bảng `content_reviews` + RPC `get_content_reviews`, `set_content_review`). Đã kiểm tra: schema cũ + migration cho ra cùng hàm, quyền, cột và RLS như schema mới; dữ liệu cũ giữ nguyên.
+Nâng cấp CSDL đang chạy dùng migration trong `supabase/migrations/` bằng Supabase CLI (`supabase db push`; hiện có `20261124000000_content_reviews.sql`: bảng `content_reviews` + RPC `get_content_reviews`, `set_content_review`). Đã kiểm tra: schema cũ + migration cho ra cùng hàm, quyền, cột và RLS như schema mới; dữ liệu cũ giữ nguyên.
 
 `schema.sql` + `seed.sql` đã chạy trên PostgreSQL 17 (Docker), chạy lại lần 2 không lỗi. Kiểm thử với vai trò `anon`:
 
