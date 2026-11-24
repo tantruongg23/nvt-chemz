@@ -28,6 +28,7 @@ function renderLogin(err = '') {
       </div>
       ${isDemo() ? `<p class="small muted" style="margin:10px 0 0">Chế độ demo: lớp ${DEMO.CLASSES.map((c) => c.code).join(' / ')}, PIN <b>${esc(DEMO.TEACHER_PIN)}</b>.</p>` : ''}
       <div class="privacy-note">${icon('shield')}<span>Thống kê chỉ hiển thị mã ẩn danh của học sinh, không có họ tên.</span></div>
+      <p class="small muted" style="margin:10px 0 0">Quản trị viên: <a href="admin.html">Quản lý lớp và mã học sinh</a> (cần mã quản trị riêng).</p>
     </form>`;
   $('#tForm').addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -122,6 +123,7 @@ function renderDashboard(stats, rows, allRows) {
       <button class="btn btn-sm btn-primary" id="goReview">${icon('check')} Duyệt nội dung</button>
       <button class="btn btn-sm" id="csvAttempts">${icon('download')} CSV lượt làm</button>
       <button class="btn btn-sm" id="csvMis">${icon('download')} CSV lỗi sai</button>
+      <a class="btn btn-sm" href="admin.html" title="Cần mã quản trị">${icon('users')} Quản lý lớp và mã</a>
       <button class="btn btn-sm btn-ghost" id="tLogout">${icon('logout')} Thoát</button>
     </div>
     ${isDemo() ? `<p class="small muted" style="margin:8px 0 0">Chế độ demo: dữ liệu minh họa sinh tự động + ${stats.demo_real_attempts ?? 0} lượt làm thật trên trình duyệt này.</p>` : ''}

@@ -47,7 +47,7 @@
 | US-26 | Báo lỗi nội dung trên từng câu | Should | HS2 | S2 | S | ⬜ |
 | US-27 | Luyện tập tổng hợp nhiều chương | Could | HS2 | S4 | S | ⬜ |
 | US-28 | Trợ lý AI dùng được cho mọi chương | Should | HS3 | S2 | S | 🟦 hàm đã triển khai |
-| US-29 | Trang quản trị lớp và mã học sinh (mã quản trị) | Should | HS3, HS2 | S2 | M | 🟦 đã áp migration, thử RPC thật OK |
+| US-29 | Trang quản trị lớp và mã học sinh (mã quản trị) | Should | HS3, HS2 | S2 | M | ✅ |
 | US-C1 | Nội dung Chương 1 hoàn thiện (4 bài, 30 thuật ngữ, 60 câu) | Must | HS1, GV | S1–S2 | L | 🟦 61 câu, 0 duyệt |
 | US-C2 | Nội dung Chương 2 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | 🟦 chưa duyệt |
 | US-C3 | Nội dung Chương 3 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | 🟦 chưa duyệt |
@@ -65,7 +65,7 @@
 > - Supabase đã nối và link CLI: schema, RPC, migration `admin_console` đã áp dụng. **Hàm `hint` đã triển khai (dùng Gemini `gemini-3.5-flash-lite`)**; gọi thử với mã TN-01 trả gợi ý mức 1 không lộ đáp án, `remaining_today` giảm. Chưa chạy bộ kiểm thử AI (US-18) và chưa xác nhận bậc miễn phí.
 > - **US-12:** `practice.html?mode=pretest|posttest` đã có (tắt gợi ý, không phản hồi từng câu, lưu `mode`). Còn thiếu: dùng đề kín thay vì ngân hàng luyện tập, giới hạn nộp 1 lần/mã, giáo viên bật/tắt.
 > - **US-14:** giáo viên duyệt ngay trên trang giáo viên (Đã duyệt / Cần sửa / Chưa duyệt, tự đánh dấu "stale" khi nội dung bị sửa), lưu trong bảng `content_reviews`. Chưa có bộ lọc chỉ lấy câu đã duyệt.
-> - **US-29 (24/11):** migration đã áp lên Supabase thật, mã quản trị đã đặt. Đã chạy thử RPC thật với lớp ZZTEST (tạo, sửa, sinh mã, xóa mã, xóa lớp, kiểm PIN/xác nhận) đều đúng; giao diện `admin.html` mới thử với máy chủ giả lập, chưa thử trên bản Vercel.
+> - **US-29 (24/11): ✅** migration đã áp lên Supabase thật, mã quản trị đã đặt. Đã thử trên bản Vercel bằng trình duyệt: đăng nhập sai/đúng, tạo lớp, sinh mã, tải CSV, xóa mã, xóa lớp (lớp thử không còn trong CSDL).
 > - Chưa thấy trong code: nút "Xóa dữ liệu demo" (US-13), liên kết "Quyền riêng tư" ở chân trang (US-16), cột `chapter` trong CSV (US-11/23), dữ liệu C1 trong `data/c1/` (US-23), `mode=learn` (US-25), nút "Báo lỗi" (US-26), PWA (US-22).
 
 \* **US-15** và **US-18** bắt buộc phải xong **nếu** US-08 (AI thật) được bật trong thực nghiệm. Nếu không bật AI, hai story này không cần.
@@ -323,8 +323,8 @@ Should · HS3, HS2 · S2 · M
 - [ ] Sinh hàng loạt mã `PREFIX-01…NN` (1–200); mã đã có thì bỏ qua, không ghi đè; tải danh sách mã ra CSV.
 - [ ] Xóa một mã hoặc cả lớp (kèm bài làm) chỉ sau khi xác nhận; xóa lớp phải gõ lại mã lớp.
 - [ ] Không có ô họ tên/email; bảng đối chiếu mã với tên do giáo viên giữ ngoài hệ thống.
-- [ ] Chỉ dùng được ở chế độ online; chế độ demo hiện thông báo. Trang không có trong thanh điều hướng.
-- [ ] Đã chạy migration `20261124100000_admin_console.sql` và đặt mã quản trị bằng `select public.admin_set_code(...)`.
+- [x] Chỉ dùng được ở chế độ online; chế độ demo hiện thông báo. Không nằm trong thanh điều hướng; có liên kết "Quản lý lớp và mã" ở trang đăng nhập và dashboard giáo viên.
+- [x] Đã chạy migration `20261124100000_admin_console.sql` và đặt mã quản trị bằng `select public.admin_set_code(...)`.
 
 ### US-C1 … US-C7 · Nội dung từng chương
 **Là học sinh, em muốn** mỗi chương có đủ bài học, thuật ngữ và câu hỏi đã được GV duyệt **để** ôn tập và học trước một cách tin cậy.
