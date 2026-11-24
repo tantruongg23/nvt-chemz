@@ -1,6 +1,6 @@
 # KẾ HOẠCH NGHIÊN CỨU – CUỘC THI KHOA HỌC KỸ THUẬT CẤP TRƯỜNG
 
-**Trường THPT Nguyễn Văn Thoại – Năm học 2026–2027**
+**Năm học 2026–2027**
 
 | Mục | Nội dung |
 |---|---|

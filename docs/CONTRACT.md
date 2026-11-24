@@ -3,7 +3,7 @@
 Tất cả thành phần (quản lý, kiến trúc, nội dung, giao diện) tuân theo file này. Muốn đổi quy ước thì sửa file này trước.
 
 ## 1. Bối cảnh
-- Dự án KHKT cấp trường của **3 học sinh** THPT Nguyễn Văn Thoại, có giáo viên Hóa hướng dẫn.
+- Dự án KHKT cấp trường của **3 học sinh** THPT, có giáo viên Hóa hướng dẫn.
 - Phạm vi sản phẩm (điều chỉnh 15/11/2026): **toàn bộ Hóa học 10 – 7 chương, 23 bài, SGK Kết nối tri thức (KNTT)**, dùng để **ôn tập** và **tự học trước**. Mã bài trùng số bài SGK:
 
 | Chương | Bài | Mã lỗi sai |

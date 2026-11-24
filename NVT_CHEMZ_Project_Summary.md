@@ -5,7 +5,7 @@
 **Tên đề tài đề xuất:**\
 *Nghiên cứu, thiết kế và xây dựng nền tảng học tập số tích hợp học liệu
 Hóa học song ngữ Việt -- Anh và trợ lý trí tuệ nhân tạo nhằm hỗ trợ tự
-học cho học sinh Trường THPT Nguyễn Văn Thoại.*
+học cho học sinh THPT.*
 
 **Tên sản phẩm:** NVT CHEMZ
 
@@ -32,7 +32,7 @@ tập có các chức năng:
     dung ôn tập.
 
 **Phạm vi khuyến nghị:** Thí điểm trước với một số chủ đề Hóa học lớp 10
-tại Trường THPT Nguyễn Văn Thoại. Sau khi đánh giá và hoàn thiện, có thể
+tại trường. Sau khi đánh giá và hoàn thiện, có thể
 mở rộng kho học liệu ôn tập Hóa học lớp 12.
 
 ## 2. Vấn đề nghiên cứu
@@ -340,8 +340,7 @@ quan.
 
 NVT CHEMZ hướng đến một môi trường học tập số kết hợp Hóa học,
 tiếng Anh khoa học và trí tuệ nhân tạo. Dự án bắt đầu với phạm vi nhỏ,
-có thể kiểm chứng, tập trung vào nhu cầu thực tế của học sinh Trường
-THPT Nguyễn Văn Thoại.
+có thể kiểm chứng, tập trung vào nhu cầu thực tế của học sinh THPT.
 
 **Ưu tiên triển khai:** Khảo sát thực trạng → chốt phạm vi 2--3 chủ đề
 lớp 10 → xây dựng bản mẫu → kiểm thử → thực nghiệm → phân tích dữ liệu →
