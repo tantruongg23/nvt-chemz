@@ -26,14 +26,14 @@
 | US-05 | Chẩn đoán ngay lỗi sai khi trả lời sai | Must | HS2, HS1 | S1 | M | 🟦 |
 | US-06 | Ngân hàng C1 ≥ 60 câu gắn nhãn lỗi sai | Must | HS1, GV | S1 | L | 🟦 61/60 câu, 0 duyệt |
 | US-07 | Thang gợi ý 3 mức (bản soạn sẵn) | Must | HS2 | S1 | M | 🟦 |
-| US-08 | Gợi ý mức 1–2 do AI sinh qua Edge Function | Should | HS3 | S1–S2 | L | 🟦 đã triển khai (Gemini), đã thử bằng curl |
+| US-08 | Gợi ý mức 1–2 do AI sinh qua Edge Function | Should | HS3 | S1–S2 | L | 🟦 hàm hint (Gemini) đã triển khai, gọi thử OK |
 | US-09 | Xem điểm yếu của bản thân và bài nên ôn lại | Must | HS2 | S1 | M | 🟦 |
 | US-10 | Dashboard giáo viên theo lớp và theo lỗi sai | Should | HS2, HS3 | S2 | M | 🟦 |
 | US-11 | Xuất CSV để phân tích | Must | HS3 | S2 | S | 🟦 |
 | US-12 | Chế độ kiểm tra trước / sau (pre/post-test) | Should | HS2, HS3 | S2 | M | 🟨 có chế độ, chưa có đề kín |
 | US-13 | Chế độ demo không cần backend | Must | HS2, HS3 | S1 | S | 🟦 |
 | US-14 | Nhãn "Chưa duyệt" cho nội dung chưa được GV duyệt | Must | HS2, GV | S1 | S | 🟦 |
-| US-15 | Giới hạn số lượt hỏi AI mỗi ngày | Should* | HS3 | S2 | S | 🟦 đếm lượt chạy, chưa thử đủ 21 lần |
+| US-15 | Giới hạn số lượt hỏi AI mỗi ngày | Should* | HS3 | S2 | S | 🟦 đã thấy remaining_today giảm (16/20) |
 | US-16 | Thông báo quyền riêng tư | Must | HS1, HS2 | S1 | S | 🟨 |
 | US-17 | Ghi nhận mỗi lượt làm bài và mức gợi ý đã dùng | Must | HS3, HS2 | S1 | M | 🟦 |
 | US-18 | Kiểm thử AI: 30 câu C1 + 5 câu/chương C2–C7 | Should* | HS3, GV | S2, S4 | M | ⬜ |
@@ -46,8 +46,8 @@
 | US-25 | Chế độ "Học trước": bài → kiểm tra nhanh → luyện tập | Should | HS2, HS1 | S1–S2 | M | 🟨 thiếu mode=learn |
 | US-26 | Báo lỗi nội dung trên từng câu | Should | HS2 | S2 | S | ⬜ |
 | US-27 | Luyện tập tổng hợp nhiều chương | Could | HS2 | S4 | S | ⬜ |
-| US-28 | Trợ lý AI dùng được cho mọi chương | Should | HS3 | S2 | S | 🟦 chưa thử C2–C7 |
-| US-29 | Trang quản trị lớp và mã học sinh (mã quản trị) | Should | HS3, HS2 | S2 | M | 🟦 code xong, chờ chạy migration |
+| US-28 | Trợ lý AI dùng được cho mọi chương | Should | HS3 | S2 | S | 🟦 hàm đã triển khai |
+| US-29 | Trang quản trị lớp và mã học sinh (mã quản trị) | Should | HS3, HS2 | S2 | M | 🟦 đã áp migration, thử RPC thật OK |
 | US-C1 | Nội dung Chương 1 hoàn thiện (4 bài, 30 thuật ngữ, 60 câu) | Must | HS1, GV | S1–S2 | L | 🟦 61 câu, 0 duyệt |
 | US-C2 | Nội dung Chương 2 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | 🟦 chưa duyệt |
 | US-C3 | Nội dung Chương 3 hoàn thiện (5 bài, 25 thuật ngữ, 50 câu) | Must | HS1, GV | S1–S2 | L | 🟦 chưa duyệt |
@@ -62,10 +62,10 @@
 > **Rà soát 24/11/2026 (đối chiếu với mã nguồn, chưa chạy thử từng chức năng trên trình duyệt):**
 > - 🟦 = code đã có, đang chờ kiểm tra thực tế theo tiêu chí nghiệm thu. Chưa dòng nào được đánh ✅ vì chưa ai bấm thử đủ tiêu chí.
 > - `validate.js` báo ALL CHECKS PASSED: 296 câu, 7 chương (C1 = 61 câu). Tất cả `reviewed: false`.
-> - Supabase đã nối: schema và RPC đã tạo, bảng bị RLS chặn đúng. **Edge Function `hint` đã triển khai 24/11/2026** (Gemini, bậc miễn phí). Đã thử bằng curl: TN-01 nhận gợi ý mức 1–3, DC-01 bị `HINTS_DISABLED`, mã lạ `UNKNOWN_STUDENT`, câu lạ 404, level sai 400. Chưa thử giới hạn 20 lượt, chưa thử trên giao diện web, chưa chạy bộ kiểm thử AI (US-18).
+> - Supabase đã nối và link CLI: schema, RPC, migration `admin_console` đã áp dụng. **Hàm `hint` đã triển khai (dùng Gemini `gemini-3.5-flash-lite`)**; gọi thử với mã TN-01 trả gợi ý mức 1 không lộ đáp án, `remaining_today` giảm. Chưa chạy bộ kiểm thử AI (US-18) và chưa xác nhận bậc miễn phí.
 > - **US-12:** `practice.html?mode=pretest|posttest` đã có (tắt gợi ý, không phản hồi từng câu, lưu `mode`). Còn thiếu: dùng đề kín thay vì ngân hàng luyện tập, giới hạn nộp 1 lần/mã, giáo viên bật/tắt.
 > - **US-14:** giáo viên duyệt ngay trên trang giáo viên (Đã duyệt / Cần sửa / Chưa duyệt, tự đánh dấu "stale" khi nội dung bị sửa), lưu trong bảng `content_reviews`. Chưa có bộ lọc chỉ lấy câu đã duyệt.
-> - **US-29 (mới, 24/11):** đã viết migration, hàm `manage_*` và `admin.html`; giao diện đã thử trên trình duyệt với máy chủ giả lập (đăng nhập sai/đúng, tạo lớp, xem mã). **Chưa chạy SQL trên Postgres thật** và chưa áp migration lên Supabase.
+> - **US-29 (24/11):** migration đã áp lên Supabase thật, mã quản trị đã đặt. Đã chạy thử RPC thật với lớp ZZTEST (tạo, sửa, sinh mã, xóa mã, xóa lớp, kiểm PIN/xác nhận) đều đúng; giao diện `admin.html` mới thử với máy chủ giả lập, chưa thử trên bản Vercel.
 > - Chưa thấy trong code: nút "Xóa dữ liệu demo" (US-13), liên kết "Quyền riêng tư" ở chân trang (US-16), cột `chapter` trong CSV (US-11/23), dữ liệu C1 trong `data/c1/` (US-23), `mode=learn` (US-25), nút "Báo lỗi" (US-26), PWA (US-22).
 
 \* **US-15** và **US-18** bắt buộc phải xong **nếu** US-08 (AI thật) được bật trong thực nghiệm. Nếu không bật AI, hai story này không cần.

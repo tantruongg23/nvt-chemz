@@ -61,11 +61,34 @@ function supabase() {
 function rpcError(error) {
   const msg = String(error?.message || '');
   if (/INVALID_PIN/.test(msg)) return fail('INVALID_PIN', 'PIN không đúng.');
+  if (/INVALID_ADMIN/.test(msg)) return fail('INVALID_ADMIN', 'Mã quản trị không đúng.');
+  const detail = msg.match(/INVALID_INPUT:\s*(.+)/);
+  if (detail) return fail('INVALID_INPUT', `Dữ liệu không hợp lệ: ${detail[1]}.`);
   if (/INVALID_INPUT/.test(msg)) return fail('INVALID_INPUT', 'Dữ liệu gửi lên không hợp lệ.');
   if (/UNKNOWN_STUDENT/.test(msg)) return fail('UNKNOWN_STUDENT', 'Mã lớp hoặc mã học sinh không đúng.');
   if (/fetch|network|Failed/i.test(msg)) return fail('NETWORK', 'Mất kết nối mạng. Hãy thử lại.');
   return fail('SERVER_ERROR', 'Máy chủ gặp lỗi, hãy thử lại sau.');
 }
+
+/* ---------------- quản trị lớp và mã học sinh (US-29) ---------------- */
+// Cần chế độ online (Supabase). Mọi hàm kiểm MÃ QUẢN TRỊ ở máy chủ; mã chỉ giữ trong sessionStorage của trang admin.
+async function adminRpc(fn, params) {
+  if (!isOnline()) return fail('DEMO', 'Trang quản trị chỉ dùng được khi đã kết nối Supabase (không phải chế độ demo).');
+  try {
+    const sb = await supabase();
+    const { data, error } = await sb.rpc(fn, params);
+    return error ? rpcError(error) : ok(data);
+  } catch { return fail('NETWORK', 'Mất kết nối mạng. Hãy thử lại.'); }
+}
+export const adminListClasses = (code) => adminRpc('manage_list_classes', { p_admin_code: code });
+export const adminListStudents = (code, cls) => adminRpc('manage_list_students', { p_admin_code: code, p_class_code: up(cls) });
+export const adminSaveClass = (code, cls, name, group, pin = '') =>
+  adminRpc('manage_save_class', { p_admin_code: code, p_code: up(cls), p_name: String(name ?? '').trim(), p_group: group, p_teacher_pin: pin || null });
+export const adminAddStudents = (code, cls, prefix, count) =>
+  adminRpc('manage_add_students', { p_admin_code: code, p_class_code: up(cls), p_prefix: up(prefix), p_count: Number(count) });
+export const adminDeleteStudent = (code, anon) => adminRpc('manage_delete_student', { p_admin_code: code, p_anon_id: up(anon) });
+export const adminDeleteClass = (code, cls, confirm) =>
+  adminRpc('manage_delete_class', { p_admin_code: code, p_class_code: up(cls), p_confirm: String(confirm ?? '') });
 
 /* ---------------- định danh ẩn danh ---------------- */
 const CLASS_RE = /^[A-Z0-9][A-Z0-9-]{1,19}$/;
