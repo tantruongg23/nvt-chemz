@@ -22,7 +22,7 @@ function renderLogin(err = '') {
       <div class="login-grid">
         <div class="field"><label for="tCls">Mã lớp</label><input class="input" id="tCls" name="cls" list="tClsList" autocomplete="off" placeholder="DEMO-TN" value="${esc(auth?.cls || '')}" required>
           <datalist id="tClsList">${isDemo() ? DEMO.CLASSES.map((c) => `<option value="${c.code}">`).join('') : ''}</datalist></div>
-        <div class="field"><label for="tPin">PIN giáo viên</label><input class="input" id="tPin" name="pin" type="password" autocomplete="off" required></div>
+        <div class="field"><label for="tPin">PIN giáo viên</label><input class="input" id="tPin" name="pin" type="password" autocomplete="new-password" required></div>
         <p class="form-error" id="tErr" role="alert" style="grid-column:1/-1">${esc(err)}</p>
         <button class="btn btn-primary btn-lg" type="submit">${icon('lock')} Xem thống kê</button>
       </div>

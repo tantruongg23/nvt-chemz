@@ -127,7 +127,11 @@ export function mountShell(pageKey) {
   syncThemeBtn();
   $('#themeBtn').addEventListener('click', toggleTheme);
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', syncThemeBtn);
-  $('#logoutBtn')?.addEventListener('click', () => { logout(); location.href = 'index.html'; });
+  $('#logoutBtn')?.addEventListener('click', () => {
+    logout();
+    try { sessionStorage.removeItem('nvt.teacher'); sessionStorage.removeItem('nvt.admin'); } catch { /* ignore */ }
+    location.replace('index.html');
+  });
 }
 
 /* ---------------- toast ---------------- */

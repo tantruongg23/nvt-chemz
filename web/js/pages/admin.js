@@ -32,7 +32,7 @@ function renderLogin(err = '') {
     ${isDemo() ? `<div class="notice">${icon('info')}<span>Đang ở chế độ demo: trang quản trị chỉ hoạt động khi đã kết nối Supabase.</span></div>` : ''}
     <form class="card login-card" id="aForm" style="max-width:520px" novalidate>
       <div class="field"><label for="aCode">Mã quản trị</label>
-        <input class="input" id="aCode" name="code" type="password" autocomplete="off" required></div>
+        <input class="input" id="aCode" name="code" type="password" autocomplete="new-password" required></div>
       <p class="form-error" id="aErr" role="alert">${esc(err)}</p>
       <button class="btn btn-primary btn-lg" type="submit">${icon('lock')} Vào quản trị</button>
       <div class="privacy-note">${icon('shield')}<span>Không nhập họ tên học sinh vào hệ thống. Danh sách đối chiếu mã với tên do giáo viên giữ riêng.</span></div>
